@@ -144,6 +144,8 @@ main { max-width: 1240px; margin: 0 auto; padding: 24px; min-height: 70vh; }
 .app-head { display: flex; gap: 18px; align-items: center; }
 .app-head h1 { margin: 0; font-size: 28px; }
 .app-head .meta { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 6px; }
+.chip.site { border: 1px solid transparent; overflow-wrap: anywhere; }
+.chip.site:hover { border-color: var(--accent); text-decoration: none; }
 .lead { font-size: 17px; color: var(--text-dim); max-width: 800px; margin: 20px 0 0; }
 
 .variants { margin-top: 32px; border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }

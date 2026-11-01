@@ -8,6 +8,7 @@ official:
   - id: nethserver
     name: NethServer (default)
     url: https://distfeed.nethserver.org/ns8/updates/
+    repo: NethServer/ns8-repomd
 
 # The community forge every other forge is forked from.
 nethforge: NethServer/ns8-nethforge
