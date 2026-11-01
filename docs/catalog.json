@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T08:03:18+00:00",
+ "generated_at": "2026-11-01T18:15:32+00:00",
  "forges": [
   {
    "id": "nethserver",
@@ -278,7 +278,7 @@
      },
      "source": "ghcr.io/stephdl/backuppc",
      "stars": 0,
-     "pushed_at": "2026-10-28T00:03:05Z",
+     "pushed_at": "2026-11-01T13:35:13Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -984,7 +984,7 @@
      },
      "source": "ghcr.io/danb35/automx",
      "stars": 0,
-     "pushed_at": "2026-10-31T18:23:01Z",
+     "pushed_at": "2026-11-01T13:59:01Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -1127,7 +1127,7 @@
      },
      "source": "ghcr.io/stephdl/bigbluebutton",
      "stars": 0,
-     "pushed_at": "2026-10-28T00:40:02Z",
+     "pushed_at": "2026-11-01T13:31:18Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -1838,7 +1838,7 @@
      },
      "source": "ghcr.io/mrmarkuz/checkmk",
      "stars": 0,
-     "pushed_at": "2026-10-28T01:27:46Z",
+     "pushed_at": "2026-11-01T13:57:00Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -2069,7 +2069,7 @@
      },
      "source": "ghcr.io/nethserver/collabora",
      "stars": 0,
-     "pushed_at": "2026-10-30T08:45:33Z",
+     "pushed_at": "2026-11-01T14:41:39Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -2303,7 +2303,7 @@
      },
      "source": "ghcr.io/nethserver/crowdsec",
      "stars": 1,
-     "pushed_at": "2026-10-30T08:45:46Z",
+     "pushed_at": "2026-11-01T14:41:40Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -2507,7 +2507,7 @@
      },
      "source": "ghcr.io/stephdl/ddclient",
      "stars": 0,
-     "pushed_at": "2026-10-28T02:29:53Z",
+     "pushed_at": "2026-11-01T17:16:32Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -2553,8 +2553,8 @@
      },
      "logo": "https://forge.nethserver.org/ns8/updates/dependencytrack/logo.png",
      "screenshots": [
-      "https://forge.nethserver.org/ns8/updates/dependencytrack/screenshots/screen2.png",
       "https://forge.nethserver.org/ns8/updates/dependencytrack/screenshots/screen3.png",
+      "https://forge.nethserver.org/ns8/updates/dependencytrack/screenshots/screen2.png",
       "https://forge.nethserver.org/ns8/updates/dependencytrack/screenshots/screen1.png"
      ],
      "versions": [
@@ -2584,7 +2584,7 @@
      },
      "source": "ghcr.io/nethserver/dependencytrack",
      "stars": 0,
-     "pushed_at": "2026-10-30T16:22:29Z",
+     "pushed_at": "2026-11-01T14:43:16Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -2672,7 +2672,7 @@
      },
      "source": "ghcr.io/stephdl/discourse",
      "stars": 0,
-     "pushed_at": "2026-10-28T02:37:08Z",
+     "pushed_at": "2026-11-01T13:47:36Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -2828,7 +2828,7 @@
      },
      "source": "ghcr.io/nethserver/dnsmasq",
      "stars": 0,
-     "pushed_at": "2026-11-01T02:30:16Z",
+     "pushed_at": "2026-11-01T14:39:59Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -3141,7 +3141,7 @@
      },
      "source": "ghcr.io/nethserver/dokuwiki",
      "stars": 0,
-     "pushed_at": "2026-10-30T08:46:02Z",
+     "pushed_at": "2026-11-01T14:40:18Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -3309,7 +3309,7 @@
      },
      "source": "ghcr.io/stephdl/dolibarr",
      "stars": 0,
-     "pushed_at": "2026-10-28T01:39:48Z",
+     "pushed_at": "2026-11-01T13:10:26Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -3466,7 +3466,7 @@
      },
      "source": "ghcr.io/nethserver/ejabberd",
      "stars": 1,
-     "pushed_at": "2026-10-30T08:46:09Z",
+     "pushed_at": "2026-11-01T14:42:52Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -4478,7 +4478,7 @@
      },
      "source": "ghcr.io/platypuschan/gitea-reworked",
      "stars": 0,
-     "pushed_at": "2026-10-28T10:34:42Z",
+     "pushed_at": "2026-11-01T12:43:20Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -4728,7 +4728,7 @@
      },
      "source": "ghcr.io/stephdl/glpi",
      "stars": 0,
-     "pushed_at": "2026-10-28T02:10:09Z",
+     "pushed_at": "2026-11-01T12:31:32Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -4854,8 +4854,8 @@
      },
      "logo": "https://forge.nethserver.org/ns8/updates/grafana/logo.png",
      "screenshots": [
-      "https://forge.nethserver.org/ns8/updates/grafana/screenshots/screen2.png",
       "https://forge.nethserver.org/ns8/updates/grafana/screenshots/screen3.png",
+      "https://forge.nethserver.org/ns8/updates/grafana/screenshots/screen2.png",
       "https://forge.nethserver.org/ns8/updates/grafana/screenshots/screen1.png"
      ],
      "versions": [
@@ -4881,7 +4881,7 @@
      },
      "source": "ghcr.io/nethserver/grafana",
      "stars": 0,
-     "pushed_at": "2026-10-30T08:46:14Z",
+     "pushed_at": "2026-11-01T14:36:50Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -5588,7 +5588,7 @@
      },
      "source": "ghcr.io/nethserver/imapsync",
      "stars": 0,
-     "pushed_at": "2026-10-30T08:59:36Z",
+     "pushed_at": "2026-11-01T14:40:24Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -5904,7 +5904,7 @@
      },
      "source": "ghcr.io/mrmarkuz/jitsi",
      "stars": 0,
-     "pushed_at": "2026-11-01T05:35:13Z",
+     "pushed_at": "2026-11-01T12:56:05Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -6302,7 +6302,7 @@
      },
      "source": "ghcr.io/stephdl/kuma",
      "stars": 0,
-     "pushed_at": "2026-11-01T01:23:36Z",
+     "pushed_at": "2026-11-01T12:24:22Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -6378,7 +6378,7 @@
      },
      "source": "ghcr.io/stephdl/lam",
      "stars": 0,
-     "pushed_at": "2026-10-28T02:52:44Z",
+     "pushed_at": "2026-11-01T13:50:04Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -6454,7 +6454,7 @@
      },
      "source": "ghcr.io/nethserver/lamp",
      "stars": 0,
-     "pushed_at": "2026-10-28T04:03:27Z",
+     "pushed_at": "2026-11-01T14:39:57Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -6544,7 +6544,7 @@
      },
      "source": "ghcr.io/stephdl/launcher",
      "stars": 0,
-     "pushed_at": "2026-10-28T06:18:54Z",
+     "pushed_at": "2026-11-01T13:26:01Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -6727,7 +6727,7 @@
      },
      "source": "ghcr.io/stephdl/lemp",
      "stars": 0,
-     "pushed_at": "2026-10-30T11:06:49Z",
+     "pushed_at": "2026-11-01T14:06:57Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -6965,7 +6965,7 @@
      },
      "source": "ghcr.io/nethserver/mail",
      "stars": 3,
-     "pushed_at": "2026-10-30T08:46:35Z",
+     "pushed_at": "2026-11-01T14:39:56Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -7042,7 +7042,7 @@
      },
      "source": "ghcr.io/nethserver/mariadb",
      "stars": 0,
-     "pushed_at": "2026-10-30T08:46:43Z",
+     "pushed_at": "2026-11-01T14:36:09Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -7199,7 +7199,7 @@
      },
      "source": "ghcr.io/nethserver/matrix",
      "stars": 3,
-     "pushed_at": "2026-10-31T14:48:49Z",
+     "pushed_at": "2026-11-01T14:35:30Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -7285,7 +7285,7 @@
      },
      "source": "ghcr.io/nethserver/mattermost",
      "stars": 0,
-     "pushed_at": "2026-10-30T08:46:55Z",
+     "pushed_at": "2026-11-01T14:40:18Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -7596,7 +7596,7 @@
      },
      "source": "ghcr.io/mrmarkuz/meshcentral",
      "stars": 0,
-     "pushed_at": "2026-11-01T02:06:23Z",
+     "pushed_at": "2026-11-01T17:09:01Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -7828,7 +7828,7 @@
      },
      "source": "ghcr.io/nethserver/n8n",
      "stars": 0,
-     "pushed_at": "2026-10-31T10:34:48Z",
+     "pushed_at": "2026-11-01T14:39:12Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -8118,7 +8118,7 @@
      },
      "source": "ghcr.io/nethserver/netdata",
      "stars": 0,
-     "pushed_at": "2026-10-30T08:47:00Z",
+     "pushed_at": "2026-11-01T14:40:22Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -8404,7 +8404,7 @@
      },
      "source": "ghcr.io/nethesis/nethvoice-proxy",
      "stars": 4,
-     "pushed_at": "2026-10-28T16:46:45Z",
+     "pushed_at": "2026-11-01T13:26:09Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -8509,7 +8509,7 @@
      },
      "source": "ghcr.io/nethserver/nextcloud",
      "stars": 0,
-     "pushed_at": "2026-10-30T08:47:05Z",
+     "pushed_at": "2026-11-01T14:37:33Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -9139,7 +9139,7 @@
      },
      "source": "ghcr.io/mrmarkuz/opencloud",
      "stars": 0,
-     "pushed_at": "2026-11-01T05:00:56Z",
+     "pushed_at": "2026-11-01T14:13:42Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -9294,7 +9294,7 @@
      },
      "source": "ghcr.io/mrmarkuz/openssh",
      "stars": 0,
-     "pushed_at": "2026-10-31T15:37:54Z",
+     "pushed_at": "2026-11-01T14:03:31Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -9531,7 +9531,7 @@
      },
      "source": "ghcr.io/platypuschan/organizr-reworked",
      "stars": 0,
-     "pushed_at": "2026-10-30T03:42:20Z",
+     "pushed_at": "2026-11-01T09:29:33Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -9581,8 +9581,8 @@
      },
      "logo": "https://forge.nethserver.org/ns8/updates/paperlessngx/logo.png",
      "screenshots": [
-      "https://forge.nethserver.org/ns8/updates/paperlessngx/screenshots/screen2.png",
       "https://forge.nethserver.org/ns8/updates/paperlessngx/screenshots/screen3.png",
+      "https://forge.nethserver.org/ns8/updates/paperlessngx/screenshots/screen2.png",
       "https://forge.nethserver.org/ns8/updates/paperlessngx/screenshots/screen4.png",
       "https://forge.nethserver.org/ns8/updates/paperlessngx/screenshots/screen5.png"
      ],
@@ -9666,8 +9666,8 @@
      },
      "logo": "https://forge.nethserver.org/ns8/updates/passbolt/logo.png",
      "screenshots": [
-      "https://forge.nethserver.org/ns8/updates/passbolt/screenshots/screen2.png",
       "https://forge.nethserver.org/ns8/updates/passbolt/screenshots/screen3.png",
+      "https://forge.nethserver.org/ns8/updates/passbolt/screenshots/screen2.png",
       "https://forge.nethserver.org/ns8/updates/passbolt/screenshots/screen1.png"
      ],
      "versions": [
@@ -9694,7 +9694,7 @@
      },
      "source": "ghcr.io/nethserver/passbolt",
      "stars": 0,
-     "pushed_at": "2026-10-30T08:47:11Z",
+     "pushed_at": "2026-11-01T14:38:52Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -10152,7 +10152,7 @@
      },
      "source": "ghcr.io/stephdl/pihole",
      "stars": 0,
-     "pushed_at": "2026-10-28T03:07:36Z",
+     "pushed_at": "2026-11-01T12:43:03Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -10235,7 +10235,7 @@
      },
      "source": "ghcr.io/nethserver/piler",
      "stars": 0,
-     "pushed_at": "2026-10-30T12:02:15Z",
+     "pushed_at": "2026-11-01T14:36:38Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -10544,7 +10544,7 @@
      },
      "source": "ghcr.io/nethserver/postgresql",
      "stars": 0,
-     "pushed_at": "2026-10-30T15:21:13Z",
+     "pushed_at": "2026-11-01T14:41:54Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -10712,7 +10712,7 @@
      },
      "source": "ghcr.io/stephdl/privatebin",
      "stars": 0,
-     "pushed_at": "2026-10-28T02:05:03Z",
+     "pushed_at": "2026-11-01T12:35:42Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -10793,7 +10793,7 @@
      },
      "source": "ghcr.io/nethserver/prometheus",
      "stars": 0,
-     "pushed_at": "2026-10-30T08:47:26Z",
+     "pushed_at": "2026-11-01T14:38:48Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -11108,7 +11108,7 @@
      },
      "source": "ghcr.io/nethserver/roundcubemail",
      "stars": 1,
-     "pushed_at": "2026-10-30T08:47:31Z",
+     "pushed_at": "2026-11-01T14:41:54Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -11265,7 +11265,7 @@
      },
      "source": "ghcr.io/nethserver/rustfs",
      "stars": 0,
-     "pushed_at": "2026-10-30T19:52:24Z",
+     "pushed_at": "2026-11-01T14:38:51Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -11471,7 +11471,7 @@
      },
      "source": "ghcr.io/stephdl/sam",
      "stars": 0,
-     "pushed_at": "2026-10-26T23:36:43Z",
+     "pushed_at": "2026-11-01T12:25:40Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -11559,7 +11559,7 @@
      },
      "source": "ghcr.io/nethserver/samba",
      "stars": 0,
-     "pushed_at": "2026-10-30T08:47:36Z",
+     "pushed_at": "2026-11-01T14:38:31Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -11951,7 +11951,7 @@
      },
      "source": "ghcr.io/nethserver/sogo",
      "stars": 0,
-     "pushed_at": "2026-10-30T08:47:41Z",
+     "pushed_at": "2026-11-01T14:40:20Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -12653,7 +12653,7 @@
      },
      "source": "ghcr.io/stephdl/v16postgresql",
      "stars": 0,
-     "pushed_at": "2026-10-30T15:21:45Z",
+     "pushed_at": "2026-11-01T13:43:37Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -12746,7 +12746,7 @@
      },
      "source": "ghcr.io/stephdl/v18postgresql",
      "stars": 0,
-     "pushed_at": "2026-10-30T15:21:03Z",
+     "pushed_at": "2026-11-01T14:05:36Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -12805,11 +12805,11 @@
      ],
      "versions": [
       {
-       "tag": "1.0.3",
+       "tag": "1.0.4",
        "testing": false
       }
      ],
-     "stable": "1.0.3",
+     "stable": "1.0.4",
      "testing": null,
      "min_core": "3.0.0",
      "tech": {
@@ -12830,7 +12830,7 @@
      },
      "source": "ghcr.io/bls-isp/vaultwarden",
      "stars": 1,
-     "pushed_at": "2026-10-29T21:53:35Z",
+     "pushed_at": "2026-11-01T18:07:17Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -12843,7 +12843,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-10-29T21:52:04Z"
+     "released_at": "2026-11-01T17:35:10Z"
     },
     {
      "module_id": "vaultwarden",
@@ -13199,7 +13199,7 @@
      },
      "source": "ghcr.io/stephdl/wazuh",
      "stars": 0,
-     "pushed_at": "2026-10-31T11:55:55Z",
+     "pushed_at": "2026-11-01T12:44:56Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -13250,8 +13250,8 @@
      },
      "logo": "https://forge.nethserver.org/ns8/updates/webserver/logo.png",
      "screenshots": [
-      "https://forge.nethserver.org/ns8/updates/webserver/screenshots/screen2.png",
       "https://forge.nethserver.org/ns8/updates/webserver/screenshots/screen3.png",
+      "https://forge.nethserver.org/ns8/updates/webserver/screenshots/screen2.png",
       "https://forge.nethserver.org/ns8/updates/webserver/screenshots/screen1.png"
      ],
      "versions": [
@@ -13279,7 +13279,7 @@
      },
      "source": "ghcr.io/nethserver/webserver",
      "stars": 0,
-     "pushed_at": "2026-10-30T08:47:52Z",
+     "pushed_at": "2026-11-01T14:36:17Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -13369,7 +13369,7 @@
      },
      "source": "ghcr.io/nethserver/webtop",
      "stars": 0,
-     "pushed_at": "2026-10-30T08:34:48Z",
+     "pushed_at": "2026-11-01T14:41:58Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -13673,7 +13673,7 @@
      },
      "source": "ghcr.io/nethserver/wordpress",
      "stars": 0,
-     "pushed_at": "2026-10-30T08:37:40Z",
+     "pushed_at": "2026-11-01T14:41:51Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -13785,7 +13785,7 @@
      },
      "source": "ghcr.io/stephdl/xwiki",
      "stars": 0,
-     "pushed_at": "2026-10-29T02:25:20Z",
+     "pushed_at": "2026-11-01T12:48:00Z",
      "archived": false,
      "checks": {
       "topic": false,
