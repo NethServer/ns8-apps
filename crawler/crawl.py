@@ -5,6 +5,7 @@ import logging
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import urlparse
 
 from concurrent.futures import ThreadPoolExecutor
 
@@ -31,12 +32,26 @@ def forge_versions(app):
     return sorted(versions, key=lambda v: version_key(v[0]), reverse=True)
 
 
-def add_forge(catalog, forges, forge, repodata, kind):
+def forge_homepage(http, url):
+    """The site the forge is served from, where developers often put a donation link."""
+    if urlparse(url).netloc == "raw.githubusercontent.com":
+        return None
+    # On a project GitHub Pages site the forge lives under /<repo>/, not at the domain root.
+    root = url.removesuffix("ns8/updates/")
+    body = http.get(root, as_json=False) or ""
+    return root if "<html" in body[:1000].lower() else None
+
+
+def add_forge(catalog, forges, forge, repodata, kind, http):
     if not isinstance(repodata, list):
         log.warning("forge %s: no usable repodata.json", forge["id"])
         return
     repodata = [a for a in repodata if a.get("id") and a["id"] not in catalog.excluded]
     forge["app_count"] = len(repodata)
+    repo_page = forge["repo"] and f"https://github.com/{forge['repo']}"
+    forge["homepage"] = repo_page
+    if kind == "community":
+        forge["homepage"] = forge_homepage(http, forge["url"]) or repo_page
     forges.append(forge)
     for app in repodata:
         catalog.add(app["id"], make_variant(app, app_id=app["id"], forge=forge, kind=kind,
@@ -51,8 +66,8 @@ def code_owner(app):
 
 def crawl_forges(cfg, gh, http, catalog, forges, candidates):
     for entry in cfg.get("official") or []:
-        forge = {"id": entry["id"], "name": entry["name"], "url": entry["url"], "kind": "official", "repo": None}
-        add_forge(catalog, forges, forge, http.get(f"{entry['url']}repodata.json"), "official")
+        forge = {"id": entry["id"], "name": entry["name"], "url": entry["url"], "kind": "official", "repo": entry.get("repo")}
+        add_forge(catalog, forges, forge, http.get(f"{entry['url']}repodata.json"), "official", http)
 
     upstream = cfg["nethforge"]
     upstream_data = gh.forge_repodata(upstream)
@@ -60,7 +75,7 @@ def crawl_forges(cfg, gh, http, catalog, forges, candidates):
     url, alt_url = gh.forge_public_url(upstream)
     forge = {"id": "nethforge", "name": "NethForge", "url": url, "alt_url": alt_url,
              "kind": "nethforge", "repo": upstream}
-    add_forge(catalog, forges, forge, upstream_data, "nethforge")
+    add_forge(catalog, forges, forge, upstream_data, "nethforge", http)
 
     for full_name in gh.forks(upstream):
         data = gh.forge_repodata(full_name)
@@ -74,7 +89,7 @@ def crawl_forges(cfg, gh, http, catalog, forges, candidates):
         url, alt_url = gh.forge_public_url(full_name, upstream_cname=upstream_cname)
         forge = {"id": owner, "name": full_name, "url": url, "alt_url": alt_url,
                  "kind": "community", "repo": full_name}
-        add_forge(catalog, forges, forge, data, "community")
+        add_forge(catalog, forges, forge, data, "community", http)
 
     # Forges started from scratch instead of forking nethforge.
     known = {f["repo"] for f in forges}
@@ -95,7 +110,7 @@ def crawl_forges(cfg, gh, http, catalog, forges, candidates):
         forge_id = owner if owner not in {f["id"] for f in forges} else full_name
         forge = {"id": forge_id, "name": full_name, "url": probe["url"], "alt_url": probe["alt_url"],
                  "kind": "community", "repo": full_name}
-        add_forge(catalog, forges, forge, data, "community")
+        add_forge(catalog, forges, forge, data, "community", http)
 
     for entry in cfg.get("forges") or []:
         if "github" in entry:
@@ -106,7 +121,8 @@ def crawl_forges(cfg, gh, http, catalog, forges, candidates):
             data = http.get(f"{url}repodata.json")
         forge = {"id": entry["id"], "name": entry.get("name", entry["id"]), "url": url,
                  "kind": "community", "repo": entry.get("github")}
-        add_forge(catalog, forges, forge, data, "community")
+        add_forge(catalog, forges, forge, data, "community", http)
+
 
 
 def code_repo(gh, http, code_url):

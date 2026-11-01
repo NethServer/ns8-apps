@@ -14,7 +14,7 @@ const UI = {
     variants: (n) => `${n} variants`, versionsCol: "Stable", testingCol: "Testing",
     devCol: "Developer", repoCol: "Repository", updatedCol: "Updated",
  officialBadge: "Official",
-    code: "Source code", docs: "Documentation", bugs: "Report a bug", releases: "Releases",
+    code: "Source code", docs: "Documentation", bugs: "Report a bug", releases: "Releases", site: "Developer's site",
     history: "Stable", install: "Install on NS8", noVersion: "no release yet",
     stepOfficial: (n) => `Available by default: open the Software Center, search ${n} and click Install.`,
     stepEnableForge: "Open Software Center › Settings › Software repositories and enable NethForge.",
@@ -42,7 +42,7 @@ const UI = {
     variants: (n) => `${n} variantes`, versionsCol: "Stable", testingCol: "Testing",
     devCol: "Développeur", repoCol: "Dépôt", updatedCol: "Mise à jour",
  officialBadge: "Officiel",
-    code: "Code source", docs: "Documentation", bugs: "Signaler un bug", releases: "Versions",
+    code: "Code source", docs: "Documentation", bugs: "Signaler un bug", releases: "Versions", site: "Site du développeur",
     history: "Stable", install: "Installer sur NS8", noVersion: "pas encore de release",
     stepOfficial: (n) => `Disponible par défaut : ouvrir le Software Center, chercher ${n} et cliquer sur Installer.`,
     stepEnableForge: "Ouvrir Software Center › Paramètres › Dépôts logiciels et activer NethForge.",
@@ -70,7 +70,7 @@ const UI = {
     variants: (n) => `${n} varianti`, versionsCol: "Stabile", testingCol: "Testing",
     devCol: "Sviluppatore", repoCol: "Repository", updatedCol: "Aggiornato",
  officialBadge: "Ufficiale", archived: "archiviato",
-    code: "Codice sorgente", docs: "Documentazione", bugs: "Segnala un bug", releases: "Release",
+    code: "Codice sorgente", docs: "Documentazione", bugs: "Segnala un bug", releases: "Release", site: "Sito dello sviluppatore",
     history: "Stabile", install: "Installa su NS8", noVersion: "nessuna release",
     stepOfficial: (n) => `Disponibile di default: apri il Software Center, cerca ${n} e clicca Installa.`,
     stepEnableForge: "Apri Software Center › Impostazioni › Repository software e attiva NethForge.",
@@ -98,7 +98,7 @@ const UI = {
     variants: (n) => `${n} Varianten`, versionsCol: "Stabil", testingCol: "Testing",
     devCol: "Entwickler", repoCol: "Repository", updatedCol: "Aktualisiert",
  officialBadge: "Offiziell", archived: "archiviert",
-    code: "Quellcode", docs: "Dokumentation", bugs: "Fehler melden", releases: "Releases",
+    code: "Quellcode", docs: "Dokumentation", bugs: "Fehler melden", releases: "Releases", site: "Website des Entwicklers",
     history: "Stabil", install: "Auf NS8 installieren", noVersion: "noch kein Release",
     stepOfficial: (n) => `Standardmäßig verfügbar: Software Center öffnen, nach ${n} suchen und auf Installieren klicken.`,
     stepEnableForge: "Software Center › Einstellungen › Software-Repositorys öffnen und NethForge aktivieren.",
@@ -126,7 +126,7 @@ const UI = {
     variants: (n) => `${n} variantes`, versionsCol: "Estable", testingCol: "Testing",
     devCol: "Desarrollador", repoCol: "Repositorio", updatedCol: "Actualizado",
  officialBadge: "Oficial", archived: "archivado",
-    code: "Código fuente", docs: "Documentación", bugs: "Reportar un error", releases: "Versiones",
+    code: "Código fuente", docs: "Documentación", bugs: "Reportar un error", releases: "Versiones", site: "Sitio del desarrollador",
     history: "Estable", install: "Instalar en NS8", noVersion: "sin release todavía",
     stepOfficial: (n) => `Disponible por defecto: abre el Software Center, busca ${n} y haz clic en Instalar.`,
     stepEnableForge: "Abre Software Center › Ajustes › Repositorios de software y activa NethForge.",
@@ -510,6 +510,9 @@ function renderApp(id) {
     return;
   }
   const main = bestVariant(app);
+  const mainForge = state.catalog.forges.find((f) => f.id === repoOf(main));
+  const homepage = mainForge?.homepage;
+  const siteTitle = mainForge && mainForge.kind !== "community" ? mainForge.name : `${t("site")} · ${main.developer}`;
   const rows = app.variants.map((v) => {
     const docs = v.docs || {};
     const links = [
@@ -553,6 +556,7 @@ function renderApp(id) {
         ${app.official ? `<span class="badge official">${t("officialBadge")}</span>` : ""}
         ${app.categories.map((c) => `<a class="badge" href="${link({ cat: c })}">${esc(catName(c))}</a>`).join("")}
         <span class="stars">★ ${app.stars}</span>
+        ${homepage ? `<a class="chip site" href="${esc(homepage)}" target="_blank" rel="noopener" title="${esc(siteTitle)}">${esc(homepage.replace(/^https:\/\//, "").replace(/\/$/, ""))} ↗</a>` : ""}
       </div></div></div>
     <p class="lead">${esc(describe(main))}</p>
     <div class="variants">
