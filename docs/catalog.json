@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T18:15:32+00:00",
+ "generated_at": "2026-11-01T22:35:10+00:00",
  "forges": [
   {
    "id": "nethserver",
@@ -1284,7 +1284,7 @@
      },
      "source": "ghcr.io/francio87/borgbackupserver",
      "stars": 1,
-     "pushed_at": "2026-10-28T13:10:21Z",
+     "pushed_at": "2026-11-01T18:46:12Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -4881,7 +4881,7 @@
      },
      "source": "ghcr.io/nethserver/grafana",
      "stars": 0,
-     "pushed_at": "2026-11-01T14:36:50Z",
+     "pushed_at": "2026-11-01T18:41:12Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -7828,7 +7828,7 @@
      },
      "source": "ghcr.io/nethserver/n8n",
      "stars": 0,
-     "pushed_at": "2026-11-01T14:39:12Z",
+     "pushed_at": "2026-11-01T18:36:57Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -13467,7 +13467,7 @@
     "collaboration"
    ],
    "official": false,
-   "stars": 1,
+   "stars": 2,
    "variants": [
     {
      "module_id": "wg-easy",
@@ -13523,7 +13523,7 @@
       "volumes": []
      },
      "source": "ghcr.io/mrmarkuz/wg-easy",
-     "stars": 1,
+     "stars": 2,
      "pushed_at": "2026-10-31T16:34:19Z",
      "archived": false,
      "checks": {
