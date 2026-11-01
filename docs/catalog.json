@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T22:09:10+00:00",
+ "generated_at": "2026-11-01T07:05:09+00:00",
  "forges": [
   {
    "id": "nethserver",
@@ -1670,7 +1670,7 @@
      },
      "source": "ghcr.io/stephdl/calrs",
      "stars": 0,
-     "pushed_at": "2026-10-28T14:01:03Z",
+     "pushed_at": "2026-10-31T22:26:13Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -2539,8 +2539,8 @@
      },
      "logo": "https://forge.nethserver.org/ns8/updates/dependencytrack/logo.png",
      "screenshots": [
-      "https://forge.nethserver.org/ns8/updates/dependencytrack/screenshots/screen3.png",
       "https://forge.nethserver.org/ns8/updates/dependencytrack/screenshots/screen2.png",
+      "https://forge.nethserver.org/ns8/updates/dependencytrack/screenshots/screen3.png",
       "https://forge.nethserver.org/ns8/updates/dependencytrack/screenshots/screen1.png"
      ],
      "versions": [
@@ -2814,7 +2814,7 @@
      },
      "source": "ghcr.io/nethserver/dnsmasq",
      "stars": 0,
-     "pushed_at": "2026-10-30T10:04:42Z",
+     "pushed_at": "2026-11-01T02:30:16Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -4840,8 +4840,8 @@
      },
      "logo": "https://forge.nethserver.org/ns8/updates/grafana/logo.png",
      "screenshots": [
-      "https://forge.nethserver.org/ns8/updates/grafana/screenshots/screen3.png",
       "https://forge.nethserver.org/ns8/updates/grafana/screenshots/screen2.png",
+      "https://forge.nethserver.org/ns8/updates/grafana/screenshots/screen3.png",
       "https://forge.nethserver.org/ns8/updates/grafana/screenshots/screen1.png"
      ],
      "versions": [
@@ -5658,7 +5658,7 @@
      },
      "source": "ghcr.io/mrmarkuz/immich",
      "stars": 1,
-     "pushed_at": "2026-10-29T21:54:58Z",
+     "pushed_at": "2026-11-01T04:44:59Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -5890,7 +5890,7 @@
      },
      "source": "ghcr.io/mrmarkuz/jitsi",
      "stars": 0,
-     "pushed_at": "2026-10-31T20:32:32Z",
+     "pushed_at": "2026-11-01T05:35:13Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -6201,7 +6201,7 @@
      },
      "source": "ghcr.io/mrmarkuz/uptime-kuma",
      "stars": 0,
-     "pushed_at": "2026-10-28T11:09:28Z",
+     "pushed_at": "2026-11-01T01:15:21Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -6288,7 +6288,7 @@
      },
      "source": "ghcr.io/stephdl/kuma",
      "stars": 0,
-     "pushed_at": "2026-10-31T21:56:50Z",
+     "pushed_at": "2026-11-01T01:23:36Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -7582,7 +7582,7 @@
      },
      "source": "ghcr.io/mrmarkuz/meshcentral",
      "stars": 0,
-     "pushed_at": "2026-10-31T20:54:21Z",
+     "pushed_at": "2026-11-01T02:06:23Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -9125,7 +9125,7 @@
      },
      "source": "ghcr.io/mrmarkuz/opencloud",
      "stars": 0,
-     "pushed_at": "2026-10-31T19:50:13Z",
+     "pushed_at": "2026-11-01T05:00:56Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -9567,8 +9567,8 @@
      },
      "logo": "https://forge.nethserver.org/ns8/updates/paperlessngx/logo.png",
      "screenshots": [
-      "https://forge.nethserver.org/ns8/updates/paperlessngx/screenshots/screen3.png",
       "https://forge.nethserver.org/ns8/updates/paperlessngx/screenshots/screen2.png",
+      "https://forge.nethserver.org/ns8/updates/paperlessngx/screenshots/screen3.png",
       "https://forge.nethserver.org/ns8/updates/paperlessngx/screenshots/screen4.png",
       "https://forge.nethserver.org/ns8/updates/paperlessngx/screenshots/screen5.png"
      ],
@@ -9652,8 +9652,8 @@
      },
      "logo": "https://forge.nethserver.org/ns8/updates/passbolt/logo.png",
      "screenshots": [
-      "https://forge.nethserver.org/ns8/updates/passbolt/screenshots/screen3.png",
       "https://forge.nethserver.org/ns8/updates/passbolt/screenshots/screen2.png",
+      "https://forge.nethserver.org/ns8/updates/passbolt/screenshots/screen3.png",
       "https://forge.nethserver.org/ns8/updates/passbolt/screenshots/screen1.png"
      ],
      "versions": [
@@ -13236,8 +13236,8 @@
      },
      "logo": "https://forge.nethserver.org/ns8/updates/webserver/logo.png",
      "screenshots": [
-      "https://forge.nethserver.org/ns8/updates/webserver/screenshots/screen3.png",
       "https://forge.nethserver.org/ns8/updates/webserver/screenshots/screen2.png",
+      "https://forge.nethserver.org/ns8/updates/webserver/screenshots/screen3.png",
       "https://forge.nethserver.org/ns8/updates/webserver/screenshots/screen1.png"
      ],
      "versions": [
