@@ -1,13 +1,14 @@
 {
- "generated_at": "2026-11-01T07:05:09+00:00",
+ "generated_at": "2026-11-01T08:03:18+00:00",
  "forges": [
   {
    "id": "nethserver",
    "name": "NethServer (default)",
    "url": "https://distfeed.nethserver.org/ns8/updates/",
    "kind": "official",
-   "repo": null,
-   "app_count": 17
+   "repo": "NethServer/ns8-repomd",
+   "app_count": 17,
+   "homepage": "https://github.com/NethServer/ns8-repomd"
   },
   {
    "id": "nethforge",
@@ -16,7 +17,8 @@
    "alt_url": "https://raw.githubusercontent.com/NethServer/ns8-nethforge/repomd/ns8/updates/",
    "kind": "nethforge",
    "repo": "NethServer/ns8-nethforge",
-   "app_count": 20
+   "app_count": 20,
+   "homepage": "https://github.com/NethServer/ns8-nethforge"
   },
   {
    "id": "BLS-ISP",
@@ -25,7 +27,8 @@
    "alt_url": null,
    "kind": "community",
    "repo": "BLS-ISP/ns8-nethforge",
-   "app_count": 2
+   "app_count": 2,
+   "homepage": "https://github.com/BLS-ISP/ns8-nethforge"
   },
   {
    "id": "sipi58",
@@ -34,7 +37,8 @@
    "alt_url": null,
    "kind": "community",
    "repo": "sipi58/ns8-nethforge",
-   "app_count": 1
+   "app_count": 1,
+   "homepage": "https://github.com/sipi58/ns8-nethforge"
   },
   {
    "id": "dz00te",
@@ -43,7 +47,8 @@
    "alt_url": "https://raw.githubusercontent.com/dz00te/ns8-dz00te/repomd/ns8/updates/",
    "kind": "community",
    "repo": "dz00te/ns8-dz00te",
-   "app_count": 3
+   "app_count": 3,
+   "homepage": "https://forge.dzlab.net/"
   },
   {
    "id": "stephdl",
@@ -52,7 +57,8 @@
    "alt_url": "https://raw.githubusercontent.com/stephdl/ns8-stephdl/repomd/ns8/updates/",
    "kind": "community",
    "repo": "stephdl/ns8-stephdl",
-   "app_count": 17
+   "app_count": 17,
+   "homepage": "https://forge.de-labrusse.fr/"
   },
   {
    "id": "mrmarkuz",
@@ -61,7 +67,8 @@
    "alt_url": "https://raw.githubusercontent.com/mrmarkuz/ns8-mrmarkuz/repomd/ns8/updates/",
    "kind": "community",
    "repo": "mrmarkuz/ns8-mrmarkuz",
-   "app_count": 25
+   "app_count": 25,
+   "homepage": "https://repo.mrmarkuz.com/"
   },
   {
    "id": "geniusdynamics",
@@ -70,7 +77,8 @@
    "alt_url": "https://raw.githubusercontent.com/geniusdynamics/ns8-genforge/repomd/ns8/updates/",
    "kind": "community",
    "repo": "geniusdynamics/ns8-genforge",
-   "app_count": 49
+   "app_count": 49,
+   "homepage": "https://forge.genius.ke/"
   },
   {
    "id": "ksat-design",
@@ -79,7 +87,8 @@
    "alt_url": "https://raw.githubusercontent.com/ksat-design/ns8-ksatdesign/repomd/ns8/updates/",
    "kind": "community",
    "repo": "ksat-design/ns8-ksatdesign",
-   "app_count": 1
+   "app_count": 1,
+   "homepage": "https://forge.ksatdesign.com.au/"
   },
   {
    "id": "tebbiworld",
@@ -88,7 +97,8 @@
    "alt_url": null,
    "kind": "community",
    "repo": "tebbiworld/ns8-repo",
-   "app_count": 22
+   "app_count": 22,
+   "homepage": "https://github.com/tebbiworld/ns8-repo"
   },
   {
    "id": "Platypuschan",
@@ -97,7 +107,8 @@
    "alt_url": null,
    "kind": "community",
    "repo": "Platypuschan/ns8-modules",
-   "app_count": 8
+   "app_count": 8,
+   "homepage": "https://platypuschan.github.io/ns8-modules/"
   },
   {
    "id": "danb35",
@@ -106,7 +117,8 @@
    "alt_url": null,
    "kind": "community",
    "repo": "danb35/ns8-repomd",
-   "app_count": 2
+   "app_count": 2,
+   "homepage": "https://danb35.github.io/ns8-repomd/"
   },
   {
    "id": "antonwantstosleep",
@@ -115,7 +127,8 @@
    "alt_url": null,
    "kind": "community",
    "repo": "antonwantstosleep/ns8-repo",
-   "app_count": 1
+   "app_count": 1,
+   "homepage": "https://github.com/antonwantstosleep/ns8-repo"
   },
   {
    "id": "francio87",
@@ -124,7 +137,8 @@
    "alt_url": null,
    "kind": "community",
    "repo": "francio87/ns8-repomd",
-   "app_count": 1
+   "app_count": 1,
+   "homepage": "https://github.com/francio87/ns8-repomd"
   }
  ],
  "apps": [
