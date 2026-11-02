@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T07:05:35+00:00",
+ "generated_at": "2026-11-02T22:05:42+00:00",
  "forges": [
   {
    "id": "nethserver",
@@ -278,7 +278,7 @@
      },
      "source": "ghcr.io/stephdl/backuppc",
      "stars": 0,
-     "pushed_at": "2026-11-01T13:35:13Z",
+     "pushed_at": "2026-11-02T14:08:06Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -984,7 +984,7 @@
      },
      "source": "ghcr.io/danb35/automx",
      "stars": 0,
-     "pushed_at": "2026-11-01T13:59:01Z",
+     "pushed_at": "2026-11-02T21:28:25Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -1127,7 +1127,7 @@
      },
      "source": "ghcr.io/stephdl/bigbluebutton",
      "stars": 0,
-     "pushed_at": "2026-11-01T13:31:18Z",
+     "pushed_at": "2026-11-02T18:49:48Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -1284,7 +1284,7 @@
      },
      "source": "ghcr.io/francio87/borgbackupserver",
      "stars": 1,
-     "pushed_at": "2026-11-01T18:46:12Z",
+     "pushed_at": "2026-11-02T21:48:47Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -1436,7 +1436,7 @@
      },
      "source": "ghcr.io/mrmarkuz/calcom",
      "stars": 0,
-     "pushed_at": "2026-10-29T16:01:33Z",
+     "pushed_at": "2026-11-02T19:31:49Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -1838,10 +1838,10 @@
      },
      "source": "ghcr.io/mrmarkuz/checkmk",
      "stars": 0,
-     "pushed_at": "2026-11-01T13:57:00Z",
+     "pushed_at": "2026-11-02T21:36:13Z",
      "archived": false,
      "checks": {
-      "topic": false,
+      "topic": true,
       "categories": true,
       "logo": true,
       "screenshots": true,
@@ -2507,7 +2507,7 @@
      },
      "source": "ghcr.io/stephdl/ddclient",
      "stars": 0,
-     "pushed_at": "2026-11-01T17:16:32Z",
+     "pushed_at": "2026-11-02T18:48:17Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -2672,7 +2672,7 @@
      },
      "source": "ghcr.io/stephdl/discourse",
      "stars": 0,
-     "pushed_at": "2026-11-01T13:47:36Z",
+     "pushed_at": "2026-11-02T16:25:33Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -3856,7 +3856,7 @@
      },
      "source": "ghcr.io/mrmarkuz/euro-office",
      "stars": 0,
-     "pushed_at": "2026-10-29T22:03:01Z",
+     "pushed_at": "2026-11-02T21:25:45Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -4006,7 +4006,7 @@
      },
      "source": "ghcr.io/mrmarkuz/fetchmail",
      "stars": 0,
-     "pushed_at": "2026-10-31T15:48:54Z",
+     "pushed_at": "2026-11-02T21:45:26Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -4478,7 +4478,7 @@
      },
      "source": "ghcr.io/platypuschan/gitea-reworked",
      "stars": 0,
-     "pushed_at": "2026-11-01T12:43:20Z",
+     "pushed_at": "2026-11-02T18:29:29Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -4537,11 +4537,11 @@
      ],
      "versions": [
       {
-       "tag": "1.0.5",
+       "tag": "1.0.6",
        "testing": false
       }
      ],
-     "stable": "1.0.5",
+     "stable": "1.0.6",
      "testing": null,
      "min_core": "3.0.0",
      "tech": {
@@ -4551,7 +4551,7 @@
        "gitlab/gitlab-runner:v19.5.1"
       ],
       "authorizations": [
-       "traefik@any:routeadm",
+       "traefik@node:routeadm",
        "cluster:accountconsumer",
        "node:fwadm"
       ],
@@ -4566,7 +4566,7 @@
      },
      "source": "ghcr.io/bls-isp/gitlab",
      "stars": 1,
-     "pushed_at": "2026-10-29T21:53:41Z",
+     "pushed_at": "2026-11-02T22:00:28Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -4579,7 +4579,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-10-29T21:54:19Z"
+     "released_at": "2026-11-02T19:42:28Z"
     }
    ]
   },
@@ -4728,7 +4728,7 @@
      },
      "source": "ghcr.io/stephdl/glpi",
      "stars": 0,
-     "pushed_at": "2026-11-01T12:31:32Z",
+     "pushed_at": "2026-11-02T14:54:07Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -4963,7 +4963,7 @@
      },
      "source": "ghcr.io/mrmarkuz/guacamole",
      "stars": 0,
-     "pushed_at": "2026-10-31T04:55:37Z",
+     "pushed_at": "2026-11-02T19:53:57Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -5672,7 +5672,7 @@
      },
      "source": "ghcr.io/mrmarkuz/immich",
      "stars": 1,
-     "pushed_at": "2026-11-01T04:44:59Z",
+     "pushed_at": "2026-11-02T15:31:46Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -5781,8 +5781,11 @@
      "developer": "mrmarkuz",
      "name": "Jellyfin",
      "description": {
-      "en": "Jellyfin is a media streaming server",
-      "de": "Jellyfin ist ein Medien Streaming Server"
+      "en": "Jellyfin is a free, open-source, and self-hosted media server that lets you organize, manage, and stream your personal digital media collection across all your devices",
+      "de": "Jellyfin ist ein kostenloser Open-Source-Mediaserver, den du selbst hosten kannst und mit dem du deine persönliche digitale Mediensammlung organisieren, verwalten und auf all deine Geräte streamen kannst",
+      "fr": "Jellyfin est un serveur multimédia gratuit, open source et auto-hébergé qui vous permet d'organiser, de gérer et de diffuser votre collection de contenus numériques personnels sur l'ensemble de vos appareils",
+      "it": "Jellyfin è un media server gratuito, open source e autogestito che ti consente di organizzare, gestire e trasmettere in streaming la tua raccolta di contenuti multimediali digitali su tutti i tuoi dispositivi",
+      "es": "Jellyfin es un servidor multimedia gratuito, de código abierto y autohospedado que te permite organizar, gestionar y transmitir tu colección personal de contenido digital a través de todos tus dispositivos"
      },
      "about": null,
      "authors": [
@@ -5823,14 +5826,14 @@
      },
      "source": "ghcr.io/mrmarkuz/jellyfin",
      "stars": 0,
-     "pushed_at": "2026-10-31T19:08:19Z",
+     "pushed_at": "2026-11-02T21:23:47Z",
      "archived": false,
      "checks": {
-      "topic": false,
+      "topic": true,
       "categories": true,
       "logo": true,
       "screenshots": true,
-      "description": false,
+      "description": true,
       "translations": true,
       "docs": true,
       "min_core": false,
@@ -5843,7 +5846,7 @@
   {
    "id": "jitsi",
    "categories": [
-    "collaboration"
+    "communication"
    ],
    "official": false,
    "stars": 0,
@@ -5857,15 +5860,18 @@
      "developer": "mrmarkuz",
      "name": "Jitsi",
      "description": {
-      "en": "Open source video conferencing webapp",
-      "de": "Open Source Videokonferenz Webapplikation"
+      "en": "Jitsi is a collection of free and open-source multiplatform voice, video conferencing, and instant messaging applications",
+      "de": "Jitsi ist eine Sammlung kostenloser Open-Source-Anwendungen für Sprach- und Videokonferenzen sowie Instant Messaging, die auf verschiedenen Plattformen einsetzbar sind",
+      "fr": "Jitsi est un ensemble d’applications multiplateformes, libres et open source, dédiées à la voix, à la visioconférence et à la messagerie instantanée",
+      "it": "Jitsi è una raccolta di applicazioni multipiattaforma, gratuite e open source, per la comunicazione vocale, le videoconferenze e la messaggistica istantanea",
+      "es": "Jitsi es un conjunto de aplicaciones multiplataforma, gratuitas y de código abierto, para voz, videoconferencias y mensajería instantánea"
      },
      "about": null,
      "authors": [
       "Markus Neuberger"
      ],
      "categories": [
-      "collaboration"
+      "communication"
      ],
      "code_url": "https://github.com/mrmarkuz/ns8-jitsi",
      "docs": {
@@ -5904,14 +5910,14 @@
      },
      "source": "ghcr.io/mrmarkuz/jitsi",
      "stars": 0,
-     "pushed_at": "2026-11-01T12:56:05Z",
+     "pushed_at": "2026-11-02T18:04:55Z",
      "archived": false,
      "checks": {
       "topic": true,
       "categories": true,
       "logo": true,
       "screenshots": true,
-      "description": false,
+      "description": true,
       "translations": true,
       "docs": true,
       "min_core": false,
@@ -6063,7 +6069,7 @@
      },
      "source": "ghcr.io/mrmarkuz/kimai",
      "stars": 0,
-     "pushed_at": "2026-10-29T21:35:05Z",
+     "pushed_at": "2026-11-02T18:16:23Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -6140,7 +6146,7 @@
      },
      "source": "ghcr.io/mrmarkuz/kitchenowl",
      "stars": 1,
-     "pushed_at": "2026-10-31T20:52:22Z",
+     "pushed_at": "2026-11-02T18:25:08Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -6302,7 +6308,7 @@
      },
      "source": "ghcr.io/stephdl/kuma",
      "stars": 0,
-     "pushed_at": "2026-11-01T12:24:22Z",
+     "pushed_at": "2026-11-02T17:48:19Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -6378,7 +6384,7 @@
      },
      "source": "ghcr.io/stephdl/lam",
      "stars": 0,
-     "pushed_at": "2026-11-01T13:50:04Z",
+     "pushed_at": "2026-11-02T19:59:18Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -6544,7 +6550,7 @@
      },
      "source": "ghcr.io/stephdl/launcher",
      "stars": 0,
-     "pushed_at": "2026-11-01T13:26:01Z",
+     "pushed_at": "2026-11-02T17:52:29Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -6727,7 +6733,7 @@
      },
      "source": "ghcr.io/stephdl/lemp",
      "stars": 0,
-     "pushed_at": "2026-11-01T14:06:57Z",
+     "pushed_at": "2026-11-02T20:38:34Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -6929,7 +6935,7 @@
      "screenshots": [],
      "versions": [
       {
-       "tag": "1.9.1",
+       "tag": "1.9.2",
        "testing": false
       },
       {
@@ -6941,16 +6947,16 @@
        "testing": false
       }
      ],
-     "stable": "1.9.1",
+     "stable": "1.9.2",
      "testing": null,
      "min_core": "3.20.1",
      "tech": {
       "rootfull": false,
       "images": [
-       "nethserver/mail-dovecot:1.9.1",
-       "nethserver/mail-postfix:1.9.1",
-       "nethserver/mail-rspamd:1.9.1",
-       "nethserver/mail-clamav:1.9.1"
+       "nethserver/mail-dovecot:1.9.2",
+       "nethserver/mail-postfix:1.9.2",
+       "nethserver/mail-rspamd:1.9.2",
+       "nethserver/mail-clamav:1.9.2"
       ],
       "authorizations": [
        "node:fwadm",
@@ -6965,7 +6971,7 @@
      },
      "source": "ghcr.io/nethserver/mail",
      "stars": 3,
-     "pushed_at": "2026-11-02T06:52:18Z",
+     "pushed_at": "2026-11-02T14:20:23Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -6978,7 +6984,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-10-02T16:39:00Z"
+     "released_at": "2026-11-02T14:20:02Z"
     }
    ]
   },
@@ -7596,7 +7602,7 @@
      },
      "source": "ghcr.io/mrmarkuz/meshcentral",
      "stars": 0,
-     "pushed_at": "2026-11-01T17:09:01Z",
+     "pushed_at": "2026-11-02T21:26:13Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -7828,7 +7834,7 @@
      },
      "source": "ghcr.io/nethserver/n8n",
      "stars": 0,
-     "pushed_at": "2026-11-01T18:36:57Z",
+     "pushed_at": "2026-11-02T12:56:51Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -8265,7 +8271,7 @@
      "screenshots": [],
      "versions": [
       {
-       "tag": "1.8.0-testing.82",
+       "tag": "1.8.0-testing.83",
        "testing": true
       },
       {
@@ -8282,7 +8288,7 @@
       }
      ],
      "stable": "1.7.14",
-     "testing": "1.8.0-testing.82",
+     "testing": "1.8.0-testing.83",
      "min_core": "3.22.0",
      "tech": {
       "rootfull": false,
@@ -8317,7 +8323,7 @@
      },
      "source": "ghcr.io/nethesis/nethvoice",
      "stars": 9,
-     "pushed_at": "2026-10-30T16:42:07Z",
+     "pushed_at": "2026-11-02T16:03:02Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -8371,7 +8377,7 @@
      "screenshots": [],
      "versions": [
       {
-       "tag": "1.7.5-testing.12",
+       "tag": "1.7.5-testing.13",
        "testing": true
       },
       {
@@ -8384,7 +8390,7 @@
       }
      ],
      "stable": "1.7.4",
-     "testing": "1.7.5-testing.12",
+     "testing": "1.7.5-testing.13",
      "min_core": "3.20.1",
      "tech": {
       "rootfull": false,
@@ -8404,7 +8410,7 @@
      },
      "source": "ghcr.io/nethesis/nethvoice-proxy",
      "stars": 4,
-     "pushed_at": "2026-11-01T13:26:09Z",
+     "pushed_at": "2026-11-02T14:03:05Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -8509,7 +8515,7 @@
      },
      "source": "ghcr.io/nethserver/nextcloud",
      "stars": 0,
-     "pushed_at": "2026-11-01T14:37:33Z",
+     "pushed_at": "2026-11-02T15:06:19Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -9139,7 +9145,7 @@
      },
      "source": "ghcr.io/mrmarkuz/opencloud",
      "stars": 0,
-     "pushed_at": "2026-11-01T14:13:42Z",
+     "pushed_at": "2026-11-02T20:33:08Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -9294,7 +9300,7 @@
      },
      "source": "ghcr.io/mrmarkuz/openssh",
      "stars": 0,
-     "pushed_at": "2026-11-01T14:03:31Z",
+     "pushed_at": "2026-11-02T20:49:55Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -9375,7 +9381,7 @@
      },
      "source": "ghcr.io/mrmarkuz/openvpn",
      "stars": 0,
-     "pushed_at": "2026-10-31T19:11:29Z",
+     "pushed_at": "2026-11-02T18:44:29Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -9531,7 +9537,7 @@
      },
      "source": "ghcr.io/platypuschan/organizr-reworked",
      "stars": 0,
-     "pushed_at": "2026-11-01T09:29:33Z",
+     "pushed_at": "2026-11-02T08:01:15Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -10152,7 +10158,7 @@
      },
      "source": "ghcr.io/stephdl/pihole",
      "stars": 0,
-     "pushed_at": "2026-11-01T12:43:03Z",
+     "pushed_at": "2026-11-02T19:42:26Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -10872,7 +10878,7 @@
      },
      "source": "ghcr.io/mrmarkuz/pulse",
      "stars": 0,
-     "pushed_at": "2026-10-29T21:18:18Z",
+     "pushed_at": "2026-11-02T20:09:55Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -11185,7 +11191,7 @@
      },
      "source": "ghcr.io/mrmarkuz/rustdesk",
      "stars": 0,
-     "pushed_at": "2026-10-28T01:30:38Z",
+     "pushed_at": "2026-11-02T14:59:19Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -11471,7 +11477,7 @@
      },
      "source": "ghcr.io/stephdl/sam",
      "stars": 0,
-     "pushed_at": "2026-11-02T01:47:06Z",
+     "pushed_at": "2026-11-02T21:41:36Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -12208,7 +12214,7 @@
      },
      "source": "ghcr.io/mrmarkuz/tailscale",
      "stars": 0,
-     "pushed_at": "2026-10-31T19:10:26Z",
+     "pushed_at": "2026-11-02T14:13:21Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -12239,7 +12245,7 @@
       "geniusdynamics"
      ],
      "kind": "community",
-     "developer": "eniusdynamics",
+     "developer": "geniusdynamics",
      "name": "Termix",
      "description": {
       "en": "Termix is a web-based server management platform with SSH terminal, tunneling, and file editing capabilities."
@@ -12251,7 +12257,7 @@
      "categories": [
       "collaboration"
      ],
-     "code_url": "https://github.com/eniusdynamics/ns8-termix",
+     "code_url": "https://github.com/geniusdynamics/ns8-termix",
      "docs": {
       "documentation_url": "https://docs.termix.site/",
       "bug_url": "https://github.com/geniusdynamics/dev"
@@ -12285,8 +12291,8 @@
       "volumes": []
      },
      "source": "ghcr.io/geniusdynamics/termix",
-     "stars": null,
-     "pushed_at": null,
+     "stars": 0,
+     "pushed_at": "2026-07-06T22:25:08Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -12297,9 +12303,9 @@
       "translations": false,
       "docs": true,
       "min_core": false,
-      "license": false
+      "license": true
      },
-     "released_at": null
+     "released_at": "2026-01-26T07:29:06Z"
     }
    ]
   },
@@ -12520,7 +12526,7 @@
      },
      "source": "ghcr.io/mrmarkuz/unifi-network",
      "stars": 0,
-     "pushed_at": "2026-10-29T21:27:10Z",
+     "pushed_at": "2026-11-02T17:37:07Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -12653,7 +12659,7 @@
      },
      "source": "ghcr.io/stephdl/v16postgresql",
      "stars": 0,
-     "pushed_at": "2026-11-01T13:43:37Z",
+     "pushed_at": "2026-11-02T20:31:27Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -12746,7 +12752,7 @@
      },
      "source": "ghcr.io/stephdl/v18postgresql",
      "stars": 0,
-     "pushed_at": "2026-11-01T14:05:36Z",
+     "pushed_at": "2026-11-02T21:12:48Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -12805,11 +12811,11 @@
      ],
      "versions": [
       {
-       "tag": "1.0.4",
+       "tag": "1.0.5",
        "testing": false
       }
      ],
-     "stable": "1.0.4",
+     "stable": "1.0.5",
      "testing": null,
      "min_core": "3.0.0",
      "tech": {
@@ -12830,7 +12836,7 @@
      },
      "source": "ghcr.io/bls-isp/vaultwarden",
      "stars": 1,
-     "pushed_at": "2026-11-01T18:07:17Z",
+     "pushed_at": "2026-11-02T22:01:03Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -12843,7 +12849,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-11-01T17:35:10Z"
+     "released_at": "2026-11-02T19:40:16Z"
     },
     {
      "module_id": "vaultwarden",
@@ -13369,7 +13375,7 @@
      },
      "source": "ghcr.io/nethserver/webtop",
      "stars": 0,
-     "pushed_at": "2026-11-02T06:55:20Z",
+     "pushed_at": "2026-11-02T21:10:13Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -13524,7 +13530,7 @@
      },
      "source": "ghcr.io/mrmarkuz/wg-easy",
      "stars": 2,
-     "pushed_at": "2026-10-31T16:34:19Z",
+     "pushed_at": "2026-11-02T14:48:55Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -13673,7 +13679,7 @@
      },
      "source": "ghcr.io/nethserver/wordpress",
      "stars": 0,
-     "pushed_at": "2026-11-02T06:56:38Z",
+     "pushed_at": "2026-11-02T12:55:40Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -13785,7 +13791,7 @@
      },
      "source": "ghcr.io/stephdl/xwiki",
      "stars": 0,
-     "pushed_at": "2026-11-01T12:48:00Z",
+     "pushed_at": "2026-11-02T15:00:20Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -13868,7 +13874,7 @@
      },
      "source": "ghcr.io/mrmarkuz/zabbix",
      "stars": 0,
-     "pushed_at": "2026-10-31T05:48:57Z",
+     "pushed_at": "2026-11-02T16:30:16Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -13951,7 +13957,7 @@
      },
      "source": "ghcr.io/mrmarkuz/zammad",
      "stars": 0,
-     "pushed_at": "2026-10-31T09:07:36Z",
+     "pushed_at": "2026-11-02T18:10:28Z",
      "archived": false,
      "checks": {
       "topic": true,
