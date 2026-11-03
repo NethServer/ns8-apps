@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T07:29:12+00:00",
+ "generated_at": "2026-11-03T19:57:00+00:00",
  "forges": [
   {
    "id": "nethserver",
@@ -17,7 +17,7 @@
    "alt_url": "https://raw.githubusercontent.com/NethServer/ns8-nethforge/repomd/ns8/updates/",
    "kind": "nethforge",
    "repo": "NethServer/ns8-nethforge",
-   "app_count": 20,
+   "app_count": 22,
    "homepage": "https://github.com/NethServer/ns8-nethforge"
   },
   {
@@ -67,7 +67,7 @@
    "alt_url": "https://raw.githubusercontent.com/mrmarkuz/ns8-mrmarkuz/repomd/ns8/updates/",
    "kind": "community",
    "repo": "mrmarkuz/ns8-mrmarkuz",
-   "app_count": 25,
+   "app_count": 24,
    "homepage": "https://repo.mrmarkuz.com/"
   },
   {
@@ -959,17 +959,17 @@
      ],
      "versions": [
       {
-       "tag": "0.2.4",
+       "tag": "0.2.5",
        "testing": false
       }
      ],
-     "stable": "0.2.4",
+     "stable": "0.2.5",
      "testing": null,
      "min_core": "3.20.1",
      "tech": {
       "rootfull": false,
       "images": [
-       "danb35/automx-app:0.2.4"
+       "danb35/automx-app:0.2.5"
       ],
       "authorizations": [
        "traefik@node:routeadm,certadm",
@@ -984,7 +984,7 @@
      },
      "source": "ghcr.io/danb35/automx",
      "stars": 0,
-     "pushed_at": "2026-11-03T02:31:59Z",
+     "pushed_at": "2026-11-03T16:41:03Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -997,7 +997,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-10-31T16:53:37Z"
+     "released_at": "2026-11-03T16:40:45Z"
     }
    ]
   },
@@ -1372,84 +1372,6 @@
       "license": true
      },
      "released_at": "2026-10-25T11:54:27Z"
-    }
-   ]
-  },
-  {
-   "id": "calcom",
-   "categories": [
-    "collaboration"
-   ],
-   "official": false,
-   "stars": 0,
-   "variants": [
-    {
-     "module_id": "calcom",
-     "forges": [
-      "mrmarkuz"
-     ],
-     "kind": "community",
-     "developer": "mrmarkuz",
-     "name": "Cal.com",
-     "description": {
-      "en": "Cal.com is an open source scheduling platform",
-      "de": "Cal.com ist eine Open Source Terminplanungssoftware"
-     },
-     "about": null,
-     "authors": [
-      "Markus Neuberger"
-     ],
-     "categories": [
-      "collaboration"
-     ],
-     "code_url": "https://github.com/mrmarkuz/ns8-calcom",
-     "docs": {
-      "documentation_url": "https://cal.com/docs",
-      "bug_url": "https://community.nethserver.org"
-     },
-     "logo": "https://repo.mrmarkuz.com/ns8/updates/calcom/logo.png",
-     "screenshots": [
-      "https://repo.mrmarkuz.com/ns8/updates/calcom/screenshots/screen1.png"
-     ],
-     "versions": [
-      {
-       "tag": "1.1.0",
-       "testing": false
-      }
-     ],
-     "stable": "1.1.0",
-     "testing": null,
-     "min_core": null,
-     "tech": {
-      "rootfull": false,
-      "images": [
-       "postgres:15.10-alpine3.19",
-       "redis:8.2.2",
-       "calcom/cal.com:v6.2.0"
-      ],
-      "authorizations": [
-       "traefik@node:routeadm"
-      ],
-      "tcp_ports": 1,
-      "udp_ports": 0,
-      "volumes": []
-     },
-     "source": "ghcr.io/mrmarkuz/calcom",
-     "stars": 0,
-     "pushed_at": "2026-11-02T19:31:49Z",
-     "archived": false,
-     "checks": {
-      "topic": true,
-      "categories": true,
-      "logo": true,
-      "screenshots": true,
-      "description": false,
-      "translations": true,
-      "docs": true,
-      "min_core": false,
-      "license": true
-     },
-     "released_at": "2026-03-19T09:21:00Z"
     }
    ]
   },
@@ -1841,7 +1763,7 @@
      },
      "source": "ghcr.io/mrmarkuz/checkmk",
      "stars": 0,
-     "pushed_at": "2026-11-03T02:16:02Z",
+     "pushed_at": "2026-11-03T13:27:51Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -2286,12 +2208,16 @@
      ],
      "versions": [
       {
+       "tag": "1.4.3-dev.1",
+       "testing": true
+      },
+      {
        "tag": "1.4.2",
        "testing": false
       }
      ],
      "stable": "1.4.2",
-     "testing": null,
+     "testing": "1.4.3-dev.1",
      "min_core": "3.20.1",
      "tech": {
       "rootfull": true,
@@ -2306,7 +2232,7 @@
      },
      "source": "ghcr.io/nethserver/crowdsec",
      "stars": 1,
-     "pushed_at": "2026-11-02T23:35:31Z",
+     "pushed_at": "2026-11-03T09:58:46Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -2757,7 +2683,7 @@
      },
      "source": "ghcr.io/danb35/dnshelper",
      "stars": 0,
-     "pushed_at": "2026-10-31T21:48:14Z",
+     "pushed_at": "2026-11-03T19:45:33Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -2831,7 +2757,7 @@
      },
      "source": "ghcr.io/nethserver/dnsmasq",
      "stars": 0,
-     "pushed_at": "2026-11-03T03:44:40Z",
+     "pushed_at": "2026-11-03T16:31:01Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -4009,7 +3935,7 @@
      },
      "source": "ghcr.io/mrmarkuz/fetchmail",
      "stars": 0,
-     "pushed_at": "2026-11-03T01:52:31Z",
+     "pushed_at": "2026-11-03T13:44:11Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -4481,7 +4407,7 @@
      },
      "source": "ghcr.io/platypuschan/gitea-reworked",
      "stars": 0,
-     "pushed_at": "2026-11-03T05:25:05Z",
+     "pushed_at": "2026-11-03T09:33:52Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -4510,14 +4436,16 @@
     {
      "module_id": "gitlab",
      "forges": [
+      "nethforge",
       "BLS-ISP"
      ],
-     "kind": "community",
+     "kind": "nethforge",
      "developer": "BLS-ISP",
      "name": "GitLab",
      "description": {
       "en": "Self-hosted GitLab Community Edition DevSecOps platform for Git repositories, CI/CD, and Container Registry",
-      "de": "Selbstgehostete GitLab Community Edition DevSecOps-Plattform für Git-Repositories, CI/CD und Container Registry"
+      "de": "Selbstgehostete GitLab Community Edition DevSecOps-Plattform für Git-Repositories, CI/CD und Container Registry",
+      "it": "Piattaforma DevSecOps GitLab Community Edition self-hosted per repository Git, CI/CD e Container Registry"
      },
      "about": null,
      "authors": [
@@ -4534,24 +4462,24 @@
       "terms_url": "https://github.com/BLS-ISP/NS8-GitLab#data-privacy--terms",
       "relnotes_url": "https://github.com/BLS-ISP/NS8-GitLab/releases"
      },
-     "logo": "https://raw.githubusercontent.com/BLS-ISP/ns8-nethforge/repomd/ns8/updates/gitlab/logo.png",
+     "logo": "https://forge.nethserver.org/ns8/updates/gitlab/logo.png",
      "screenshots": [
-      "https://raw.githubusercontent.com/BLS-ISP/ns8-nethforge/repomd/ns8/updates/gitlab/screenshots/screen1.png"
+      "https://forge.nethserver.org/ns8/updates/gitlab/screenshots/screen1.png"
      ],
      "versions": [
       {
-       "tag": "1.0.6",
+       "tag": "1.0.8",
        "testing": false
       }
      ],
-     "stable": "1.0.6",
+     "stable": "1.0.8",
      "testing": null,
      "min_core": "3.0.0",
      "tech": {
       "rootfull": false,
       "images": [
-       "gitlab/gitlab-ce:19.5.1-ce.0",
-       "gitlab/gitlab-runner:v19.5.1"
+       "gitlab/gitlab-ce:19.5.3-ce.0",
+       "gitlab/gitlab-runner:v19.5.2"
       ],
       "authorizations": [
        "traefik@node:routeadm",
@@ -4569,7 +4497,7 @@
      },
      "source": "ghcr.io/bls-isp/gitlab",
      "stars": 1,
-     "pushed_at": "2026-11-02T22:21:09Z",
+     "pushed_at": "2026-11-03T14:12:36Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -4582,7 +4510,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-11-02T19:42:28Z"
+     "released_at": "2026-11-03T14:12:44Z"
     }
    ]
   },
@@ -5808,17 +5736,17 @@
      ],
      "versions": [
       {
-       "tag": "1.0.2",
+       "tag": "1.1.0",
        "testing": false
       }
      ],
-     "stable": "1.0.2",
+     "stable": "1.1.0",
      "testing": null,
-     "min_core": null,
+     "min_core": "3.12.4-0",
      "tech": {
       "rootfull": false,
       "images": [
-       "jellyfin/jellyfin:10.10.7"
+       "jellyfin/jellyfin:12.4"
       ],
       "authorizations": [
        "traefik@node:routeadm"
@@ -5829,7 +5757,7 @@
      },
      "source": "ghcr.io/mrmarkuz/jellyfin",
      "stars": 0,
-     "pushed_at": "2026-11-03T02:45:37Z",
+     "pushed_at": "2026-11-03T11:20:29Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -5839,10 +5767,10 @@
       "description": true,
       "translations": true,
       "docs": true,
-      "min_core": false,
+      "min_core": true,
       "license": true
      },
-     "released_at": "2025-08-17T10:27:42Z"
+     "released_at": "2026-11-03T11:20:29Z"
     }
    ]
   },
@@ -5913,7 +5841,7 @@
      },
      "source": "ghcr.io/mrmarkuz/jitsi",
      "stars": 0,
-     "pushed_at": "2026-11-03T01:24:24Z",
+     "pushed_at": "2026-11-03T17:37:55Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -6104,10 +6032,13 @@
      ],
      "kind": "community",
      "developer": "mrmarkuz",
-     "name": "Kitchenowl",
+     "name": "KitchenOwl",
      "description": {
-      "en": "Grocery list and recipe manager.",
-      "de": "Einkaufsliste und Rezeptverwaltung"
+      "en": "KitchenOwl is a smart, open-source, and self-hosted grocery list, recipe manager, and meal planner designed for households and small groups",
+      "de": "KitchenOwl ist eine intelligente, quelloffene und selbst gehostete Lösung für Einkaufslisten, Rezeptverwaltung und Essensplanung, die für Haushalte und kleine Gruppen konzipiert wurde",
+      "fr": "KitchenOwl est un outil intelligent, open source et auto-hébergé permettant de gérer des listes de courses, des recettes et la planification des repas, conçu pour les foyers et les petits groupes",
+      "it": "KitchenOwl è una soluzione intelligente, open source e autospostata per gestire liste della spesa, ricette e pianificazione dei pasti, pensata per nuclei familiari e piccoli gruppi",
+      "es": "KitchenOwl es una herramienta inteligente, de código abierto y autohospedada que permite gestionar listas de la compra, recetas y la planificación de comidas, diseñada para hogares y grupos pequeños"
      },
      "about": null,
      "authors": [
@@ -6156,7 +6087,7 @@
       "categories": true,
       "logo": true,
       "screenshots": true,
-      "description": false,
+      "description": true,
       "translations": true,
       "docs": true,
       "min_core": false,
@@ -6740,7 +6671,7 @@
      },
      "source": "ghcr.io/stephdl/lemp",
      "stars": 0,
-     "pushed_at": "2026-11-03T05:07:46Z",
+     "pushed_at": "2026-11-03T10:49:28Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -6978,7 +6909,7 @@
      },
      "source": "ghcr.io/nethserver/mail",
      "stars": 3,
-     "pushed_at": "2026-11-03T07:09:17Z",
+     "pushed_at": "2026-11-03T19:47:29Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -7841,7 +7772,7 @@
      },
      "source": "ghcr.io/nethserver/n8n",
      "stars": 0,
-     "pushed_at": "2026-11-02T23:16:26Z",
+     "pushed_at": "2026-11-03T13:06:54Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -8225,7 +8156,7 @@
      },
      "source": "ghcr.io/nethserver/nethsecurity-controller",
      "stars": 1,
-     "pushed_at": "2026-11-03T07:10:42Z",
+     "pushed_at": "2026-11-03T13:15:12Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -8278,7 +8209,7 @@
      "screenshots": [],
      "versions": [
       {
-       "tag": "1.8.0-testing.83",
+       "tag": "1.8.0-testing.86",
        "testing": true
       },
       {
@@ -8295,7 +8226,7 @@
       }
      ],
      "stable": "1.7.14",
-     "testing": "1.8.0-testing.83",
+     "testing": "1.8.0-testing.86",
      "min_core": "3.22.0",
      "tech": {
       "rootfull": false,
@@ -8330,7 +8261,7 @@
      },
      "source": "ghcr.io/nethesis/nethvoice",
      "stars": 9,
-     "pushed_at": "2026-11-02T16:03:02Z",
+     "pushed_at": "2026-11-03T17:14:58Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -8384,7 +8315,7 @@
      "screenshots": [],
      "versions": [
       {
-       "tag": "1.7.5-testing.13",
+       "tag": "1.7.5-testing.15",
        "testing": true
       },
       {
@@ -8397,7 +8328,7 @@
       }
      ],
      "stable": "1.7.4",
-     "testing": "1.7.5-testing.13",
+     "testing": "1.7.5-testing.15",
      "min_core": "3.20.1",
      "tech": {
       "rootfull": false,
@@ -8417,7 +8348,7 @@
      },
      "source": "ghcr.io/nethesis/nethvoice-proxy",
      "stars": 4,
-     "pushed_at": "2026-11-03T02:16:29Z",
+     "pushed_at": "2026-11-03T08:34:19Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -10248,7 +10179,7 @@
      },
      "source": "ghcr.io/nethserver/piler",
      "stars": 0,
-     "pushed_at": "2026-11-03T07:08:36Z",
+     "pushed_at": "2026-11-03T09:09:18Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -10725,7 +10656,7 @@
      },
      "source": "ghcr.io/stephdl/privatebin",
      "stars": 0,
-     "pushed_at": "2026-11-03T01:06:38Z",
+     "pushed_at": "2026-11-03T10:07:44Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -11141,7 +11072,7 @@
   {
    "id": "rustdesk",
    "categories": [
-    "collaboration"
+    "system_administration"
    ],
    "official": false,
    "stars": 0,
@@ -11155,15 +11086,18 @@
      "developer": "mrmarkuz",
      "name": "RustDesk Server",
      "description": {
-      "en": "RustDesk Server is a full-featured open source remote control alternative for self-hosting and security with minimal configuration.",
-      "de": "RustDesk Server ist eine alternative Open Source Fernverwaltungsoftware mit minimalem Konfigurationsaufwand."
+      "en": "RustDesk Server is the self-hosted backend software for RustDesk, allowing you to run your own private connection and relay infrastructure for remote desktop access instead of using public cloud servers",
+      "de": "RustDesk Server ist die selbstgehostete Backend-Software für RustDesk; sie ermöglicht es Ihnen, eine eigene private Verbindungs- und Relay-Infrastruktur für den Fernzugriff auf Desktops zu betreiben, anstatt auf öffentliche Cloud-Server zurückzugreifen",
+      "fr": "RustDesk Server est le logiciel backend auto-hébergé de RustDesk ; il vous permet de déployer votre propre infrastructure privée de connexion et de relais pour l'accès au bureau à distance, plutôt que de recourir à des serveurs cloud publics",
+      "it": "RustDesk Server è il software backend self-hosted per RustDesk, che ti consente di gestire una tua infrastruttura privata per le connessioni e il relay necessari all'accesso desktop remoto, anziché utilizzare server cloud pubblici",
+      "es": "RustDesk Server es el software backend autohospedado para RustDesk, que te permite ejecutar tu propia infraestructura privada de conexión y retransmisión para el acceso a escritorios remotos, en lugar de utilizar servidores en la nube pública"
      },
      "about": null,
      "authors": [
       "Markus Neuberger"
      ],
      "categories": [
-      "collaboration"
+      "system_administration"
      ],
      "code_url": "https://github.com/mrmarkuz/ns8-rustdesk",
      "docs": {
@@ -11198,7 +11132,7 @@
      },
      "source": "ghcr.io/mrmarkuz/rustdesk",
      "stars": 0,
-     "pushed_at": "2026-11-02T14:59:19Z",
+     "pushed_at": "2026-11-03T13:39:59Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -12788,14 +12722,16 @@
     {
      "module_id": "vaultwarden",
      "forges": [
+      "nethforge",
       "BLS-ISP"
      ],
-     "kind": "community",
+     "kind": "nethforge",
      "developer": "BLS-ISP",
      "name": "Vaultwarden",
      "description": {
       "en": "Self-hosted Bitwarden-compatible password manager server written in Rust, with Admin Panel, Smarthost, LDAP Sync, and Push Notifications",
-      "de": "Selbstgehosteter Bitwarden-kompatibler Passwort-Manager-Server in Rust, inkl. Admin-Panel, Smarthost-, LDAP-Sync- und Push-Integration"
+      "de": "Selbstgehosteter Bitwarden-kompatibler Passwort-Manager-Server in Rust, inkl. Admin-Panel, Smarthost-, LDAP-Sync- und Push-Integration",
+      "it": "Server per la gestione delle password self-hosted compatibile con Bitwarden, scritto in Rust, con pannello di amministrazione, smarthost, sincronizzazione LDAP e notifiche push"
      },
      "about": null,
      "authors": [
@@ -12812,17 +12748,17 @@
       "bug_url": "https://github.com/BLS-ISP/NS8-Vaultwarden/issues",
       "relnotes_url": "https://github.com/BLS-ISP/NS8-Vaultwarden/releases"
      },
-     "logo": "https://raw.githubusercontent.com/BLS-ISP/ns8-nethforge/repomd/ns8/updates/vaultwarden/logo.png",
+     "logo": "https://forge.nethserver.org/ns8/updates/vaultwarden/logo.png",
      "screenshots": [
-      "https://raw.githubusercontent.com/BLS-ISP/ns8-nethforge/repomd/ns8/updates/vaultwarden/screenshots/screen1.png"
+      "https://forge.nethserver.org/ns8/updates/vaultwarden/screenshots/screen1.png"
      ],
      "versions": [
       {
-       "tag": "1.0.5",
+       "tag": "1.0.6",
        "testing": false
       }
      ],
-     "stable": "1.0.5",
+     "stable": "1.0.6",
      "testing": null,
      "min_core": "3.0.0",
      "tech": {
@@ -12843,7 +12779,7 @@
      },
      "source": "ghcr.io/bls-isp/vaultwarden",
      "stars": 1,
-     "pushed_at": "2026-11-02T22:01:03Z",
+     "pushed_at": "2026-11-03T09:02:24Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -12856,7 +12792,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-11-02T19:40:16Z"
+     "released_at": "2026-11-03T09:01:06Z"
     },
     {
      "module_id": "vaultwarden",
@@ -13345,11 +13281,7 @@
      "screenshots": [],
      "versions": [
       {
-       "tag": "1.5.17-dev.4",
-       "testing": true
-      },
-      {
-       "tag": "1.5.16",
+       "tag": "1.5.17",
        "testing": false
       },
       {
@@ -13357,18 +13289,18 @@
        "testing": false
       }
      ],
-     "stable": "1.5.16",
-     "testing": "1.5.17-dev.4",
+     "stable": "1.5.17",
+     "testing": null,
      "min_core": "3.20.1",
      "tech": {
       "rootfull": false,
       "images": [
-       "nethserver/webtop-webapp:1.5.16",
-       "nethserver/webtop-postgres:1.5.16",
-       "nethserver/webtop-apache:1.5.16",
-       "nethserver/webtop-webdav:1.5.16",
-       "nethserver/webtop-z-push:1.5.16",
-       "nethserver/webtop-phonebook:1.5.16"
+       "nethserver/webtop-webapp:1.5.17",
+       "nethserver/webtop-postgres:1.5.17",
+       "nethserver/webtop-apache:1.5.17",
+       "nethserver/webtop-webdav:1.5.17",
+       "nethserver/webtop-z-push:1.5.17",
+       "nethserver/webtop-phonebook:1.5.17"
       ],
       "authorizations": [
        "traefik@node:routeadm",
@@ -13382,7 +13314,7 @@
      },
      "source": "ghcr.io/nethserver/webtop",
      "stars": 0,
-     "pushed_at": "2026-11-03T07:04:54Z",
+     "pushed_at": "2026-11-03T17:15:01Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -13395,7 +13327,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-10-22T08:01:22Z"
+     "released_at": "2026-11-03T13:53:32Z"
     }
    ]
   },
@@ -13881,7 +13813,7 @@
      },
      "source": "ghcr.io/mrmarkuz/zabbix",
      "stars": 0,
-     "pushed_at": "2026-11-03T00:26:02Z",
+     "pushed_at": "2026-11-03T10:18:14Z",
      "archived": false,
      "checks": {
       "topic": true,
