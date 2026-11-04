@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T07:10:52+00:00",
+ "generated_at": "2026-11-04T20:15:10+00:00",
  "forges": [
   {
    "id": "nethserver",
@@ -948,8 +948,10 @@
      ],
      "code_url": "https://github.com/danb35/ns8-automx",
      "docs": {
+      "terms_url": "https://github.com/danb35/ns8-automx/blob/master/TERMS.md",
       "documentation_url": "https://github.com/danb35/ns8-automx/blob/master/docs/USER-GUIDE.md",
-      "bug_url": "https://github.com/danb35/ns8-automx/issues"
+      "bug_url": "https://github.com/danb35/ns8-automx/issues",
+      "relnotes_url": "https://github.com/danb35/ns8-automx/releases"
      },
      "logo": "https://danb35.github.io/ns8-repomd/automx/logo.png",
      "screenshots": [
@@ -959,17 +961,17 @@
      ],
      "versions": [
       {
-       "tag": "0.2.5",
+       "tag": "0.2.6",
        "testing": false
       }
      ],
-     "stable": "0.2.5",
+     "stable": "0.2.6",
      "testing": null,
      "min_core": "3.20.1",
      "tech": {
       "rootfull": false,
       "images": [
-       "danb35/automx-app:0.2.5"
+       "danb35/automx-app:0.2.6"
       ],
       "authorizations": [
        "traefik@node:routeadm,certadm",
@@ -984,7 +986,7 @@
      },
      "source": "ghcr.io/danb35/automx",
      "stars": 0,
-     "pushed_at": "2026-11-03T16:41:03Z",
+     "pushed_at": "2026-11-04T14:28:35Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -997,7 +999,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-11-03T16:40:45Z"
+     "released_at": "2026-11-04T13:18:56Z"
     }
    ]
   },
@@ -2208,7 +2210,7 @@
      ],
      "versions": [
       {
-       "tag": "1.4.3-dev.1",
+       "tag": "1.4.3-dev.2",
        "testing": true
       },
       {
@@ -2217,7 +2219,7 @@
       }
      ],
      "stable": "1.4.2",
-     "testing": "1.4.3-dev.1",
+     "testing": "1.4.3-dev.2",
      "min_core": "3.20.1",
      "tech": {
       "rootfull": true,
@@ -2232,7 +2234,7 @@
      },
      "source": "ghcr.io/nethserver/crowdsec",
      "stars": 1,
-     "pushed_at": "2026-11-04T03:45:59Z",
+     "pushed_at": "2026-11-04T14:37:20Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -2601,7 +2603,7 @@
      },
      "source": "ghcr.io/stephdl/discourse",
      "stars": 0,
-     "pushed_at": "2026-11-03T05:08:42Z",
+     "pushed_at": "2026-11-04T20:08:35Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -2667,11 +2669,11 @@
      ],
      "versions": [
       {
-       "tag": "0.4.5",
+       "tag": "0.4.6",
        "testing": false
       }
      ],
-     "stable": "0.4.5",
+     "stable": "0.4.6",
      "testing": null,
      "min_core": "3.20.1",
      "tech": {
@@ -2684,7 +2686,7 @@
      },
      "source": "ghcr.io/danb35/dnshelper",
      "stars": 0,
-     "pushed_at": "2026-11-03T19:45:33Z",
+     "pushed_at": "2026-11-04T11:23:02Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -2697,7 +2699,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-10-31T16:53:35Z"
+     "released_at": "2026-11-04T11:25:18Z"
     }
    ]
   },
@@ -4895,7 +4897,7 @@
      },
      "source": "ghcr.io/mrmarkuz/guacamole",
      "stars": 0,
-     "pushed_at": "2026-11-02T19:53:57Z",
+     "pushed_at": "2026-11-04T18:31:01Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -6456,6 +6458,10 @@
      ],
      "versions": [
       {
+       "tag": "1.1.1",
+       "testing": false
+      },
+      {
        "tag": "1.1.0",
        "testing": false
       },
@@ -6472,13 +6478,13 @@
        "testing": false
       }
      ],
-     "stable": "1.1.0",
+     "stable": "1.1.1",
      "testing": null,
      "min_core": "3.20.1",
      "tech": {
       "rootfull": false,
       "images": [
-       "stephdl/launcher-app:1.1.0"
+       "stephdl/launcher-app:1.1.1"
       ],
       "authorizations": [
        "traefik@any:routeadm",
@@ -6490,7 +6496,7 @@
      },
      "source": "ghcr.io/stephdl/launcher",
      "stars": 0,
-     "pushed_at": "2026-11-04T01:37:24Z",
+     "pushed_at": "2026-11-04T10:36:50Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -6503,7 +6509,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-11-02T17:52:30Z"
+     "released_at": "2026-11-04T10:35:56Z"
     }
    ]
   },
@@ -6875,7 +6881,7 @@
      "screenshots": [],
      "versions": [
       {
-       "tag": "1.9.2",
+       "tag": "1.9.3",
        "testing": false
       },
       {
@@ -6887,16 +6893,16 @@
        "testing": false
       }
      ],
-     "stable": "1.9.2",
+     "stable": "1.9.3",
      "testing": null,
      "min_core": "3.20.1",
      "tech": {
       "rootfull": false,
       "images": [
-       "nethserver/mail-dovecot:1.9.2",
-       "nethserver/mail-postfix:1.9.2",
-       "nethserver/mail-rspamd:1.9.2",
-       "nethserver/mail-clamav:1.9.2"
+       "nethserver/mail-dovecot:1.9.3",
+       "nethserver/mail-postfix:1.9.3",
+       "nethserver/mail-rspamd:1.9.3",
+       "nethserver/mail-clamav:1.9.3"
       ],
       "authorizations": [
        "node:fwadm",
@@ -6911,7 +6917,7 @@
      },
      "source": "ghcr.io/nethserver/mail",
      "stars": 3,
-     "pushed_at": "2026-11-04T03:37:54Z",
+     "pushed_at": "2026-11-04T15:38:28Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -6924,7 +6930,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-11-02T14:20:02Z"
+     "released_at": "2026-11-04T15:38:01Z"
     }
    ]
   },
@@ -7040,17 +7046,17 @@
      "screenshots": [],
      "versions": [
       {
-       "tag": "3.1.0",
+       "tag": "3.2.0",
        "testing": false
       }
      ],
-     "stable": "3.1.0",
+     "stable": "3.2.0",
      "testing": null,
      "min_core": null,
      "tech": {
       "rootfull": false,
       "images": [
-       "geniusdynamics/matomo-app:3.1.0",
+       "geniusdynamics/matomo-app:3.2.0",
        "mariadb:10.11.19"
       ],
       "authorizations": [
@@ -7063,7 +7069,7 @@
      },
      "source": "ghcr.io/geniusdynamics/matomo",
      "stars": 0,
-     "pushed_at": "2026-10-28T17:16:17Z",
+     "pushed_at": "2026-11-04T17:56:04Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -7076,7 +7082,7 @@
       "min_core": false,
       "license": true
      },
-     "released_at": "2026-10-28T17:16:17Z"
+     "released_at": "2026-11-04T17:56:05Z"
     }
    ]
   },
@@ -7774,7 +7780,7 @@
      },
      "source": "ghcr.io/nethserver/n8n",
      "stars": 0,
-     "pushed_at": "2026-11-03T13:06:54Z",
+     "pushed_at": "2026-11-04T11:57:39Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -8123,29 +8129,24 @@
      ],
      "versions": [
       {
-       "tag": "2.4.1-dev.3",
-       "testing": true
-      },
-      {
-       "tag": "2.4.0",
+       "tag": "2.4.1",
        "testing": false
       }
      ],
-     "stable": "2.4.0",
-     "testing": "2.4.1-dev.3",
+     "stable": "2.4.1",
+     "testing": null,
      "min_core": "3.20.1",
      "tech": {
       "rootfull": false,
       "images": [
-       "nethserver/nethsecurity-vpn:2.4.0",
-       "nethserver/nethsecurity-api:2.4.0",
-       "nethserver/nethsecurity-ui:2.4.0",
-       "nethserver/nethsecurity-proxy:2.4.0",
+       "nethserver/nethsecurity-vpn:2.4.1",
+       "nethserver/nethsecurity-api:2.4.1",
+       "nethserver/nethsecurity-ui:2.4.1",
+       "nethserver/nethsecurity-proxy:2.4.1",
        "grafana/promtail:3.6.11",
        "grafana/loki:2.9.17",
        "prom/prometheus:v3.15.0",
-       "grafana/grafana:13.2.3",
-       "nethserver/webssh:2.4.0",
+       "grafana/grafana:13.2.5",
        "timescale/timescaledb:2.23.1-pg16"
       ],
       "authorizations": [
@@ -8158,7 +8159,7 @@
      },
      "source": "ghcr.io/nethserver/nethsecurity-controller",
      "stars": 1,
-     "pushed_at": "2026-11-04T03:38:35Z",
+     "pushed_at": "2026-11-04T18:55:42Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -8171,7 +8172,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-10-19T07:21:27Z"
+     "released_at": "2026-11-04T13:15:15Z"
     }
    ]
   },
@@ -8211,7 +8212,7 @@
      "screenshots": [],
      "versions": [
       {
-       "tag": "1.8.0-testing.86",
+       "tag": "1.8.0-testing.87",
        "testing": true
       },
       {
@@ -8228,7 +8229,7 @@
       }
      ],
      "stable": "1.7.14",
-     "testing": "1.8.0-testing.86",
+     "testing": "1.8.0-testing.87",
      "min_core": "3.22.0",
      "tech": {
       "rootfull": false,
@@ -8263,7 +8264,7 @@
      },
      "source": "ghcr.io/nethesis/nethvoice",
      "stars": 9,
-     "pushed_at": "2026-11-03T17:14:58Z",
+     "pushed_at": "2026-11-04T15:49:17Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -8455,7 +8456,7 @@
      },
      "source": "ghcr.io/nethserver/nextcloud",
      "stars": 0,
-     "pushed_at": "2026-11-04T00:07:36Z",
+     "pushed_at": "2026-11-04T14:02:34Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -9640,7 +9641,7 @@
      },
      "source": "ghcr.io/nethserver/passbolt",
      "stars": 0,
-     "pushed_at": "2026-11-03T03:44:49Z",
+     "pushed_at": "2026-11-04T16:54:45Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -13065,6 +13066,10 @@
      ],
      "versions": [
       {
+       "tag": "1.3.0",
+       "testing": false
+      },
+      {
        "tag": "1.2.0",
        "testing": false
       },
@@ -13119,13 +13124,9 @@
       {
        "tag": "1.0.2",
        "testing": false
-      },
-      {
-       "tag": "1.0.1",
-       "testing": false
       }
      ],
-     "stable": "1.2.0",
+     "stable": "1.3.0",
      "testing": null,
      "min_core": "3.20.1",
      "tech": {
@@ -13150,7 +13151,7 @@
      },
      "source": "ghcr.io/stephdl/wazuh",
      "stars": 0,
-     "pushed_at": "2026-11-03T02:28:34Z",
+     "pushed_at": "2026-11-04T10:20:44Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -13163,7 +13164,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-10-31T11:55:56Z"
+     "released_at": "2026-11-04T10:20:44Z"
     }
    ]
   },
@@ -13316,7 +13317,7 @@
      },
      "source": "ghcr.io/nethserver/webtop",
      "stars": 0,
-     "pushed_at": "2026-11-03T22:56:59Z",
+     "pushed_at": "2026-11-04T11:19:14Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -13974,7 +13975,7 @@
      },
      "source": "ghcr.io/geniusdynamics/zitadel",
      "stars": 1,
-     "pushed_at": "2026-10-24T04:02:50Z",
+     "pushed_at": "2026-11-04T08:00:23Z",
      "archived": false,
      "checks": {
       "topic": false,
