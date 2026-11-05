@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T20:15:10+00:00",
+ "generated_at": "2026-11-05T07:38:53+00:00",
  "forges": [
   {
    "id": "nethserver",
@@ -1257,8 +1257,8 @@
      },
      "logo": "https://francio87.github.io/ns8-repomd/borgbackupserver/logo.png",
      "screenshots": [
-      "https://francio87.github.io/ns8-repomd/borgbackupserver/screenshots/bbs-gui.png",
-      "https://francio87.github.io/ns8-repomd/borgbackupserver/screenshots/bbs-architecture.png"
+      "https://francio87.github.io/ns8-repomd/borgbackupserver/screenshots/bbs-architecture.png",
+      "https://francio87.github.io/ns8-repomd/borgbackupserver/screenshots/bbs-gui.png"
      ],
      "versions": [
       {
@@ -2572,9 +2572,9 @@
      },
      "logo": "https://forge.de-labrusse.fr/ns8/updates/discourse/logo.png",
      "screenshots": [
+      "https://forge.de-labrusse.fr/ns8/updates/discourse/screenshots/screen3.png",
       "https://forge.de-labrusse.fr/ns8/updates/discourse/screenshots/screen2.png",
-      "https://forge.de-labrusse.fr/ns8/updates/discourse/screenshots/screen1.png",
-      "https://forge.de-labrusse.fr/ns8/updates/discourse/screenshots/screen3.png"
+      "https://forge.de-labrusse.fr/ns8/updates/discourse/screenshots/screen1.png"
      ],
      "versions": [
       {
@@ -2603,7 +2603,7 @@
      },
      "source": "ghcr.io/stephdl/discourse",
      "stars": 0,
-     "pushed_at": "2026-11-04T20:08:35Z",
+     "pushed_at": "2026-11-04T23:14:32Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -2686,7 +2686,7 @@
      },
      "source": "ghcr.io/danb35/dnshelper",
      "stars": 0,
-     "pushed_at": "2026-11-04T11:23:02Z",
+     "pushed_at": "2026-11-05T03:48:39Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -3198,9 +3198,9 @@
      },
      "logo": "https://forge.de-labrusse.fr/ns8/updates/dolibarr/logo.png",
      "screenshots": [
+      "https://forge.de-labrusse.fr/ns8/updates/dolibarr/screenshots/screen3.png",
       "https://forge.de-labrusse.fr/ns8/updates/dolibarr/screenshots/screen2.png",
-      "https://forge.de-labrusse.fr/ns8/updates/dolibarr/screenshots/screen1.png",
-      "https://forge.de-labrusse.fr/ns8/updates/dolibarr/screenshots/screen3.png"
+      "https://forge.de-labrusse.fr/ns8/updates/dolibarr/screenshots/screen1.png"
      ],
      "versions": [
       {
@@ -4410,7 +4410,7 @@
      },
      "source": "ghcr.io/platypuschan/gitea-reworked",
      "stars": 0,
-     "pushed_at": "2026-11-03T09:33:52Z",
+     "pushed_at": "2026-11-04T22:31:51Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -4815,7 +4815,7 @@
      },
      "source": "ghcr.io/nethserver/grafana",
      "stars": 0,
-     "pushed_at": "2026-11-03T07:01:41Z",
+     "pushed_at": "2026-11-05T00:51:44Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -4897,7 +4897,7 @@
      },
      "source": "ghcr.io/mrmarkuz/guacamole",
      "stars": 0,
-     "pushed_at": "2026-11-04T18:31:01Z",
+     "pushed_at": "2026-11-04T22:11:23Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -6452,9 +6452,9 @@
      },
      "logo": "https://forge.de-labrusse.fr/ns8/updates/launcher/logo.png",
      "screenshots": [
+      "https://forge.de-labrusse.fr/ns8/updates/launcher/screenshots/screen3.png",
       "https://forge.de-labrusse.fr/ns8/updates/launcher/screenshots/screen2.png",
-      "https://forge.de-labrusse.fr/ns8/updates/launcher/screenshots/screen1.png",
-      "https://forge.de-labrusse.fr/ns8/updates/launcher/screenshots/screen3.png"
+      "https://forge.de-labrusse.fr/ns8/updates/launcher/screenshots/screen1.png"
      ],
      "versions": [
       {
@@ -6634,9 +6634,9 @@
      },
      "logo": "https://forge.de-labrusse.fr/ns8/updates/lemp/logo.png",
      "screenshots": [
+      "https://forge.de-labrusse.fr/ns8/updates/lemp/screenshots/screen3.png",
       "https://forge.de-labrusse.fr/ns8/updates/lemp/screenshots/screen2.png",
-      "https://forge.de-labrusse.fr/ns8/updates/lemp/screenshots/screen1.png",
-      "https://forge.de-labrusse.fr/ns8/updates/lemp/screenshots/screen3.png"
+      "https://forge.de-labrusse.fr/ns8/updates/lemp/screenshots/screen1.png"
      ],
      "versions": [
       {
@@ -6679,7 +6679,7 @@
      },
      "source": "ghcr.io/stephdl/lemp",
      "stars": 0,
-     "pushed_at": "2026-11-03T22:07:23Z",
+     "pushed_at": "2026-11-04T23:04:52Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -6917,7 +6917,7 @@
      },
      "source": "ghcr.io/nethserver/mail",
      "stars": 3,
-     "pushed_at": "2026-11-04T15:38:28Z",
+     "pushed_at": "2026-11-04T22:48:57Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -7237,7 +7237,7 @@
      },
      "source": "ghcr.io/nethserver/mattermost",
      "stars": 0,
-     "pushed_at": "2026-11-03T07:05:30Z",
+     "pushed_at": "2026-11-05T00:43:37Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -7548,7 +7548,7 @@
      },
      "source": "ghcr.io/mrmarkuz/meshcentral",
      "stars": 0,
-     "pushed_at": "2026-11-02T22:09:57Z",
+     "pushed_at": "2026-11-05T04:55:34Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -8159,7 +8159,7 @@
      },
      "source": "ghcr.io/nethserver/nethsecurity-controller",
      "stars": 1,
-     "pushed_at": "2026-11-04T18:55:42Z",
+     "pushed_at": "2026-11-05T07:32:30Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -8264,7 +8264,7 @@
      },
      "source": "ghcr.io/nethesis/nethvoice",
      "stars": 9,
-     "pushed_at": "2026-11-04T15:49:17Z",
+     "pushed_at": "2026-11-05T07:32:50Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -9007,7 +9007,7 @@
      },
      "source": "ghcr.io/mrmarkuz/onlyoffice",
      "stars": 0,
-     "pushed_at": "2026-11-03T05:58:05Z",
+     "pushed_at": "2026-11-05T03:06:50Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -9241,7 +9241,7 @@
      },
      "source": "ghcr.io/mrmarkuz/openssh",
      "stars": 0,
-     "pushed_at": "2026-11-03T05:40:13Z",
+     "pushed_at": "2026-11-04T23:32:22Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -10099,7 +10099,7 @@
      },
      "source": "ghcr.io/stephdl/pihole",
      "stars": 0,
-     "pushed_at": "2026-11-03T00:25:14Z",
+     "pushed_at": "2026-11-05T03:51:49Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -10182,7 +10182,7 @@
      },
      "source": "ghcr.io/nethserver/piler",
      "stars": 0,
-     "pushed_at": "2026-11-03T22:56:45Z",
+     "pushed_at": "2026-11-05T00:46:26Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -10630,9 +10630,9 @@
      },
      "logo": "https://forge.de-labrusse.fr/ns8/updates/privatebin/logo.png",
      "screenshots": [
+      "https://forge.de-labrusse.fr/ns8/updates/privatebin/screenshots/screen3.png",
       "https://forge.de-labrusse.fr/ns8/updates/privatebin/screenshots/screen2.png",
-      "https://forge.de-labrusse.fr/ns8/updates/privatebin/screenshots/screen1.png",
-      "https://forge.de-labrusse.fr/ns8/updates/privatebin/screenshots/screen3.png"
+      "https://forge.de-labrusse.fr/ns8/updates/privatebin/screenshots/screen1.png"
      ],
      "versions": [
       {
@@ -10740,7 +10740,7 @@
      },
      "source": "ghcr.io/nethserver/prometheus",
      "stars": 0,
-     "pushed_at": "2026-11-03T07:03:06Z",
+     "pushed_at": "2026-11-05T00:48:24Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -11135,7 +11135,7 @@
      },
      "source": "ghcr.io/mrmarkuz/rustdesk",
      "stars": 0,
-     "pushed_at": "2026-11-03T13:39:59Z",
+     "pushed_at": "2026-11-05T02:02:20Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -12037,9 +12037,9 @@
      },
      "logo": "https://forge.de-labrusse.fr/ns8/updates/sympa/logo.png",
      "screenshots": [
+      "https://forge.de-labrusse.fr/ns8/updates/sympa/screenshots/screen3.png",
       "https://forge.de-labrusse.fr/ns8/updates/sympa/screenshots/screen2.png",
-      "https://forge.de-labrusse.fr/ns8/updates/sympa/screenshots/screen1.png",
-      "https://forge.de-labrusse.fr/ns8/updates/sympa/screenshots/screen3.png"
+      "https://forge.de-labrusse.fr/ns8/updates/sympa/screenshots/screen1.png"
      ],
      "versions": [
       {
@@ -12158,7 +12158,7 @@
      },
      "source": "ghcr.io/mrmarkuz/tailscale",
      "stars": 0,
-     "pushed_at": "2026-11-02T14:13:21Z",
+     "pushed_at": "2026-11-05T03:40:12Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -13060,9 +13060,9 @@
      },
      "logo": "https://forge.de-labrusse.fr/ns8/updates/wazuh/logo.png",
      "screenshots": [
+      "https://forge.de-labrusse.fr/ns8/updates/wazuh/screenshots/screen3.png",
       "https://forge.de-labrusse.fr/ns8/updates/wazuh/screenshots/screen2.png",
-      "https://forge.de-labrusse.fr/ns8/updates/wazuh/screenshots/screen1.png",
-      "https://forge.de-labrusse.fr/ns8/updates/wazuh/screenshots/screen3.png"
+      "https://forge.de-labrusse.fr/ns8/updates/wazuh/screenshots/screen1.png"
      ],
      "versions": [
       {
@@ -13151,7 +13151,7 @@
      },
      "source": "ghcr.io/stephdl/wazuh",
      "stars": 0,
-     "pushed_at": "2026-11-04T10:20:44Z",
+     "pushed_at": "2026-11-04T22:37:44Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -13317,7 +13317,7 @@
      },
      "source": "ghcr.io/nethserver/webtop",
      "stars": 0,
-     "pushed_at": "2026-11-04T11:19:14Z",
+     "pushed_at": "2026-11-05T00:46:47Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -13816,7 +13816,7 @@
      },
      "source": "ghcr.io/mrmarkuz/zabbix",
      "stars": 0,
-     "pushed_at": "2026-11-03T10:18:14Z",
+     "pushed_at": "2026-11-05T00:14:13Z",
      "archived": false,
      "checks": {
       "topic": true,
