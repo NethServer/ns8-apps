@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T07:34:32+00:00",
+ "generated_at": "2026-11-06T19:49:46+00:00",
  "forges": [
   {
    "id": "nethserver",
@@ -111,6 +111,16 @@
    "homepage": "https://platypuschan.github.io/ns8-modules/"
   },
   {
+   "id": "danb35",
+   "name": "danb35/ns8-repomd",
+   "url": "https://danb35.github.io/ns8-repomd/",
+   "alt_url": null,
+   "kind": "community",
+   "repo": "danb35/ns8-repomd",
+   "app_count": 2,
+   "homepage": "https://danb35.github.io/ns8-repomd/"
+  },
+  {
    "id": "antonwantstosleep",
    "name": "antonwantstosleep/ns8-repo",
    "url": "https://antonwantstosleep.github.io/ns8-repo/",
@@ -119,16 +129,6 @@
    "repo": "antonwantstosleep/ns8-repo",
    "app_count": 1,
    "homepage": "https://github.com/antonwantstosleep/ns8-repo"
-  },
-  {
-   "id": "danb35",
-   "name": "danb35/ns8-repomd",
-   "url": "https://danb35.github.io/ns8-repomd/",
-   "alt_url": null,
-   "kind": "community",
-   "repo": "danb35/ns8-repomd",
-   "app_count": 1,
-   "homepage": "https://danb35.github.io/ns8-repomd/"
   },
   {
    "id": "francio87",
@@ -986,7 +986,7 @@
      },
      "source": "ghcr.io/danb35/automx",
      "stars": 0,
-     "pushed_at": "2026-11-05T18:56:20Z",
+     "pushed_at": "2026-11-06T11:52:50Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -2210,22 +2210,18 @@
      ],
      "versions": [
       {
-       "tag": "1.4.3-dev.3",
-       "testing": true
-      },
-      {
-       "tag": "1.4.2",
+       "tag": "1.4.3",
        "testing": false
       }
      ],
-     "stable": "1.4.2",
-     "testing": "1.4.3-dev.3",
+     "stable": "1.4.3",
+     "testing": null,
      "min_core": "3.20.1",
      "tech": {
       "rootfull": true,
       "images": [
-       "crowdsecurity/crowdsec:v1.8.1-debian",
-       "nethserver/crowdsec-firewall-bouncer:1.4.2"
+       "crowdsecurity/crowdsec:v1.8.2-debian",
+       "nethserver/crowdsec-firewall-bouncer:1.4.3"
       ],
       "authorizations": [],
       "tcp_ports": 2,
@@ -2234,7 +2230,7 @@
      },
      "source": "ghcr.io/nethserver/crowdsec",
      "stars": 1,
-     "pushed_at": "2026-11-05T14:41:42Z",
+     "pushed_at": "2026-11-06T16:25:26Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -2247,7 +2243,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-10-29T15:10:29Z"
+     "released_at": "2026-11-06T10:55:41Z"
     }
    ]
   },
@@ -2689,7 +2685,7 @@
      },
      "source": "ghcr.io/danb35/dnshelper",
      "stars": 0,
-     "pushed_at": "2026-11-05T22:07:57Z",
+     "pushed_at": "2026-11-06T19:36:46Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -2763,7 +2759,7 @@
      },
      "source": "ghcr.io/nethserver/dnsmasq",
      "stars": 0,
-     "pushed_at": "2026-11-06T01:48:12Z",
+     "pushed_at": "2026-11-06T11:10:51Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -8162,7 +8158,7 @@
      },
      "source": "ghcr.io/nethserver/nethsecurity-controller",
      "stars": 1,
-     "pushed_at": "2026-11-05T22:10:37Z",
+     "pushed_at": "2026-11-06T18:48:34Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -8215,7 +8211,7 @@
      "screenshots": [],
      "versions": [
       {
-       "tag": "1.8.0-testing.90",
+       "tag": "1.8.0-testing.92",
        "testing": true
       },
       {
@@ -8232,7 +8228,7 @@
       }
      ],
      "stable": "1.7.14",
-     "testing": "1.8.0-testing.90",
+     "testing": "1.8.0-testing.92",
      "min_core": "3.22.0",
      "tech": {
       "rootfull": false,
@@ -8267,7 +8263,7 @@
      },
      "source": "ghcr.io/nethesis/nethvoice",
      "stars": 9,
-     "pushed_at": "2026-11-05T17:57:16Z",
+     "pushed_at": "2026-11-06T15:19:00Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -8411,11 +8407,7 @@
      ],
      "versions": [
       {
-       "tag": "1.7.9-dev.1",
-       "testing": true
-      },
-      {
-       "tag": "1.7.8",
+       "tag": "1.7.9",
        "testing": false
       },
       {
@@ -8439,8 +8431,8 @@
        "testing": false
       }
      ],
-     "stable": "1.7.8",
-     "testing": "1.7.9-dev.1",
+     "stable": "1.7.9",
+     "testing": null,
      "min_core": "3.20.1",
      "tech": {
       "rootfull": false,
@@ -8448,8 +8440,8 @@
        "redis:7.4.5-alpine",
        "mariadb:10.6.28",
        "nginx:1.30.1-alpine",
-       "nethserver/nextcloud-app:1.7.8",
-       "nethserver/nextcloud-notify_push:1.7.8"
+       "nethserver/nextcloud-app:1.7.9",
+       "nethserver/nextcloud-notify_push:1.7.9"
       ],
       "authorizations": [
        "traefik@any:routeadm",
@@ -8463,7 +8455,7 @@
      },
      "source": "ghcr.io/nethserver/nextcloud",
      "stars": 0,
-     "pushed_at": "2026-11-05T14:04:46Z",
+     "pushed_at": "2026-11-06T10:21:43Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -8476,7 +8468,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-10-22T07:34:16Z"
+     "released_at": "2026-11-06T10:21:25Z"
     }
    ]
   },
@@ -10189,7 +10181,7 @@
      },
      "source": "ghcr.io/nethserver/piler",
      "stars": 0,
-     "pushed_at": "2026-11-05T22:16:31Z",
+     "pushed_at": "2026-11-06T09:52:55Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -10592,6 +10584,97 @@
       "license": true
      },
      "released_at": "2026-02-23T13:36:52Z"
+    }
+   ]
+  },
+  {
+   "id": "powerdns",
+   "categories": [
+    "system_administration"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "powerdns",
+     "forges": [
+      "danb35"
+     ],
+     "kind": "community",
+     "developer": "danb35",
+     "name": "Powerdns",
+     "description": {
+      "en": "Authoritative DNS server with DNSSEC and cluster replication, based on PowerDNS",
+      "ar": "خادم DNS موثوق مع DNSSEC والنسخ المتماثل عبر المجموعة، مبني على PowerDNS",
+      "de": "Autoritativer DNS-Server mit DNSSEC und Cluster-Replikation, basierend auf PowerDNS",
+      "es": "Servidor DNS autoritativo con DNSSEC y replicación en el clúster, basado en PowerDNS",
+      "fr": "Serveur DNS faisant autorité avec DNSSEC et réplication dans le cluster, basé sur PowerDNS",
+      "it": "Server DNS autoritativo con DNSSEC e replica nel cluster, basato su PowerDNS",
+      "pt": "Servidor DNS autoritativo com DNSSEC e replicação no cluster, baseado em PowerDNS",
+      "pt_BR": "Servidor DNS autoritativo com DNSSEC e replicação no cluster, baseado em PowerDNS",
+      "ta": "DNSSEC மற்றும் கொத்து நகலெடுப்புடன் கூடிய, PowerDNS அடிப்படையிலான அதிகாரப்பூர்வ DNS சேவையகம்",
+      "uk": "Авторитетний сервер DNS із DNSSEC і реплікацією в кластері на основі PowerDNS"
+     },
+     "about": null,
+     "authors": [
+      "Dan Brown"
+     ],
+     "categories": [
+      "system_administration"
+     ],
+     "code_url": "https://github.com/danb35/ns8-powerdns",
+     "docs": {
+      "terms_url": "https://github.com/danb35/ns8-powerdns/blob/master/TERMS.md",
+      "documentation_url": "https://github.com/danb35/ns8-powerdns/blob/master/docs/USER-GUIDE.md",
+      "bug_url": "https://github.com/danb35/ns8-powerdns/issues",
+      "relnotes_url": "https://github.com/danb35/ns8-powerdns/releases"
+     },
+     "logo": "https://danb35.github.io/ns8-repomd/powerdns/logo.png",
+     "screenshots": [
+      "https://danb35.github.io/ns8-repomd/powerdns/screenshots/1-status.png",
+      "https://danb35.github.io/ns8-repomd/powerdns/screenshots/2-zone-details.png",
+      "https://danb35.github.io/ns8-repomd/powerdns/screenshots/3-delegation-check.png",
+      "https://danb35.github.io/ns8-repomd/powerdns/screenshots/4-replication.png"
+     ],
+     "versions": [
+      {
+       "tag": "0.1.1",
+       "testing": false
+      }
+     ],
+     "stable": "0.1.1",
+     "testing": null,
+     "min_core": "3.18.0",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "powerdns/pdns-auth-50:5.0.8"
+      ],
+      "authorizations": [
+       "node:fwadm",
+       "powerdns@any:replica",
+       "dnshelper@any:dnsreader"
+      ],
+      "tcp_ports": 1,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/danb35/powerdns",
+     "stars": 0,
+     "pushed_at": "2026-11-06T16:00:01Z",
+     "archived": false,
+     "checks": {
+      "topic": true,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-11-06T15:59:44Z"
     }
    ]
   },
@@ -13238,7 +13321,7 @@
      },
      "source": "ghcr.io/nethserver/webserver",
      "stars": 0,
-     "pushed_at": "2026-11-05T17:40:02Z",
+     "pushed_at": "2026-11-06T08:02:20Z",
      "archived": false,
      "checks": {
       "topic": false,
