@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T13:43:09+00:00",
+ "generated_at": "2026-11-07T22:29:20+00:00",
  "forges": [
   {
    "id": "nethserver",
@@ -107,7 +107,7 @@
    "alt_url": null,
    "kind": "community",
    "repo": "Platypuschan/ns8-modules",
-   "app_count": 8,
+   "app_count": 9,
    "homepage": "https://platypuschan.github.io/ns8-modules/"
   },
   {
@@ -2666,13 +2666,13 @@
      ],
      "versions": [
       {
-       "tag": "0.5.0",
+       "tag": "0.6.0",
        "testing": false
       }
      ],
-     "stable": "0.5.0",
+     "stable": "0.6.0",
      "testing": null,
-     "min_core": "3.20.1",
+     "min_core": "3.23.0",
      "tech": {
       "rootfull": false,
       "images": [],
@@ -2685,7 +2685,7 @@
      },
      "source": "ghcr.io/danb35/dnshelper",
      "stars": 0,
-     "pushed_at": "2026-11-07T13:36:40Z",
+     "pushed_at": "2026-11-07T13:50:04Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -2698,7 +2698,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-11-05T22:07:48Z"
+     "released_at": "2026-11-07T13:49:53Z"
     }
    ]
   },
@@ -6678,7 +6678,7 @@
      },
      "source": "ghcr.io/stephdl/lemp",
      "stars": 0,
-     "pushed_at": "2026-11-05T23:29:12Z",
+     "pushed_at": "2026-11-07T21:20:01Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -7547,7 +7547,7 @@
      },
      "source": "ghcr.io/mrmarkuz/meshcentral",
      "stars": 0,
-     "pushed_at": "2026-11-07T13:02:30Z",
+     "pushed_at": "2026-11-07T18:22:02Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -10848,6 +10848,88 @@
    ]
   },
   {
+   "id": "proxmox-datacenter-manager",
+   "categories": [
+    "system_administration"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "proxmox-datacenter-manager",
+     "forges": [
+      "Platypuschan"
+     ],
+     "kind": "community",
+     "developer": "Platypuschan",
+     "name": "Proxmox Datacenter Manager",
+     "description": {
+      "en": "Central overview and management of many Proxmox VE and Proxmox Backup Server installations, with HTTPS routing, persistent data and backup/restore support.",
+      "de": "Zentrale Übersicht und Verwaltung vieler Proxmox-VE- und Proxmox-Backup-Server-Installationen mit HTTPS-Routing, persistenten Daten und Backup/Restore."
+     },
+     "about": null,
+     "authors": [
+      "Platypuschan"
+     ],
+     "categories": [
+      "system_administration"
+     ],
+     "code_url": "https://github.com/Platypuschan/ns8-proxmox-datacenter-manager",
+     "docs": {
+      "documentation_url": "https://github.com/Platypuschan/ns8-proxmox-datacenter-manager#readme",
+      "bug_url": "https://github.com/Platypuschan/ns8-proxmox-datacenter-manager/issues",
+      "relnotes_url": "https://github.com/Platypuschan/ns8-proxmox-datacenter-manager/releases"
+     },
+     "logo": "https://platypuschan.github.io/ns8-modules/ns8/updates/proxmox-datacenter-manager/logo.png",
+     "screenshots": [
+      "https://platypuschan.github.io/ns8-modules/ns8/updates/proxmox-datacenter-manager/screenshots/dashboard.png",
+      "https://platypuschan.github.io/ns8-modules/ns8/updates/proxmox-datacenter-manager/screenshots/settings.png"
+     ],
+     "versions": [
+      {
+       "tag": "0.1.0",
+       "testing": false
+      },
+      {
+       "tag": "0.1.0-rc.6",
+       "testing": true
+      }
+     ],
+     "stable": "0.1.0",
+     "testing": null,
+     "min_core": "3.22.0",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "platypuschan/pdm-app:e4459647b2ab"
+      ],
+      "authorizations": [
+       "traefik@node:fulladm"
+      ],
+      "tcp_ports": 1,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/platypuschan/proxmox-datacenter-manager",
+     "stars": 0,
+     "pushed_at": "2026-11-07T19:17:19Z",
+     "archived": false,
+     "checks": {
+      "topic": true,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-11-07T19:17:20Z"
+    }
+   ]
+  },
+  {
    "id": "pulse",
    "categories": [
     "monitoring"
@@ -13411,7 +13493,7 @@
      },
      "source": "ghcr.io/nethserver/webtop",
      "stars": 0,
-     "pushed_at": "2026-11-06T02:46:42Z",
+     "pushed_at": "2026-11-07T19:19:58Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -14069,7 +14151,7 @@
      },
      "source": "ghcr.io/geniusdynamics/zitadel",
      "stars": 1,
-     "pushed_at": "2026-11-04T08:00:23Z",
+     "pushed_at": "2026-11-07T19:53:17Z",
      "archived": false,
      "checks": {
       "topic": false,
