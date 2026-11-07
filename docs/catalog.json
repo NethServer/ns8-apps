@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T19:49:46+00:00",
+ "generated_at": "2026-11-07T06:46:52+00:00",
  "forges": [
   {
    "id": "nethserver",
@@ -2685,7 +2685,7 @@
      },
      "source": "ghcr.io/danb35/dnshelper",
      "stars": 0,
-     "pushed_at": "2026-11-06T19:36:46Z",
+     "pushed_at": "2026-11-06T23:11:43Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -4409,7 +4409,7 @@
      },
      "source": "ghcr.io/platypuschan/gitea-reworked",
      "stars": 0,
-     "pushed_at": "2026-11-06T07:30:13Z",
+     "pushed_at": "2026-11-07T04:25:01Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -9240,7 +9240,7 @@
      },
      "source": "ghcr.io/mrmarkuz/openssh",
      "stars": 0,
-     "pushed_at": "2026-11-06T05:42:55Z",
+     "pushed_at": "2026-11-07T04:56:12Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -10909,7 +10909,7 @@
      },
      "source": "ghcr.io/mrmarkuz/pulse",
      "stars": 0,
-     "pushed_at": "2026-11-05T23:11:29Z",
+     "pushed_at": "2026-11-07T05:23:26Z",
      "archived": false,
      "checks": {
       "topic": true,
