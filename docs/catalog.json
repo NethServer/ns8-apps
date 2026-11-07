@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T06:46:52+00:00",
+ "generated_at": "2026-11-07T13:43:09+00:00",
  "forges": [
   {
    "id": "nethserver",
@@ -1512,7 +1512,7 @@
      },
      "source": "ghcr.io/geniusdynamics/calibre-web",
      "stars": 0,
-     "pushed_at": "2026-10-30T07:49:41Z",
+     "pushed_at": "2026-11-07T11:37:12Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -2685,7 +2685,7 @@
      },
      "source": "ghcr.io/danb35/dnshelper",
      "stars": 0,
-     "pushed_at": "2026-11-06T23:11:43Z",
+     "pushed_at": "2026-11-07T13:36:40Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -7547,7 +7547,7 @@
      },
      "source": "ghcr.io/mrmarkuz/meshcentral",
      "stars": 0,
-     "pushed_at": "2026-11-05T23:34:21Z",
+     "pushed_at": "2026-11-07T13:02:30Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -7779,7 +7779,7 @@
      },
      "source": "ghcr.io/nethserver/n8n",
      "stars": 0,
-     "pushed_at": "2026-11-06T01:56:45Z",
+     "pushed_at": "2026-11-07T11:15:55Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -9477,7 +9477,7 @@
      },
      "source": "ghcr.io/platypuschan/organizr-reworked",
      "stars": 0,
-     "pushed_at": "2026-11-02T08:01:15Z",
+     "pushed_at": "2026-11-07T11:52:53Z",
      "archived": false,
      "checks": {
       "topic": true,
