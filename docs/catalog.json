@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T14:07:49+00:00",
+ "generated_at": "2026-11-08T22:39:27+00:00",
  "forges": [
   {
    "id": "nethserver",
@@ -107,7 +107,7 @@
    "alt_url": null,
    "kind": "community",
    "repo": "Platypuschan/ns8-modules",
-   "app_count": 10,
+   "app_count": 11,
    "homepage": "https://platypuschan.github.io/ns8-modules/"
   },
   {
@@ -5055,7 +5055,7 @@
      },
      "source": "ghcr.io/mrmarkuz/headscale",
      "stars": 0,
-     "pushed_at": "2026-10-30T12:52:58Z",
+     "pushed_at": "2026-11-08T15:04:52Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -5846,7 +5846,7 @@
      },
      "source": "ghcr.io/mrmarkuz/jellyfin",
      "stars": 0,
-     "pushed_at": "2026-11-05T22:38:37Z",
+     "pushed_at": "2026-11-08T14:11:07Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -7870,7 +7870,7 @@
      },
      "source": "ghcr.io/nethserver/n8n",
      "stars": 0,
-     "pushed_at": "2026-11-07T11:15:55Z",
+     "pushed_at": "2026-11-08T14:47:41Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -8837,7 +8837,7 @@
      ],
      "versions": [
       {
-       "tag": "0.4.1",
+       "tag": "0.4.2",
        "testing": false
       },
       {
@@ -8845,7 +8845,7 @@
        "testing": true
       }
      ],
-     "stable": "0.4.1",
+     "stable": "0.4.2",
      "testing": null,
      "min_core": "3.22.0",
      "tech": {
@@ -8862,7 +8862,7 @@
      },
      "source": "ghcr.io/platypuschan/ntfy-reworked",
      "stars": 0,
-     "pushed_at": "2026-10-30T07:32:56Z",
+     "pushed_at": "2026-11-08T17:30:12Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -8875,7 +8875,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-10-26T01:58:18Z"
+     "released_at": "2026-11-08T17:30:13Z"
     }
    ]
   },
@@ -10978,7 +10978,7 @@
      ],
      "versions": [
       {
-       "tag": "0.1.2",
+       "tag": "0.1.5",
        "testing": false
       },
       {
@@ -10986,13 +10986,13 @@
        "testing": true
       }
      ],
-     "stable": "0.1.2",
+     "stable": "0.1.5",
      "testing": null,
      "min_core": "3.22.0",
      "tech": {
       "rootfull": false,
       "images": [
-       "platypuschan/pdm-app:bc394ce9c8ae"
+       "platypuschan/pdm-app:5369cf00b1c8"
       ],
       "authorizations": [
        "traefik@node:fulladm"
@@ -11003,7 +11003,7 @@
      },
      "source": "ghcr.io/platypuschan/proxmox-datacenter-manager",
      "stars": 0,
-     "pushed_at": "2026-11-08T12:25:13Z",
+     "pushed_at": "2026-11-08T20:41:17Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -11016,7 +11016,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-11-08T12:25:14Z"
+     "released_at": "2026-11-08T20:41:17Z"
     }
    ]
   },
@@ -12517,6 +12517,83 @@
    ]
   },
   {
+   "id": "traefik-reworked",
+   "categories": [
+    "system_administration"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "traefik-reworked",
+     "forges": [
+      "Platypuschan"
+     ],
+     "kind": "community",
+     "developer": "Platypuschan",
+     "name": "Traefik Reworked",
+     "description": {
+      "en": "Core module: the NS8 reverse proxy Traefik with optional TLS client certificates per route, a pinned Traefik runtime and security updates. It replaces the traefik instance of a node and is updated from this catalog.",
+      "de": "Kernmodul: der NS8-Reverse-Proxy Traefik mit optionalen TLS-Clientzertifikaten je Route, gepinnter Traefik-Runtime und Sicherheitsupdates. Es ersetzt die Traefik-Instanz eines Knotens und wird über diesen Katalog aktualisiert."
+     },
+     "about": null,
+     "authors": [
+      "Platypuschan"
+     ],
+     "categories": [
+      "system_administration"
+     ],
+     "code_url": "https://github.com/Platypuschan/ns8-traefik-reworked",
+     "docs": {
+      "documentation_url": "https://github.com/Platypuschan/ns8-traefik-reworked#readme",
+      "bug_url": "https://github.com/Platypuschan/ns8-traefik-reworked/issues",
+      "relnotes_url": "https://github.com/Platypuschan/ns8-traefik-reworked/releases"
+     },
+     "logo": "https://platypuschan.github.io/ns8-modules/ns8/updates/traefik-reworked/logo.png",
+     "screenshots": [],
+     "versions": [
+      {
+       "tag": "4.2.6",
+       "testing": false
+      },
+      {
+       "tag": "4.2.5-reworked.2",
+       "testing": true
+      }
+     ],
+     "stable": "4.2.6",
+     "testing": null,
+     "min_core": "3.17.0-0",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "traefik"
+      ],
+      "authorizations": [],
+      "tcp_ports": 0,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/platypuschan/traefik-reworked",
+     "stars": 0,
+     "pushed_at": "2026-11-08T19:11:50Z",
+     "archived": false,
+     "checks": {
+      "topic": true,
+      "categories": true,
+      "logo": true,
+      "screenshots": false,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-11-08T16:32:23Z"
+    }
+   ]
+  },
+  {
    "id": "tsa",
    "categories": [
     "security"
@@ -13793,17 +13870,17 @@
      "screenshots": [],
      "versions": [
       {
-       "tag": "0.5.0",
+       "tag": "0.6.0",
        "testing": false
       }
      ],
-     "stable": "0.5.0",
+     "stable": "0.6.0",
      "testing": null,
      "min_core": null,
      "tech": {
       "rootfull": false,
       "images": [
-       "tebbiworld/windeploy-samba:0.5.0"
+       "tebbiworld/windeploy-samba:0.6.0"
       ],
       "authorizations": [],
       "tcp_ports": 0,
@@ -13812,7 +13889,7 @@
      },
      "source": "ghcr.io/tebbiworld/windeploy",
      "stars": 1,
-     "pushed_at": "2026-10-16T20:16:18Z",
+     "pushed_at": "2026-11-08T21:34:12Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -13825,7 +13902,7 @@
       "min_core": false,
       "license": true
      },
-     "released_at": "2026-10-16T20:16:18Z"
+     "released_at": "2026-11-08T21:34:41Z"
     }
    ]
   },
@@ -14000,7 +14077,7 @@
      },
      "source": "ghcr.io/stephdl/xwiki",
      "stars": 0,
-     "pushed_at": "2026-11-05T16:51:59Z",
+     "pushed_at": "2026-11-08T21:37:10Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -14166,7 +14243,7 @@
      },
      "source": "ghcr.io/mrmarkuz/zammad",
      "stars": 0,
-     "pushed_at": "2026-11-05T23:17:33Z",
+     "pushed_at": "2026-11-08T14:06:50Z",
      "archived": false,
      "checks": {
       "topic": true,
