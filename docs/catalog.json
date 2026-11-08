@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T22:29:20+00:00",
+ "generated_at": "2026-11-08T06:54:06+00:00",
  "forges": [
   {
    "id": "nethserver",
@@ -651,7 +651,7 @@
      },
      "source": "ghcr.io/geniusdynamics/agentzeroai",
      "stars": 0,
-     "pushed_at": "2026-10-11T19:45:05Z",
+     "pushed_at": "2026-11-08T04:48:00Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -13493,7 +13493,7 @@
      },
      "source": "ghcr.io/nethserver/webtop",
      "stars": 0,
-     "pushed_at": "2026-11-07T19:19:58Z",
+     "pushed_at": "2026-11-07T22:44:13Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -14151,7 +14151,7 @@
      },
      "source": "ghcr.io/geniusdynamics/zitadel",
      "stars": 1,
-     "pushed_at": "2026-11-07T19:53:17Z",
+     "pushed_at": "2026-11-08T04:42:59Z",
      "archived": false,
      "checks": {
       "topic": false,
