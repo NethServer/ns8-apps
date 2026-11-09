@@ -230,7 +230,6 @@ code { font: 13px var(--mono); padding: 1px 6px; border-radius: 5px; background:
 .perm td { padding: 6px 12px; border-top: 1px solid var(--border); vertical-align: baseline; }
 .perm tr:first-child td { border-top: 0; }
 .perm td:first-child { border-right: 1px solid var(--border); }
-.perm-where { color: var(--text-faint); }
 .tech .perm code { word-break: normal; }
 .perm .rootfull { color: #f85149; }
 .badge.rootfull { color: #f85149; border-color: rgba(248, 81, 73, 0.4); }
