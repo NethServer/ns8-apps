@@ -478,6 +478,11 @@ function qualityBlock(v) {
 const MODULE_NAMES = {mail: "Mail", traefik: "Traefik", openldap: "OpenLDAP", samba: "Samba",
   ldapproxy: "LDAP proxy", nethvoice: "NethVoice", "nethvoice-proxy": "NethVoice proxy"};
 
+// Labels come from third-party images, so a name like "constructor" must not reach Object.prototype.
+function own(obj, key) {
+  return Object.hasOwn(obj, key) ? obj[key] : undefined;
+}
+
 function fill(text, vars) {
   return text.replace(/\{(\w+)\}/g, (m, k) => vars[k] ?? m);
 }
@@ -489,28 +494,30 @@ function permissions(x) {
   const seen = new Set();
   for (const entry of x.authorizations) {
     const sep = entry.indexOf(":");
-    if (sep < 1) continue;
+    if (sep < 1) {
+      items.push({raw: entry, what: "?", where: ""});
+      continue;
+    }
     const selector = entry.slice(0, sep);
     const [module, scope = ""] = selector.split("@");
-    // Core grants self:selfadm to every app, it gives nothing on other components.
-    if (module === "self") continue;
     const nodeId = !scope && /^\d+$/.test(module) ? module : "";
     const agent = nodeId ? "node" : module;
     // Without a scope, only node and cluster point to a real agent.
     const resolved = scope || agent === "node" || agent === "cluster";
-    const name = MODULE_NAMES[module] || module;
+    const name = own(MODULE_NAMES, module) || module;
     for (const role of entry.slice(sep + 1).split(",")) {
       const raw = `${selector}:${role}`;
-      if (!role || seen.has(raw)) continue;
+      // Core grants self:selfadm to every app, it gives nothing on other components.
+      if (!role || seen.has(raw) || raw === "self:selfadm") continue;
       seen.add(raw);
-      const what = (resolved && ui.roles[`${agent}_${role}`])
-        || (resolved && ui.coreRoles[role] && fill(ui.coreRoles[role], {module: name}))
+      const what = (resolved && own(ui.roles, `${agent}_${role}`))
+        || (resolved && own(ui.coreRoles, role) && fill(ui.coreRoles[role], {module: name}))
         || fill(ui.generic, {role, module: name});
       const where = nodeId ? fill(ui.target.nodeId, {id: nodeId})
         : scope === "node" ? fill(ui.target.moduleNode, {module: name})
         : scope === "cluster" ? fill(ui.target.moduleCluster, {module: name})
         : scope === "any" ? fill(ui.target.any, {module: name})
-        : ui.target[module] || name;
+        : agent === "node" || agent === "cluster" ? ui.target[agent] : name;
       items.push({raw, what, where});
     }
   }
@@ -525,13 +532,13 @@ function techBlock(v) {
   const ports = [x.tcp_ports && `${x.tcp_ports} ${ui.tcp}`, x.udp_ports && `${x.udp_ports} ${ui.udp}`].filter(Boolean).join(", ");
   const rows = [
     v.source && [ui.package, `<code>${esc(v.source)}</code>`],
-    [ui.permissions, perms.length ? `<table class="perm"><tbody>${perms.map((p) => `<tr${p.raw === "org.nethserver.rootfull" ? ' class="rootfull"' : ""}><td><code>${esc(p.raw)}</code></td><td>${esc(p.what)}${p.where ? ` <span class="perm-where">· ${esc(p.where)}</span>` : ""}</td></tr>`).join("")}</tbody></table>` : ui.noPermissions],
+    [ui.permissions, perms.length ? `<table class="perm"><tbody>${perms.map((p) => `<tr${p.raw === "org.nethserver.rootfull" ? ' class="rootfull"' : ""}><td><code>${esc(p.raw).replace(/[@:]/g, "$&<wbr>")}</code></td><td>${esc(p.what)}${p.where ? ` <span class="perm-where">· ${esc(p.where)}</span>` : ""}</td></tr>`).join("")}</tbody></table>` : ui.noPermissions],
     [ui.images, x.images.map((i) => `<code>${esc(i)}</code>`).join(" ")],
     ports && [ui.ports, ports],
     x.volumes.length && [ui.volumes, x.volumes.map((i) => `<code>${esc(i)}</code>`).join(" ")],
   ].filter(Boolean);
-  return `<section class="tech"><h3>${ui.tech}
-      <span class="badge ${x.rootfull ? "rootfull" : ""}">${x.rootfull ? ui.rootfull : ui.rootless}</span></h3>
+  return `<section class="tech"><h4>${ui.tech}
+      <span class="badge ${x.rootfull ? "rootfull" : ""}">${x.rootfull ? ui.rootfull : ui.rootless}</span></h4>
     <dl>${rows.map(([k, val]) => `<dt>${k}</dt><dd>${val}</dd>`).join("")}</dl></section>`;
 }
 
