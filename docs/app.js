@@ -23,7 +23,7 @@ const UI = {
     stepTesting: "Tick “Enable testing”: this app has no stable release yet.",
     stepInstall: (n) => `Back in the Software Center, search ${n} and click Install.`,
     quality: "Quality", howTo: "How to improve", checks: {"repository": "Published in a software repository", "topic": "GitHub topic “ns8”", "categories": "Standard categories", "logo": "Logo", "screenshots": "Screenshots", "description": "Description of 60+ characters", "translations": "Translated description", "docs": "Documentation and bug links", "min_core": "Minimum core label", "license": "License file"},
-    techUi: {"tech": "Technical details", "package": "Package", "rootless": "Runs rootless", "rootfull": "Runs as root", "images": "Container images", "permissions": "Permissions", "noPermissions": "none", "ports": "Ports reserved", "volumes": "Volumes", "tcp": "TCP", "udp": "UDP", "roles": {"routeadm": "publish web routes in Traefik", "fulladm": "full control of Traefik", "fwadm": "open ports in the node firewall", "portsadm": "reserve extra ports on the node", "accountconsumer": "read users and groups from an account provider", "mailadm": "manage the mail server", "selfadm": "manage its own instance"}, "scope": {"node": "on its node", "any": "on any node", "cluster": "in the cluster"}},
+    techUi: {"tech": "Technical details", "package": "Package", "rootless": "Runs rootless", "rootfull": "Runs as root", "images": "Container images", "permissions": "Permissions", "noPermissions": "none", "ports": "Ports reserved", "volumes": "Volumes", "tcp": "TCP", "udp": "UDP", "rootfullPerm": "Unlimited access to its node", "generic": "Role {role} on {module}", "coreRoles": {"reader": "Read the configuration and status of {module}"}, "roles": {"node_reader": "Read the configuration and status of the node", "node_fwadm": "Open ports and change the node firewall", "node_portsadm": "Reserve extra network ports on the node", "node_tunadm": "Create network tunnels and change the node firewall", "cluster_reader": "Read the configuration and status of the cluster", "cluster_accountconsumer": "Connect to a user domain to read users and groups", "cluster_accountprovider": "Act as a user domain provider for the cluster", "traefik_routeadm": "Publish and remove web routes", "traefik_certadm": "Request and manage TLS certificates", "traefik_fulladm": "Full control of web routes and TLS certificates", "mail_mailadm": "Unlimited access to mail messages and configuration", "openldap_domadm": "Create, change and delete users and groups", "samba_domadm": "Create, change and delete users and groups", "ldapproxy_accountprovider": "Publish a user domain through the LDAP proxy", "nethvoice-proxy_routeadm": "Manage SIP routes of the voice proxy", "nethvoice-proxy_trunkadm": "Manage SIP trunks of the voice proxy", "nethvoice_pbookreader": "Read the phonebook database credentials"}, "target": {"node": "its node", "nodeId": "node {id}", "cluster": "the cluster", "any": "{module} on any node", "moduleNode": "{module} on its node", "moduleCluster": "default {module} of the cluster"}},
     stale: "unmaintained", staleTip: "No stable release for over a year",
     altUrl: "Alternative URL, if the first one does not work:",
     copy: "Copy", copied: "Copied", minCore: "Needs core", sortLabel: "Sort", archived: "archived",
@@ -51,7 +51,7 @@ const UI = {
     stepTesting: "Cocher « Activer testing » : cette app n'a pas encore de version stable.",
     stepInstall: (n) => `De retour dans le Software Center, chercher ${n} et cliquer sur Installer.`,
     quality: "Qualité", howTo: "Comment améliorer", checks: {"repository": "Publiée dans un dépôt logiciel", "topic": "Topic GitHub « ns8 »", "categories": "Catégories standard", "logo": "Logo", "screenshots": "Captures d'écran", "description": "Description de 60 caractères ou plus", "translations": "Description traduite", "docs": "Liens documentation et bugs", "min_core": "Label core minimum", "license": "Fichier de licence"},
-    techUi: {"tech": "Détails techniques", "package": "Paquet", "rootless": "Tourne sans root", "rootfull": "Tourne en root", "images": "Images de conteneur", "permissions": "Droits", "noPermissions": "aucun", "ports": "Ports réservés", "volumes": "Volumes", "tcp": "TCP", "udp": "UDP", "roles": {"routeadm": "publier des routes web dans Traefik", "fulladm": "contrôle complet de Traefik", "fwadm": "ouvrir des ports dans le pare-feu du nœud", "portsadm": "réserver des ports supplémentaires sur le nœud", "accountconsumer": "lire les utilisateurs et groupes d'un fournisseur de comptes", "mailadm": "gérer le serveur mail", "selfadm": "gérer sa propre instance"}, "scope": {"node": "sur son nœud", "any": "sur n'importe quel nœud", "cluster": "dans le cluster"}},
+    techUi: {"tech": "Détails techniques", "package": "Paquet", "rootless": "Tourne sans root", "rootfull": "Tourne en root", "images": "Images de conteneur", "permissions": "Droits", "noPermissions": "aucun", "ports": "Ports réservés", "volumes": "Volumes", "tcp": "TCP", "udp": "UDP", "rootfullPerm": "Accès illimité à son nœud", "generic": "Rôle {role} sur {module}", "coreRoles": {"reader": "Lire la configuration et l'état de {module}"}, "roles": {"node_reader": "Lire la configuration et l'état du nœud", "node_fwadm": "Ouvrir des ports et modifier le pare-feu du nœud", "node_portsadm": "Réserver des ports réseau supplémentaires sur le nœud", "node_tunadm": "Créer des tunnels réseau et modifier le pare-feu du nœud", "cluster_reader": "Lire la configuration et l'état du cluster", "cluster_accountconsumer": "Se connecter à un domaine utilisateur pour lire les utilisateurs et groupes", "cluster_accountprovider": "Fournir un domaine utilisateur au cluster", "traefik_routeadm": "Publier et supprimer des routes web", "traefik_certadm": "Demander et gérer des certificats TLS", "traefik_fulladm": "Contrôle complet des routes web et des certificats TLS", "mail_mailadm": "Accès illimité aux messages et à la configuration mail", "openldap_domadm": "Créer, modifier et supprimer des utilisateurs et groupes", "samba_domadm": "Créer, modifier et supprimer des utilisateurs et groupes", "ldapproxy_accountprovider": "Publier un domaine utilisateur via le proxy LDAP", "nethvoice-proxy_routeadm": "Gérer les routes SIP du proxy voix", "nethvoice-proxy_trunkadm": "Gérer les trunks SIP du proxy voix", "nethvoice_pbookreader": "Lire les identifiants de la base de l'annuaire téléphonique"}, "target": {"node": "son nœud", "nodeId": "nœud {id}", "cluster": "le cluster", "any": "{module} sur n'importe quel nœud", "moduleNode": "{module} sur son nœud", "moduleCluster": "{module} par défaut du cluster"}},
     stale: "non maintenue", staleTip: "Aucune version stable depuis plus d'un an",
     altUrl: "URL alternative, si la première ne fonctionne pas :",
     copy: "Copier", copied: "Copié", minCore: "Core requis", sortLabel: "Trier", archived: "archivé",
@@ -79,7 +79,7 @@ const UI = {
     stepTesting: "Spunta “Abilita testing”: questa app non ha ancora una versione stabile.",
     stepInstall: (n) => `Torna al Software Center, cerca ${n} e clicca Installa.`,
     quality: "Qualità", howTo: "Come migliorare", checks: {"repository": "Pubblicata in un repository software", "topic": "Topic GitHub “ns8”", "categories": "Categorie standard", "logo": "Logo", "screenshots": "Screenshot", "description": "Descrizione di almeno 60 caratteri", "translations": "Descrizione tradotta", "docs": "Link a documentazione e bug", "min_core": "Label core minimo", "license": "File di licenza"},
-    techUi: {"tech": "Dettagli tecnici", "package": "Pacchetto", "rootless": "Gira senza root", "rootfull": "Gira come root", "images": "Immagini container", "permissions": "Permessi", "noPermissions": "nessuno", "ports": "Porte riservate", "volumes": "Volumi", "tcp": "TCP", "udp": "UDP", "roles": {"routeadm": "pubblicare route web in Traefik", "fulladm": "controllo completo di Traefik", "fwadm": "aprire porte nel firewall del nodo", "portsadm": "riservare porte aggiuntive sul nodo", "accountconsumer": "leggere utenti e gruppi da un provider di account", "mailadm": "gestire il server mail", "selfadm": "gestire la propria istanza"}, "scope": {"node": "sul suo nodo", "any": "su qualsiasi nodo", "cluster": "nel cluster"}},
+    techUi: {"tech": "Dettagli tecnici", "package": "Pacchetto", "rootless": "Gira senza root", "rootfull": "Gira come root", "images": "Immagini container", "permissions": "Permessi", "noPermissions": "nessuno", "ports": "Porte riservate", "volumes": "Volumi", "tcp": "TCP", "udp": "UDP", "rootfullPerm": "Accesso illimitato al suo nodo", "generic": "Ruolo {role} su {module}", "coreRoles": {"reader": "Leggere configurazione e stato di {module}"}, "roles": {"node_reader": "Leggere configurazione e stato del nodo", "node_fwadm": "Aprire porte e modificare il firewall del nodo", "node_portsadm": "Riservare porte di rete aggiuntive sul nodo", "node_tunadm": "Creare tunnel di rete e modificare il firewall del nodo", "cluster_reader": "Leggere configurazione e stato del cluster", "cluster_accountconsumer": "Collegarsi a un dominio utenti per leggere utenti e gruppi", "cluster_accountprovider": "Fornire un dominio utenti al cluster", "traefik_routeadm": "Pubblicare e rimuovere route web", "traefik_certadm": "Richiedere e gestire certificati TLS", "traefik_fulladm": "Controllo completo di route web e certificati TLS", "mail_mailadm": "Accesso illimitato a messaggi e configurazione mail", "openldap_domadm": "Creare, modificare ed eliminare utenti e gruppi", "samba_domadm": "Creare, modificare ed eliminare utenti e gruppi", "ldapproxy_accountprovider": "Pubblicare un dominio utenti tramite il proxy LDAP", "nethvoice-proxy_routeadm": "Gestire le route SIP del proxy voce", "nethvoice-proxy_trunkadm": "Gestire i trunk SIP del proxy voce", "nethvoice_pbookreader": "Leggere le credenziali del database della rubrica"}, "target": {"node": "il suo nodo", "nodeId": "nodo {id}", "cluster": "il cluster", "any": "{module} su qualsiasi nodo", "moduleNode": "{module} sul suo nodo", "moduleCluster": "{module} predefinito del cluster"}},
     stale: "non mantenuta", staleTip: "Nessuna versione stabile da oltre un anno",
     altUrl: "URL alternativo, se il primo non funziona:",
     copy: "Copia", copied: "Copiato", minCore: "Core richiesto", sortLabel: "Ordina",
@@ -107,7 +107,7 @@ const UI = {
     stepTesting: "„Testing aktivieren“ ankreuzen: diese App hat noch kein stabiles Release.",
     stepInstall: (n) => `Zurück im Software Center nach ${n} suchen und auf Installieren klicken.`,
     quality: "Qualität", howTo: "So verbessern", checks: {"repository": "In einem Software-Repository veröffentlicht", "topic": "GitHub-Topic „ns8“", "categories": "Standardkategorien", "logo": "Logo", "screenshots": "Screenshots", "description": "Beschreibung mit 60+ Zeichen", "translations": "Übersetzte Beschreibung", "docs": "Links zu Doku und Fehlermeldung", "min_core": "Label für Mindest-Core", "license": "Lizenzdatei"},
-    techUi: {"tech": "Technische Details", "package": "Paket", "rootless": "Läuft ohne root", "rootfull": "Läuft als root", "images": "Container-Images", "permissions": "Berechtigungen", "noPermissions": "keine", "ports": "Reservierte Ports", "volumes": "Volumes", "tcp": "TCP", "udp": "UDP", "roles": {"routeadm": "Web-Routen in Traefik veröffentlichen", "fulladm": "volle Kontrolle über Traefik", "fwadm": "Ports in der Firewall des Knotens öffnen", "portsadm": "zusätzliche Ports auf dem Knoten reservieren", "accountconsumer": "Benutzer und Gruppen eines Kontoanbieters lesen", "mailadm": "den Mailserver verwalten", "selfadm": "die eigene Instanz verwalten"}, "scope": {"node": "auf seinem Knoten", "any": "auf jedem Knoten", "cluster": "im Cluster"}},
+    techUi: {"tech": "Technische Details", "package": "Paket", "rootless": "Läuft ohne root", "rootfull": "Läuft als root", "images": "Container-Images", "permissions": "Berechtigungen", "noPermissions": "keine", "ports": "Reservierte Ports", "volumes": "Volumes", "tcp": "TCP", "udp": "UDP", "rootfullPerm": "Unbegrenzter Zugriff auf seinen Knoten", "generic": "Rolle {role} auf {module}", "coreRoles": {"reader": "Konfiguration und Status von {module} lesen"}, "roles": {"node_reader": "Konfiguration und Status des Knotens lesen", "node_fwadm": "Ports öffnen und die Firewall des Knotens ändern", "node_portsadm": "Zusätzliche Netzwerkports auf dem Knoten reservieren", "node_tunadm": "Netzwerktunnel erstellen und die Firewall des Knotens ändern", "cluster_reader": "Konfiguration und Status des Clusters lesen", "cluster_accountconsumer": "Mit einer Benutzerdomäne verbinden, um Benutzer und Gruppen zu lesen", "cluster_accountprovider": "Eine Benutzerdomäne für den Cluster bereitstellen", "traefik_routeadm": "Web-Routen veröffentlichen und entfernen", "traefik_certadm": "TLS-Zertifikate anfordern und verwalten", "traefik_fulladm": "Volle Kontrolle über Web-Routen und TLS-Zertifikate", "mail_mailadm": "Unbegrenzter Zugriff auf E-Mails und Mail-Konfiguration", "openldap_domadm": "Benutzer und Gruppen anlegen, ändern und löschen", "samba_domadm": "Benutzer und Gruppen anlegen, ändern und löschen", "ldapproxy_accountprovider": "Eine Benutzerdomäne über den LDAP-Proxy veröffentlichen", "nethvoice-proxy_routeadm": "SIP-Routen des Voice-Proxys verwalten", "nethvoice-proxy_trunkadm": "SIP-Trunks des Voice-Proxys verwalten", "nethvoice_pbookreader": "Zugangsdaten der Telefonbuch-Datenbank lesen"}, "target": {"node": "sein Knoten", "nodeId": "Knoten {id}", "cluster": "der Cluster", "any": "{module} auf jedem Knoten", "moduleNode": "{module} auf seinem Knoten", "moduleCluster": "Standard-{module} des Clusters"}},
     stale: "nicht gepflegt", staleTip: "Seit über einem Jahr kein stabiles Release",
     altUrl: "Alternative URL, falls die erste nicht funktioniert:",
     copy: "Kopieren", copied: "Kopiert", minCore: "Benötigt Core", sortLabel: "Sortieren",
@@ -135,7 +135,7 @@ const UI = {
     stepTesting: "Marca “Activar testing”: esta app aún no tiene versión estable.",
     stepInstall: (n) => `De vuelta en el Software Center, busca ${n} y haz clic en Instalar.`,
     quality: "Calidad", howTo: "Cómo mejorar", checks: {"repository": "Publicada en un repositorio de software", "topic": "Topic de GitHub “ns8”", "categories": "Categorías estándar", "logo": "Logo", "screenshots": "Capturas de pantalla", "description": "Descripción de 60+ caracteres", "translations": "Descripción traducida", "docs": "Enlaces a documentación y errores", "min_core": "Label de core mínimo", "license": "Archivo de licencia"},
-    techUi: {"tech": "Detalles técnicos", "package": "Paquete", "rootless": "Se ejecuta sin root", "rootfull": "Se ejecuta como root", "images": "Imágenes de contenedor", "permissions": "Permisos", "noPermissions": "ninguno", "ports": "Puertos reservados", "volumes": "Volúmenes", "tcp": "TCP", "udp": "UDP", "roles": {"routeadm": "publicar rutas web en Traefik", "fulladm": "control total de Traefik", "fwadm": "abrir puertos en el cortafuegos del nodo", "portsadm": "reservar puertos adicionales en el nodo", "accountconsumer": "leer usuarios y grupos de un proveedor de cuentas", "mailadm": "gestionar el servidor de correo", "selfadm": "gestionar su propia instancia"}, "scope": {"node": "en su nodo", "any": "en cualquier nodo", "cluster": "en el clúster"}},
+    techUi: {"tech": "Detalles técnicos", "package": "Paquete", "rootless": "Se ejecuta sin root", "rootfull": "Se ejecuta como root", "images": "Imágenes de contenedor", "permissions": "Permisos", "noPermissions": "ninguno", "ports": "Puertos reservados", "volumes": "Volúmenes", "tcp": "TCP", "udp": "UDP", "rootfullPerm": "Acceso ilimitado a su nodo", "generic": "Rol {role} en {module}", "coreRoles": {"reader": "Leer la configuración y el estado de {module}"}, "roles": {"node_reader": "Leer la configuración y el estado del nodo", "node_fwadm": "Abrir puertos y cambiar el cortafuegos del nodo", "node_portsadm": "Reservar puertos de red adicionales en el nodo", "node_tunadm": "Crear túneles de red y cambiar el cortafuegos del nodo", "cluster_reader": "Leer la configuración y el estado del clúster", "cluster_accountconsumer": "Conectarse a un dominio de usuarios para leer usuarios y grupos", "cluster_accountprovider": "Proveer un dominio de usuarios al clúster", "traefik_routeadm": "Publicar y eliminar rutas web", "traefik_certadm": "Solicitar y gestionar certificados TLS", "traefik_fulladm": "Control total de rutas web y certificados TLS", "mail_mailadm": "Acceso ilimitado a los mensajes y la configuración del correo", "openldap_domadm": "Crear, modificar y eliminar usuarios y grupos", "samba_domadm": "Crear, modificar y eliminar usuarios y grupos", "ldapproxy_accountprovider": "Publicar un dominio de usuarios a través del proxy LDAP", "nethvoice-proxy_routeadm": "Gestionar las rutas SIP del proxy de voz", "nethvoice-proxy_trunkadm": "Gestionar los troncales SIP del proxy de voz", "nethvoice_pbookreader": "Leer las credenciales de la base de datos de la agenda"}, "target": {"node": "su nodo", "nodeId": "nodo {id}", "cluster": "el clúster", "any": "{module} en cualquier nodo", "moduleNode": "{module} en su nodo", "moduleCluster": "{module} predeterminado del clúster"}},
     stale: "sin mantenimiento", staleTip: "Sin versión estable desde hace más de un año",
     altUrl: "URL alternativa, si la primera no funciona:",
     copy: "Copiar", copied: "Copiado", minCore: "Requiere core", sortLabel: "Ordenar",
@@ -475,32 +475,64 @@ function qualityBlock(v) {
     <a href="${guide}" target="_blank" rel="noopener">${t("howTo")}</a></h4></div>`;
 }
 
-function permission(auth) {
-  // Labels look like "traefik@node:routeadm" or "cluster:accountconsumer".
+const MODULE_NAMES = {mail: "Mail", traefik: "Traefik", openldap: "OpenLDAP", samba: "Samba",
+  ldapproxy: "LDAP proxy", nethvoice: "NethVoice", "nethvoice-proxy": "NethVoice proxy"};
+
+function fill(text, vars) {
+  return text.replace(/\{(\w+)\}/g, (m, k) => vars[k] ?? m);
+}
+
+function permissions(x) {
+  // Labels look like "traefik@node:routeadm,certadm", "cluster:accountconsumer" or "1:fwadm".
   const ui = t("techUi");
-  const [target, role] = auth.split(":");
-  const [module, scope] = target.includes("@") ? target.split("@") : ["", target];
-  const what = ui.roles[role];
-  if (!what) return `<code>${esc(auth)}</code>`;
-  const where = module ? ` ${ui.scope[scope] || ""}` : "";
-  return `${esc(what)}${esc(where)} <code>${esc(auth)}</code>`;
+  const items = x.rootfull ? [{raw: "org.nethserver.rootfull", what: ui.rootfullPerm, where: ""}] : [];
+  const seen = new Set();
+  for (const entry of x.authorizations) {
+    const sep = entry.indexOf(":");
+    if (sep < 1) continue;
+    const selector = entry.slice(0, sep);
+    const [module, scope = ""] = selector.split("@");
+    // Core grants self:selfadm to every app, it gives nothing on other components.
+    if (module === "self") continue;
+    const nodeId = !scope && /^\d+$/.test(module) ? module : "";
+    const agent = nodeId ? "node" : module;
+    // Without a scope, only node and cluster point to a real agent.
+    const resolved = scope || agent === "node" || agent === "cluster";
+    const name = MODULE_NAMES[module] || module;
+    for (const role of entry.slice(sep + 1).split(",")) {
+      const raw = `${selector}:${role}`;
+      if (!role || seen.has(raw)) continue;
+      seen.add(raw);
+      const what = (resolved && ui.roles[`${agent}_${role}`])
+        || (resolved && ui.coreRoles[role] && fill(ui.coreRoles[role], {module: name}))
+        || fill(ui.generic, {role, module: name});
+      const where = nodeId ? fill(ui.target.nodeId, {id: nodeId})
+        : scope === "node" ? fill(ui.target.moduleNode, {module: name})
+        : scope === "cluster" ? fill(ui.target.moduleCluster, {module: name})
+        : scope === "any" ? fill(ui.target.any, {module: name})
+        : ui.target[module] || name;
+      items.push({raw, what, where});
+    }
+  }
+  return items;
 }
 
 function techBlock(v) {
   const x = v.tech;
   if (!x) return "";
   const ui = t("techUi");
+  const perms = permissions(x);
   const ports = [x.tcp_ports && `${x.tcp_ports} ${ui.tcp}`, x.udp_ports && `${x.udp_ports} ${ui.udp}`].filter(Boolean).join(", ");
   const rows = [
     v.source && [ui.package, `<code>${esc(v.source)}</code>`],
-    [ui.permissions, x.authorizations.length ? `<ul class="perm">${x.authorizations.map((a) => `<li>${permission(a)}</li>`).join("")}</ul>` : ui.noPermissions],
+    [ui.permissions, perms.length ? `<table class="perm"><tbody>${perms.map((p) => `<tr${p.raw === "org.nethserver.rootfull" ? ' class="rootfull"' : ""}><td><code>${esc(p.raw)}</code></td><td>${esc(p.what)}${p.where ? ` <span class="perm-where">· ${esc(p.where)}</span>` : ""}</td></tr>`).join("")}</tbody></table>` : ui.noPermissions],
     [ui.images, x.images.map((i) => `<code>${esc(i)}</code>`).join(" ")],
     ports && [ui.ports, ports],
     x.volumes.length && [ui.volumes, x.volumes.map((i) => `<code>${esc(i)}</code>`).join(" ")],
   ].filter(Boolean);
-  return `<details class="tech"><summary>${ui.tech}
-      <span class="badge ${x.rootfull ? "rootfull" : ""}">${x.rootfull ? ui.rootfull : ui.rootless}</span></summary>
-    <dl>${rows.map(([k, val]) => `<dt>${k}</dt><dd>${val}</dd>`).join("")}</dl></details>`;
+  return `<section class="tech"><h3>${ui.tech}
+      <span class="badge ${x.rootfull ? "rootfull" : ""}">${x.rootfull ? ui.rootfull : ui.rootless}</span></h3>
+    <dl>${rows.map(([k, val]) => `<dt>${k}</dt><dd>${val}</dd>`).join("")}</dl></section>`;
 }
 
 function renderApp(id) {
