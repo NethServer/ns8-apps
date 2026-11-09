@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T22:39:27+00:00",
+ "generated_at": "2026-11-09T07:33:47+00:00",
  "forges": [
   {
    "id": "nethserver",
@@ -17,7 +17,7 @@
    "alt_url": "https://raw.githubusercontent.com/NethServer/ns8-nethforge/repomd/ns8/updates/",
    "kind": "nethforge",
    "repo": "NethServer/ns8-nethforge",
-   "app_count": 23,
+   "app_count": 22,
    "homepage": "https://github.com/NethServer/ns8-nethforge"
   },
   {
@@ -496,7 +496,7 @@
      },
      "source": "ghcr.io/platypuschan/adguard-home",
      "stars": 0,
-     "pushed_at": "2026-10-31T03:49:11Z",
+     "pushed_at": "2026-11-09T00:48:57Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -1129,7 +1129,7 @@
      },
      "source": "ghcr.io/stephdl/bigbluebutton",
      "stars": 0,
-     "pushed_at": "2026-11-05T22:45:06Z",
+     "pushed_at": "2026-11-09T02:56:15Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -2617,92 +2617,6 @@
    ]
   },
   {
-   "id": "dnshelper",
-   "categories": [
-    "security",
-    "system_administration"
-   ],
-   "official": false,
-   "stars": 0,
-   "variants": [
-    {
-     "module_id": "dnshelper",
-     "forges": [
-      "nethforge"
-     ],
-     "kind": "nethforge",
-     "developer": "danb35",
-     "name": "Dnshelper",
-     "description": {
-      "en": "Manage DNS records through DNS provider APIs, for other modules",
-      "de": "Verwaltet DNS-Einträge über die APIs von DNS-Anbietern, für andere Module",
-      "es": "Gestiona registros DNS a través de las API de los proveedores DNS, para otros módulos",
-      "eu": "DNS erregistroak kudeatzen ditu DNS hornitzaileen APIen bidez, beste moduluentzat",
-      "fr": "Gère les enregistrements DNS via les API des hébergeurs DNS, pour les autres modules",
-      "it": "Gestisce i record DNS tramite le API dei provider DNS, per altri moduli",
-      "pt": "Gere registos DNS através das APIs dos fornecedores de DNS, para outros módulos",
-      "pt_BR": "Gerencia registros DNS por meio das APIs dos provedores de DNS, para outros módulos"
-     },
-     "about": null,
-     "authors": [
-      "Dan Brown"
-     ],
-     "categories": [
-      "security",
-      "system_administration"
-     ],
-     "code_url": "https://github.com/danb35/ns8-dnshelper",
-     "docs": {
-      "terms_url": "https://github.com/danb35/ns8-dnshelper/blob/master/TERMS.md",
-      "documentation_url": "https://github.com/danb35/ns8-dnshelper/blob/master/docs/USER-GUIDE.md",
-      "bug_url": "https://github.com/danb35/ns8-dnshelper/issues",
-      "relnotes_url": "https://github.com/danb35/ns8-dnshelper/releases"
-     },
-     "logo": "https://forge.nethserver.org/ns8/updates/dnshelper/logo.png",
-     "screenshots": [
-      "https://forge.nethserver.org/ns8/updates/dnshelper/screenshots/1-zones.png",
-      "https://forge.nethserver.org/ns8/updates/dnshelper/screenshots/3-access-rules.png",
-      "https://forge.nethserver.org/ns8/updates/dnshelper/screenshots/2-records.png"
-     ],
-     "versions": [
-      {
-       "tag": "0.6.0",
-       "testing": false
-      }
-     ],
-     "stable": "0.6.0",
-     "testing": null,
-     "min_core": "3.23.0",
-     "tech": {
-      "rootfull": false,
-      "images": [],
-      "authorizations": [
-       "powerdns@any:dnsprovider"
-      ],
-      "tcp_ports": 0,
-      "udp_ports": 0,
-      "volumes": []
-     },
-     "source": "ghcr.io/danb35/dnshelper",
-     "stars": 0,
-     "pushed_at": "2026-11-07T13:50:04Z",
-     "archived": false,
-     "checks": {
-      "topic": true,
-      "categories": true,
-      "logo": true,
-      "screenshots": true,
-      "description": true,
-      "translations": true,
-      "docs": true,
-      "min_core": true,
-      "license": true
-     },
-     "released_at": "2026-11-07T13:49:53Z"
-    }
-   ]
-  },
-  {
    "id": "dnsmasq",
    "categories": [
     "system_administration"
@@ -3787,7 +3701,7 @@
      },
      "source": "ghcr.io/mrmarkuz/euro-office",
      "stars": 0,
-     "pushed_at": "2026-11-08T13:40:06Z",
+     "pushed_at": "2026-11-09T05:36:46Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -3843,17 +3757,17 @@
      ],
      "versions": [
       {
-       "tag": "0.3.2",
+       "tag": "0.3.4",
        "testing": false
       }
      ],
-     "stable": "0.3.2",
+     "stable": "0.3.4",
      "testing": null,
      "min_core": "3.2.2",
      "tech": {
       "rootfull": true,
       "images": [
-       "platypuschan/fail2ban-engine:1.1.1-b26c94868847"
+       "platypuschan/fail2ban-engine:1.1.1-6a5298418e6b"
       ],
       "authorizations": [
        "traefik@node:routeadm"
@@ -3864,7 +3778,7 @@
      },
      "source": "ghcr.io/platypuschan/fail2ban-reworked",
      "stars": 0,
-     "pushed_at": "2026-10-30T12:14:23Z",
+     "pushed_at": "2026-11-09T01:47:40Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -3877,7 +3791,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-10-26T02:02:52Z"
+     "released_at": "2026-11-09T01:47:40Z"
     }
    ]
   },
@@ -3937,7 +3851,7 @@
      },
      "source": "ghcr.io/mrmarkuz/fetchmail",
      "stars": 0,
-     "pushed_at": "2026-11-08T13:04:53Z",
+     "pushed_at": "2026-11-09T05:41:35Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -4385,11 +4299,11 @@
      ],
      "versions": [
       {
-       "tag": "0.4.5",
+       "tag": "0.4.7",
        "testing": false
       }
      ],
-     "stable": "0.4.5",
+     "stable": "0.4.7",
      "testing": null,
      "min_core": "3.2.2",
      "tech": {
@@ -4409,7 +4323,7 @@
      },
      "source": "ghcr.io/platypuschan/gitea-reworked",
      "stars": 0,
-     "pushed_at": "2026-11-07T04:25:01Z",
+     "pushed_at": "2026-11-09T01:48:59Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -4422,7 +4336,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-10-26T04:29:42Z"
+     "released_at": "2026-11-09T01:48:59Z"
     }
    ]
   },
@@ -5533,7 +5447,7 @@
      },
      "source": "ghcr.io/platypuschan/idp-reworked",
      "stars": 0,
-     "pushed_at": "2026-11-08T13:53:13Z",
+     "pushed_at": "2026-11-09T00:04:13Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -5692,7 +5606,7 @@
      },
      "source": "ghcr.io/mrmarkuz/immich",
      "stars": 1,
-     "pushed_at": "2026-11-08T13:44:29Z",
+     "pushed_at": "2026-11-09T05:16:53Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -6170,7 +6084,7 @@
      },
      "source": "ghcr.io/mrmarkuz/kitchenowl",
      "stars": 1,
-     "pushed_at": "2026-11-05T21:34:31Z",
+     "pushed_at": "2026-11-09T05:30:59Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -7383,17 +7297,17 @@
      ],
      "versions": [
       {
-       "tag": "0.1.2",
+       "tag": "0.1.5",
        "testing": false
       }
      ],
-     "stable": "0.1.2",
+     "stable": "0.1.5",
      "testing": null,
      "min_core": "3.23.0",
      "tech": {
       "rootfull": false,
       "images": [
-       "platypuschan/maubot-runtime:924dbecbbfd1"
+       "platypuschan/maubot-runtime:5e65d9f8a94c"
       ],
       "authorizations": [
        "traefik@node:routeadm"
@@ -7404,7 +7318,7 @@
      },
      "source": "ghcr.io/platypuschan/maubot",
      "stars": 0,
-     "pushed_at": "2026-10-30T08:13:16Z",
+     "pushed_at": "2026-11-09T02:02:46Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -7417,7 +7331,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-10-26T01:46:03Z"
+     "released_at": "2026-11-09T02:02:46Z"
     }
    ]
   },
@@ -8354,7 +8268,7 @@
      },
      "source": "ghcr.io/nethesis/nethvoice",
      "stars": 9,
-     "pushed_at": "2026-11-06T15:19:00Z",
+     "pushed_at": "2026-11-09T07:26:12Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -8441,7 +8355,7 @@
      },
      "source": "ghcr.io/nethesis/nethvoice-proxy",
      "stars": 4,
-     "pushed_at": "2026-11-05T10:51:49Z",
+     "pushed_at": "2026-11-09T07:25:32Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -8940,7 +8854,7 @@
      },
      "source": "ghcr.io/platypuschan/obsidian-livesync",
      "stars": 0,
-     "pushed_at": "2026-10-30T23:18:01Z",
+     "pushed_at": "2026-11-09T00:46:42Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -9546,17 +9460,17 @@
      ],
      "versions": [
       {
-       "tag": "0.3.3",
+       "tag": "0.3.4",
        "testing": false
       }
      ],
-     "stable": "0.3.3",
+     "stable": "0.3.4",
      "testing": null,
      "min_core": "3.2.2",
      "tech": {
       "rootfull": false,
       "images": [
-       "platypuschan/organizr-runtime:5c011d027e66"
+       "platypuschan/organizr-runtime:26aa6e3f6ceb"
       ],
       "authorizations": [
        "traefik@node:routeadm",
@@ -9568,7 +9482,7 @@
      },
      "source": "ghcr.io/platypuschan/organizr-reworked",
      "stars": 0,
-     "pushed_at": "2026-11-08T08:38:14Z",
+     "pushed_at": "2026-11-09T00:24:24Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -9581,7 +9495,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-10-26T02:23:02Z"
+     "released_at": "2026-11-09T00:15:30Z"
     }
    ]
   },
@@ -9625,11 +9539,11 @@
      ],
      "versions": [
       {
-       "tag": "1.3.1",
+       "tag": "1.3.0",
        "testing": false
       }
      ],
-     "stable": "1.3.1",
+     "stable": "1.3.0",
      "testing": null,
      "min_core": null,
      "tech": {
@@ -9663,7 +9577,7 @@
       "min_core": false,
       "license": true
      },
-     "released_at": "2024-08-14T00:54:31Z"
+     "released_at": "2024-08-13T23:47:59Z"
     }
    ]
   },
@@ -11858,7 +11772,7 @@
      },
      "source": "ghcr.io/platypuschan/samba",
      "stars": 0,
-     "pushed_at": "2026-10-29T04:09:15Z",
+     "pushed_at": "2026-11-09T00:59:45Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -12421,7 +12335,7 @@
      },
      "source": "ghcr.io/mrmarkuz/tailscale",
      "stars": 0,
-     "pushed_at": "2026-11-08T12:56:08Z",
+     "pushed_at": "2026-11-09T05:34:05Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -12810,7 +12724,7 @@
      },
      "source": "ghcr.io/mrmarkuz/unifi-network",
      "stars": 0,
-     "pushed_at": "2026-11-08T13:21:30Z",
+     "pushed_at": "2026-11-09T05:29:25Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -13661,7 +13575,7 @@
      },
      "source": "ghcr.io/nethserver/webtop",
      "stars": 0,
-     "pushed_at": "2026-11-07T22:44:13Z",
+     "pushed_at": "2026-11-09T07:25:40Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -14243,7 +14157,7 @@
      },
      "source": "ghcr.io/mrmarkuz/zammad",
      "stars": 0,
-     "pushed_at": "2026-11-08T14:06:50Z",
+     "pushed_at": "2026-11-09T05:42:22Z",
      "archived": false,
      "checks": {
       "topic": true,
