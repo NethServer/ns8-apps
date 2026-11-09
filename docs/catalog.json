@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T07:33:47+00:00",
+ "generated_at": "2026-11-09T17:08:22+00:00",
  "forges": [
   {
    "id": "nethserver",
@@ -17,7 +17,7 @@
    "alt_url": "https://raw.githubusercontent.com/NethServer/ns8-nethforge/repomd/ns8/updates/",
    "kind": "nethforge",
    "repo": "NethServer/ns8-nethforge",
-   "app_count": 22,
+   "app_count": 23,
    "homepage": "https://github.com/NethServer/ns8-nethforge"
   },
   {
@@ -278,7 +278,7 @@
      },
      "source": "ghcr.io/stephdl/backuppc",
      "stars": 0,
-     "pushed_at": "2026-11-06T01:10:25Z",
+     "pushed_at": "2026-11-09T16:40:52Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -496,7 +496,7 @@
      },
      "source": "ghcr.io/platypuschan/adguard-home",
      "stars": 0,
-     "pushed_at": "2026-11-09T00:48:57Z",
+     "pushed_at": "2026-11-09T11:31:24Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -705,17 +705,17 @@
      "screenshots": [],
      "versions": [
       {
-       "tag": "1.1.0",
+       "tag": "1.1.1",
        "testing": false
       }
      ],
-     "stable": "1.1.0",
+     "stable": "1.1.1",
      "testing": null,
      "min_core": null,
      "tech": {
       "rootfull": false,
       "images": [
-       "aiidalab/full-stack:2026.1031"
+       "aiidalab/full-stack:2026.1032"
       ],
       "authorizations": [
        "traefik@node:routeadm"
@@ -728,7 +728,7 @@
      },
      "source": "ghcr.io/tebbiworld/aiidalab",
      "stars": 0,
-     "pushed_at": "2026-09-30T16:02:11Z",
+     "pushed_at": "2026-11-09T13:50:48Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -741,7 +741,7 @@
       "min_core": false,
       "license": true
      },
-     "released_at": "2026-09-23T21:37:15Z"
+     "released_at": "2026-11-09T13:53:25Z"
     }
    ]
   },
@@ -961,24 +961,24 @@
      ],
      "versions": [
       {
-       "tag": "0.2.6",
+       "tag": "0.3.0",
        "testing": false
       }
      ],
-     "stable": "0.2.6",
+     "stable": "0.3.0",
      "testing": null,
      "min_core": "3.20.1",
      "tech": {
       "rootfull": false,
       "images": [
-       "danb35/automx-app:0.2.6"
+       "danb35/automx-app:0.3.0"
       ],
       "authorizations": [
-       "traefik@node:routeadm,certadm",
+       "traefik@node:routeadm,reader",
        "node:reader",
        "cluster:accountconsumer",
        "dnshelper@cluster:dnswriter",
-       "mail@any:mailadm"
+       "mail@any:reader"
       ],
       "tcp_ports": 1,
       "udp_ports": 0,
@@ -986,7 +986,7 @@
      },
      "source": "ghcr.io/danb35/automx",
      "stars": 0,
-     "pushed_at": "2026-11-06T11:52:50Z",
+     "pushed_at": "2026-11-09T11:58:08Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -999,7 +999,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-11-04T13:18:56Z"
+     "released_at": "2026-11-09T11:51:29Z"
     }
    ]
   },
@@ -1129,7 +1129,7 @@
      },
      "source": "ghcr.io/stephdl/bigbluebutton",
      "stars": 0,
-     "pushed_at": "2026-11-09T02:56:15Z",
+     "pushed_at": "2026-11-09T15:14:27Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -1608,7 +1608,7 @@
      },
      "source": "ghcr.io/stephdl/calrs",
      "stars": 0,
-     "pushed_at": "2026-10-31T22:26:13Z",
+     "pushed_at": "2026-11-09T15:32:41Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -2230,7 +2230,7 @@
      },
      "source": "ghcr.io/nethserver/crowdsec",
      "stars": 1,
-     "pushed_at": "2026-11-06T16:25:26Z",
+     "pushed_at": "2026-11-09T13:19:41Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -2284,17 +2284,17 @@
      "screenshots": [],
      "versions": [
       {
-       "tag": "1.1.0",
+       "tag": "1.1.1",
        "testing": false
       }
      ],
-     "stable": "1.1.0",
+     "stable": "1.1.1",
      "testing": null,
      "min_core": null,
      "tech": {
       "rootfull": false,
       "images": [
-       "joedwards32/cs2:4.0.1"
+       "joedwards32/cs2:5.0.1"
       ],
       "authorizations": [
        "node:fwadm"
@@ -2307,7 +2307,7 @@
      },
      "source": "ghcr.io/tebbiworld/cs2",
      "stars": 0,
-     "pushed_at": "2026-10-01T10:39:15Z",
+     "pushed_at": "2026-11-09T13:51:28Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -2320,7 +2320,7 @@
       "min_core": false,
       "license": true
      },
-     "released_at": "2026-09-23T21:37:28Z"
+     "released_at": "2026-11-09T13:54:13Z"
     }
    ]
   },
@@ -2434,7 +2434,7 @@
      },
      "source": "ghcr.io/stephdl/ddclient",
      "stars": 0,
-     "pushed_at": "2026-11-05T23:54:27Z",
+     "pushed_at": "2026-11-09T15:14:37Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -2613,6 +2613,92 @@
       "license": true
      },
      "released_at": "2026-10-25T12:18:38Z"
+    }
+   ]
+  },
+  {
+   "id": "dnshelper",
+   "categories": [
+    "security",
+    "system_administration"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "dnshelper",
+     "forges": [
+      "nethforge"
+     ],
+     "kind": "nethforge",
+     "developer": "danb35",
+     "name": "Dnshelper",
+     "description": {
+      "en": "Manage DNS records through DNS provider APIs, for other modules",
+      "de": "Verwaltet DNS-Einträge über die APIs von DNS-Anbietern, für andere Module",
+      "es": "Gestiona registros DNS a través de las API de los proveedores DNS, para otros módulos",
+      "eu": "DNS erregistroak kudeatzen ditu DNS hornitzaileen APIen bidez, beste moduluentzat",
+      "fr": "Gère les enregistrements DNS via les API des hébergeurs DNS, pour les autres modules",
+      "it": "Gestisce i record DNS tramite le API dei provider DNS, per altri moduli",
+      "pt": "Gere registos DNS através das APIs dos fornecedores de DNS, para outros módulos",
+      "pt_BR": "Gerencia registros DNS por meio das APIs dos provedores de DNS, para outros módulos"
+     },
+     "about": null,
+     "authors": [
+      "Dan Brown"
+     ],
+     "categories": [
+      "security",
+      "system_administration"
+     ],
+     "code_url": "https://github.com/danb35/ns8-dnshelper",
+     "docs": {
+      "terms_url": "https://github.com/danb35/ns8-dnshelper/blob/master/TERMS.md",
+      "documentation_url": "https://github.com/danb35/ns8-dnshelper/blob/master/docs/USER-GUIDE.md",
+      "bug_url": "https://github.com/danb35/ns8-dnshelper/issues",
+      "relnotes_url": "https://github.com/danb35/ns8-dnshelper/releases"
+     },
+     "logo": "https://forge.nethserver.org/ns8/updates/dnshelper/logo.png",
+     "screenshots": [
+      "https://forge.nethserver.org/ns8/updates/dnshelper/screenshots/1-zones.png",
+      "https://forge.nethserver.org/ns8/updates/dnshelper/screenshots/3-access-rules.png",
+      "https://forge.nethserver.org/ns8/updates/dnshelper/screenshots/2-records.png"
+     ],
+     "versions": [
+      {
+       "tag": "0.6.1",
+       "testing": false
+      }
+     ],
+     "stable": "0.6.1",
+     "testing": null,
+     "min_core": "3.23.0",
+     "tech": {
+      "rootfull": false,
+      "images": [],
+      "authorizations": [
+       "powerdns@any:dnsprovider"
+      ],
+      "tcp_ports": 0,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/danb35/dnshelper",
+     "stars": 0,
+     "pushed_at": "2026-11-09T11:18:41Z",
+     "archived": false,
+     "checks": {
+      "topic": true,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-11-09T11:18:26Z"
     }
    ]
   },
@@ -3154,7 +3240,7 @@
      },
      "source": "ghcr.io/stephdl/dolibarr",
      "stars": 0,
-     "pushed_at": "2026-11-05T21:44:56Z",
+     "pushed_at": "2026-11-09T15:14:41Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -3208,17 +3294,17 @@
      "screenshots": [],
      "versions": [
       {
-       "tag": "1.1.0",
+       "tag": "1.1.1",
        "testing": false
       }
      ],
-     "stable": "1.1.0",
+     "stable": "1.1.1",
      "testing": null,
      "min_core": null,
      "tech": {
       "rootfull": false,
       "images": [
-       "ecodms/ecodms:26.01-02"
+       "ecodms/ecodms:26.01-03"
       ],
       "authorizations": [
        "traefik@node:routeadm"
@@ -3232,7 +3318,7 @@
      },
      "source": "ghcr.io/tebbiworld/ecodms",
      "stars": 0,
-     "pushed_at": "2026-09-30T21:47:28Z",
+     "pushed_at": "2026-11-09T13:57:30Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -3245,7 +3331,7 @@
       "min_core": false,
       "license": true
      },
-     "released_at": "2026-09-23T21:37:32Z"
+     "released_at": "2026-11-09T13:59:42Z"
     }
    ]
   },
@@ -3778,7 +3864,7 @@
      },
      "source": "ghcr.io/platypuschan/fail2ban-reworked",
      "stars": 0,
-     "pushed_at": "2026-11-09T01:47:40Z",
+     "pushed_at": "2026-11-09T08:07:56Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -4141,17 +4227,17 @@
      "screenshots": [],
      "versions": [
       {
-       "tag": "1.1.0",
+       "tag": "1.1.1",
        "testing": false
       }
      ],
-     "stable": "1.1.0",
+     "stable": "1.1.1",
      "testing": null,
      "min_core": null,
      "tech": {
       "rootfull": false,
       "images": [
-       "felddy/foundryvtt:14.367.0"
+       "felddy/foundryvtt:14.370.0"
       ],
       "authorizations": [
        "traefik@node:routeadm"
@@ -4164,7 +4250,7 @@
      },
      "source": "ghcr.io/tebbiworld/foundryvtt",
      "stars": 0,
-     "pushed_at": "2026-09-30T21:48:07Z",
+     "pushed_at": "2026-11-09T13:59:52Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -4177,7 +4263,7 @@
       "min_core": false,
       "license": true
      },
-     "released_at": "2026-09-23T21:37:40Z"
+     "released_at": "2026-11-09T14:02:11Z"
     }
    ]
   },
@@ -4575,7 +4661,7 @@
      },
      "source": "ghcr.io/stephdl/glpi",
      "stars": 0,
-     "pushed_at": "2026-11-06T04:21:35Z",
+     "pushed_at": "2026-11-09T15:14:45Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -6322,7 +6408,7 @@
      },
      "source": "ghcr.io/stephdl/lam",
      "stars": 0,
-     "pushed_at": "2026-11-05T21:48:01Z",
+     "pushed_at": "2026-11-09T15:14:58Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -6500,7 +6586,7 @@
      },
      "source": "ghcr.io/stephdl/launcher",
      "stars": 0,
-     "pushed_at": "2026-11-08T10:18:56Z",
+     "pushed_at": "2026-11-09T15:31:57Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -6683,7 +6769,7 @@
      },
      "source": "ghcr.io/stephdl/lemp",
      "stars": 0,
-     "pushed_at": "2026-11-07T21:20:01Z",
+     "pushed_at": "2026-11-09T15:17:36Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -7318,7 +7404,7 @@
      },
      "source": "ghcr.io/platypuschan/maubot",
      "stars": 0,
-     "pushed_at": "2026-11-09T02:02:46Z",
+     "pushed_at": "2026-11-09T08:07:55Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -7606,17 +7692,17 @@
      "screenshots": [],
      "versions": [
       {
-       "tag": "1.1.0",
+       "tag": "1.1.1",
        "testing": false
       }
      ],
-     "stable": "1.1.0",
+     "stable": "1.1.1",
      "testing": null,
      "min_core": null,
      "tech": {
       "rootfull": false,
       "images": [
-       "itzg/minecraft-server:2026.9.1-java25"
+       "itzg/minecraft-server:2026.10.1-java25"
       ],
       "authorizations": [
        "node:fwadm"
@@ -7629,7 +7715,7 @@
      },
      "source": "ghcr.io/tebbiworld/minecraft",
      "stars": 0,
-     "pushed_at": "2026-09-30T21:48:56Z",
+     "pushed_at": "2026-11-09T13:55:57Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -7642,7 +7728,7 @@
       "min_core": false,
       "license": true
      },
-     "released_at": "2026-09-23T21:37:56Z"
+     "released_at": "2026-11-09T13:58:01Z"
     }
    ]
   },
@@ -7974,17 +8060,17 @@
      "screenshots": [],
      "versions": [
       {
-       "tag": "1.1.0",
+       "tag": "1.1.1",
        "testing": false
       }
      ],
-     "stable": "1.1.0",
+     "stable": "1.1.1",
      "testing": null,
      "min_core": null,
      "tech": {
       "rootfull": false,
       "images": [
-       "netbootxyz/netbootxyz:0.7.6-nbxyz24"
+       "netbootxyz/netbootxyz:0.7.6-nbxyz27"
       ],
       "authorizations": [
        "traefik@node:routeadm",
@@ -7998,7 +8084,7 @@
      },
      "source": "ghcr.io/tebbiworld/netbootxyz",
      "stars": 0,
-     "pushed_at": "2026-09-30T16:03:56Z",
+     "pushed_at": "2026-11-09T13:51:18Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -8011,7 +8097,7 @@
       "min_core": false,
       "license": true
      },
-     "released_at": "2026-09-23T21:38:00Z"
+     "released_at": "2026-11-09T13:53:59Z"
     }
    ]
   },
@@ -8268,7 +8354,7 @@
      },
      "source": "ghcr.io/nethesis/nethvoice",
      "stars": 9,
-     "pushed_at": "2026-11-09T07:26:12Z",
+     "pushed_at": "2026-11-09T17:04:33Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -8355,7 +8441,7 @@
      },
      "source": "ghcr.io/nethesis/nethvoice-proxy",
      "stars": 4,
-     "pushed_at": "2026-11-09T07:25:32Z",
+     "pushed_at": "2026-11-09T17:07:03Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -8854,7 +8940,7 @@
      },
      "source": "ghcr.io/platypuschan/obsidian-livesync",
      "stars": 0,
-     "pushed_at": "2026-11-09T00:46:42Z",
+     "pushed_at": "2026-11-09T11:02:17Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -8908,17 +8994,17 @@
      "screenshots": [],
      "versions": [
       {
-       "tag": "1.1.1",
+       "tag": "1.1.2",
        "testing": false
       }
      ],
-     "stable": "1.1.1",
+     "stable": "1.1.2",
      "testing": null,
      "min_core": null,
      "tech": {
       "rootfull": false,
       "images": [
-       "odoo:19.0-20260908",
+       "odoo:19.0-20261102",
        "postgres:16.14"
       ],
       "authorizations": [
@@ -8932,7 +9018,7 @@
      },
      "source": "ghcr.io/tebbiworld/odoo",
      "stars": 0,
-     "pushed_at": "2026-09-30T16:01:21Z",
+     "pushed_at": "2026-11-09T13:52:17Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -8945,7 +9031,7 @@
       "min_core": false,
       "license": true
      },
-     "released_at": "2026-09-23T21:38:04Z"
+     "released_at": "2026-11-09T13:55:36Z"
     }
    ]
   },
@@ -9460,17 +9546,17 @@
      ],
      "versions": [
       {
-       "tag": "0.3.4",
+       "tag": "0.4.1",
        "testing": false
       }
      ],
-     "stable": "0.3.4",
+     "stable": "0.4.1",
      "testing": null,
      "min_core": "3.2.2",
      "tech": {
       "rootfull": false,
       "images": [
-       "platypuschan/organizr-runtime:26aa6e3f6ceb"
+       "platypuschan/organizr-runtime:05d01e652d17"
       ],
       "authorizations": [
        "traefik@node:routeadm",
@@ -9482,7 +9568,7 @@
      },
      "source": "ghcr.io/platypuschan/organizr-reworked",
      "stars": 0,
-     "pushed_at": "2026-11-09T00:24:24Z",
+     "pushed_at": "2026-11-09T10:31:33Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -9495,7 +9581,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-11-09T00:15:30Z"
+     "released_at": "2026-11-09T10:31:34Z"
     }
    ]
   },
@@ -9539,11 +9625,11 @@
      ],
      "versions": [
       {
-       "tag": "1.3.0",
+       "tag": "1.3.1",
        "testing": false
       }
      ],
-     "stable": "1.3.0",
+     "stable": "1.3.1",
      "testing": null,
      "min_core": null,
      "tech": {
@@ -9577,7 +9663,7 @@
       "min_core": false,
       "license": true
      },
-     "released_at": "2024-08-13T23:47:59Z"
+     "released_at": "2024-08-14T00:54:31Z"
     }
    ]
   },
@@ -10320,17 +10406,17 @@
      "screenshots": [],
      "versions": [
       {
-       "tag": "1.1.0",
+       "tag": "1.1.1",
        "testing": false
       }
      ],
-     "stable": "1.1.0",
+     "stable": "1.1.1",
      "testing": null,
      "min_core": null,
      "tech": {
       "rootfull": false,
       "images": [
-       "plexinc/pms-docker:1.43.4.10903-e5521bd8c"
+       "plexinc/pms-docker:1.43.5.11079-b3b13e506"
       ],
       "authorizations": [
        "traefik@node:routeadm"
@@ -10344,7 +10430,7 @@
      },
      "source": "ghcr.io/tebbiworld/plex",
      "stars": 0,
-     "pushed_at": "2026-09-30T16:03:36Z",
+     "pushed_at": "2026-11-09T13:53:37Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -10357,7 +10443,7 @@
       "min_core": false,
       "license": true
      },
-     "released_at": "2026-09-23T21:38:08Z"
+     "released_at": "2026-11-09T13:56:34Z"
     }
    ]
   },
@@ -10754,7 +10840,7 @@
      },
      "source": "ghcr.io/stephdl/privatebin",
      "stars": 0,
-     "pushed_at": "2026-11-03T10:07:44Z",
+     "pushed_at": "2026-11-09T15:32:39Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -11446,17 +11532,17 @@
      "screenshots": [],
      "versions": [
       {
-       "tag": "1.1.0",
+       "tag": "1.1.1",
        "testing": false
       }
      ],
-     "stable": "1.1.0",
+     "stable": "1.1.1",
      "testing": null,
      "min_core": null,
      "tech": {
       "rootfull": false,
       "images": [
-       "tebbiworld/sagemath-app:1.0.0"
+       "tebbiworld/sagemath-app:1.1.1"
       ],
       "authorizations": [
        "traefik@node:routeadm"
@@ -11469,7 +11555,7 @@
      },
      "source": "ghcr.io/tebbiworld/sagemath",
      "stars": 0,
-     "pushed_at": "2026-09-30T21:47:46Z",
+     "pushed_at": "2026-11-09T13:58:36Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -11482,7 +11568,7 @@
       "min_core": false,
       "license": true
      },
-     "released_at": "2026-09-23T21:38:13Z"
+     "released_at": "2026-11-09T14:03:11Z"
     }
    ]
   },
@@ -12258,7 +12344,7 @@
      },
      "source": "ghcr.io/stephdl/sympa",
      "stars": 0,
-     "pushed_at": "2026-10-26T17:14:41Z",
+     "pushed_at": "2026-11-09T15:15:28Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -12544,17 +12630,17 @@
      "screenshots": [],
      "versions": [
       {
-       "tag": "1.1.1",
+       "tag": "1.1.2",
        "testing": false
       }
      ],
-     "stable": "1.1.1",
+     "stable": "1.1.2",
      "testing": null,
      "min_core": null,
      "tech": {
       "rootfull": false,
       "images": [
-       "sigstore/timestamp-server:v2.1.3"
+       "sigstore/timestamp-server:v2.2.0"
       ],
       "authorizations": [
        "traefik@node:routeadm"
@@ -12565,7 +12651,7 @@
      },
      "source": "ghcr.io/tebbiworld/tsa",
      "stars": 0,
-     "pushed_at": "2026-09-30T16:01:06Z",
+     "pushed_at": "2026-11-09T13:53:06Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -12578,7 +12664,7 @@
       "min_core": false,
       "license": true
      },
-     "released_at": "2026-09-23T21:30:15Z"
+     "released_at": "2026-11-09T13:56:04Z"
     }
    ]
   },
@@ -12857,7 +12943,7 @@
      },
      "source": "ghcr.io/stephdl/v16postgresql",
      "stars": 0,
-     "pushed_at": "2026-11-06T00:01:38Z",
+     "pushed_at": "2026-11-09T15:15:10Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -12950,7 +13036,7 @@
      },
      "source": "ghcr.io/stephdl/v18postgresql",
      "stars": 0,
-     "pushed_at": "2026-11-05T18:53:32Z",
+     "pushed_at": "2026-11-09T15:15:15Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -13405,7 +13491,7 @@
      },
      "source": "ghcr.io/stephdl/wazuh",
      "stars": 0,
-     "pushed_at": "2026-11-05T18:28:27Z",
+     "pushed_at": "2026-11-09T15:32:11Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -13575,7 +13661,7 @@
      },
      "source": "ghcr.io/nethserver/webtop",
      "stars": 0,
-     "pushed_at": "2026-11-09T07:25:40Z",
+     "pushed_at": "2026-11-09T08:27:55Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -13991,7 +14077,7 @@
      },
      "source": "ghcr.io/stephdl/xwiki",
      "stars": 0,
-     "pushed_at": "2026-11-08T21:37:10Z",
+     "pushed_at": "2026-11-09T15:15:37Z",
      "archived": false,
      "checks": {
       "topic": false,
