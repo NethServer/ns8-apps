@@ -23,6 +23,8 @@ log = logging.getLogger("crawl")
 ROOT = Path(__file__).resolve().parent.parent
 OUTPUT = ROOT / "docs" / "catalog.json"
 PROBE_WORKERS = 16
+# A maintainer adds this topic to a repository to keep it out of the catalog.
+NOINDEX_TOPIC = "ns8-noindex"
 
 
 def forge_versions(app):
@@ -42,11 +44,24 @@ def forge_homepage(http, url):
     return root if "<html" in body[:1000].lower() else None
 
 
-def add_forge(catalog, forges, forge, repodata, kind, http):
+def noindex(repo):
+    return NOINDEX_TOPIC in ((repo or {}).get("topics") or [])
+
+
+def add_forge(catalog, forges, forge, repodata, kind, gh):
+    http = gh.http
+    full_name = (forge["repo"] or "").lower()
+    if full_name in catalog.excluded_repos:
+        log.info("forge %s: in exclude_repos, skipped", forge["id"])
+        return
+    if forge["repo"] and noindex(gh.repo(forge["repo"])):
+        log.info("forge %s: has the %s topic, skipped", forge["id"], NOINDEX_TOPIC)
+        return
     if not isinstance(repodata, list):
         log.warning("forge %s: no usable repodata.json", forge["id"])
         return
-    repodata = [a for a in repodata if a.get("id") and a["id"] not in catalog.excluded]
+    repodata = [a for a in repodata if a.get("id") and a["id"] not in catalog.excluded
+                and f"{full_name}:{a['id']}" not in catalog.excluded_repos]
     forge["app_count"] = len(repodata)
     repo_page = forge["repo"] and f"https://github.com/{forge['repo']}"
     forge["homepage"] = repo_page
@@ -67,7 +82,7 @@ def code_owner(app):
 def crawl_forges(cfg, gh, http, catalog, forges, candidates):
     for entry in cfg.get("official") or []:
         forge = {"id": entry["id"], "name": entry["name"], "url": entry["url"], "kind": "official", "repo": entry.get("repo")}
-        add_forge(catalog, forges, forge, http.get(f"{entry['url']}repodata.json"), "official", http)
+        add_forge(catalog, forges, forge, http.get(f"{entry['url']}repodata.json"), "official", gh)
 
     upstream = cfg["nethforge"]
     upstream_data = gh.forge_repodata(upstream)
@@ -75,7 +90,7 @@ def crawl_forges(cfg, gh, http, catalog, forges, candidates):
     url, alt_url = gh.forge_public_url(upstream)
     forge = {"id": "nethforge", "name": "NethForge", "url": url, "alt_url": alt_url,
              "kind": "nethforge", "repo": upstream}
-    add_forge(catalog, forges, forge, upstream_data, "nethforge", http)
+    add_forge(catalog, forges, forge, upstream_data, "nethforge", gh)
 
     for full_name in gh.forks(upstream):
         data = gh.forge_repodata(full_name)
@@ -89,7 +104,7 @@ def crawl_forges(cfg, gh, http, catalog, forges, candidates):
         url, alt_url = gh.forge_public_url(full_name, upstream_cname=upstream_cname)
         forge = {"id": owner, "name": full_name, "url": url, "alt_url": alt_url,
                  "kind": "community", "repo": full_name}
-        add_forge(catalog, forges, forge, data, "community", http)
+        add_forge(catalog, forges, forge, data, "community", gh)
 
     # Forges started from scratch instead of forking nethforge.
     known = {f["repo"] for f in forges}
@@ -110,7 +125,7 @@ def crawl_forges(cfg, gh, http, catalog, forges, candidates):
         forge_id = owner if owner not in {f["id"] for f in forges} else full_name
         forge = {"id": forge_id, "name": full_name, "url": probe["url"], "alt_url": probe["alt_url"],
                  "kind": "community", "repo": full_name}
-        add_forge(catalog, forges, forge, data, "community", http)
+        add_forge(catalog, forges, forge, data, "community", gh)
 
     for entry in cfg.get("forges") or []:
         if "github" in entry:
@@ -121,7 +136,7 @@ def crawl_forges(cfg, gh, http, catalog, forges, candidates):
             data = http.get(f"{url}repodata.json")
         forge = {"id": entry["id"], "name": entry.get("name", entry["id"]), "url": url,
                  "kind": "community", "repo": entry.get("github")}
-        add_forge(catalog, forges, forge, data, "community", http)
+        add_forge(catalog, forges, forge, data, "community", gh)
 
 
 
@@ -140,8 +155,13 @@ def code_repo(gh, http, code_url):
 
 def enrich(catalog, gh, http):
     """Stars and activity come from the code repo, plus a longer description when needed."""
+    hidden = []
     for v in catalog.variants():
         repo, readme = code_repo(gh, http, v["code_url"])
+        if noindex(repo):
+            log.info("app %s: %s has the %s topic, skipped", v["module_id"], v["code_url"], NOINDEX_TOPIC)
+            hidden.append(v)
+            continue
         v["checks"] = compliance(v, repo)
         if repo:
             v["stars"] = repo.get("stargazers_count", 0)
@@ -161,6 +181,7 @@ def enrich(catalog, gh, http):
         best = next((c for c in candidates if is_useful_about(c)), None)
         if best and best != base:
             v["about"] = best
+    catalog.remove(hidden)
 
 
 def main():
@@ -177,11 +198,11 @@ def main():
     gh = GitHub(http)
     catalog = Catalog(cfg.get("aliases"))
     catalog.excluded = set(cfg.get("exclude_apps") or [])
+    catalog.excluded_repos = {r.lower() for r in cfg.get("exclude_repos") or []}
     forges = []
 
-    excluded = {r.lower() for r in cfg.get("exclude_repos") or []}
     candidates = [] if args.skip_discovery else gh.find_candidates(cfg.get("exclude_orgs") or [])
-    candidates = [n for n in candidates if n.lower() not in excluded]
+    candidates = [n for n in candidates if n.lower() not in catalog.excluded_repos]
     log.info("discovery: %d candidate repos", len(candidates))
 
     crawl_forges(cfg, gh, http, catalog, forges, candidates)

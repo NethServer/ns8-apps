@@ -217,6 +217,13 @@ class Catalog:
         for vs in self.apps.values():
             yield from vs
 
+    def remove(self, variants):
+        ids = {id(v) for v in variants}
+        for app_id in list(self.apps):
+            self.apps[app_id] = [v for v in self.apps[app_id] if id(v) not in ids]
+            if not self.apps[app_id]:
+                del self.apps[app_id]
+
     def to_json(self):
         apps = []
         for app_id, variants in sorted(self.apps.items()):
