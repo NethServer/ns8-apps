@@ -97,12 +97,15 @@ There are two ways to remove something from the catalog.
 
 To remove only one app from your software repository, add the topic to the source code repository of that app, or ask for an entry in `exclude_repos`.
 
-**For anyone, with a pull request.** Add an entry to `exclude_repos` in `sources.yml`. This is the only way for a software repository that is not on GitHub, such as one served from GitLab Pages or a private web server.
+**For anyone, with a pull request.** Add an entry to `exclude_repos` in `sources.yml`. This is the only way for a software repository that is not on GitHub, such as one served from GitLab Pages or a private web server. Such a repository is named by its `id` in the `forges` list.
 
 ```yaml
 exclude_repos:
-  - owner/ns8-forge          # the whole repository
-  - owner/ns8-forge:myapp    # only the app myapp from this repository
+  - owner/ns8-forge          # a whole software repository
+  - owner/ns8-forge:myapp    # only the app myapp from this software repository
+  - owner/ns8-myapp          # a source code repository: the app leaves every forge
+  - someone                  # a forge declared by url in sources.yml, by its id
+  - someone:myapp            # one app of that forge
 ```
 
 The changes show up after the next crawl, within six hours.

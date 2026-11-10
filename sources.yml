@@ -28,9 +28,11 @@ exclude_orgs:
   - NethServer
   - nethesis
 
-# Repositories kept out of the catalog. "owner/name" drops the whole
-# repository, "owner/name:appid" drops one app of that repository.
-# Maintainers can also add the ns8-noindex topic on GitHub, see README.md.
+# Repositories kept out of the catalog. "owner/name" drops a software
+# repository, or an app when it is the app's source code repository.
+# "owner/name:appid" drops one app of a software repository. A forge
+# declared by url above is named by its id: "someone" or "someone:appid".
+# Maintainers can also add the ns8-noindex topic, see README.md.
 exclude_repos: []
 
 # Module ids that are not apps: system modules installed with the core.

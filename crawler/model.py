@@ -178,6 +178,8 @@ def make_variant(meta, *, app_id, forge, kind, versions, asset_base=None, code_u
 class Catalog:
     def __init__(self, aliases=None):
         self.aliases = aliases or {}
+        self.excluded = set()
+        self.excluded_repos = set()
         self.apps = {}
         self.gitlab_projects = {}
 

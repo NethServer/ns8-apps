@@ -3,6 +3,7 @@ import argparse
 import json
 import logging
 import sys
+from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urlparse
@@ -48,20 +49,30 @@ def noindex(repo):
     return NOINDEX_TOPIC in ((repo or {}).get("topics") or [])
 
 
+def skipped(catalog, gh, key, github=None):
+    """True when the repository is in exclude_repos or carries the noindex topic."""
+    if key.lower() in catalog.excluded_repos:
+        log.info("forge %s: in exclude_repos, skipped", key)
+        return True
+    if github and noindex(gh.repo(github)):
+        log.info("forge %s: has the %s topic, skipped", key, NOINDEX_TOPIC)
+        return True
+    return False
+
+
+def forge_key(forge):
+    """How exclude_repos names a forge: its GitHub repo, or its id when it is served from a URL."""
+    return (forge["repo"] or forge["id"]).lower()
+
+
 def add_forge(catalog, forges, forge, repodata, kind, gh):
     http = gh.http
-    full_name = (forge["repo"] or "").lower()
-    if full_name in catalog.excluded_repos:
-        log.info("forge %s: in exclude_repos, skipped", forge["id"])
-        return
-    if forge["repo"] and noindex(gh.repo(forge["repo"])):
-        log.info("forge %s: has the %s topic, skipped", forge["id"], NOINDEX_TOPIC)
-        return
     if not isinstance(repodata, list):
         log.warning("forge %s: no usable repodata.json", forge["id"])
         return
+    key = forge_key(forge)
     repodata = [a for a in repodata if a.get("id") and a["id"] not in catalog.excluded
-                and f"{full_name}:{a['id']}" not in catalog.excluded_repos]
+                and f"{key}:{a['id'].lower()}" not in catalog.excluded_repos]
     forge["app_count"] = len(repodata)
     repo_page = forge["repo"] and f"https://github.com/{forge['repo']}"
     forge["homepage"] = repo_page
@@ -81,10 +92,14 @@ def code_owner(app):
 
 def crawl_forges(cfg, gh, http, catalog, forges, candidates):
     for entry in cfg.get("official") or []:
+        if skipped(catalog, gh, entry.get("repo") or entry["id"], entry.get("repo")):
+            continue
         forge = {"id": entry["id"], "name": entry["name"], "url": entry["url"], "kind": "official", "repo": entry.get("repo")}
         add_forge(catalog, forges, forge, http.get(f"{entry['url']}repodata.json"), "official", gh)
 
     upstream = cfg["nethforge"]
+    if skipped(catalog, gh, upstream, upstream):
+        return
     upstream_data = gh.forge_repodata(upstream)
     upstream_cname = (gh.raw(upstream, "repomd", "CNAME", as_json=False) or "").strip()
     url, alt_url = gh.forge_public_url(upstream)
@@ -93,6 +108,8 @@ def crawl_forges(cfg, gh, http, catalog, forges, candidates):
     add_forge(catalog, forges, forge, upstream_data, "nethforge", gh)
 
     for full_name in gh.forks(upstream):
+        if skipped(catalog, gh, full_name, full_name):
+            continue
         data = gh.forge_repodata(full_name)
         if not isinstance(data, list) or not data:
             continue
@@ -108,6 +125,7 @@ def crawl_forges(cfg, gh, http, catalog, forges, candidates):
 
     # Forges started from scratch instead of forking nethforge.
     known = {f["repo"] for f in forges}
+    candidates = [n for n in candidates if not skipped(catalog, gh, n, n)]
     with ThreadPoolExecutor(PROBE_WORKERS) as pool:
         probes = dict(zip(candidates, pool.map(lambda n: gh.find_forge(n, upstream_cname), candidates)))
     found = [(n, p) for n, p in probes.items()
@@ -128,6 +146,8 @@ def crawl_forges(cfg, gh, http, catalog, forges, candidates):
         add_forge(catalog, forges, forge, data, "community", gh)
 
     for entry in cfg.get("forges") or []:
+        if skipped(catalog, gh, entry.get("github") or entry["id"], entry.get("github")):
+            continue
         if "github" in entry:
             data = gh.forge_repodata(entry["github"])
             url, _ = gh.forge_public_url(entry["github"])
@@ -158,8 +178,9 @@ def enrich(catalog, gh, http):
     hidden = []
     for v in catalog.variants():
         repo, readme = code_repo(gh, http, v["code_url"])
-        if noindex(repo):
-            log.info("app %s: %s has the %s topic, skipped", v["module_id"], v["code_url"], NOINDEX_TOPIC)
+        code_name = "/".join((v["code_url"] or "").split("/")[3:5]).lower()
+        if code_name in catalog.excluded_repos or noindex(repo):
+            log.info("app %s: %s is excluded, skipped", v["module_id"], v["code_url"])
             hidden.append(v)
             continue
         v["checks"] = compliance(v, repo)
@@ -202,11 +223,15 @@ def main():
     forges = []
 
     candidates = [] if args.skip_discovery else gh.find_candidates(cfg.get("exclude_orgs") or [])
-    candidates = [n for n in candidates if n.lower() not in catalog.excluded_repos]
     log.info("discovery: %d candidate repos", len(candidates))
 
     crawl_forges(cfg, gh, http, catalog, forges, candidates)
     enrich(catalog, gh, http)
+    # enrich drops excluded apps, so forges are counted again and empty ones dropped.
+    counts = Counter(f for v in catalog.variants() for f in v["forges"])
+    forges = [f for f in forges if counts[f["id"]]]
+    for f in forges:
+        f["app_count"] = counts[f["id"]]
 
     apps = catalog.to_json()
     previous = 0
