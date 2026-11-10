@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T13:56:46+00:00",
+ "generated_at": "2026-11-10T14:01:37+00:00",
  "forges": [
   {
    "id": "nethserver",
@@ -49,6 +49,16 @@
    "repo": "dz00te/ns8-dz00te",
    "app_count": 3,
    "homepage": "https://forge.dzlab.net/"
+  },
+  {
+   "id": "stephdl",
+   "name": "stephdl/ns8-stephdl",
+   "url": "https://forge.de-labrusse.fr/ns8/updates/",
+   "alt_url": "https://raw.githubusercontent.com/stephdl/ns8-stephdl/repomd/ns8/updates/",
+   "kind": "community",
+   "repo": "stephdl/ns8-stephdl",
+   "app_count": 17,
+   "homepage": "https://forge.de-labrusse.fr/"
   },
   {
    "id": "mrmarkuz",
@@ -994,6 +1004,149 @@
    ]
   },
   {
+   "id": "bigbluebutton",
+   "categories": [
+    "communication"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "bigbluebutton",
+     "forges": [
+      "stephdl"
+     ],
+     "kind": "community",
+     "developer": "stephdl",
+     "name": "BigBlueButton",
+     "description": {
+      "en": "Web conferencing with audio, video, screen sharing, shared notes and recording"
+     },
+     "about": null,
+     "authors": [
+      "Stephane de Labrusse"
+     ],
+     "categories": [
+      "communication"
+     ],
+     "code_url": "https://github.com/stephdl/ns8-bigbluebutton",
+     "docs": {
+      "documentation_url": "https://docs.bigbluebutton.org/",
+      "bug_url": "https://github.com/stephdl/dev/issues"
+     },
+     "logo": "https://forge.de-labrusse.fr/ns8/updates/bigbluebutton/logo.png",
+     "screenshots": [],
+     "versions": [
+      {
+       "tag": "1.3.0",
+       "testing": false
+      },
+      {
+       "tag": "1.2.0",
+       "testing": false
+      },
+      {
+       "tag": "1.1.2",
+       "testing": false
+      },
+      {
+       "tag": "1.1.1",
+       "testing": false
+      },
+      {
+       "tag": "1.1.0",
+       "testing": false
+      },
+      {
+       "tag": "1.0.7",
+       "testing": false
+      },
+      {
+       "tag": "1.0.6",
+       "testing": false
+      },
+      {
+       "tag": "1.0.5",
+       "testing": false
+      },
+      {
+       "tag": "1.0.4",
+       "testing": false
+      },
+      {
+       "tag": "1.0.3",
+       "testing": false
+      },
+      {
+       "tag": "1.0.2",
+       "testing": false
+      },
+      {
+       "tag": "1.0.1",
+       "testing": false
+      },
+      {
+       "tag": "1.0.0",
+       "testing": false
+      }
+     ],
+     "stable": "1.3.0",
+     "testing": null,
+     "min_core": "3.20.1",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "alangecker/bbb-docker-web:v3.0.39",
+       "alangecker/bbb-docker-freeswitch:v1.11.3-v3.0.39",
+       "alangecker/bbb-docker-nginx:v3.0.39-v5.4.8-1.29",
+       "alangecker/bbb-docker-etherpad:2.4.2-s8328b77-p88f3f6b",
+       "alangecker/bbb-docker-pads:v1.5.8",
+       "alangecker/bbb-docker-bbb-export-annotations:v3.0.39",
+       "alangecker/bbb-docker-webrtc-sfu:v2.24.0",
+       "alangecker/bbb-docker-webrtc-recorder:v0.14.0",
+       "alangecker/bbb-docker-fsesl-akka:v3.0.39",
+       "alangecker/bbb-docker-apps-akka:v3.0.39",
+       "alangecker/bbb-docker-graphql-server:v3.0.39",
+       "alangecker/bbb-docker-graphql-actions:v3.0.39",
+       "alangecker/bbb-docker-graphql-middleware:v3.0.39",
+       "alangecker/bbb-docker-recordings:v3.0.39",
+       "bigbluebutton/greenlight:v3.9.0.1",
+       "postgres:16.15-alpine",
+       "redis:8.10.2-alpine",
+       "processone/eturnal:1.12.3"
+      ],
+      "authorizations": [
+       "node:fwadm",
+       "traefik@node:routeadm"
+      ],
+      "tcp_ports": 2,
+      "udp_ports": 9216,
+      "volumes": [
+       "bigbluebutton",
+       "postgres-data",
+       "greenlight"
+      ]
+     },
+     "source": "ghcr.io/stephdl/bigbluebutton",
+     "stars": 0,
+     "pushed_at": "2026-11-09T21:14:02Z",
+     "archived": false,
+     "checks": {
+      "topic": false,
+      "categories": true,
+      "logo": true,
+      "screenshots": false,
+      "description": true,
+      "translations": false,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-10-25T09:52:55Z"
+    }
+   ]
+  },
+  {
    "id": "bookstack",
    "categories": [
     "collaboration"
@@ -1373,6 +1526,102 @@
       "license": true
      },
      "released_at": "2024-02-28T17:16:39Z"
+    }
+   ]
+  },
+  {
+   "id": "calrs",
+   "categories": [
+    "collaboration"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "calrs",
+     "forges": [
+      "stephdl"
+     ],
+     "kind": "community",
+     "developer": "stephdl",
+     "name": "Calrs",
+     "description": {
+      "en": "Self-hosted scheduling: publish your availability, let people book a slot in your CalDAV calendar"
+     },
+     "about": null,
+     "authors": [
+      "Stephane de Labrusse"
+     ],
+     "categories": [
+      "collaboration"
+     ],
+     "code_url": "https://github.com/stephdl/ns8-calrs",
+     "docs": {
+      "documentation_url": "https://cal.rs/",
+      "bug_url": "https://github.com/stephdl/dev/issues"
+     },
+     "logo": "https://forge.de-labrusse.fr/ns8/updates/calrs/logo.png",
+     "screenshots": [
+      "https://forge.de-labrusse.fr/ns8/updates/calrs/screenshots/screen2.png",
+      "https://forge.de-labrusse.fr/ns8/updates/calrs/screenshots/screen1.png"
+     ],
+     "versions": [
+      {
+       "tag": "1.0.5",
+       "testing": false
+      },
+      {
+       "tag": "1.0.4",
+       "testing": false
+      },
+      {
+       "tag": "1.0.3",
+       "testing": false
+      },
+      {
+       "tag": "1.0.2",
+       "testing": false
+      },
+      {
+       "tag": "1.0.1",
+       "testing": false
+      },
+      {
+       "tag": "1.0.0",
+       "testing": false
+      }
+     ],
+     "stable": "1.0.5",
+     "testing": null,
+     "min_core": "3.20.1",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "olivierlambert/calrs:1.21.0"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm"
+      ],
+      "tcp_ports": 1,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/stephdl/calrs",
+     "stars": 0,
+     "pushed_at": "2026-11-09T21:12:11Z",
+     "archived": false,
+     "checks": {
+      "topic": false,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": false,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-10-26T08:30:40Z"
     }
    ]
   },
@@ -2076,6 +2325,133 @@
    ]
   },
   {
+   "id": "ddclient",
+   "categories": [],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "ddclient",
+     "forges": [
+      "stephdl"
+     ],
+     "kind": "community",
+     "developer": "stephdl",
+     "name": "Ddclient",
+     "description": {
+      "en": "ddclient updates dynamic DNS entries for accounts on a wide range of dynamic DNS services."
+     },
+     "about": null,
+     "authors": [
+      "Stephane de Labrusse"
+     ],
+     "categories": [],
+     "code_url": "https://github.com/stephdl/ns8-ddclient",
+     "docs": {
+      "documentation_url": "https://ddclient.net/",
+      "bug_url": "https://github.com/stephdl/dev"
+     },
+     "logo": "https://forge.de-labrusse.fr/ns8/updates/ddclient/logo.png",
+     "screenshots": [
+      "https://forge.de-labrusse.fr/ns8/updates/ddclient/screenshots/screen1.png"
+     ],
+     "versions": [
+      {
+       "tag": "1.2.1",
+       "testing": false
+      },
+      {
+       "tag": "1.2.0",
+       "testing": false
+      },
+      {
+       "tag": "1.1.5",
+       "testing": false
+      },
+      {
+       "tag": "1.1.4",
+       "testing": false
+      },
+      {
+       "tag": "1.1.3",
+       "testing": false
+      },
+      {
+       "tag": "1.1.2",
+       "testing": false
+      },
+      {
+       "tag": "1.1.1",
+       "testing": false
+      },
+      {
+       "tag": "1.1.0",
+       "testing": false
+      },
+      {
+       "tag": "1.0.4",
+       "testing": false
+      },
+      {
+       "tag": "1.0.3",
+       "testing": false
+      },
+      {
+       "tag": "1.0.3-dev.1",
+       "testing": true
+      },
+      {
+       "tag": "1.0.2",
+       "testing": false
+      },
+      {
+       "tag": "1.0.1",
+       "testing": false
+      },
+      {
+       "tag": "1.0.0",
+       "testing": false
+      },
+      {
+       "tag": "1.0.0-dev.3",
+       "testing": true
+      }
+     ],
+     "stable": "1.2.1",
+     "testing": null,
+     "min_core": "3.20.1",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "linuxserver/ddclient:v4.0.0-ls235"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm"
+      ],
+      "tcp_ports": 0,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/stephdl/ddclient",
+     "stars": 0,
+     "pushed_at": "2026-11-09T21:49:48Z",
+     "archived": false,
+     "checks": {
+      "topic": false,
+      "categories": false,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": false,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-10-25T10:04:05Z"
+    }
+   ]
+  },
+  {
    "id": "dependencytrack",
    "categories": [],
    "official": false,
@@ -2149,6 +2525,94 @@
       "license": true
      },
      "released_at": "2026-10-21T17:44:55Z"
+    }
+   ]
+  },
+  {
+   "id": "discourse",
+   "categories": [
+    "collaboration"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "discourse",
+     "forges": [
+      "stephdl"
+     ],
+     "kind": "community",
+     "developer": "stephdl",
+     "name": "Discourse",
+     "description": {
+      "en": "Community forum for discussions, questions and announcements, with local accounts and optional OpenID Connect login.",
+      "fr": "Forum communautaire pour les discussions, les questions et les annonces, avec comptes locaux et connexion OpenID Connect en option.",
+      "it": "Forum della community per discussioni, domande e annunci, con account locali e accesso OpenID Connect opzionale.",
+      "de": "Community-Forum für Diskussionen, Fragen und Ankündigungen, mit lokalen Konten und optionaler OpenID-Connect-Anmeldung.",
+      "es": "Foro de comunidad para debates, preguntas y anuncios, con cuentas locales e inicio de sesión OpenID Connect opcional.",
+      "pt": "Fórum comunitário para discussões, perguntas e anúncios, com contas locais e início de sessão OpenID Connect opcional.",
+      "pt_BR": "Fórum de comunidade para discussões, perguntas e anúncios, com contas locais e login OpenID Connect opcional.",
+      "eu": "Komunitateko foroa eztabaidetarako, galderetarako eta iragarkietarako, kontu lokalekin eta aukerako OpenID Connect saio hasierarekin."
+     },
+     "about": null,
+     "authors": [
+      "Stephane de Labrusse"
+     ],
+     "categories": [
+      "collaboration"
+     ],
+     "code_url": "https://github.com/stephdl/ns8-discourse",
+     "docs": {
+      "documentation_url": "https://github.com/stephdl/ns8-discourse#readme",
+      "bug_url": "https://github.com/stephdl/dev/issues"
+     },
+     "logo": "https://forge.de-labrusse.fr/ns8/updates/discourse/logo.png",
+     "screenshots": [
+      "https://forge.de-labrusse.fr/ns8/updates/discourse/screenshots/screen3.png",
+      "https://forge.de-labrusse.fr/ns8/updates/discourse/screenshots/screen2.png",
+      "https://forge.de-labrusse.fr/ns8/updates/discourse/screenshots/screen1.png"
+     ],
+     "versions": [
+      {
+       "tag": "1.0.0",
+       "testing": false
+      }
+     ],
+     "stable": "1.0.0",
+     "testing": null,
+     "min_core": "3.20.1",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "discourse/postgres:pg18",
+       "redis:8.10.2-alpine",
+       "discourse/discourse:2026.7.4"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm"
+      ],
+      "tcp_ports": 1,
+      "udp_ports": 0,
+      "volumes": [
+       "discourse-shared"
+      ]
+     },
+     "source": "ghcr.io/stephdl/discourse",
+     "stars": 0,
+     "pushed_at": "2026-11-10T00:46:26Z",
+     "archived": false,
+     "checks": {
+      "topic": false,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-10-25T12:18:38Z"
     }
    ]
   },
@@ -2628,6 +3092,7 @@
   {
    "id": "dolibarr",
    "categories": [
+    "collaboration",
     "office"
    ],
    "official": false,
@@ -2699,6 +3164,96 @@
       "license": true
      },
      "released_at": "2024-03-01T00:18:22Z"
+    },
+    {
+     "module_id": "dolibarr",
+     "forges": [
+      "stephdl"
+     ],
+     "kind": "community",
+     "developer": "stephdl",
+     "name": "Dolibarr",
+     "description": {
+      "en": "ERP and CRM for small businesses: customers, quotes, invoices, stock and projects, with domain user login and email.",
+      "fr": "ERP et CRM pour les petites entreprises : clients, devis, factures, stock et projets, avec connexion des utilisateurs du domaine et envoi d'emails.",
+      "it": "ERP e CRM per piccole imprese: clienti, preventivi, fatture, magazzino e progetti, con accesso degli utenti del dominio ed email.",
+      "de": "ERP und CRM für kleine Unternehmen: Kunden, Angebote, Rechnungen, Lager und Projekte, mit Anmeldung der Domänenbenutzer und E-Mail.",
+      "es": "ERP y CRM para pequeñas empresas: clientes, presupuestos, facturas, stock y proyectos, con inicio de sesión de usuarios del dominio y correo.",
+      "pt": "ERP e CRM para pequenas empresas: clientes, orçamentos, faturas, stock e projetos, com início de sessão dos utilizadores do domínio e email.",
+      "pt_BR": "ERP e CRM para pequenas empresas: clientes, orçamentos, faturas, estoque e projetos, com login dos usuários do domínio e e-mail.",
+      "eu": "Enpresa txikientzako ERP eta CRM: bezeroak, aurrekontuak, fakturak, stocka eta proiektuak, domeinuko erabiltzaileen saio hasierarekin eta posta elektronikoarekin."
+     },
+     "about": null,
+     "authors": [
+      "Stephane de Labrusse"
+     ],
+     "categories": [
+      "collaboration"
+     ],
+     "code_url": "https://github.com/stephdl/ns8-dolibarr",
+     "docs": {
+      "documentation_url": "https://github.com/stephdl/ns8-dolibarr#readme",
+      "bug_url": "https://github.com/stephdl/dev/issues"
+     },
+     "logo": "https://forge.de-labrusse.fr/ns8/updates/dolibarr/logo.png",
+     "screenshots": [
+      "https://forge.de-labrusse.fr/ns8/updates/dolibarr/screenshots/screen3.png",
+      "https://forge.de-labrusse.fr/ns8/updates/dolibarr/screenshots/screen2.png",
+      "https://forge.de-labrusse.fr/ns8/updates/dolibarr/screenshots/screen1.png"
+     ],
+     "versions": [
+      {
+       "tag": "1.0.3",
+       "testing": false
+      },
+      {
+       "tag": "1.0.2",
+       "testing": false
+      },
+      {
+       "tag": "1.0.1",
+       "testing": false
+      },
+      {
+       "tag": "1.0.0",
+       "testing": false
+      }
+     ],
+     "stable": "1.0.3",
+     "testing": null,
+     "min_core": "3.20.1",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "mariadb:12.3.3",
+       "dolibarr/dolibarr:24.0.2"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm",
+       "cluster:accountconsumer"
+      ],
+      "tcp_ports": 1,
+      "udp_ports": 0,
+      "volumes": [
+       "dolibarr-documents"
+      ]
+     },
+     "source": "ghcr.io/stephdl/dolibarr",
+     "stars": 0,
+     "pushed_at": "2026-11-09T21:14:26Z",
+     "archived": false,
+     "checks": {
+      "topic": false,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-10-24T18:23:31Z"
     }
    ]
   },
@@ -4035,6 +4590,91 @@
       "license": true
      },
      "released_at": "2025-07-05T14:36:48Z"
+    },
+    {
+     "module_id": "glpi",
+     "forges": [
+      "stephdl"
+     ],
+     "kind": "community",
+     "developer": "stephdl",
+     "name": "GLPI",
+     "description": {
+      "en": "IT service management and asset inventory, with domain user login and email notifications.",
+      "fr": "Gestion des services informatiques et inventaire du parc, avec connexion des utilisateurs du domaine et notifications par email.",
+      "it": "Gestione dei servizi IT e inventario degli asset, con accesso degli utenti del dominio e notifiche email.",
+      "de": "IT-Service-Management und Inventarisierung, mit Anmeldung der Domainbenutzer und E-Mail-Benachrichtigungen.",
+      "es": "Gestión de servicios TI e inventario de activos, con inicio de sesión de usuarios del dominio y notificaciones por correo.",
+      "pt": "Gestão de serviços de TI e inventário de ativos, com início de sessão dos utilizadores do domínio e notificações por email.",
+      "pt_BR": "Gestão de serviços de TI e inventário de ativos, com login dos usuários do domínio e notificações por e-mail.",
+      "eu": "IKT zerbitzuen kudeaketa eta aktiboen inbentarioa, domeinuko erabiltzaileen saio hasierarekin eta posta bidezko jakinarazpenekin."
+     },
+     "about": null,
+     "authors": [
+      "Stephane de Labrusse"
+     ],
+     "categories": [
+      "collaboration"
+     ],
+     "code_url": "https://github.com/stephdl/ns8-glpi",
+     "docs": {
+      "documentation_url": "https://github.com/stephdl/ns8-glpi#readme",
+      "bug_url": "https://github.com/stephdl/dev/issues"
+     },
+     "logo": "https://forge.de-labrusse.fr/ns8/updates/glpi/logo.png",
+     "screenshots": [
+      "https://forge.de-labrusse.fr/ns8/updates/glpi/screenshots/screen2.png",
+      "https://forge.de-labrusse.fr/ns8/updates/glpi/screenshots/screen1.png"
+     ],
+     "versions": [
+      {
+       "tag": "1.0.2",
+       "testing": false
+      },
+      {
+       "tag": "1.0.1",
+       "testing": false
+      },
+      {
+       "tag": "1.0.0",
+       "testing": false
+      }
+     ],
+     "stable": "1.0.2",
+     "testing": null,
+     "min_core": "3.20.1",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "mariadb:12.3.3",
+       "glpi/glpi:12.0.0"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm",
+       "cluster:accountconsumer"
+      ],
+      "tcp_ports": 1,
+      "udp_ports": 0,
+      "volumes": [
+       "glpi-data"
+      ]
+     },
+     "source": "ghcr.io/stephdl/glpi",
+     "stars": 0,
+     "pushed_at": "2026-11-09T21:14:33Z",
+     "archived": false,
+     "checks": {
+      "topic": false,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-10-25T10:02:53Z"
     }
    ]
   },
@@ -5619,6 +6259,93 @@
       "license": true
      },
      "released_at": "2026-07-19T08:45:13Z"
+    },
+    {
+     "module_id": "kuma",
+     "forges": [
+      "stephdl"
+     ],
+     "kind": "community",
+     "developer": "stephdl",
+     "name": "Kuma",
+     "description": {
+      "en": "Self-hosted monitoring for websites, services and certificates, with email alerts.",
+      "fr": "Supervision auto-hébergée des sites web, services et certificats, avec alertes par email.",
+      "it": "Monitoraggio self-hosted di siti web, servizi e certificati, con avvisi email.",
+      "de": "Selbst gehostetes Monitoring für Websites, Dienste und Zertifikate, mit E-Mail-Warnungen.",
+      "es": "Monitorización autoalojada de sitios web, servicios y certificados, con alertas por correo.",
+      "pt": "Monitorização auto-hospedada de sites, serviços e certificados, com alertas por email.",
+      "pt_BR": "Monitoramento auto-hospedado de sites, serviços e certificados, com alertas por e-mail.",
+      "eu": "Webguneen, zerbitzuen eta ziurtagirien monitorizazio auto-ostatatua, posta bidezko alertekin."
+     },
+     "about": null,
+     "authors": [
+      "Stephane de Labrusse",
+      "Markus Neuberger"
+     ],
+     "categories": [
+      "monitoring"
+     ],
+     "code_url": "https://github.com/stephdl/ns8-kuma",
+     "docs": {
+      "documentation_url": "https://github.com/stephdl/ns8-kuma#readme",
+      "bug_url": "https://github.com/stephdl/dev/issues"
+     },
+     "logo": "https://forge.de-labrusse.fr/ns8/updates/kuma/logo.png",
+     "screenshots": [
+      "https://forge.de-labrusse.fr/ns8/updates/kuma/screenshots/screen2.png",
+      "https://forge.de-labrusse.fr/ns8/updates/kuma/screenshots/screen1.png"
+     ],
+     "versions": [
+      {
+       "tag": "1.0.4",
+       "testing": false
+      },
+      {
+       "tag": "1.0.3",
+       "testing": false
+      },
+      {
+       "tag": "1.0.2",
+       "testing": false
+      },
+      {
+       "tag": "1.0.1",
+       "testing": false
+      }
+     ],
+     "stable": "1.0.4",
+     "testing": null,
+     "min_core": "3.12.4-0",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "louislam/uptime-kuma:2.5.6",
+       "mariadb:11.4.13"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm"
+      ],
+      "tcp_ports": 1,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/stephdl/kuma",
+     "stars": 0,
+     "pushed_at": "2026-11-09T17:32:28Z",
+     "archived": false,
+     "checks": {
+      "topic": false,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-10-25T09:55:53Z"
     }
    ]
   },
@@ -5775,6 +6502,108 @@
    ]
   },
   {
+   "id": "launcher",
+   "categories": [
+    "collaboration"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "launcher",
+     "forges": [
+      "stephdl"
+     ],
+     "kind": "community",
+     "developer": "stephdl",
+     "name": "Launcher",
+     "description": {
+      "en": "A home page listing every application published on the cluster, public or behind an LDAP login.",
+      "fr": "Une page d'accueil qui liste toutes les applications publiées sur le cluster, publique ou derrière un login LDAP.",
+      "it": "Una home page con tutte le applicazioni pubblicate sul cluster, pubblica o protetta da login LDAP.",
+      "de": "Eine Startseite mit allen auf dem Cluster veröffentlichten Anwendungen, öffentlich oder hinter einem LDAP-Login.",
+      "es": "Una página de inicio con todas las aplicaciones publicadas en el clúster, pública o tras un inicio de sesión LDAP."
+     },
+     "about": null,
+     "authors": [
+      "Stephane de Labrusse"
+     ],
+     "categories": [
+      "collaboration"
+     ],
+     "code_url": "https://github.com/stephdl/ns8-launcher",
+     "docs": {
+      "documentation_url": "https://github.com/stephdl/ns8-launcher#readme",
+      "bug_url": "https://github.com/stephdl/dev/issues"
+     },
+     "logo": "https://forge.de-labrusse.fr/ns8/updates/launcher/logo.png",
+     "screenshots": [
+      "https://forge.de-labrusse.fr/ns8/updates/launcher/screenshots/screen3.png",
+      "https://forge.de-labrusse.fr/ns8/updates/launcher/screenshots/screen2.png",
+      "https://forge.de-labrusse.fr/ns8/updates/launcher/screenshots/screen1.png"
+     ],
+     "versions": [
+      {
+       "tag": "1.2.0",
+       "testing": false
+      },
+      {
+       "tag": "1.1.1",
+       "testing": false
+      },
+      {
+       "tag": "1.1.0",
+       "testing": false
+      },
+      {
+       "tag": "1.0.2",
+       "testing": false
+      },
+      {
+       "tag": "1.0.1",
+       "testing": false
+      },
+      {
+       "tag": "1.0.0",
+       "testing": false
+      }
+     ],
+     "stable": "1.2.0",
+     "testing": null,
+     "min_core": "3.20.1",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "stephdl/launcher-app:1.2.0"
+      ],
+      "authorizations": [
+       "traefik@any:routeadm",
+       "cluster:accountconsumer,reader"
+      ],
+      "tcp_ports": 1,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/stephdl/launcher",
+     "stars": 0,
+     "pushed_at": "2026-11-09T21:12:32Z",
+     "archived": false,
+     "checks": {
+      "topic": false,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-11-08T10:18:56Z"
+    }
+   ]
+  },
+  {
    "id": "lemonldapng",
    "categories": [
     "security"
@@ -5848,6 +6677,112 @@
       "license": true
      },
      "released_at": "2025-05-09T10:29:03Z"
+    }
+   ]
+  },
+  {
+   "id": "lemp",
+   "categories": [
+    "development",
+    "web"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "lemp",
+     "forges": [
+      "stephdl"
+     ],
+     "kind": "community",
+     "developer": "stephdl",
+     "name": "LEMP",
+     "description": {
+      "en": "Host a PHP web site with nginx, PHP-FPM 8.2 to 8.5, MariaDB and phpMyAdmin, with mail through the cluster smarthost.",
+      "fr": "Hébergez un site web PHP avec nginx, PHP-FPM 8.2 à 8.5, MariaDB et phpMyAdmin, avec l'envoi de mails par le smarthost du cluster.",
+      "it": "Ospita un sito web PHP con nginx, PHP-FPM da 8.2 a 8.5, MariaDB e phpMyAdmin, con invio di posta tramite lo smarthost del cluster.",
+      "de": "Betreiben Sie eine PHP-Website mit nginx, PHP-FPM 8.2 bis 8.5, MariaDB und phpMyAdmin, mit Mailversand über den Smarthost des Clusters.",
+      "es": "Aloje un sitio web PHP con nginx, PHP-FPM 8.2 a 8.5, MariaDB y phpMyAdmin, con envío de correo a través del smarthost del clúster.",
+      "pt": "Aloje um site web PHP com nginx, PHP-FPM 8.2 a 8.5, MariaDB e phpMyAdmin, com envio de correio através do smarthost do cluster.",
+      "pt_BR": "Hospede um site PHP com nginx, PHP-FPM 8.2 a 8.5, MariaDB e phpMyAdmin, com envio de e-mail pelo smarthost do cluster.",
+      "eu": "Ostatatu PHP webgune bat nginx, PHP-FPM 8.2tik 8.5era, MariaDB eta phpMyAdmin-ekin, klusterraren smarthost bidezko posta-bidalketarekin.",
+      "nl": "Host een PHP-website met nginx, PHP-FPM 8.2 tot 8.5, MariaDB en phpMyAdmin, met e-mail via de smarthost van het cluster.",
+      "ar": "استضف موقع PHP مع nginx و PHP-FPM من 8.2 إلى 8.5 و MariaDB و phpMyAdmin، مع إرسال البريد عبر المضيف الذكي للعنقود."
+     },
+     "about": null,
+     "authors": [
+      "Stephane de Labrusse"
+     ],
+     "categories": [
+      "development",
+      "web"
+     ],
+     "code_url": "https://github.com/stephdl/ns8-lemp",
+     "docs": {
+      "documentation_url": "https://github.com/stephdl/ns8-lemp#readme",
+      "bug_url": "https://github.com/stephdl/ns8-lemp/issues"
+     },
+     "logo": "https://forge.de-labrusse.fr/ns8/updates/lemp/logo.png",
+     "screenshots": [
+      "https://forge.de-labrusse.fr/ns8/updates/lemp/screenshots/screen3.png",
+      "https://forge.de-labrusse.fr/ns8/updates/lemp/screenshots/screen2.png",
+      "https://forge.de-labrusse.fr/ns8/updates/lemp/screenshots/screen1.png"
+     ],
+     "versions": [
+      {
+       "tag": "1.1.0",
+       "testing": false
+      },
+      {
+       "tag": "1.0.2",
+       "testing": false
+      },
+      {
+       "tag": "1.0.1",
+       "testing": false
+      },
+      {
+       "tag": "1.0.0",
+       "testing": false
+      }
+     ],
+     "stable": "1.1.0",
+     "testing": null,
+     "min_core": "3.20.1",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "mariadb:12.3.3",
+       "nginx:1.30.6",
+       "phpmyadmin:5.2.3-fpm"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm",
+       "cluster:accountconsumer"
+      ],
+      "tcp_ports": 1,
+      "udp_ports": 0,
+      "volumes": [
+       "app",
+       "mariadb-data"
+      ]
+     },
+     "source": "ghcr.io/stephdl/lemp",
+     "stars": 0,
+     "pushed_at": "2026-11-09T21:16:14Z",
+     "archived": false,
+     "checks": {
+      "topic": false,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-10-30T11:06:49Z"
     }
    ]
   },
@@ -7416,7 +8351,7 @@
      },
      "source": "ghcr.io/nethesis/nethvoice",
      "stars": 9,
-     "pushed_at": "2026-11-10T13:35:23Z",
+     "pushed_at": "2026-11-10T13:59:59Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -9141,6 +10076,134 @@
    ]
   },
   {
+   "id": "pihole",
+   "categories": [],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "pihole",
+     "forges": [
+      "stephdl"
+     ],
+     "kind": "community",
+     "developer": "stephdl",
+     "name": "Pihole",
+     "description": {
+      "en": "Pi-hole is a Linux network-level advertisement and Internet tracker blocking application which acts as a DNS sinkhole"
+     },
+     "about": null,
+     "authors": [
+      "Stephane de Labrusse"
+     ],
+     "categories": [],
+     "code_url": "https://github.com/stephdl/ns8-pihole",
+     "docs": {
+      "documentation_url": "https://docs.pi-hole.net/",
+      "bug_url": "https://github.com/stephdl/dev"
+     },
+     "logo": "https://forge.de-labrusse.fr/ns8/updates/pihole/logo.png",
+     "screenshots": [
+      "https://forge.de-labrusse.fr/ns8/updates/pihole/screenshots/screen1.png"
+     ],
+     "versions": [
+      {
+       "tag": "1.2.2",
+       "testing": false
+      },
+      {
+       "tag": "1.2.1",
+       "testing": false
+      },
+      {
+       "tag": "1.2.0",
+       "testing": false
+      },
+      {
+       "tag": "1.1.8",
+       "testing": false
+      },
+      {
+       "tag": "1.1.7",
+       "testing": false
+      },
+      {
+       "tag": "1.1.6",
+       "testing": false
+      },
+      {
+       "tag": "1.1.5",
+       "testing": false
+      },
+      {
+       "tag": "1.1.4",
+       "testing": false
+      },
+      {
+       "tag": "1.1.3",
+       "testing": false
+      },
+      {
+       "tag": "1.1.2",
+       "testing": false
+      },
+      {
+       "tag": "1.1.1",
+       "testing": false
+      },
+      {
+       "tag": "1.1.0",
+       "testing": false
+      },
+      {
+       "tag": "1.0.15",
+       "testing": false
+      },
+      {
+       "tag": "1.0.14",
+       "testing": false
+      },
+      {
+       "tag": "1.0.13",
+       "testing": false
+      }
+     ],
+     "stable": "1.2.2",
+     "testing": null,
+     "min_core": "3.20.1",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "pihole/pihole:2026.10.0"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm",
+       "node:fwadm"
+      ],
+      "tcp_ports": 1,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/stephdl/pihole",
+     "stars": 0,
+     "pushed_at": "2026-11-09T17:42:47Z",
+     "archived": false,
+     "checks": {
+      "topic": false,
+      "categories": false,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": false,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-10-25T09:59:18Z"
+    }
+   ]
+  },
+  {
    "id": "piler",
    "categories": [
     "collaboration"
@@ -9700,6 +10763,94 @@
       "license": true
      },
      "released_at": "2026-11-06T15:59:44Z"
+    }
+   ]
+  },
+  {
+   "id": "privatebin",
+   "categories": [
+    "collaboration",
+    "security"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "privatebin",
+     "forges": [
+      "stephdl"
+     ],
+     "kind": "community",
+     "developer": "stephdl",
+     "name": "PrivateBin",
+     "description": {
+      "en": "Share text and files with end-to-end encryption: the server never sees the content.",
+      "fr": "Partage de textes et de fichiers chiffrés de bout en bout : le serveur ne voit jamais le contenu.",
+      "it": "Condivisione di testi e file con cifratura end-to-end: il server non vede mai il contenuto.",
+      "de": "Texte und Dateien mit Ende-zu-Ende-Verschlüsselung teilen: der Server sieht den Inhalt nie.",
+      "es": "Comparte textos y archivos con cifrado de extremo a extremo: el servidor nunca ve el contenido.",
+      "pt": "Partilha de textos e ficheiros com cifra ponta a ponta: o servidor nunca vê o conteúdo.",
+      "pt_BR": "Compartilhe textos e arquivos com criptografia de ponta a ponta: o servidor nunca vê o conteúdo.",
+      "eu": "Testuak eta fitxategiak muturretik muturrerako zifratzearekin partekatu: zerbitzariak ez du inoiz edukia ikusten."
+     },
+     "about": null,
+     "authors": [
+      "Stephane de Labrusse"
+     ],
+     "categories": [
+      "collaboration",
+      "security"
+     ],
+     "code_url": "https://github.com/stephdl/ns8-privatebin",
+     "docs": {
+      "documentation_url": "https://github.com/stephdl/ns8-privatebin#readme",
+      "bug_url": "https://github.com/stephdl/dev/issues"
+     },
+     "logo": "https://forge.de-labrusse.fr/ns8/updates/privatebin/logo.png",
+     "screenshots": [
+      "https://forge.de-labrusse.fr/ns8/updates/privatebin/screenshots/screen3.png",
+      "https://forge.de-labrusse.fr/ns8/updates/privatebin/screenshots/screen2.png",
+      "https://forge.de-labrusse.fr/ns8/updates/privatebin/screenshots/screen1.png"
+     ],
+     "versions": [
+      {
+       "tag": "1.0.0",
+       "testing": false
+      }
+     ],
+     "stable": "1.0.0",
+     "testing": null,
+     "min_core": "3.20.1",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "privatebin/nginx-fpm-alpine:2.1.0"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm"
+      ],
+      "tcp_ports": 1,
+      "udp_ports": 0,
+      "volumes": [
+       "privatebin-data"
+      ]
+     },
+     "source": "ghcr.io/stephdl/privatebin",
+     "stars": 0,
+     "pushed_at": "2026-11-10T13:40:41Z",
+     "archived": false,
+     "checks": {
+      "topic": true,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-10-26T17:42:24Z"
     }
    ]
   },
@@ -10419,6 +11570,135 @@
    ]
   },
   {
+   "id": "sam",
+   "categories": [
+    "security"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "sam",
+     "forges": [
+      "stephdl"
+     ],
+     "kind": "community",
+     "developer": "stephdl",
+     "name": "Sam",
+     "description": {
+      "en": "Audit and manage SSH authorized keys across your infrastructure. Detects anomalies, enforces ANSSI compliance, and provides a web UI for key lifecycle management."
+     },
+     "about": null,
+     "authors": [
+      "Stephane de Labrusse"
+     ],
+     "categories": [
+      "security"
+     ],
+     "code_url": "https://github.com/stephdl/ssh-access-manager",
+     "docs": {
+      "documentation_url": "https://github.com/stephdl/ssh-access-manager/blob/main/README.md",
+      "bug_url": "https://github.com/stephdl/dev/issues"
+     },
+     "logo": "https://forge.de-labrusse.fr/ns8/updates/sam/logo.png",
+     "screenshots": [],
+     "versions": [
+      {
+       "tag": "1.0.6",
+       "testing": false
+      },
+      {
+       "tag": "1.0.5",
+       "testing": false
+      },
+      {
+       "tag": "1.0.4",
+       "testing": false
+      },
+      {
+       "tag": "1.0.3",
+       "testing": false
+      },
+      {
+       "tag": "1.0.2",
+       "testing": false
+      },
+      {
+       "tag": "1.0.1",
+       "testing": false
+      },
+      {
+       "tag": "1.0.0",
+       "testing": false
+      },
+      {
+       "tag": "0.0.1-dev.11",
+       "testing": true
+      },
+      {
+       "tag": "0.0.1-dev.10",
+       "testing": true
+      },
+      {
+       "tag": "0.0.1-dev.9",
+       "testing": true
+      },
+      {
+       "tag": "0.0.1-dev.8",
+       "testing": true
+      },
+      {
+       "tag": "0.0.1-dev.7",
+       "testing": true
+      },
+      {
+       "tag": "0.0.1-dev.6",
+       "testing": true
+      },
+      {
+       "tag": "0.0.1-dev.5",
+       "testing": true
+      },
+      {
+       "tag": "0.0.1-dev.4",
+       "testing": true
+      }
+     ],
+     "stable": "1.0.6",
+     "testing": null,
+     "min_core": "3.20.1",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "stephdl/sam-server:1.0.5"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm"
+      ],
+      "tcp_ports": 1,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/stephdl/sam",
+     "stars": 0,
+     "pushed_at": "2026-11-09T22:58:43Z",
+     "archived": false,
+     "checks": {
+      "topic": false,
+      "categories": true,
+      "logo": true,
+      "screenshots": false,
+      "description": true,
+      "translations": false,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": null
+    }
+   ]
+  },
+  {
    "id": "samba",
    "categories": [
     "collaboration",
@@ -10978,6 +12258,107 @@
    ]
   },
   {
+   "id": "sympa",
+   "categories": [
+    "collaboration"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "sympa",
+     "forges": [
+      "stephdl"
+     ],
+     "kind": "community",
+     "developer": "stephdl",
+     "name": "Sympa",
+     "description": {
+      "en": "Mailing list manager with web archives, moderation and subscriber management, delivering list mail through the NS8 Mail application.",
+      "fr": "Gestionnaire de listes de diffusion avec archives web, modération et gestion des abonnés, qui distribue le courrier des listes via l'application Mail de NS8.",
+      "it": "Gestore di mailing list con archivi web, moderazione e gestione degli iscritti, che consegna la posta delle liste tramite l'applicazione Mail di NS8.",
+      "de": "Mailinglisten-Verwaltung mit Web-Archiven, Moderation und Abonnentenverwaltung, die die Listenpost über die NS8-Mail-Anwendung zustellt.",
+      "es": "Gestor de listas de correo con archivos web, moderación y gestión de suscriptores, que entrega el correo de las listas a través de la aplicación Mail de NS8.",
+      "pt": "Gestor de listas de correio com arquivos web, moderação e gestão de subscritores, que entrega o correio das listas através da aplicação Mail do NS8.",
+      "pt_BR": "Gerenciador de listas de e-mail com arquivos web, moderação e gerenciamento de inscritos, que entrega o e-mail das listas pelo aplicativo Mail do NS8.",
+      "eu": "Posta-zerrenden kudeatzailea web artxiboekin, moderazioarekin eta harpidedunen kudeaketarekin, zerrenden posta NS8ko Mail aplikazioaren bidez banatzen duena."
+     },
+     "about": null,
+     "authors": [
+      "Stephane de Labrusse"
+     ],
+     "categories": [
+      "collaboration"
+     ],
+     "code_url": "https://github.com/stephdl/ns8-sympa",
+     "docs": {
+      "documentation_url": "https://github.com/stephdl/ns8-sympa#readme",
+      "bug_url": "https://github.com/stephdl/dev/issues"
+     },
+     "logo": "https://forge.de-labrusse.fr/ns8/updates/sympa/logo.png",
+     "screenshots": [
+      "https://forge.de-labrusse.fr/ns8/updates/sympa/screenshots/screen3.png",
+      "https://forge.de-labrusse.fr/ns8/updates/sympa/screenshots/screen2.png",
+      "https://forge.de-labrusse.fr/ns8/updates/sympa/screenshots/screen1.png"
+     ],
+     "versions": [
+      {
+       "tag": "1.0.3",
+       "testing": false
+      },
+      {
+       "tag": "1.0.2",
+       "testing": false
+      },
+      {
+       "tag": "1.0.1",
+       "testing": false
+      },
+      {
+       "tag": "1.0.0",
+       "testing": false
+      }
+     ],
+     "stable": "1.0.3",
+     "testing": null,
+     "min_core": "3.20.1",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "postgres:18.6-alpine",
+       "stephdl/sympa-app:1.0.3"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm",
+       "cluster:accountconsumer",
+       "mail@any:mailadm"
+      ],
+      "tcp_ports": 2,
+      "udp_ports": 0,
+      "volumes": [
+       "sympa-data"
+      ]
+     },
+     "source": "ghcr.io/stephdl/sympa",
+     "stars": 0,
+     "pushed_at": "2026-11-10T06:09:02Z",
+     "archived": false,
+     "checks": {
+      "topic": false,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-10-26T17:14:41Z"
+    }
+   ]
+  },
+  {
    "id": "tailscale",
    "categories": [
     "communication"
@@ -11444,6 +12825,232 @@
    ]
   },
   {
+   "id": "v16postgresql",
+   "categories": [
+    "database"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "v16postgresql",
+     "forges": [
+      "stephdl"
+     ],
+     "kind": "community",
+     "developer": "stephdl",
+     "name": "PostgreSQLv16",
+     "description": {
+      "en": "PostgreSQL v16 is a free and open-source relational database management system"
+     },
+     "about": null,
+     "authors": [
+      "stephane de Labrusse"
+     ],
+     "categories": [
+      "database"
+     ],
+     "code_url": "https://github.com/stephdl/ns8-postgresql16",
+     "docs": {
+      "documentation_url": "https://github.com/stephdl/ns8-postgresql16",
+      "bug_url": "https://github.com/stephdl/dev"
+     },
+     "logo": "https://forge.de-labrusse.fr/ns8/updates/v16postgresql/logo.png",
+     "screenshots": [
+      "https://forge.de-labrusse.fr/ns8/updates/v16postgresql/screenshots/screen2.png",
+      "https://forge.de-labrusse.fr/ns8/updates/v16postgresql/screenshots/screen1.png"
+     ],
+     "versions": [
+      {
+       "tag": "1.2.6",
+       "testing": false
+      },
+      {
+       "tag": "1.2.4",
+       "testing": false
+      },
+      {
+       "tag": "1.2.3",
+       "testing": false
+      },
+      {
+       "tag": "1.2.2",
+       "testing": false
+      },
+      {
+       "tag": "1.2.1",
+       "testing": false
+      },
+      {
+       "tag": "1.2.0",
+       "testing": false
+      },
+      {
+       "tag": "1.1.9",
+       "testing": false
+      },
+      {
+       "tag": "1.1.8",
+       "testing": false
+      },
+      {
+       "tag": "1.1.7",
+       "testing": false
+      },
+      {
+       "tag": "1.1.5",
+       "testing": false
+      },
+      {
+       "tag": "1.1.4",
+       "testing": false
+      },
+      {
+       "tag": "1.1.3",
+       "testing": false
+      },
+      {
+       "tag": "1.1.2",
+       "testing": false
+      },
+      {
+       "tag": "1.1.1",
+       "testing": false
+      },
+      {
+       "tag": "1.1.0",
+       "testing": false
+      }
+     ],
+     "stable": "1.2.6",
+     "testing": null,
+     "min_core": "3.20.1",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "dpage/pgadmin4:9.19",
+       "postgres:16.15-bookworm"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm"
+      ],
+      "tcp_ports": 2,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/stephdl/v16postgresql",
+     "stars": 0,
+     "pushed_at": "2026-11-09T21:16:20Z",
+     "archived": false,
+     "checks": {
+      "topic": false,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": false,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-10-30T15:21:30Z"
+    }
+   ]
+  },
+  {
+   "id": "v18postgresql",
+   "categories": [
+    "database"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "v18postgresql",
+     "forges": [
+      "stephdl"
+     ],
+     "kind": "community",
+     "developer": "stephdl",
+     "name": "PostgreSQLv18",
+     "description": {
+      "en": "PostgreSQL v18 is a free and open-source relational database management system"
+     },
+     "about": null,
+     "authors": [
+      "stephane de Labrusse"
+     ],
+     "categories": [
+      "database"
+     ],
+     "code_url": "https://github.com/stephdl/ns8-postgresql18",
+     "docs": {
+      "documentation_url": "https://github.com/stephdl/ns8-postgresql18",
+      "bug_url": "https://github.com/stephdl/dev/issues"
+     },
+     "logo": "https://forge.de-labrusse.fr/ns8/updates/v18postgresql/logo.png",
+     "screenshots": [
+      "https://forge.de-labrusse.fr/ns8/updates/v18postgresql/screenshots/screen2.png",
+      "https://forge.de-labrusse.fr/ns8/updates/v18postgresql/screenshots/screen1.png"
+     ],
+     "versions": [
+      {
+       "tag": "1.1.1",
+       "testing": false
+      },
+      {
+       "tag": "1.0.3",
+       "testing": false
+      },
+      {
+       "tag": "1.0.2",
+       "testing": false
+      },
+      {
+       "tag": "1.0.1",
+       "testing": false
+      },
+      {
+       "tag": "1.0.0",
+       "testing": false
+      }
+     ],
+     "stable": "1.1.1",
+     "testing": null,
+     "min_core": "3.20.1",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "dpage/pgadmin4:9.19",
+       "postgres:18.6-bookworm"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm"
+      ],
+      "tcp_ports": 2,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/stephdl/v18postgresql",
+     "stars": 0,
+     "pushed_at": "2026-11-09T21:16:32Z",
+     "archived": false,
+     "checks": {
+      "topic": false,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": false,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-10-30T15:20:46Z"
+    }
+   ]
+  },
+  {
    "id": "vaultwarden",
    "categories": [
     "collaboration",
@@ -11747,6 +13354,154 @@
       "license": true
      },
      "released_at": "2026-10-24T19:57:08Z"
+    }
+   ]
+  },
+  {
+   "id": "wazuh",
+   "categories": [
+    "security"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "wazuh",
+     "forges": [
+      "stephdl"
+     ],
+     "kind": "community",
+     "developer": "stephdl",
+     "name": "Wazuh",
+     "description": {
+      "en": "Central Wazuh server: collects the logs of your servers, raises alerts and keeps them searchable.",
+      "fr": "Serveur Wazuh central : collecte les journaux de vos serveurs, lève des alertes et les rend consultables.",
+      "it": "Server Wazuh centrale: raccoglie i log dei tuoi server, genera avvisi e li rende ricercabili.",
+      "de": "Zentraler Wazuh-Server: sammelt die Logs Ihrer Server, löst Warnungen aus und macht sie durchsuchbar.",
+      "es": "Servidor Wazuh central: recoge los registros de sus servidores, genera alertas y permite buscarlos.",
+      "pt": "Servidor Wazuh central: recolhe os registos dos seus servidores, gera alertas e torna-os pesquisáveis.",
+      "pt_BR": "Servidor Wazuh central: coleta os logs dos seus servidores, gera alertas e os torna pesquisáveis.",
+      "eu": "Wazuh zerbitzari zentrala: zure zerbitzarien erregistroak biltzen ditu, alertak sortzen ditu eta bilagarri uzten ditu."
+     },
+     "about": null,
+     "authors": [
+      "Stephane de Labrusse"
+     ],
+     "categories": [
+      "security"
+     ],
+     "code_url": "https://github.com/stephdl/ns8-wazuh",
+     "docs": {
+      "documentation_url": "https://github.com/stephdl/ns8-wazuh#readme",
+      "bug_url": "https://github.com/stephdl/dev/issues"
+     },
+     "logo": "https://forge.de-labrusse.fr/ns8/updates/wazuh/logo.png",
+     "screenshots": [
+      "https://forge.de-labrusse.fr/ns8/updates/wazuh/screenshots/screen3.png",
+      "https://forge.de-labrusse.fr/ns8/updates/wazuh/screenshots/screen2.png",
+      "https://forge.de-labrusse.fr/ns8/updates/wazuh/screenshots/screen1.png"
+     ],
+     "versions": [
+      {
+       "tag": "1.3.0",
+       "testing": false
+      },
+      {
+       "tag": "1.2.0",
+       "testing": false
+      },
+      {
+       "tag": "1.1.7",
+       "testing": false
+      },
+      {
+       "tag": "1.1.6",
+       "testing": false
+      },
+      {
+       "tag": "1.1.5",
+       "testing": false
+      },
+      {
+       "tag": "1.1.4",
+       "testing": false
+      },
+      {
+       "tag": "1.1.2",
+       "testing": false
+      },
+      {
+       "tag": "1.1.1",
+       "testing": false
+      },
+      {
+       "tag": "1.1.0",
+       "testing": false
+      },
+      {
+       "tag": "1.0.7",
+       "testing": false
+      },
+      {
+       "tag": "1.0.6",
+       "testing": false
+      },
+      {
+       "tag": "1.0.5",
+       "testing": false
+      },
+      {
+       "tag": "1.0.4",
+       "testing": false
+      },
+      {
+       "tag": "1.0.3",
+       "testing": false
+      },
+      {
+       "tag": "1.0.2",
+       "testing": false
+      }
+     ],
+     "stable": "1.3.0",
+     "testing": null,
+     "min_core": "3.20.1",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "wazuh/wazuh-manager:5.0.0-rc1",
+       "wazuh/wazuh-indexer:5.0.0-rc1",
+       "wazuh/wazuh-dashboard:5.0.0-rc1"
+      ],
+      "authorizations": [
+       "node:fwadm",
+       "traefik@node:routeadm",
+       "cluster:accountconsumer"
+      ],
+      "tcp_ports": 1,
+      "udp_ports": 0,
+      "volumes": [
+       "wazuh-indexer-data",
+       "wazuh-snapshots",
+       "wazuh-logs"
+      ]
+     },
+     "source": "ghcr.io/stephdl/wazuh",
+     "stars": 0,
+     "pushed_at": "2026-11-09T22:11:22Z",
+     "archived": false,
+     "checks": {
+      "topic": false,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-11-04T10:20:44Z"
     }
    ]
   },
@@ -12221,6 +13976,118 @@
       "license": true
      },
      "released_at": "2026-10-22T10:37:17Z"
+    }
+   ]
+  },
+  {
+   "id": "xwiki",
+   "categories": [
+    "collaboration"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "xwiki",
+     "forges": [
+      "stephdl"
+     ],
+     "kind": "community",
+     "developer": "stephdl",
+     "name": "Xwiki",
+     "description": {
+      "en": "XWiki is a free and open source wiki software platform"
+     },
+     "about": "Runs XWiki (MariaDB/Tomcat flavour) as a rootless Podman pod alongside MariaDB 11.4. The pod uses slirp4netns networking so XWiki can reach the NS8 LDAP account provider on the host without any extra firewall rules.",
+     "authors": [
+      "stephane de Labrusse"
+     ],
+     "categories": [
+      "collaboration"
+     ],
+     "code_url": "https://github.com/stephdl/ns8-xwiki",
+     "docs": {
+      "documentation_url": "https://www.xwiki.org",
+      "bug_url": "https://github.com/stephdl/dev/issues"
+     },
+     "logo": "https://forge.de-labrusse.fr/ns8/updates/xwiki/logo.png",
+     "screenshots": [
+      "https://forge.de-labrusse.fr/ns8/updates/xwiki/screenshots/screen1.png"
+     ],
+     "versions": [
+      {
+       "tag": "1.1.1",
+       "testing": false
+      },
+      {
+       "tag": "1.1.0",
+       "testing": false
+      },
+      {
+       "tag": "1.0.7",
+       "testing": false
+      },
+      {
+       "tag": "1.0.6",
+       "testing": false
+      },
+      {
+       "tag": "1.0.5",
+       "testing": false
+      },
+      {
+       "tag": "1.0.4",
+       "testing": false
+      },
+      {
+       "tag": "1.0.3",
+       "testing": false
+      },
+      {
+       "tag": "1.0.2",
+       "testing": false
+      },
+      {
+       "tag": "1.0.1",
+       "testing": false
+      },
+      {
+       "tag": "1.0.0",
+       "testing": false
+      }
+     ],
+     "stable": "1.1.1",
+     "testing": null,
+     "min_core": "3.20.1",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "xwiki:18.8.0-mariadb-tomcat",
+       "mariadb:11.4.13"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm"
+      ],
+      "tcp_ports": 1,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/stephdl/xwiki",
+     "stars": 0,
+     "pushed_at": "2026-11-09T21:17:57Z",
+     "archived": false,
+     "checks": {
+      "topic": false,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": false,
+      "translations": false,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-10-25T10:00:07Z"
     }
    ]
   },
