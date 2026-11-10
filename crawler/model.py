@@ -178,6 +178,8 @@ def make_variant(meta, *, app_id, forge, kind, versions, asset_base=None, code_u
 class Catalog:
     def __init__(self, aliases=None):
         self.aliases = aliases or {}
+        self.excluded = set()
+        self.excluded_repos = set()
         self.apps = {}
         self.gitlab_projects = {}
 
@@ -216,6 +218,13 @@ class Catalog:
     def variants(self):
         for vs in self.apps.values():
             yield from vs
+
+    def remove(self, variants):
+        ids = {id(v) for v in variants}
+        for app_id in list(self.apps):
+            self.apps[app_id] = [v for v in self.apps[app_id] if id(v) not in ids]
+            if not self.apps[app_id]:
+                del self.apps[app_id]
 
     def to_json(self):
         apps = []

@@ -32,6 +32,7 @@ class GitHub:
         queue = [full_name]
         while queue:
             for fork in self._paged(f"/repos/{queue.pop()}/forks"):
+                self._repos.setdefault(fork["full_name"], fork)
                 found.append(fork["full_name"])
                 if fork.get("forks_count"):
                     queue.append(fork["full_name"])

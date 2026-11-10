@@ -84,9 +84,31 @@ Check these points, in order:
 3. If the repository is not a fork, it is public, has `ns8` in its name or the `ns8` topic, and serves `repodata.json` on its default branch, on a `repomd` branch, or on its GitHub Pages site. For a Pages site the crawler tries the repository homepage and `https://<owner>.github.io/<repo>/`, at the root and under `ns8/updates/`.
 4. The repository is not hosted under the `NethServer` or `nethesis` organizations, whose apps already come from the official repository.
 5. The module id is not in `exclude_apps`. System modules installed with the core (`core`, `traefik`, `loki`, `metrics`, `ldapproxy`) are not listed as apps.
-6. Wait for the next crawl, at most six hours, or ask for a manual run.
+6. Neither the software repository nor the source code repository has the `ns8-noindex` topic, and neither is in `exclude_repos`. See [Keep a repository or an app out of the index](#keep-a-repository-or-an-app-out-of-the-index).
+7. Wait for the next crawl, at most six hours, or ask for a manual run.
 
 If none of this helps, open an issue in this repository with the URL of your software repository.
+
+### Keep a repository or an app out of the index
+
+There are two ways to remove something from the catalog.
+
+**As a maintainer, with a GitHub topic.** Add the `ns8-noindex` topic to a repository you own (repository page, gear icon next to "About", Topics). On a software repository, the whole repository and all its apps leave the catalog. On the source code repository of an app (the one in `docs.code_url`), that app leaves the catalog, in every software repository that publishes it. The topic also works on a source code repository hosted on GitLab (Settings › General › Topics). Remove the topic and the app comes back at the next crawl.
+
+To remove only one app from your software repository, add the topic to the source code repository of that app, or ask for an entry in `exclude_repos`.
+
+**For anyone, with a pull request.** Add an entry to `exclude_repos` in `sources.yml`. This is the only way for a software repository that is not on GitHub, such as one served from GitLab Pages or a private web server. Such a repository is named by its `id` in the `forges` list.
+
+```yaml
+exclude_repos:
+  - owner/ns8-forge          # a whole software repository
+  - owner/ns8-forge:myapp    # only the app myapp from this software repository
+  - owner/ns8-myapp          # a source code repository: the app leaves every forge
+  - someone                  # a forge declared by url in sources.yml, by its id
+  - someone:myapp            # one app of that forge
+```
+
+The changes show up after the next crawl, within six hours.
 
 ### Same software, several developers
 
@@ -102,6 +124,7 @@ forges:
     github: owner/ns8-repo
 exclude_repos:
   - owner/ns8-not-a-repository
+  - owner/ns8-forge:myapp
 exclude_apps:
   - core      # system modules installed with the core are not apps
 aliases:
