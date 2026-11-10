@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T07:58:14+00:00",
+ "generated_at": "2026-11-10T13:41:58+00:00",
  "forges": [
   {
    "id": "nethserver",
@@ -57,7 +57,7 @@
    "alt_url": "https://raw.githubusercontent.com/stephdl/ns8-stephdl/repomd/ns8/updates/",
    "kind": "community",
    "repo": "stephdl/ns8-stephdl",
-   "app_count": 17,
+   "app_count": 16,
    "homepage": "https://forge.de-labrusse.fr/"
   },
   {
@@ -2230,7 +2230,7 @@
      },
      "source": "ghcr.io/nethserver/crowdsec",
      "stars": 1,
-     "pushed_at": "2026-11-10T04:02:06Z",
+     "pushed_at": "2026-11-10T10:24:58Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -4385,11 +4385,11 @@
      ],
      "versions": [
       {
-       "tag": "0.4.12",
+       "tag": "0.4.13",
        "testing": false
       }
      ],
-     "stable": "0.4.12",
+     "stable": "0.4.13",
      "testing": null,
      "min_core": "3.2.2",
      "tech": {
@@ -4422,7 +4422,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-11-09T22:54:55Z"
+     "released_at": "2026-11-10T07:51:41Z"
     }
    ]
   },
@@ -4590,91 +4590,6 @@
       "license": true
      },
      "released_at": "2025-07-05T14:36:48Z"
-    },
-    {
-     "module_id": "glpi",
-     "forges": [
-      "stephdl"
-     ],
-     "kind": "community",
-     "developer": "stephdl",
-     "name": "GLPI",
-     "description": {
-      "en": "IT service management and asset inventory, with domain user login and email notifications.",
-      "fr": "Gestion des services informatiques et inventaire du parc, avec connexion des utilisateurs du domaine et notifications par email.",
-      "it": "Gestione dei servizi IT e inventario degli asset, con accesso degli utenti del dominio e notifiche email.",
-      "de": "IT-Service-Management und Inventarisierung, mit Anmeldung der Domainbenutzer und E-Mail-Benachrichtigungen.",
-      "es": "Gestión de servicios TI e inventario de activos, con inicio de sesión de usuarios del dominio y notificaciones por correo.",
-      "pt": "Gestão de serviços de TI e inventário de ativos, com início de sessão dos utilizadores do domínio e notificações por email.",
-      "pt_BR": "Gestão de serviços de TI e inventário de ativos, com login dos usuários do domínio e notificações por e-mail.",
-      "eu": "IKT zerbitzuen kudeaketa eta aktiboen inbentarioa, domeinuko erabiltzaileen saio hasierarekin eta posta bidezko jakinarazpenekin."
-     },
-     "about": null,
-     "authors": [
-      "Stephane de Labrusse"
-     ],
-     "categories": [
-      "collaboration"
-     ],
-     "code_url": "https://github.com/stephdl/ns8-glpi",
-     "docs": {
-      "documentation_url": "https://github.com/stephdl/ns8-glpi#readme",
-      "bug_url": "https://github.com/stephdl/dev/issues"
-     },
-     "logo": "https://forge.de-labrusse.fr/ns8/updates/glpi/logo.png",
-     "screenshots": [
-      "https://forge.de-labrusse.fr/ns8/updates/glpi/screenshots/screen2.png",
-      "https://forge.de-labrusse.fr/ns8/updates/glpi/screenshots/screen1.png"
-     ],
-     "versions": [
-      {
-       "tag": "1.0.2",
-       "testing": false
-      },
-      {
-       "tag": "1.0.1",
-       "testing": false
-      },
-      {
-       "tag": "1.0.0",
-       "testing": false
-      }
-     ],
-     "stable": "1.0.2",
-     "testing": null,
-     "min_core": "3.20.1",
-     "tech": {
-      "rootfull": false,
-      "images": [
-       "mariadb:12.3.3",
-       "glpi/glpi:12.0.0"
-      ],
-      "authorizations": [
-       "traefik@node:routeadm",
-       "cluster:accountconsumer"
-      ],
-      "tcp_ports": 1,
-      "udp_ports": 0,
-      "volumes": [
-       "glpi-data"
-      ]
-     },
-     "source": "ghcr.io/stephdl/glpi",
-     "stars": 0,
-     "pushed_at": "2026-11-09T21:14:33Z",
-     "archived": false,
-     "checks": {
-      "topic": false,
-      "categories": true,
-      "logo": true,
-      "screenshots": true,
-      "description": true,
-      "translations": true,
-      "docs": true,
-      "min_core": true,
-      "license": true
-     },
-     "released_at": "2026-10-25T10:02:53Z"
     }
    ]
   },
@@ -7007,7 +6922,7 @@
      },
      "source": "ghcr.io/nethserver/mail",
      "stars": 3,
-     "pushed_at": "2026-11-10T04:07:24Z",
+     "pushed_at": "2026-11-10T11:45:53Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -7327,7 +7242,7 @@
      },
      "source": "ghcr.io/nethserver/mattermost",
      "stars": 0,
-     "pushed_at": "2026-11-10T07:50:51Z",
+     "pushed_at": "2026-11-10T08:01:15Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -8351,7 +8266,7 @@
      },
      "source": "ghcr.io/nethesis/nethvoice",
      "stars": 9,
-     "pushed_at": "2026-11-09T17:04:33Z",
+     "pushed_at": "2026-11-10T13:35:23Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -8438,7 +8353,7 @@
      },
      "source": "ghcr.io/nethesis/nethvoice-proxy",
      "stars": 4,
-     "pushed_at": "2026-11-10T07:49:50Z",
+     "pushed_at": "2026-11-10T09:06:05Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -8859,7 +8774,7 @@
      },
      "source": "ghcr.io/platypuschan/ntfy-reworked",
      "stars": 0,
-     "pushed_at": "2026-11-10T07:41:19Z",
+     "pushed_at": "2026-11-10T09:57:16Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -8937,7 +8852,7 @@
      },
      "source": "ghcr.io/platypuschan/obsidian-livesync",
      "stars": 0,
-     "pushed_at": "2026-11-10T06:45:07Z",
+     "pushed_at": "2026-11-10T10:47:51Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -9248,7 +9163,7 @@
      },
      "source": "ghcr.io/nethserver/openldap",
      "stars": 0,
-     "pushed_at": "2026-10-28T15:05:24Z",
+     "pushed_at": "2026-11-10T13:06:22Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -9486,7 +9401,7 @@
      },
      "source": "ghcr.io/tebbiworld/openwebui",
      "stars": 0,
-     "pushed_at": "2026-11-10T00:36:33Z",
+     "pushed_at": "2026-11-10T08:01:43Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -9543,11 +9458,11 @@
      ],
      "versions": [
       {
-       "tag": "0.4.3",
+       "tag": "0.4.4",
        "testing": false
       }
      ],
-     "stable": "0.4.3",
+     "stable": "0.4.4",
      "testing": null,
      "min_core": "3.2.2",
      "tech": {
@@ -9565,7 +9480,7 @@
      },
      "source": "ghcr.io/platypuschan/organizr-reworked",
      "stars": 0,
-     "pushed_at": "2026-11-10T07:55:19Z",
+     "pushed_at": "2026-11-10T08:45:55Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -9578,7 +9493,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-11-10T03:48:47Z"
+     "released_at": "2026-11-10T07:55:19Z"
     }
    ]
   },
@@ -10837,7 +10752,7 @@
      },
      "source": "ghcr.io/stephdl/privatebin",
      "stars": 0,
-     "pushed_at": "2026-11-09T21:18:05Z",
+     "pushed_at": "2026-11-10T13:26:05Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -10975,7 +10890,7 @@
      ],
      "versions": [
       {
-       "tag": "0.1.5",
+       "tag": "0.2.0",
        "testing": false
       },
       {
@@ -10983,7 +10898,7 @@
        "testing": true
       }
      ],
-     "stable": "0.1.5",
+     "stable": "0.2.0",
      "testing": null,
      "min_core": "3.22.0",
      "tech": {
@@ -11000,7 +10915,7 @@
      },
      "source": "ghcr.io/platypuschan/proxmox-datacenter-manager",
      "stars": 0,
-     "pushed_at": "2026-11-10T07:41:08Z",
+     "pushed_at": "2026-11-10T08:39:30Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -11013,7 +10928,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-11-08T20:41:17Z"
+     "released_at": "2026-11-10T08:39:30Z"
     }
    ]
   },
@@ -13658,7 +13573,7 @@
      },
      "source": "ghcr.io/nethserver/webtop",
      "stars": 0,
-     "pushed_at": "2026-11-10T04:05:33Z",
+     "pushed_at": "2026-11-10T08:50:09Z",
      "archived": false,
      "checks": {
       "topic": false,
