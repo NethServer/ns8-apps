@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T07:56:05+00:00",
+ "generated_at": "2026-11-12T18:16:26+00:00",
  "forges": [
   {
    "id": "nethserver",
@@ -77,7 +77,7 @@
    "alt_url": "https://raw.githubusercontent.com/geniusdynamics/ns8-genforge/repomd/ns8/updates/",
    "kind": "community",
    "repo": "geniusdynamics/ns8-genforge",
-   "app_count": 49,
+   "app_count": 50,
    "homepage": "https://forge.genius.ke/"
   },
   {
@@ -496,7 +496,7 @@
      },
      "source": "ghcr.io/platypuschan/adguard-home",
      "stars": 0,
-     "pushed_at": "2026-11-12T05:43:42Z",
+     "pushed_at": "2026-11-12T12:37:48Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -990,7 +990,7 @@
      },
      "source": "ghcr.io/danb35/automx",
      "stars": 0,
-     "pushed_at": "2026-11-12T03:56:48Z",
+     "pushed_at": "2026-11-12T10:21:39Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -2008,7 +2008,7 @@
      },
      "source": "ghcr.io/nethserver/collabora",
      "stars": 0,
-     "pushed_at": "2026-11-11T17:38:47Z",
+     "pushed_at": "2026-11-12T18:08:12Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -2242,7 +2242,7 @@
      },
      "source": "ghcr.io/nethserver/crowdsec",
      "stars": 1,
-     "pushed_at": "2026-11-11T17:46:34Z",
+     "pushed_at": "2026-11-12T16:59:28Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -2705,7 +2705,7 @@
      },
      "source": "ghcr.io/danb35/dnshelper",
      "stars": 0,
-     "pushed_at": "2026-11-12T00:42:57Z",
+     "pushed_at": "2026-11-12T16:22:57Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -3500,7 +3500,7 @@
      },
      "source": "ghcr.io/tebbiworld/elabftw",
      "stars": 0,
-     "pushed_at": "2026-11-12T06:52:51Z",
+     "pushed_at": "2026-11-12T16:34:56Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -3790,17 +3790,17 @@
      ],
      "versions": [
       {
-       "tag": "1.0.2",
+       "tag": "1.0.3",
        "testing": false
       }
      ],
-     "stable": "1.0.2",
+     "stable": "1.0.3",
      "testing": null,
      "min_core": "3.12.4-0",
      "tech": {
       "rootfull": false,
       "images": [
-       "euro-office/documentserver:v9.3.7"
+       "euro-office/documentserver:v9.3.7-1"
       ],
       "authorizations": [
        "traefik@node:routeadm"
@@ -3811,7 +3811,7 @@
      },
      "source": "ghcr.io/mrmarkuz/euro-office",
      "stars": 0,
-     "pushed_at": "2026-11-11T22:01:33Z",
+     "pushed_at": "2026-11-12T09:44:08Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -3824,7 +3824,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-10-28T14:56:46Z"
+     "released_at": "2026-11-12T09:44:09Z"
     }
    ]
   },
@@ -5720,7 +5720,7 @@
      },
      "source": "ghcr.io/mrmarkuz/immich",
      "stars": 1,
-     "pushed_at": "2026-11-11T03:29:25Z",
+     "pushed_at": "2026-11-12T16:06:28Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -7051,7 +7051,7 @@
      },
      "source": "ghcr.io/nethserver/mail",
      "stars": 3,
-     "pushed_at": "2026-11-12T04:41:36Z",
+     "pushed_at": "2026-11-12T17:48:43Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -7914,7 +7914,7 @@
      },
      "source": "ghcr.io/nethserver/n8n",
      "stars": 0,
-     "pushed_at": "2026-11-12T07:52:10Z",
+     "pushed_at": "2026-11-12T08:32:43Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -8346,11 +8346,7 @@
      "screenshots": [],
      "versions": [
       {
-       "tag": "1.8.2-testing.4",
-       "testing": true
-      },
-      {
-       "tag": "1.8.1",
+       "tag": "1.8.2",
        "testing": false
       },
       {
@@ -8362,28 +8358,28 @@
        "testing": false
       }
      ],
-     "stable": "1.8.1",
-     "testing": "1.8.2-testing.4",
+     "stable": "1.8.2",
+     "testing": null,
      "min_core": "3.24.0",
      "tech": {
       "rootfull": false,
       "images": [
-       "nethesis/nethvoice-mariadb:1.8.1",
-       "nethesis/nethvoice-freepbx:1.8.1",
-       "nethesis/nethvoice-cti-server:1.8.1",
-       "nethesis/nethvoice-cti-middleware:1.8.1",
-       "nethesis/nethvoice-cti-ui:1.8.1",
-       "nethesis/nethvoice-tancredi:1.8.1",
-       "nethesis/nethvoice-janus:1.8.1",
-       "nethesis/nethvoice-phonebook:1.8.1",
+       "nethesis/nethvoice-mariadb:1.8.2",
+       "nethesis/nethvoice-freepbx:1.8.2",
+       "nethesis/nethvoice-cti-server:1.8.2",
+       "nethesis/nethvoice-cti-middleware:1.8.2",
+       "nethesis/nethvoice-cti-ui:1.8.2",
+       "nethesis/nethvoice-tancredi:1.8.2",
+       "nethesis/nethvoice-janus:1.8.2",
+       "nethesis/nethvoice-phonebook:1.8.2",
        "redis:7.0.10-alpine",
-       "nethesis/nethvoice-reports-ui:1.8.1",
-       "nethesis/nethvoice-reports-api:1.8.1",
-       "nethesis/nethvoice-sftp:1.8.1",
+       "nethesis/nethvoice-reports-ui:1.8.2",
+       "nethesis/nethvoice-reports-api:1.8.2",
+       "nethesis/nethvoice-sftp:1.8.2",
        "eclipse-mosquitto:2",
-       "nethesis/nethvoice-satellite:1.8.1",
+       "nethesis/nethvoice-satellite:1.8.2",
        "pgvector/pgvector:0.8.1-pg18-trixie",
-       "nethesis/nethvoice-ejabberd:1.8.1"
+       "nethesis/nethvoice-ejabberd:1.8.2"
       ],
       "authorizations": [
        "traefik@any:fulladm",
@@ -8399,7 +8395,7 @@
      },
      "source": "ghcr.io/nethesis/nethvoice",
      "stars": 9,
-     "pushed_at": "2026-11-12T07:45:10Z",
+     "pushed_at": "2026-11-12T15:35:03Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -8412,7 +8408,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-11-11T10:41:54Z"
+     "released_at": "2026-11-12T13:47:39Z"
     }
    ]
   },
@@ -8486,7 +8482,7 @@
      },
      "source": "ghcr.io/nethesis/nethvoice-proxy",
      "stars": 4,
-     "pushed_at": "2026-11-11T19:07:34Z",
+     "pushed_at": "2026-11-12T10:07:36Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -8509,7 +8505,7 @@
     "collaboration"
    ],
    "official": true,
-   "stars": 0,
+   "stars": 1,
    "variants": [
     {
      "module_id": "nextcloud",
@@ -8590,7 +8586,7 @@
       ]
      },
      "source": "ghcr.io/nethserver/nextcloud",
-     "stars": 0,
+     "stars": 1,
      "pushed_at": "2026-11-11T17:36:54Z",
      "archived": false,
      "checks": {
@@ -8985,7 +8981,7 @@
      },
      "source": "ghcr.io/platypuschan/obsidian-livesync",
      "stars": 0,
-     "pushed_at": "2026-11-12T03:39:13Z",
+     "pushed_at": "2026-11-12T11:36:29Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -9156,6 +9152,93 @@
       "license": true
      },
      "released_at": "2026-10-29T10:56:36Z"
+    }
+   ]
+  },
+  {
+   "id": "openbao",
+   "categories": [
+    "security"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "openbao",
+     "forges": [
+      "geniusdynamics"
+     ],
+     "kind": "community",
+     "developer": "geniusdynamics",
+     "name": "OpenBao",
+     "description": {
+      "en": "Secrets manager to store and control access to tokens, passwords, certificates and encryption keys. Open source fork of HashiCorp Vault with Raft storage, PKI, audit log and directory login",
+      "de": "Geheimnisverwaltung zum Speichern und Kontrollieren des Zugriffs auf Token, Passwörter, Zertifikate und Verschlüsselungsschlüssel. Open-Source-Fork von HashiCorp Vault mit Raft-Speicher, PKI, Audit-Log und Verzeichnis-Login",
+      "es": "Gestor de secretos para almacenar y controlar el acceso a tokens, contraseñas, certificados y claves de cifrado. Fork de código abierto de HashiCorp Vault con almacenamiento Raft, PKI, registro de auditoría e inicio de sesión de directorio",
+      "eu": "Sekretuen kudeatzailea tokenak, pasahitzak, ziurtagiriak eta zifratze-gakoak gordetzeko eta haietarako sarbidea kontrolatzeko. HashiCorp Vault-en iturburu irekiko forka, Raft biltegiratzea, PKI, auditoretza-erregistroa eta direktorio bidezko saio-hasiera dituena",
+      "fr": "Gestionnaire de secrets pour stocker et contrôler l'accès aux jetons, mots de passe, certificats et clés de chiffrement. Fork open source de HashiCorp Vault avec stockage Raft, PKI, journal d'audit et connexion par annuaire",
+      "it": "Gestore di segreti per archiviare e controllare l'accesso a token, password, certificati e chiavi di cifratura. Fork open source di HashiCorp Vault con storage Raft, PKI, log di audit e login tramite directory",
+      "pt": "Gestor de segredos para armazenar e controlar o acesso a tokens, palavras-passe, certificados e chaves de cifragem. Fork de código aberto do HashiCorp Vault com armazenamento Raft, PKI, registo de auditoria e início de sessão por diretório",
+      "pt_BR": "Gerenciador de segredos para armazenar e controlar o acesso a tokens, senhas, certificados e chaves de criptografia. Fork de código aberto do HashiCorp Vault com armazenamento Raft, PKI, log de auditoria e login por diretório"
+     },
+     "about": null,
+     "authors": [
+      "Genius Dynamics"
+     ],
+     "categories": [
+      "security"
+     ],
+     "code_url": "https://github.com/geniusdynamics/ns8-openbao",
+     "docs": {
+      "documentation_url": "https://github.com/geniusdynamics/ns8-openbao#readme",
+      "bug_url": "https://github.com/geniusdynamics/ns8-openbao/issues",
+      "relnotes_url": "https://github.com/geniusdynamics/ns8-openbao/releases"
+     },
+     "logo": "https://forge.genius.ke/ns8/updates/openbao/logo.png",
+     "screenshots": [
+      "https://forge.genius.ke/ns8/updates/openbao/screenshots/screen2.png",
+      "https://forge.genius.ke/ns8/updates/openbao/screenshots/screen1.png"
+     ],
+     "versions": [
+      {
+       "tag": "1.0.1",
+       "testing": false
+      }
+     ],
+     "stable": "1.0.1",
+     "testing": null,
+     "min_core": "3.13.0",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "openbao/openbao:2.7.2",
+       "openbao/openbao-plugin-auth-ldap:v0.2.0"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm",
+       "cluster:accountconsumer",
+       "node:portsadm"
+      ],
+      "tcp_ports": 3,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/geniusdynamics/openbao",
+     "stars": 0,
+     "pushed_at": "2026-11-12T18:02:43Z",
+     "archived": false,
+     "checks": {
+      "topic": true,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-11-12T13:36:04Z"
     }
    ]
   },
@@ -10774,12 +10857,16 @@
      ],
      "versions": [
       {
-       "tag": "0.1.1",
+       "tag": "0.2.0-testing.1",
+       "testing": true
+      },
+      {
+       "tag": "0.1.2",
        "testing": false
       }
      ],
-     "stable": "0.1.1",
-     "testing": null,
+     "stable": "0.1.2",
+     "testing": "0.2.0-testing.1",
      "min_core": "3.18.0",
      "tech": {
       "rootfull": false,
@@ -10797,7 +10884,7 @@
      },
      "source": "ghcr.io/danb35/powerdns",
      "stars": 0,
-     "pushed_at": "2026-11-11T12:57:39Z",
+     "pushed_at": "2026-11-12T17:30:51Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -10810,7 +10897,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-11-06T15:59:44Z"
+     "released_at": "2026-11-12T13:00:57Z"
     }
    ]
   },
@@ -10889,7 +10976,7 @@
      },
      "source": "ghcr.io/stephdl/privatebin",
      "stars": 0,
-     "pushed_at": "2026-11-10T14:49:55Z",
+     "pushed_at": "2026-11-12T18:11:24Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -11110,17 +11197,17 @@
      ],
      "versions": [
       {
-       "tag": "1.2.1",
+       "tag": "1.2.2",
        "testing": false
       }
      ],
-     "stable": "1.2.1",
+     "stable": "1.2.2",
      "testing": null,
      "min_core": "3.12.4-0",
      "tech": {
       "rootfull": false,
       "images": [
-       "rcourtman/pulse:6.6.0"
+       "rcourtman/pulse:6.7.0"
       ],
       "authorizations": [
        "traefik@node:routeadm"
@@ -11131,7 +11218,7 @@
      },
      "source": "ghcr.io/mrmarkuz/pulse",
      "stars": 0,
-     "pushed_at": "2026-11-11T06:29:41Z",
+     "pushed_at": "2026-11-12T15:55:59Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -11144,7 +11231,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-10-29T21:18:18Z"
+     "released_at": "2026-11-12T15:55:59Z"
     }
    ]
   },
@@ -11733,7 +11820,7 @@
      },
      "source": "ghcr.io/stephdl/sam",
      "stars": 0,
-     "pushed_at": "2026-11-11T19:04:31Z",
+     "pushed_at": "2026-11-12T13:12:42Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -12497,7 +12584,7 @@
     "collaboration"
    ],
    "official": false,
-   "stars": 0,
+   "stars": 1,
    "variants": [
     {
      "module_id": "termix",
@@ -12551,7 +12638,7 @@
       "volumes": []
      },
      "source": "ghcr.io/geniusdynamics/termix",
-     "stars": 0,
+     "stars": 1,
      "pushed_at": "2026-11-12T03:51:13Z",
      "archived": false,
      "checks": {
@@ -12683,11 +12770,11 @@
      "screenshots": [],
      "versions": [
       {
-       "tag": "1.1.4",
+       "tag": "1.2.0",
        "testing": false
       }
      ],
-     "stable": "1.1.4",
+     "stable": "1.2.0",
      "testing": null,
      "min_core": null,
      "tech": {
@@ -12704,7 +12791,7 @@
      },
      "source": "ghcr.io/tebbiworld/tsa",
      "stars": 0,
-     "pushed_at": "2026-11-12T07:47:22Z",
+     "pushed_at": "2026-11-12T15:12:45Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -12717,7 +12804,7 @@
       "min_core": false,
       "license": true
      },
-     "released_at": "2026-11-11T16:39:02Z"
+     "released_at": "2026-11-12T15:15:06Z"
     }
    ]
   },
@@ -12863,7 +12950,7 @@
      },
      "source": "ghcr.io/mrmarkuz/unifi-network",
      "stars": 0,
-     "pushed_at": "2026-11-11T20:16:01Z",
+     "pushed_at": "2026-11-12T16:46:44Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -13632,7 +13719,7 @@
      },
      "source": "ghcr.io/stephdl/wazuh",
      "stars": 0,
-     "pushed_at": "2026-11-10T21:42:36Z",
+     "pushed_at": "2026-11-12T17:52:31Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -13798,7 +13885,7 @@
      },
      "source": "ghcr.io/nethserver/webtop",
      "stars": 0,
-     "pushed_at": "2026-11-12T02:04:58Z",
+     "pushed_at": "2026-11-12T15:18:31Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -14359,11 +14446,11 @@
      ],
      "versions": [
       {
-       "tag": "1.1.1",
+       "tag": "1.1.2",
        "testing": false
       }
      ],
-     "stable": "1.1.1",
+     "stable": "1.1.2",
      "testing": null,
      "min_core": "3.12.4-0",
      "tech": {
@@ -14371,7 +14458,7 @@
       "images": [
        "postgres:17.11-alpine",
        "elasticsearch:9.5.5",
-       "zammad/zammad:7.2.2-0029",
+       "zammad/zammad:7.2.3-0001",
        "memcached:1.6.45-alpine",
        "redis:8.10.3-alpine"
       ],
@@ -14384,7 +14471,7 @@
      },
      "source": "ghcr.io/mrmarkuz/zammad",
      "stars": 0,
-     "pushed_at": "2026-11-11T19:32:25Z",
+     "pushed_at": "2026-11-12T17:37:33Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -14397,7 +14484,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-10-29T19:35:39Z"
+     "released_at": "2026-11-12T17:37:33Z"
     }
    ]
   },
