@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T19:59:07+00:00",
+ "generated_at": "2026-11-12T07:56:05+00:00",
  "forges": [
   {
    "id": "nethserver",
@@ -107,7 +107,7 @@
    "alt_url": null,
    "kind": "community",
    "repo": "Platypuschan/ns8-modules",
-   "app_count": 11,
+   "app_count": 12,
    "homepage": "https://platypuschan.github.io/ns8-modules/"
   },
   {
@@ -496,7 +496,7 @@
      },
      "source": "ghcr.io/platypuschan/adguard-home",
      "stars": 0,
-     "pushed_at": "2026-11-11T13:59:18Z",
+     "pushed_at": "2026-11-12T05:43:42Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -630,28 +630,30 @@
      ],
      "versions": [
       {
-       "tag": "2.0.1",
+       "tag": "2.2.0",
        "testing": false
       }
      ],
-     "stable": "2.0.1",
+     "stable": "2.2.0",
      "testing": null,
      "min_core": null,
      "tech": {
       "rootfull": false,
       "images": [
-       "agent0ai/agent-zero:v2.13"
+       "agent0ai/agent-zero:v2.15"
       ],
       "authorizations": [
        "traefik@node:routeadm"
       ],
       "tcp_ports": 1,
       "udp_ports": 0,
-      "volumes": []
+      "volumes": [
+       "agentzero-usr"
+      ]
      },
      "source": "ghcr.io/geniusdynamics/agentzeroai",
      "stars": 0,
-     "pushed_at": "2026-11-08T04:48:00Z",
+     "pushed_at": "2026-11-12T03:53:38Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -664,7 +666,7 @@
       "min_core": false,
       "license": true
      },
-     "released_at": "2026-10-11T19:44:48Z"
+     "released_at": "2026-11-12T03:53:21Z"
     }
    ]
   },
@@ -988,7 +990,7 @@
      },
      "source": "ghcr.io/danb35/automx",
      "stars": 0,
-     "pushed_at": "2026-11-11T13:37:59Z",
+     "pushed_at": "2026-11-12T03:56:48Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -1292,7 +1294,7 @@
      },
      "source": "ghcr.io/francio87/borgbackupserver",
      "stars": 1,
-     "pushed_at": "2026-11-11T03:36:05Z",
+     "pushed_at": "2026-11-11T19:59:42Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -2703,7 +2705,7 @@
      },
      "source": "ghcr.io/danb35/dnshelper",
      "stars": 0,
-     "pushed_at": "2026-11-11T19:00:08Z",
+     "pushed_at": "2026-11-12T00:42:57Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -3090,7 +3092,7 @@
      },
      "source": "ghcr.io/nethserver/dokuwiki",
      "stars": 0,
-     "pushed_at": "2026-11-11T17:26:31Z",
+     "pushed_at": "2026-11-12T01:45:21Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -3419,7 +3421,7 @@
      },
      "source": "ghcr.io/nethserver/ejabberd",
      "stars": 1,
-     "pushed_at": "2026-11-11T17:20:12Z",
+     "pushed_at": "2026-11-12T01:44:22Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -3498,7 +3500,7 @@
      },
      "source": "ghcr.io/tebbiworld/elabftw",
      "stars": 0,
-     "pushed_at": "2026-10-21T20:20:49Z",
+     "pushed_at": "2026-11-12T06:52:51Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -3809,7 +3811,7 @@
      },
      "source": "ghcr.io/mrmarkuz/euro-office",
      "stars": 0,
-     "pushed_at": "2026-11-11T05:34:15Z",
+     "pushed_at": "2026-11-11T22:01:33Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -4840,7 +4842,7 @@
      },
      "source": "ghcr.io/nethserver/grafana",
      "stars": 0,
-     "pushed_at": "2026-11-11T17:18:00Z",
+     "pushed_at": "2026-11-12T01:46:38Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -5634,7 +5636,7 @@
      },
      "source": "ghcr.io/nethserver/imapsync",
      "stars": 0,
-     "pushed_at": "2026-11-11T16:14:37Z",
+     "pushed_at": "2026-11-12T04:28:19Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -6807,7 +6809,7 @@
      },
      "source": "ghcr.io/stephdl/lemp",
      "stars": 0,
-     "pushed_at": "2026-11-11T18:38:29Z",
+     "pushed_at": "2026-11-12T00:36:24Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -7049,7 +7051,7 @@
      },
      "source": "ghcr.io/nethserver/mail",
      "stars": 3,
-     "pushed_at": "2026-11-11T17:04:08Z",
+     "pushed_at": "2026-11-12T04:41:36Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -7283,7 +7285,7 @@
      },
      "source": "ghcr.io/nethserver/matrix",
      "stars": 3,
-     "pushed_at": "2026-11-11T17:39:00Z",
+     "pushed_at": "2026-11-12T01:48:30Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -7369,7 +7371,7 @@
      },
      "source": "ghcr.io/nethserver/mattermost",
      "stars": 0,
-     "pushed_at": "2026-11-11T17:11:24Z",
+     "pushed_at": "2026-11-12T01:45:16Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -7680,7 +7682,7 @@
      },
      "source": "ghcr.io/mrmarkuz/meshcentral",
      "stars": 0,
-     "pushed_at": "2026-11-11T18:15:46Z",
+     "pushed_at": "2026-11-12T05:43:32Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -7912,7 +7914,7 @@
      },
      "source": "ghcr.io/nethserver/n8n",
      "stars": 0,
-     "pushed_at": "2026-11-11T17:34:47Z",
+     "pushed_at": "2026-11-12T07:52:10Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -8291,7 +8293,7 @@
      },
      "source": "ghcr.io/nethserver/nethsecurity-controller",
      "stars": 1,
-     "pushed_at": "2026-11-11T17:51:45Z",
+     "pushed_at": "2026-11-12T01:51:22Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -8397,7 +8399,7 @@
      },
      "source": "ghcr.io/nethesis/nethvoice",
      "stars": 9,
-     "pushed_at": "2026-11-11T17:30:31Z",
+     "pushed_at": "2026-11-12T07:45:10Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -8983,7 +8985,7 @@
      },
      "source": "ghcr.io/platypuschan/obsidian-livesync",
      "stars": 0,
-     "pushed_at": "2026-11-11T10:24:28Z",
+     "pushed_at": "2026-11-12T03:39:13Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -9373,7 +9375,7 @@
      },
      "source": "ghcr.io/mrmarkuz/openssh",
      "stars": 0,
-     "pushed_at": "2026-11-11T15:40:30Z",
+     "pushed_at": "2026-11-12T02:52:10Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -9774,7 +9776,7 @@
      },
      "source": "ghcr.io/nethserver/passbolt",
      "stars": 0,
-     "pushed_at": "2026-11-11T17:32:50Z",
+     "pushed_at": "2026-11-12T07:52:35Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -10968,7 +10970,7 @@
      },
      "source": "ghcr.io/nethserver/prometheus",
      "stars": 0,
-     "pushed_at": "2026-11-11T16:43:18Z",
+     "pushed_at": "2026-11-12T01:39:18Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -12211,7 +12213,7 @@
      },
      "source": "ghcr.io/nethserver/sogo",
      "stars": 0,
-     "pushed_at": "2026-11-11T17:26:17Z",
+     "pushed_at": "2026-11-12T01:52:18Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -12529,17 +12531,17 @@
      ],
      "versions": [
       {
-       "tag": "1.0.4",
+       "tag": "2.0.0",
        "testing": false
       }
      ],
-     "stable": "1.0.4",
+     "stable": "2.0.0",
      "testing": null,
      "min_core": null,
      "tech": {
       "rootfull": false,
       "images": [
-       "lukegus/termix:release-1.11.0"
+       "termix-ssh/termix:26.11.1"
       ],
       "authorizations": [
        "traefik@node:routeadm"
@@ -12550,7 +12552,7 @@
      },
      "source": "ghcr.io/geniusdynamics/termix",
      "stars": 0,
-     "pushed_at": "2026-07-06T22:25:08Z",
+     "pushed_at": "2026-11-12T03:51:13Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -12563,7 +12565,7 @@
       "min_core": false,
       "license": true
      },
-     "released_at": "2026-01-26T07:29:06Z"
+     "released_at": "2026-11-12T03:50:56Z"
     }
    ]
   },
@@ -12702,7 +12704,7 @@
      },
      "source": "ghcr.io/tebbiworld/tsa",
      "stars": 0,
-     "pushed_at": "2026-11-11T16:37:44Z",
+     "pushed_at": "2026-11-12T07:47:22Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -12861,7 +12863,7 @@
      },
      "source": "ghcr.io/mrmarkuz/unifi-network",
      "stars": 0,
-     "pushed_at": "2026-11-11T02:44:31Z",
+     "pushed_at": "2026-11-11T20:16:01Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -13257,6 +13259,90 @@
       "license": true
      },
      "released_at": "2026-08-02T06:14:33Z"
+    }
+   ]
+  },
+  {
+   "id": "vaultwarden-reworked",
+   "categories": [
+    "security"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "vaultwarden-reworked",
+     "forges": [
+      "Platypuschan"
+     ],
+     "kind": "community",
+     "developer": "Platypuschan",
+     "name": "Vaultwarden Reworked",
+     "description": {
+      "en": "Self-hosted password manager (Vaultwarden) for NS8 with single sign-on through idp-reworked and a native admin interface.",
+      "de": "Selbst gehosteter Passwortmanager (Vaultwarden) für NS8 mit Single Sign-on über idp-reworked und nativer Administrationsoberfläche."
+     },
+     "about": null,
+     "authors": [
+      "Platypuschan"
+     ],
+     "categories": [
+      "security"
+     ],
+     "code_url": "https://github.com/Platypuschan/ns8-vaultwarden-reworked",
+     "docs": {
+      "documentation_url": "https://github.com/Platypuschan/ns8-vaultwarden-reworked#readme",
+      "bug_url": "https://github.com/Platypuschan/ns8-vaultwarden-reworked/issues",
+      "relnotes_url": "https://github.com/Platypuschan/ns8-vaultwarden-reworked/releases"
+     },
+     "logo": "https://platypuschan.github.io/ns8-modules/ns8/updates/vaultwarden-reworked/logo.png",
+     "screenshots": [
+      "https://platypuschan.github.io/ns8-modules/ns8/updates/vaultwarden-reworked/screenshots/diagnostics.png",
+      "https://platypuschan.github.io/ns8-modules/ns8/updates/vaultwarden-reworked/screenshots/users.png"
+     ],
+     "versions": [
+      {
+       "tag": "0.1.5",
+       "testing": false
+      },
+      {
+       "tag": "0.1.0-rc.8",
+       "testing": true
+      }
+     ],
+     "stable": "0.1.5",
+     "testing": null,
+     "min_core": "3.23.2",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "platypuschan/vaultwarden-reworked-server"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm",
+       "cluster:accountconsumer",
+       "idp-reworked@any:clientadm"
+      ],
+      "tcp_ports": 1,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/platypuschan/vaultwarden-reworked",
+     "stars": 0,
+     "pushed_at": "2026-11-10T22:58:52Z",
+     "archived": false,
+     "checks": {
+      "topic": false,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-11-10T22:58:53Z"
     }
    ]
   },
@@ -13712,7 +13798,7 @@
      },
      "source": "ghcr.io/nethserver/webtop",
      "stars": 0,
-     "pushed_at": "2026-11-11T17:49:08Z",
+     "pushed_at": "2026-11-12T02:04:58Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -14016,7 +14102,7 @@
      },
      "source": "ghcr.io/nethserver/wordpress",
      "stars": 0,
-     "pushed_at": "2026-11-11T16:15:24Z",
+     "pushed_at": "2026-11-12T04:24:05Z",
      "archived": false,
      "checks": {
       "topic": false,
