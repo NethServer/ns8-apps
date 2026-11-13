@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T20:38:57+00:00",
+ "generated_at": "2026-11-13T07:34:03+00:00",
  "forges": [
   {
    "id": "nethserver",
@@ -77,7 +77,7 @@
    "alt_url": "https://raw.githubusercontent.com/geniusdynamics/ns8-genforge/repomd/ns8/updates/",
    "kind": "community",
    "repo": "geniusdynamics/ns8-genforge",
-   "app_count": 50,
+   "app_count": 54,
    "homepage": "https://forge.genius.ke/"
   },
   {
@@ -159,7 +159,8 @@
      "developer": "geniusdynamics",
      "name": "2Fauth",
      "description": {
-      "en": "m A Web app to manage your Two-Factor Authentication (2FA) accounts and generate their security codes"
+      "en": "m A Web app to manage your Two-Factor Authentication (2FA) accounts and generate their security codes",
+      "it": "Gestore self-hosted di codici di autenticazione a due fattori, con interfaccia web e importazione dei token."
      },
      "about": null,
      "authors": [
@@ -200,15 +201,15 @@
      },
      "source": "ghcr.io/geniusdynamics/2fauth",
      "stars": 0,
-     "pushed_at": "2026-10-24T19:53:15Z",
+     "pushed_at": "2026-11-13T07:28:51Z",
      "archived": false,
      "checks": {
-      "topic": false,
+      "topic": true,
       "categories": true,
       "logo": true,
       "screenshots": true,
       "description": true,
-      "translations": false,
+      "translations": true,
       "docs": true,
       "min_core": false,
       "license": true
@@ -312,7 +313,8 @@
      "developer": "geniusdynamics",
      "name": "Penpot",
      "description": {
-      "en": "Penpot is the web-based open-source design tool that bridges the gap between designers and developers."
+      "en": "Penpot is the web-based open-source design tool that bridges the gap between designers and developers.",
+      "it": "Penpot è uno strumento open source di progettazione e prototipazione usato insieme da designer e sviluppatori nel browser."
      },
      "about": null,
      "authors": [
@@ -358,15 +360,15 @@
      },
      "source": "ghcr.io/geniusdynamics/penpot",
      "stars": 0,
-     "pushed_at": "2025-12-31T22:17:30Z",
+     "pushed_at": "2026-11-13T07:07:08Z",
      "archived": false,
      "checks": {
-      "topic": false,
+      "topic": true,
       "categories": true,
       "logo": true,
       "screenshots": true,
       "description": true,
-      "translations": false,
+      "translations": true,
       "docs": true,
       "min_core": false,
       "license": true
@@ -392,7 +394,8 @@
      "developer": "geniusdynamics",
      "name": "SurrealDB",
      "description": {
-      "en": "SurrealDB offers a dynamic and adaptable platform for business. With an integrated suite of cutting-edge database solutions, tools, and services, SurrealDB empowers your workforce to discover innovative answers using products meticulously crafted to meet their requirements."
+      "en": "SurrealDB offers a dynamic and adaptable platform for business. With an integrated suite of cutting-edge database solutions, tools, and services, SurrealDB empowers your workforce to discover innovative answers using products meticulously crafted to meet their requirements.",
+      "it": "SurrealDB è un database multi-modello con query SQL-like, grafi e documenti."
      },
      "about": null,
      "authors": [
@@ -417,15 +420,15 @@
      "tech": null,
      "source": "ghcr.io/geniusdynamics/surrealdb",
      "stars": 1,
-     "pushed_at": "2026-03-09T18:46:20Z",
+     "pushed_at": "2026-11-13T07:24:58Z",
      "archived": false,
      "checks": {
-      "topic": false,
+      "topic": true,
       "categories": true,
       "logo": true,
       "screenshots": true,
       "description": true,
-      "translations": false,
+      "translations": true,
       "docs": true,
       "min_core": false,
       "license": true
@@ -496,7 +499,7 @@
      },
      "source": "ghcr.io/platypuschan/adguard-home",
      "stars": 0,
-     "pushed_at": "2026-11-12T12:37:48Z",
+     "pushed_at": "2026-11-13T04:27:16Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -530,7 +533,8 @@
      "developer": "geniusdynamics",
      "name": "AFFiNE",
      "description": {
-      "en": "AFFiNE is a workspace with fully merged docs, whiteboards and databases. Get more things done, your creativity isn’t monotone."
+      "en": "AFFiNE is a workspace with fully merged docs, whiteboards and databases. Get more things done, your creativity isn’t monotone.",
+      "it": "AFFiNE è uno spazio di lavoro self-hosted che unisce documenti, lavagne e database per appunti e pianificazione di gruppo."
      },
      "about": null,
      "authors": [
@@ -575,15 +579,15 @@
      },
      "source": "ghcr.io/geniusdynamics/affine",
      "stars": 0,
-     "pushed_at": "2026-03-04T06:26:29Z",
+     "pushed_at": "2026-11-13T07:31:21Z",
      "archived": false,
      "checks": {
-      "topic": false,
+      "topic": true,
       "categories": true,
       "logo": true,
       "screenshots": true,
       "description": true,
-      "translations": false,
+      "translations": true,
       "docs": true,
       "min_core": false,
       "license": true
@@ -609,7 +613,8 @@
      "developer": "geniusdynamics",
      "name": "Agentzeroai",
      "description": {
-      "en": "Free and open source autonomous AI agent.Built as a counterweight to big tech and proprietary AI."
+      "en": "Free and open source autonomous AI agent.Built as a counterweight to big tech and proprietary AI.",
+      "it": "Framework di agenti AI open source, eseguito in locale con interfaccia web."
      },
      "about": null,
      "authors": [
@@ -653,15 +658,15 @@
      },
      "source": "ghcr.io/geniusdynamics/agentzeroai",
      "stars": 0,
-     "pushed_at": "2026-11-12T03:53:38Z",
+     "pushed_at": "2026-11-13T07:28:58Z",
      "archived": false,
      "checks": {
-      "topic": false,
+      "topic": true,
       "categories": true,
       "logo": true,
       "screenshots": true,
       "description": true,
-      "translations": false,
+      "translations": true,
       "docs": true,
       "min_core": false,
       "license": true
@@ -852,7 +857,8 @@
      "developer": "geniusdynamics",
      "name": "Authentik",
      "description": {
-      "en": "authentik is an open-source Identity Provider, focused on flexibility and versatility."
+      "en": "authentik is an open-source Identity Provider, focused on flexibility and versatility.",
+      "it": "authentik è un provider di identità open source con SSO, MFA e flussi di accesso flessibili."
      },
      "about": null,
      "authors": [
@@ -897,15 +903,15 @@
      },
      "source": "ghcr.io/geniusdynamics/goauthentik",
      "stars": 0,
-     "pushed_at": "2026-06-20T23:23:15Z",
+     "pushed_at": "2026-11-13T07:25:28Z",
      "archived": false,
      "checks": {
-      "topic": false,
+      "topic": true,
       "categories": true,
       "logo": true,
       "screenshots": true,
       "description": true,
-      "translations": false,
+      "translations": true,
       "docs": true,
       "min_core": false,
       "license": true
@@ -957,11 +963,11 @@
      },
      "logo": "https://forge.nethserver.org/ns8/updates/automx/logo.png",
      "screenshots": [
-      "https://forge.nethserver.org/ns8/updates/automx/screenshots/1-domains.png",
-      "https://forge.nethserver.org/ns8/updates/automx/screenshots/4-settings-groupware.png",
-      "https://forge.nethserver.org/ns8/updates/automx/screenshots/2-dns-status.png",
+      "https://forge.nethserver.org/ns8/updates/automx/screenshots/3-settings.png",
       "https://forge.nethserver.org/ns8/updates/automx/screenshots/5-profile-link.png",
-      "https://forge.nethserver.org/ns8/updates/automx/screenshots/3-settings.png"
+      "https://forge.nethserver.org/ns8/updates/automx/screenshots/2-dns-status.png",
+      "https://forge.nethserver.org/ns8/updates/automx/screenshots/1-domains.png",
+      "https://forge.nethserver.org/ns8/updates/automx/screenshots/4-settings-groupware.png"
      ],
      "versions": [
       {
@@ -1171,9 +1177,10 @@
      "developer": "geniusdynamics",
      "name": "Bookstack",
      "description": {
-      "en": "Simple & Free Wiki Software"
+      "en": "BookStack is a simple, self-hosted wiki to organize and share documentation in books, chapters and pages.",
+      "it": "BookStack è una wiki semplice e self-hosted per organizzare e condividere la documentazione in libri, capitoli e pagine."
      },
-     "about": "This is an NS8 application for Bookstack, a free and open source Wiki designed for teams.",
+     "about": null,
      "authors": [
       "Genius Dynamics"
      ],
@@ -1215,15 +1222,15 @@
      },
      "source": "ghcr.io/geniusdynamics/bookstack",
      "stars": 0,
-     "pushed_at": "2026-10-24T19:58:03Z",
+     "pushed_at": "2026-11-13T07:02:57Z",
      "archived": false,
      "checks": {
-      "topic": false,
+      "topic": true,
       "categories": true,
       "logo": true,
       "screenshots": true,
-      "description": false,
-      "translations": false,
+      "description": true,
+      "translations": true,
       "docs": true,
       "min_core": false,
       "license": true
@@ -1265,8 +1272,8 @@
      },
      "logo": "https://francio87.github.io/ns8-repomd/borgbackupserver/logo.png",
      "screenshots": [
-      "https://francio87.github.io/ns8-repomd/borgbackupserver/screenshots/bbs-architecture.png",
-      "https://francio87.github.io/ns8-repomd/borgbackupserver/screenshots/bbs-gui.png"
+      "https://francio87.github.io/ns8-repomd/borgbackupserver/screenshots/bbs-gui.png",
+      "https://francio87.github.io/ns8-repomd/borgbackupserver/screenshots/bbs-architecture.png"
      ],
      "versions": [
       {
@@ -1328,9 +1335,10 @@
      "developer": "geniusdynamics",
      "name": "Bugsink",
      "description": {
-      "en": "Self-hosted Error Tracking"
+      "en": "Bugsink is a self-hosted error tracker that collects crashes from your applications and groups them for debugging.",
+      "it": "Bugsink è un sistema di tracciamento errori self-hosted che raccoglie i crash delle applicazioni e li raggruppa per il debug."
      },
-     "about": "Self-hosted error tracking for your applications, packaged as a NethServer 8 module.",
+     "about": null,
      "authors": [
       "Genius Dynamics"
      ],
@@ -1368,15 +1376,15 @@
      },
      "source": "ghcr.io/geniusdynamics/bugsink",
      "stars": 0,
-     "pushed_at": "2026-10-25T11:54:42Z",
+     "pushed_at": "2026-11-13T07:29:06Z",
      "archived": false,
      "checks": {
-      "topic": false,
+      "topic": true,
       "categories": true,
       "logo": true,
       "screenshots": false,
-      "description": false,
-      "translations": false,
+      "description": true,
+      "translations": true,
       "docs": true,
       "min_core": false,
       "license": true
@@ -1402,9 +1410,10 @@
      "developer": "geniusdynamics",
      "name": "Calibre",
      "description": {
-      "en": "calibre is the one stop solution to all your e-books needs."
+      "en": "calibre is a web app providing a clean interface for browsing, reading and downloading eBooks using an existing Calibre database. It is also possible to integrate google drive and edit metadata and your calibre library through the app itself.",
+      "it": "Calibre gestisce la libreria di ebook con conversione di formato e accesso da browser."
      },
-     "about": "NEthserver8 App for Calibre https://github.com/linuxserver/docker-calibre",
+     "about": null,
      "authors": [
       "Genius Dynamics"
      ],
@@ -1444,15 +1453,15 @@
      },
      "source": "ghcr.io/geniusdynamics/calibre",
      "stars": 0,
-     "pushed_at": "2026-10-25T11:48:12Z",
+     "pushed_at": "2026-11-13T06:43:41Z",
      "archived": false,
      "checks": {
-      "topic": false,
+      "topic": true,
       "categories": true,
       "logo": true,
       "screenshots": true,
-      "description": false,
-      "translations": false,
+      "description": true,
+      "translations": true,
       "docs": true,
       "min_core": false,
       "license": true
@@ -1478,7 +1487,8 @@
      "developer": "geniusdynamics",
      "name": "Calibre Web",
      "description": {
-      "en": "calibre-Web is a web app providing a clean interface for browsing, reading and downloading eBooks using an existing Calibre database"
+      "en": "calibre-Web is a web app providing a clean interface for browsing, reading and downloading eBooks using an existing Calibre database",
+      "it": "Calibre-Web è un'interfaccia web per sfogliare, leggere e scaricare gli ebook di una libreria Calibre."
      },
      "about": null,
      "authors": [
@@ -1520,15 +1530,15 @@
      },
      "source": "ghcr.io/geniusdynamics/calibre-web",
      "stars": 0,
-     "pushed_at": "2026-11-07T11:37:12Z",
+     "pushed_at": "2026-11-13T07:31:41Z",
      "archived": false,
      "checks": {
-      "topic": false,
+      "topic": true,
       "categories": true,
       "logo": true,
       "screenshots": true,
       "description": true,
-      "translations": false,
+      "translations": true,
       "docs": true,
       "min_core": false,
       "license": true
@@ -1620,7 +1630,7 @@
      },
      "source": "ghcr.io/stephdl/calrs",
      "stars": 0,
-     "pushed_at": "2026-11-10T15:12:48Z",
+     "pushed_at": "2026-11-13T04:49:14Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -1654,7 +1664,8 @@
      "developer": "geniusdynamics",
      "name": "Checkcle",
      "description": {
-      "en": "CheckCle is a self-hosted, open-source monitoring platform for seamless, real-time full-stack systems, applications, and infrastructure. It provides real-time uptime monitoring, distributed checks, incident tracking, and alerts. All deployable anywhere."
+      "en": "CheckCle is a self-hosted, open-source monitoring platform for seamless, real-time full-stack systems, applications, and infrastructure. It provides real-time uptime monitoring, distributed checks, incident tracking, and alerts. All deployable anywhere.",
+      "it": "CheckCle monitora siti e servizi con controlli di disponibilità, avvisi e pagine di stato."
      },
      "about": null,
      "authors": [
@@ -1697,15 +1708,15 @@
      },
      "source": "ghcr.io/geniusdynamics/checkcle",
      "stars": 0,
-     "pushed_at": "2025-10-05T23:26:05Z",
+     "pushed_at": "2026-11-13T07:29:13Z",
      "archived": false,
      "checks": {
-      "topic": false,
+      "topic": true,
       "categories": true,
       "logo": true,
       "screenshots": true,
       "description": true,
-      "translations": false,
+      "translations": true,
       "docs": true,
       "min_core": false,
       "license": true
@@ -1811,7 +1822,8 @@
      "developer": "geniusdynamics",
      "name": "Chiefonboarding",
      "description": {
-      "en": "Onboarding a new hire is often complicated and chaotic, especially in remote teams. We will help you structure your onboarding process for IT, HR, managers, buddies, and, of course, your new hires.."
+      "en": "Onboarding a new hire is often complicated and chaotic, especially in remote teams. We will help you structure your onboarding process for IT, HR, managers, buddies, and, of course, your new hires..",
+      "it": "Chief Onboarding guida i nuovi dipendenti nell'inserimento con attività, risorse ed elenchi di cose da fare."
      },
      "about": null,
      "authors": [
@@ -1854,15 +1866,15 @@
      },
      "source": "ghcr.io/geniusdynamics/chiefonboarding",
      "stars": 0,
-     "pushed_at": "2026-06-01T16:18:39Z",
+     "pushed_at": "2026-11-13T07:04:59Z",
      "archived": false,
      "checks": {
-      "topic": false,
+      "topic": true,
       "categories": true,
       "logo": true,
       "screenshots": true,
       "description": true,
-      "translations": false,
+      "translations": true,
       "docs": true,
       "min_core": false,
       "license": true
@@ -2008,7 +2020,7 @@
      },
      "source": "ghcr.io/nethserver/collabora",
      "stars": 0,
-     "pushed_at": "2026-11-12T18:08:12Z",
+     "pushed_at": "2026-11-13T02:08:48Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -2042,7 +2054,8 @@
      "developer": "geniusdynamics",
      "name": "Coolify",
      "description": {
-      "en": "Coolify. An open-source & self-hostable Heroku / Netlify / Vercel alternative."
+      "en": "Coolify. An open-source & self-hostable Heroku / Netlify / Vercel alternative.",
+      "it": "Coolify è una piattaforma self-hosted per distribuire applicazioni, database e servizi sui propri server."
      },
      "about": null,
      "authors": [
@@ -2092,15 +2105,15 @@
      },
      "source": "ghcr.io/geniusdynamics/coolify",
      "stars": 0,
-     "pushed_at": "2026-10-23T15:30:39Z",
+     "pushed_at": "2026-11-13T07:03:53Z",
      "archived": false,
      "checks": {
-      "topic": false,
+      "topic": true,
       "categories": true,
       "logo": true,
       "screenshots": true,
       "description": true,
-      "translations": false,
+      "translations": true,
       "docs": true,
       "min_core": false,
       "license": true
@@ -2127,7 +2140,8 @@
      "developer": "geniusdynamics",
      "name": "COUCHDB",
      "description": {
-      "en": "CouchDB is a terrific single-node database that works just like any other database behind an application server of your choice."
+      "en": "CouchDB is a terrific single-node database that works just like any other database behind an application server of your choice.",
+      "it": "Apache CouchDB è un database a documenti che memorizza dati JSON e li sincronizza tra dispositivi tramite API HTTP."
      },
      "about": null,
      "authors": [
@@ -2167,15 +2181,15 @@
      },
      "source": "ghcr.io/geniusdynamics/couchdb",
      "stars": 1,
-     "pushed_at": "2026-10-25T10:26:49Z",
+     "pushed_at": "2026-11-13T07:26:35Z",
      "archived": false,
      "checks": {
-      "topic": false,
+      "topic": true,
       "categories": true,
       "logo": true,
       "screenshots": false,
       "description": true,
-      "translations": false,
+      "translations": true,
       "docs": true,
       "min_core": false,
       "license": true
@@ -2492,9 +2506,9 @@
      },
      "logo": "https://forge.nethserver.org/ns8/updates/dependencytrack/logo.png",
      "screenshots": [
+      "https://forge.nethserver.org/ns8/updates/dependencytrack/screenshots/screen3.png",
       "https://forge.nethserver.org/ns8/updates/dependencytrack/screenshots/screen2.png",
-      "https://forge.nethserver.org/ns8/updates/dependencytrack/screenshots/screen1.png",
-      "https://forge.nethserver.org/ns8/updates/dependencytrack/screenshots/screen3.png"
+      "https://forge.nethserver.org/ns8/updates/dependencytrack/screenshots/screen1.png"
      ],
      "versions": [
       {
@@ -2681,8 +2695,8 @@
      "logo": "https://forge.nethserver.org/ns8/updates/dnshelper/logo.png",
      "screenshots": [
       "https://forge.nethserver.org/ns8/updates/dnshelper/screenshots/1-zones.png",
-      "https://forge.nethserver.org/ns8/updates/dnshelper/screenshots/2-records.png",
-      "https://forge.nethserver.org/ns8/updates/dnshelper/screenshots/3-access-rules.png"
+      "https://forge.nethserver.org/ns8/updates/dnshelper/screenshots/3-access-rules.png",
+      "https://forge.nethserver.org/ns8/updates/dnshelper/screenshots/2-records.png"
      ],
      "versions": [
       {
@@ -2813,7 +2827,8 @@
      "developer": "geniusdynamics",
      "name": "Docmost",
      "description": {
-      "en": "Docmost. Open-source collaborative wiki and documentation software"
+      "en": "Docmost is open-source collaborative wiki and documentation software with spaces, pages, comments and real-time editing.",
+      "it": "Docmost è un software open source di wiki e documentazione collaborativa."
      },
      "about": null,
      "authors": [
@@ -2858,15 +2873,15 @@
      },
      "source": "ghcr.io/geniusdynamics/docmost",
      "stars": 0,
-     "pushed_at": "2026-10-25T10:12:57Z",
+     "pushed_at": "2026-11-13T07:29:30Z",
      "archived": false,
      "checks": {
-      "topic": false,
+      "topic": true,
       "categories": true,
       "logo": true,
       "screenshots": true,
       "description": true,
-      "translations": false,
+      "translations": true,
       "docs": true,
       "min_core": false,
       "license": true
@@ -2892,7 +2907,8 @@
      "developer": "geniusdynamics",
      "name": "Docuseal",
      "description": {
-      "en": "DocuSeal. Open source document filling and signing"
+      "en": "DocuSeal is an open source platform to fill out and sign documents online, with templates, reminders and an audit trail.",
+      "it": "DocuSeal è una piattaforma open source per compilare e firmare documenti online."
      },
      "about": null,
      "authors": [
@@ -2935,15 +2951,15 @@
      },
      "source": "ghcr.io/geniusdynamics/docuseal",
      "stars": 0,
-     "pushed_at": "2026-06-01T07:07:30Z",
+     "pushed_at": "2026-11-13T07:05:19Z",
      "archived": false,
      "checks": {
-      "topic": false,
+      "topic": true,
       "categories": true,
       "logo": true,
       "screenshots": true,
-      "description": false,
-      "translations": false,
+      "description": true,
+      "translations": true,
       "docs": true,
       "min_core": false,
       "license": true
@@ -2969,7 +2985,8 @@
      "developer": "geniusdynamics",
      "name": "Dokploy",
      "description": {
-      "en": "Dokploy. multi-server deployments, advanced user control, and flexible database management—all with Dokploy’s developer-focused features."
+      "en": "Dokploy. multi-server deployments, advanced user control, and flexible database management—all with Dokploy’s developer-focused features.",
+      "it": "Dokploy è una piattaforma self-hosted per distribuire e gestire applicazioni e database con Docker."
      },
      "about": null,
      "authors": [
@@ -3015,15 +3032,15 @@
      },
      "source": "ghcr.io/geniusdynamics/dokploy",
      "stars": 0,
-     "pushed_at": "2026-02-20T20:54:09Z",
+     "pushed_at": "2026-11-13T07:03:03Z",
      "archived": false,
      "checks": {
-      "topic": false,
+      "topic": true,
       "categories": true,
       "logo": true,
       "screenshots": true,
       "description": true,
-      "translations": false,
+      "translations": true,
       "docs": true,
       "min_core": false,
       "license": true
@@ -3127,7 +3144,8 @@
      "developer": "geniusdynamics",
      "name": "Dolibarr",
      "description": {
-      "en": "Open Source ERP & CRM for business"
+      "en": "Dolibarr is a web suite for small and medium businesses covering invoicing, CRM, stock and accounting.",
+      "it": "Dolibarr è una suite web per piccole e medie imprese con fatturazione, CRM, magazzino e contabilità."
      },
      "about": null,
      "authors": [
@@ -3170,15 +3188,15 @@
      },
      "source": "ghcr.io/geniusdynamics/dolibarr",
      "stars": 0,
-     "pushed_at": "2026-10-24T09:51:11Z",
+     "pushed_at": "2026-11-13T07:07:15Z",
      "archived": false,
      "checks": {
-      "topic": false,
+      "topic": true,
       "categories": true,
       "logo": true,
       "screenshots": true,
-      "description": false,
-      "translations": false,
+      "description": true,
+      "translations": true,
       "docs": true,
       "min_core": false,
       "license": true
@@ -3475,21 +3493,22 @@
      "screenshots": [],
      "versions": [
       {
-       "tag": "1.2.0",
+       "tag": "1.3.0",
        "testing": false
       }
      ],
-     "stable": "1.2.0",
+     "stable": "1.3.0",
      "testing": null,
      "min_core": null,
      "tech": {
       "rootfull": false,
       "images": [
-       "tebbiworld/elabimg:6.0.1-php8.4.27",
+       "tebbiworld/elabimg:6.0.9-php8.4.27",
        "mysql:8.4.10"
       ],
       "authorizations": [
-       "traefik@node:routeadm"
+       "traefik@node:routeadm",
+       "cluster:accountconsumer"
       ],
       "tcp_ports": 1,
       "udp_ports": 0,
@@ -3500,7 +3519,7 @@
      },
      "source": "ghcr.io/tebbiworld/elabftw",
      "stars": 0,
-     "pushed_at": "2026-11-12T16:34:56Z",
+     "pushed_at": "2026-11-12T22:28:10Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -3513,7 +3532,7 @@
       "min_core": false,
       "license": true
      },
-     "released_at": "2026-10-21T20:20:50Z"
+     "released_at": "2026-11-12T22:30:33Z"
     }
    ]
   },
@@ -3534,7 +3553,8 @@
      "developer": "geniusdynamics",
      "name": "ERPNEXT",
      "description": {
-      "en": "The most agile ERP on the planet: ERPNext is the world's best free and open source ERP"
+      "en": "The most agile ERP on the planet: ERPNext is the world's best free and open source ERP",
+      "it": "ERPNext è un ERP open source per contabilità, magazzino, vendite, acquisti e produzione."
      },
      "about": null,
      "authors": [
@@ -3581,15 +3601,15 @@
      },
      "source": "ghcr.io/geniusdynamics/erpnext",
      "stars": 7,
-     "pushed_at": "2026-06-07T09:06:05Z",
+     "pushed_at": "2026-11-13T07:26:30Z",
      "archived": false,
      "checks": {
-      "topic": false,
+      "topic": true,
       "categories": true,
       "logo": true,
       "screenshots": true,
       "description": true,
-      "translations": false,
+      "translations": true,
       "docs": true,
       "min_core": false,
       "license": true
@@ -3615,7 +3635,8 @@
      "developer": "geniusdynamics",
      "name": "EspoCRM",
      "description": {
-      "en": "EspoCRM is a web application that allows users to see, enter and evaluate all your company relationships regardless of the type."
+      "en": "EspoCRM is a web application that allows users to see, enter and evaluate all your company relationships regardless of the type.",
+      "it": "EspoCRM è un'applicazione web per gestire i rapporti con i clienti, le vendite e le attività."
      },
      "about": null,
      "authors": [
@@ -3658,15 +3679,15 @@
      },
      "source": "ghcr.io/geniusdynamics/espocrm",
      "stars": 0,
-     "pushed_at": "2026-10-24T19:56:12Z",
+     "pushed_at": "2026-11-13T07:04:19Z",
      "archived": false,
      "checks": {
-      "topic": false,
+      "topic": true,
       "categories": true,
       "logo": true,
       "screenshots": true,
       "description": true,
-      "translations": false,
+      "translations": true,
       "docs": true,
       "min_core": false,
       "license": true
@@ -3692,7 +3713,8 @@
      "developer": "geniusdynamics",
      "name": "Eturnal",
      "description": {
-      "en": "eturnal is a clean, scalable STUN and TURN server for Unix-like operating systems and Microsoft Windows"
+      "en": "eturnal is a clean, scalable STUN and TURN server for Unix-like operating systems and Microsoft Windows",
+      "it": "eturnal è un server STUN e TURN per chiamate e videochiamate, adatto a Matrix e altre applicazioni WebRTC."
      },
      "about": null,
      "authors": [
@@ -3732,15 +3754,15 @@
      },
      "source": "ghcr.io/geniusdynamics/eturnal",
      "stars": 0,
-     "pushed_at": "2026-02-07T12:34:38Z",
+     "pushed_at": "2026-11-13T07:29:43Z",
      "archived": false,
      "checks": {
-      "topic": false,
+      "topic": true,
       "categories": true,
       "logo": true,
       "screenshots": false,
       "description": true,
-      "translations": false,
+      "translations": true,
       "docs": true,
       "min_core": false,
       "license": true
@@ -4076,7 +4098,8 @@
      "developer": "geniusdynamics",
      "name": "Firefly iii",
      "description": {
-      "en": "A free and open source personal finance manager"
+      "en": "Firefly III is a self-hosted manager for personal finances that tracks income, expenses, budgets and accounts.",
+      "it": "Firefly III è un gestore self-hosted delle finanze personali per entrate, spese, budget e conti."
      },
      "about": null,
      "authors": [
@@ -4119,20 +4142,99 @@
      },
      "source": "ghcr.io/geniusdynamics/firefly",
      "stars": 0,
-     "pushed_at": "2026-10-24T19:55:13Z",
+     "pushed_at": "2026-11-13T07:03:33Z",
      "archived": false,
      "checks": {
-      "topic": false,
+      "topic": true,
       "categories": true,
       "logo": true,
       "screenshots": true,
-      "description": false,
-      "translations": false,
+      "description": true,
+      "translations": true,
       "docs": true,
       "min_core": false,
       "license": true
      },
      "released_at": "2026-10-24T19:54:54Z"
+    }
+   ]
+  },
+  {
+   "id": "flatnotes",
+   "categories": [
+    "documentation"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "flatnotes",
+     "forges": [
+      "geniusdynamics"
+     ],
+     "kind": "community",
+     "developer": "geniusdynamics",
+     "name": "Flatnotes",
+     "description": {
+      "en": "Self-hosted note-taking app that stores notes as plain Markdown files in a folder, with search and tags.",
+      "it": "App self-hosted per appunti che salva le note come file Markdown in una cartella, con ricerca e tag."
+     },
+     "about": null,
+     "authors": [
+      "Genius Dynamics"
+     ],
+     "categories": [
+      "documentation"
+     ],
+     "code_url": "https://github.com/geniusdynamics/ns8-flatnotes",
+     "docs": {
+      "documentation_url": "https://github.com/dullage/flatnotes",
+      "bug_url": "https://github.com/geniusdynamics/ns8-flatnotes/issues",
+      "relnotes_url": "https://github.com/geniusdynamics/ns8-flatnotes/releases"
+     },
+     "logo": "https://forge.genius.ke/ns8/updates/flatnotes/logo.png",
+     "screenshots": [
+      "https://forge.genius.ke/ns8/updates/flatnotes/screenshots/screen3.png",
+      "https://forge.genius.ke/ns8/updates/flatnotes/screenshots/screen2.png",
+      "https://forge.genius.ke/ns8/updates/flatnotes/screenshots/screen1.png"
+     ],
+     "versions": [
+      {
+       "tag": "1.0.0",
+       "testing": false
+      }
+     ],
+     "stable": "1.0.0",
+     "testing": null,
+     "min_core": "3.12.4-0",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "dullage/flatnotes:v5.5.5"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm"
+      ],
+      "tcp_ports": 1,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/geniusdynamics/flatnotes",
+     "stars": 0,
+     "pushed_at": "2026-11-13T04:58:34Z",
+     "archived": false,
+     "checks": {
+      "topic": true,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-11-13T04:21:52Z"
     }
    ]
   },
@@ -4153,7 +4255,8 @@
      "developer": "geniusdynamics",
      "name": "Formbricks",
      "description": {
-      "en": "Formbricks is an Experience Management Suite built on the largest open source survey stack worldwide."
+      "en": "Formbricks is an Experience Management Suite built on the largest open source survey stack worldwide.",
+      "it": "Formbricks è una suite open source per sondaggi e raccolta di feedback dagli utenti."
      },
      "about": null,
      "authors": [
@@ -4197,15 +4300,15 @@
      },
      "source": "ghcr.io/geniusdynamics/formbricks",
      "stars": 0,
-     "pushed_at": "2025-07-17T18:23:19Z",
+     "pushed_at": "2026-11-13T07:22:49Z",
      "archived": false,
      "checks": {
-      "topic": false,
+      "topic": true,
       "categories": true,
       "logo": true,
       "screenshots": true,
       "description": true,
-      "translations": false,
+      "translations": true,
       "docs": true,
       "min_core": false,
       "license": true
@@ -4308,7 +4411,8 @@
      "developer": "geniusdynamics",
      "name": "Gitea",
      "description": {
-      "en": "Private, Fast, Reliable DevOps Platform"
+      "en": "Brings teams and developers high-efficiency but easy operations from planning to production.",
+      "it": "Gitea offre hosting Git leggero con issue, pull request, CI e registri dei pacchetti."
      },
      "about": null,
      "authors": [
@@ -4352,15 +4456,15 @@
      },
      "source": "ghcr.io/geniusdynamics/gitea",
      "stars": 0,
-     "pushed_at": "2025-08-25T05:58:58Z",
+     "pushed_at": "2026-11-13T07:30:53Z",
      "archived": false,
      "checks": {
-      "topic": false,
+      "topic": true,
       "categories": true,
       "logo": true,
       "screenshots": true,
-      "description": false,
-      "translations": false,
+      "description": true,
+      "translations": true,
       "docs": true,
       "min_core": false,
       "license": true
@@ -4557,7 +4661,8 @@
      "developer": "geniusdynamics",
      "name": "GLPI",
      "description": {
-      "en": "GLPI Your open source tool to manage Helpdesk and IT assets!."
+      "en": "GLPI Your open source tool to manage Helpdesk and IT assets!.",
+      "it": "GLPI è un software di gestione dei servizi IT e degli asset, con helpdesk e inventario."
      },
      "about": null,
      "authors": [
@@ -4600,15 +4705,15 @@
      },
      "source": "ghcr.io/geniusdynamics/glpi",
      "stars": 0,
-     "pushed_at": "2026-10-24T09:54:52Z",
+     "pushed_at": "2026-11-13T07:25:25Z",
      "archived": false,
      "checks": {
-      "topic": false,
+      "topic": true,
       "categories": true,
       "logo": true,
       "screenshots": true,
       "description": true,
-      "translations": false,
+      "translations": true,
       "docs": true,
       "min_core": false,
       "license": true
@@ -4689,7 +4794,7 @@
      },
      "source": "ghcr.io/stephdl/glpi",
      "stars": 0,
-     "pushed_at": "2026-11-10T15:09:18Z",
+     "pushed_at": "2026-11-13T05:29:30Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -4815,9 +4920,9 @@
      },
      "logo": "https://forge.nethserver.org/ns8/updates/grafana/logo.png",
      "screenshots": [
+      "https://forge.nethserver.org/ns8/updates/grafana/screenshots/screen3.png",
       "https://forge.nethserver.org/ns8/updates/grafana/screenshots/screen2.png",
-      "https://forge.nethserver.org/ns8/updates/grafana/screenshots/screen1.png",
-      "https://forge.nethserver.org/ns8/updates/grafana/screenshots/screen3.png"
+      "https://forge.nethserver.org/ns8/updates/grafana/screenshots/screen1.png"
      ],
      "versions": [
       {
@@ -4856,6 +4961,84 @@
       "license": true
      },
      "released_at": "2026-03-10T07:54:17Z"
+    }
+   ]
+  },
+  {
+   "id": "grist",
+   "categories": [
+    "office"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "grist",
+     "forges": [
+      "geniusdynamics"
+     ],
+     "kind": "community",
+     "developer": "geniusdynamics",
+     "name": "Grist",
+     "description": {
+      "en": "Relational spreadsheet that combines the flexibility of a spreadsheet with the robustness of a database, for self-hosted data management.",
+      "it": "Foglio di calcolo relazionale che unisce la flessibilità di un foglio elettronico alla robustezza di un database, per gestire i dati in self-hosting."
+     },
+     "about": null,
+     "authors": [
+      "Genius Dynamics"
+     ],
+     "categories": [
+      "office"
+     ],
+     "code_url": "https://github.com/geniusdynamics/ns8-grist",
+     "docs": {
+      "documentation_url": "https://support.getgrist.com/self-managed/",
+      "bug_url": "https://github.com/geniusdynamics/ns8-grist/issues",
+      "relnotes_url": "https://github.com/geniusdynamics/ns8-grist/releases"
+     },
+     "logo": "https://forge.genius.ke/ns8/updates/grist/logo.png",
+     "screenshots": [
+      "https://forge.genius.ke/ns8/updates/grist/screenshots/screen2.png",
+      "https://forge.genius.ke/ns8/updates/grist/screenshots/screen1.png"
+     ],
+     "versions": [
+      {
+       "tag": "1.0.0",
+       "testing": false
+      }
+     ],
+     "stable": "1.0.0",
+     "testing": null,
+     "min_core": null,
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "gristlabs/grist:1.7.22"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm"
+      ],
+      "tcp_ports": 1,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/geniusdynamics/grist",
+     "stars": 0,
+     "pushed_at": "2026-11-13T07:24:14Z",
+     "archived": false,
+     "checks": {
+      "topic": true,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": false,
+      "license": true
+     },
+     "released_at": "2026-11-13T04:25:13Z"
     }
    ]
   },
@@ -5197,7 +5380,8 @@
      "developer": "geniusdynamics",
      "name": "Homarr",
      "description": {
-      "en": "A simple yet powerful dashboard for your server"
+      "en": "Homarr is a simple yet powerful dashboard that gathers the apps and services of your server on one customizable page.",
+      "it": "Homarr è una dashboard semplice e potente per i servizi del proprio server."
      },
      "about": null,
      "authors": [
@@ -5217,17 +5401,17 @@
      ],
      "versions": [
       {
-       "tag": "1.1.0",
+       "tag": "2.0.0",
        "testing": false
       }
      ],
-     "stable": "1.1.0",
+     "stable": "2.0.0",
      "testing": null,
      "min_core": null,
      "tech": {
       "rootfull": false,
       "images": [
-       "homarr-labs/homarr:v1.34.0"
+       "homarr-labs/homarr:v1.77.2"
       ],
       "authorizations": [
        "traefik@node:routeadm"
@@ -5238,20 +5422,20 @@
      },
      "source": "ghcr.io/geniusdynamics/homarr",
      "stars": 0,
-     "pushed_at": "2025-08-24T17:02:32Z",
+     "pushed_at": "2026-11-13T07:27:57Z",
      "archived": false,
      "checks": {
-      "topic": false,
+      "topic": true,
       "categories": true,
       "logo": true,
       "screenshots": true,
-      "description": false,
-      "translations": false,
+      "description": true,
+      "translations": true,
       "docs": true,
       "min_core": false,
       "license": true
      },
-     "released_at": "2025-08-24T17:02:33Z"
+     "released_at": "2026-11-13T06:21:35Z"
     }
    ]
   },
@@ -5720,7 +5904,7 @@
      },
      "source": "ghcr.io/mrmarkuz/immich",
      "stars": 1,
-     "pushed_at": "2026-11-12T16:06:28Z",
+     "pushed_at": "2026-11-12T21:08:11Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -5754,9 +5938,10 @@
      "developer": "geniusdynamics",
      "name": "IT-Tools",
      "description": {
-      "en": "Useful tools for developer and people working in IT"
+      "en": "IT-Tools is a collection of handy online tools for developers and IT people, such as converters, generators and encoders, run from the browser.",
+      "it": "Raccolta di strumenti utili per sviluppatori e personale IT, eseguiti nel browser."
      },
-     "about": "This is a nehserver 8 App for IT TEch Tools. Useful tools for developer and people working in IT.",
+     "about": null,
      "authors": [
       "Genius Dynamics"
      ],
@@ -5795,15 +5980,15 @@
      },
      "source": "ghcr.io/geniusdynamics/it-tools",
      "stars": 0,
-     "pushed_at": "2024-03-09T23:02:21Z",
+     "pushed_at": "2026-11-13T07:22:01Z",
      "archived": false,
      "checks": {
-      "topic": false,
+      "topic": true,
       "categories": true,
       "logo": true,
       "screenshots": true,
-      "description": false,
-      "translations": false,
+      "description": true,
+      "translations": true,
       "docs": true,
       "min_core": false,
       "license": true
@@ -5993,7 +6178,8 @@
      "developer": "geniusdynamics",
      "name": "JoplinServer",
      "description": {
-      "en": "Joplin is an open source note-taking app. Capture your thoughts and securely access them from any device."
+      "en": "Joplin is an open source note-taking app. Capture your thoughts and securely access them from any device.",
+      "it": "Joplin Server sincronizza note e allegati tra le applicazioni Joplin e consente di condividere i quaderni con altri utenti."
      },
      "about": null,
      "authors": [
@@ -6038,15 +6224,15 @@
      },
      "source": "ghcr.io/geniusdynamics/joplin",
      "stars": 1,
-     "pushed_at": "2025-09-28T18:39:22Z",
+     "pushed_at": "2026-11-13T06:43:16Z",
      "archived": false,
      "checks": {
-      "topic": false,
+      "topic": true,
       "categories": true,
       "logo": true,
       "screenshots": true,
       "description": true,
-      "translations": false,
+      "translations": true,
       "docs": true,
       "min_core": false,
       "license": true
@@ -6198,7 +6384,7 @@
      },
      "source": "ghcr.io/mrmarkuz/kitchenowl",
      "stars": 1,
-     "pushed_at": "2026-11-11T17:41:27Z",
+     "pushed_at": "2026-11-13T04:37:22Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -6843,9 +7029,10 @@
      "developer": "geniusdynamics",
      "name": "Linkwarden",
      "description": {
-      "en": "Webpage Management for Individuals and Teams"
+      "en": "Linkwarden is a self-hosted bookmark manager that saves, organizes and archives web pages, for individuals and teams.",
+      "it": "Linkwarden salva, organizza e archivia pagine web, per singoli e per team."
      },
-     "about": "this is an ns8 App for Linkwarden https://linkwarden.app a webpage management for teams",
+     "about": null,
      "authors": [
       "Genius Dynamics"
      ],
@@ -6885,15 +7072,15 @@
      },
      "source": "ghcr.io/geniusdynamics/linkwarden",
      "stars": 0,
-     "pushed_at": "2026-10-25T10:43:09Z",
+     "pushed_at": "2026-11-13T07:05:39Z",
      "archived": false,
      "checks": {
-      "topic": false,
+      "topic": true,
       "categories": true,
       "logo": true,
       "screenshots": true,
-      "description": false,
-      "translations": false,
+      "description": true,
+      "translations": true,
       "docs": true,
       "min_core": false,
       "license": true
@@ -6904,7 +7091,9 @@
   },
   {
    "id": "listmonk",
-   "categories": [],
+   "categories": [
+    "communication"
+   ],
    "official": false,
    "stars": 0,
    "variants": [
@@ -6917,13 +7106,16 @@
      "developer": "geniusdynamics",
      "name": "Listmonk",
      "description": {
-      "en": "Self-hosted newsletter and mailing list manager"
+      "en": "listmonk is a self-hosted, high-performance newsletter and mailing list manager with a web admin and campaign analytics.",
+      "it": "listmonk è un gestore self-hosted di newsletter e mailing list ad alte prestazioni."
      },
-     "about": "High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app. for NS8",
+     "about": null,
      "authors": [
       "Genius Dynamics"
      ],
-     "categories": [],
+     "categories": [
+      "communication"
+     ],
      "code_url": "https://github.com/geniusdynamics/ns8-listmonk",
      "docs": {
       "documentation_url": "https://listmonk.app/docs",
@@ -6959,15 +7151,15 @@
      },
      "source": "ghcr.io/geniusdynamics/listmonk",
      "stars": 0,
-     "pushed_at": "2026-10-26T08:18:06Z",
+     "pushed_at": "2026-11-13T07:04:06Z",
      "archived": false,
      "checks": {
-      "topic": false,
-      "categories": false,
+      "topic": true,
+      "categories": true,
       "logo": true,
       "screenshots": true,
-      "description": false,
-      "translations": false,
+      "description": true,
+      "translations": true,
       "docs": true,
       "min_core": false,
       "license": true
@@ -7051,7 +7243,7 @@
      },
      "source": "ghcr.io/nethserver/mail",
      "stars": 3,
-     "pushed_at": "2026-11-12T18:32:06Z",
+     "pushed_at": "2026-11-13T02:06:56Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -7162,7 +7354,8 @@
      "developer": "geniusdynamics",
      "name": "Matomo",
      "description": {
-      "en": "Google Analytics alternative"
+      "en": "Google Analytics alternative that protects your data and your customers' privacy:Take back control with Matomo; a powerful web analytics platform that gives you 100% data ownership.",
+      "it": "Matomo è una piattaforma di analisi web rispettosa della privacy, alternativa a Google Analytics."
      },
      "about": null,
      "authors": [
@@ -7203,15 +7396,15 @@
      },
      "source": "ghcr.io/geniusdynamics/matomo",
      "stars": 0,
-     "pushed_at": "2026-11-04T17:56:04Z",
+     "pushed_at": "2026-11-13T07:28:12Z",
      "archived": false,
      "checks": {
-      "topic": false,
+      "topic": true,
       "categories": true,
       "logo": true,
       "screenshots": false,
-      "description": false,
-      "translations": false,
+      "description": true,
+      "translations": true,
       "docs": true,
       "min_core": false,
       "license": true
@@ -7482,7 +7675,8 @@
      "developer": "geniusdynamics",
      "name": "Mautic",
      "description": {
-      "en": "Mautic & Open Source Marketing Automation"
+      "en": "Mautic is an open source marketing automation platform to manage contacts, email campaigns, landing pages and lead scoring.",
+      "it": "Mautic è una piattaforma open source di marketing automation."
      },
      "about": null,
      "authors": [
@@ -7524,15 +7718,15 @@
      },
      "source": "ghcr.io/geniusdynamics/mautic",
      "stars": 0,
-     "pushed_at": "2026-10-24T19:56:44Z",
+     "pushed_at": "2026-11-13T07:05:46Z",
      "archived": false,
      "checks": {
-      "topic": false,
+      "topic": true,
       "categories": true,
       "logo": true,
       "screenshots": true,
-      "description": false,
-      "translations": false,
+      "description": true,
+      "translations": true,
       "docs": true,
       "min_core": false,
       "license": true
@@ -7558,7 +7752,8 @@
      "developer": "geniusdynamics",
      "name": "Maybe",
      "description": {
-      "en": "Maybe: The OS for your personal finances."
+      "en": "Maybe is an app to manage your personal finances, track accounts, investments and net worth in one place.",
+      "it": "Maybe è un'applicazione per gestire le proprie finanze personali, investimenti e patrimonio."
      },
      "about": null,
      "authors": [
@@ -7602,15 +7797,15 @@
      },
      "source": "ghcr.io/geniusdynamics/maybe",
      "stars": 0,
-     "pushed_at": "2025-08-24T17:12:37Z",
+     "pushed_at": "2026-11-13T06:42:49Z",
      "archived": false,
      "checks": {
-      "topic": false,
+      "topic": true,
       "categories": true,
       "logo": true,
       "screenshots": true,
-      "description": false,
-      "translations": false,
+      "description": true,
+      "translations": true,
       "docs": true,
       "min_core": false,
       "license": true
@@ -7793,7 +7988,8 @@
      "developer": "geniusdynamics",
      "name": "Monica",
      "description": {
-      "en": "Personal CRM"
+      "en": "Monica is a personal CRM that helps you remember details about friends, family and contacts, and keep in touch.",
+      "it": "Monica è un CRM personale che aiuta a ricordare i dettagli di amici, familiari e contatti e a mantenere i rapporti."
      },
      "about": null,
      "authors": [
@@ -7835,15 +8031,15 @@
      },
      "source": "ghcr.io/geniusdynamics/monica",
      "stars": 0,
-     "pushed_at": "2026-10-26T05:46:43Z",
+     "pushed_at": "2026-11-13T07:04:00Z",
      "archived": false,
      "checks": {
-      "topic": false,
+      "topic": true,
       "categories": true,
       "logo": true,
       "screenshots": false,
-      "description": false,
-      "translations": false,
+      "description": true,
+      "translations": true,
       "docs": true,
       "min_core": false,
       "license": true
@@ -8005,7 +8201,8 @@
      "developer": "geniusdynamics",
      "name": "N8N",
      "description": {
-      "en": "Workflow automation for technical people"
+      "en": "n8n is a workflow automation tool for technical people, with a visual editor and integrations with hundreds of services.",
+      "it": "n8n è uno strumento di automazione dei flussi di lavoro per persone tecniche."
      },
      "about": null,
      "authors": [
@@ -8050,15 +8247,15 @@
      },
      "source": "ghcr.io/geniusdynamics/n8n",
      "stars": 0,
-     "pushed_at": "2025-12-24T02:07:37Z",
+     "pushed_at": "2026-11-13T07:25:32Z",
      "archived": false,
      "checks": {
-      "topic": false,
+      "topic": true,
       "categories": true,
       "logo": true,
       "screenshots": true,
-      "description": false,
-      "translations": false,
+      "description": true,
+      "translations": true,
       "docs": true,
       "min_core": false,
       "license": true
@@ -8255,11 +8452,11 @@
      },
      "logo": "https://distfeed.nethserver.org/ns8/updates/nethsecurity-controller/logo.png",
      "screenshots": [
-      "https://distfeed.nethserver.org/ns8/updates/nethsecurity-controller/screenshots/screen3.png",
-      "https://distfeed.nethserver.org/ns8/updates/nethsecurity-controller/screenshots/screen2.png",
+      "https://distfeed.nethserver.org/ns8/updates/nethsecurity-controller/screenshots/screen5.png",
       "https://distfeed.nethserver.org/ns8/updates/nethsecurity-controller/screenshots/screen4.png",
+      "https://distfeed.nethserver.org/ns8/updates/nethsecurity-controller/screenshots/screen2.png",
       "https://distfeed.nethserver.org/ns8/updates/nethsecurity-controller/screenshots/screen1.png",
-      "https://distfeed.nethserver.org/ns8/updates/nethsecurity-controller/screenshots/screen5.png"
+      "https://distfeed.nethserver.org/ns8/updates/nethsecurity-controller/screenshots/screen3.png"
      ],
      "versions": [
       {
@@ -8533,9 +8730,9 @@
      },
      "logo": "https://distfeed.nethserver.org/ns8/updates/nextcloud/logo.png",
      "screenshots": [
-      "https://distfeed.nethserver.org/ns8/updates/nextcloud/screenshots/screen3.png",
       "https://distfeed.nethserver.org/ns8/updates/nextcloud/screenshots/screen2.png",
-      "https://distfeed.nethserver.org/ns8/updates/nextcloud/screenshots/screen1.png"
+      "https://distfeed.nethserver.org/ns8/updates/nextcloud/screenshots/screen1.png",
+      "https://distfeed.nethserver.org/ns8/updates/nextcloud/screenshots/screen3.png"
      ],
      "versions": [
       {
@@ -8621,7 +8818,8 @@
      "developer": "geniusdynamics",
      "name": "NocoDB",
      "description": {
-      "en": "Build Databases As Spreadsheets :No-Coding Required"
+      "en": "NocoDB allows building no-code database solutions with ease of spreadsheets.",
+      "it": "NocoDB permette di creare database senza codice con la semplicità di un foglio di calcolo."
      },
      "about": null,
      "authors": [
@@ -8668,15 +8866,15 @@
      },
      "source": "ghcr.io/geniusdynamics/nocodb",
      "stars": 0,
-     "pushed_at": "2025-10-05T23:39:15Z",
+     "pushed_at": "2026-11-13T07:03:22Z",
      "archived": false,
      "checks": {
-      "topic": false,
+      "topic": true,
       "categories": true,
       "logo": true,
       "screenshots": true,
-      "description": false,
-      "translations": false,
+      "description": true,
+      "translations": true,
       "docs": true,
       "min_core": false,
       "license": true
@@ -8776,7 +8974,8 @@
      "developer": "geniusdynamics",
      "name": "Ntfy",
      "description": {
-      "en": "ntfy is a simple HTTP-based pub-sub notification service. It allows you to send notifications to your phone or desktop via scripts from any computer, and/or using a REST API."
+      "en": "ntfy is a simple HTTP-based pub-sub notification service. It allows you to send notifications to your phone or desktop via scripts from any computer, and/or using a REST API.",
+      "it": "ntfy invia notifiche push al telefono o al desktop da script e applicazioni tramite semplici richieste HTTP."
      },
      "about": null,
      "authors": [
@@ -8822,15 +9021,15 @@
      },
      "source": "ghcr.io/geniusdynamics/ntfy",
      "stars": 0,
-     "pushed_at": "2025-08-13T09:13:25Z",
+     "pushed_at": "2026-11-13T07:03:10Z",
      "archived": false,
      "checks": {
-      "topic": false,
+      "topic": true,
       "categories": true,
       "logo": true,
       "screenshots": true,
       "description": true,
-      "translations": false,
+      "translations": true,
       "docs": true,
       "min_core": false,
       "license": true
@@ -9177,7 +9376,7 @@
       "es": "Gestor de secretos para almacenar y controlar el acceso a tokens, contraseñas, certificados y claves de cifrado. Fork de código abierto de HashiCorp Vault con almacenamiento Raft, PKI, registro de auditoría e inicio de sesión de directorio",
       "eu": "Sekretuen kudeatzailea tokenak, pasahitzak, ziurtagiriak eta zifratze-gakoak gordetzeko eta haietarako sarbidea kontrolatzeko. HashiCorp Vault-en iturburu irekiko forka, Raft biltegiratzea, PKI, auditoretza-erregistroa eta direktorio bidezko saio-hasiera dituena",
       "fr": "Gestionnaire de secrets pour stocker et contrôler l'accès aux jetons, mots de passe, certificats et clés de chiffrement. Fork open source de HashiCorp Vault avec stockage Raft, PKI, journal d'audit et connexion par annuaire",
-      "it": "Gestore di segreti per archiviare e controllare l'accesso a token, password, certificati e chiavi di cifratura. Fork open source di HashiCorp Vault con storage Raft, PKI, log di audit e login tramite directory",
+      "it": "OpenBao è un archivio di segreti open source per gestire token, password e certificati.",
       "pt": "Gestor de segredos para armazenar e controlar o acesso a tokens, palavras-passe, certificados e chaves de cifragem. Fork de código aberto do HashiCorp Vault com armazenamento Raft, PKI, registo de auditoria e início de sessão por diretório",
       "pt_BR": "Gerenciador de segredos para armazenar e controlar o acesso a tokens, senhas, certificados e chaves de criptografia. Fork de código aberto do HashiCorp Vault com armazenamento Raft, PKI, log de auditoria e login por diretório"
      },
@@ -9201,16 +9400,12 @@
      ],
      "versions": [
       {
-       "tag": "1.1.0-testing.1",
-       "testing": true
-      },
-      {
-       "tag": "1.0.1",
+       "tag": "1.1.0",
        "testing": false
       }
      ],
-     "stable": "1.0.1",
-     "testing": "1.1.0-testing.1",
+     "stable": "1.1.0",
+     "testing": null,
      "min_core": "3.13.0",
      "tech": {
       "rootfull": false,
@@ -9223,13 +9418,13 @@
        "cluster:accountconsumer",
        "node:portsadm"
       ],
-      "tcp_ports": 3,
+      "tcp_ports": 4,
       "udp_ports": 0,
       "volumes": []
      },
      "source": "ghcr.io/geniusdynamics/openbao",
      "stars": 0,
-     "pushed_at": "2026-11-12T19:59:49Z",
+     "pushed_at": "2026-11-13T07:28:44Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -9242,7 +9437,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-11-12T13:36:04Z"
+     "released_at": "2026-11-13T06:43:12Z"
     }
    ]
   },
@@ -9750,10 +9945,10 @@
      },
      "logo": "https://forge.nethserver.org/ns8/updates/paperlessngx/logo.png",
      "screenshots": [
-      "https://forge.nethserver.org/ns8/updates/paperlessngx/screenshots/screen4.png",
-      "https://forge.nethserver.org/ns8/updates/paperlessngx/screenshots/screen2.png",
       "https://forge.nethserver.org/ns8/updates/paperlessngx/screenshots/screen5.png",
-      "https://forge.nethserver.org/ns8/updates/paperlessngx/screenshots/screen3.png"
+      "https://forge.nethserver.org/ns8/updates/paperlessngx/screenshots/screen3.png",
+      "https://forge.nethserver.org/ns8/updates/paperlessngx/screenshots/screen4.png",
+      "https://forge.nethserver.org/ns8/updates/paperlessngx/screenshots/screen2.png"
      ],
      "versions": [
       {
@@ -9835,9 +10030,9 @@
      },
      "logo": "https://forge.nethserver.org/ns8/updates/passbolt/logo.png",
      "screenshots": [
+      "https://forge.nethserver.org/ns8/updates/passbolt/screenshots/screen3.png",
       "https://forge.nethserver.org/ns8/updates/passbolt/screenshots/screen2.png",
-      "https://forge.nethserver.org/ns8/updates/passbolt/screenshots/screen1.png",
-      "https://forge.nethserver.org/ns8/updates/passbolt/screenshots/screen3.png"
+      "https://forge.nethserver.org/ns8/updates/passbolt/screenshots/screen1.png"
      ],
      "versions": [
       {
@@ -10596,7 +10791,8 @@
      "developer": "geniusdynamics",
      "name": "Postal",
      "description": {
-      "en": "Postal is a complete and fully featured mail server for use by websites & web servers. Think Sendgrid, Mailgun or Postmark but open source and ready for you to run on your own servers."
+      "en": "Postal is a complete and fully featured mail server for use by websites & web servers. Think Sendgrid, Mailgun or Postmark but open source and ready for you to run on your own servers.",
+      "it": "Postal è una piattaforma self-hosted per inviare e tracciare email transazionali e massive dalle applicazioni."
      },
      "about": null,
      "authors": [
@@ -10637,15 +10833,15 @@
      },
      "source": "ghcr.io/geniusdynamics/postal",
      "stars": 0,
-     "pushed_at": "2025-10-06T08:35:09Z",
+     "pushed_at": "2026-11-13T07:27:26Z",
      "archived": false,
      "checks": {
-      "topic": false,
+      "topic": true,
       "categories": true,
       "logo": true,
       "screenshots": false,
       "description": true,
-      "translations": false,
+      "translations": true,
       "docs": true,
       "min_core": false,
       "license": true
@@ -10747,7 +10943,8 @@
      "developer": "geniusdynamics",
      "name": "Postiz",
      "description": {
-      "en": "postiz offers everything you need to manage your social media posts, build an audience, capture leads, and grow your business faster with AI"
+      "en": "postiz offers everything you need to manage your social media posts, build an audience, capture leads, and grow your business faster with AI",
+      "it": "Postiz è uno strumento self-hosted per pianificare e pubblicare contenuti sui social con assistenza AI."
      },
      "about": null,
      "authors": [
@@ -10793,15 +10990,15 @@
      },
      "source": "ghcr.io/geniusdynamics/postiz",
      "stars": 0,
-     "pushed_at": "2026-02-23T13:37:11Z",
+     "pushed_at": "2026-11-13T05:56:42Z",
      "archived": false,
      "checks": {
-      "topic": false,
+      "topic": true,
       "categories": true,
       "logo": true,
       "screenshots": false,
       "description": true,
-      "translations": false,
+      "translations": true,
       "docs": true,
       "min_core": false,
       "license": true
@@ -11266,7 +11463,8 @@
      "developer": "geniusdynamics",
      "name": "Password Pusher",
      "description": {
-      "en": "an open source application to communicate passwords over the web. Links to passwords expire after a certain number of views and/or time has passed."
+      "en": "an open source application to communicate passwords over the web. Links to passwords expire after a certain number of views and/or time has passed.",
+      "it": "Password Pusher condivide informazioni sensibili con scadenza e cancellazione automatica dopo un certo numero di visualizzazioni."
      },
      "about": null,
      "authors": [
@@ -11313,15 +11511,15 @@
      },
      "source": "ghcr.io/geniusdynamics/passwordpusher",
      "stars": 0,
-     "pushed_at": "2026-08-02T09:00:24Z",
+     "pushed_at": "2026-11-13T07:06:03Z",
      "archived": false,
      "checks": {
-      "topic": false,
+      "topic": true,
       "categories": true,
       "logo": true,
       "screenshots": true,
       "description": true,
-      "translations": false,
+      "translations": true,
       "docs": true,
       "min_core": false,
       "license": true
@@ -11347,7 +11545,8 @@
      "developer": "geniusdynamics",
      "name": "Rally",
      "description": {
-      "en": "Rallly is an open-source scheduling and collaboration tool designed to make organizing events and meetings easier."
+      "en": "Rallly is an open-source scheduling and collaboration tool designed to make organizing events and meetings easier.",
+      "it": "Rallly semplifica la scelta della data di una riunione con sondaggi di disponibilità."
      },
      "about": null,
      "authors": [
@@ -11389,15 +11588,15 @@
      },
      "source": "ghcr.io/geniusdynamics/rally",
      "stars": 0,
-     "pushed_at": "2025-12-14T18:18:30Z",
+     "pushed_at": "2026-11-13T07:06:10Z",
      "archived": false,
      "checks": {
-      "topic": false,
+      "topic": true,
       "categories": true,
       "logo": true,
       "screenshots": true,
       "description": true,
-      "translations": false,
+      "translations": true,
       "docs": true,
       "min_core": false,
       "license": true
@@ -11834,7 +12033,7 @@
      },
      "source": "ghcr.io/stephdl/sam",
      "stars": 0,
-     "pushed_at": "2026-11-12T13:12:42Z",
+     "pushed_at": "2026-11-12T23:14:07Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -12111,7 +12310,8 @@
      "developer": "geniusdynamics",
      "name": "Semaphoreui",
      "description": {
-      "en": "Semaphore is a responsive web UI for running Ansible playbooks, Terraform/OpenTofu and Pulumi code."
+      "en": "Semaphore is a responsive web UI for running Ansible playbooks, Terraform/OpenTofu and Pulumi code.",
+      "it": "Semaphore UI è un'interfaccia web per eseguire Ansible, Terraform e altri strumenti di automazione."
      },
      "about": null,
      "authors": [
@@ -12153,7 +12353,7 @@
      },
      "source": "ghcr.io/geniusdynamics/semaphoreui",
      "stars": 1,
-     "pushed_at": "2025-07-16T11:41:19Z",
+     "pushed_at": "2026-11-13T05:55:32Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -12161,7 +12361,7 @@
       "logo": true,
       "screenshots": true,
       "description": true,
-      "translations": false,
+      "translations": true,
       "docs": true,
       "min_core": false,
       "license": true
@@ -12348,7 +12548,8 @@
      "developer": "geniusdynamics",
      "name": "Stirlingpdf",
      "description": {
-      "en": "#1 Locally hosted web application that allows you to perform various operations on PDF files"
+      "en": "#1 Locally hosted web application that allows you to perform various operations on PDF files",
+      "it": "Stirling PDF è una cassetta degli attrezzi self-hosted per unire, dividere, convertire, firmare e modificare file PDF dal browser."
      },
      "about": null,
      "authors": [
@@ -12393,15 +12594,15 @@
      },
      "source": "ghcr.io/geniusdynamics/stirlingpdf",
      "stars": 0,
-     "pushed_at": "2025-12-09T09:26:32Z",
+     "pushed_at": "2026-11-13T07:26:01Z",
      "archived": false,
      "checks": {
-      "topic": false,
+      "topic": true,
       "categories": true,
       "logo": true,
       "screenshots": true,
       "description": true,
-      "translations": false,
+      "translations": true,
       "docs": true,
       "min_core": false,
       "license": true
@@ -12609,7 +12810,8 @@
      "developer": "geniusdynamics",
      "name": "Termix",
      "description": {
-      "en": "Termix is a web-based server management platform with SSH terminal, tunneling, and file editing capabilities."
+      "en": "Termix is a web-based server management platform with SSH terminal, tunneling, and file editing capabilities.",
+      "it": "Termix è un terminale SSH e un gestore di server accessibile dal browser."
      },
      "about": null,
      "authors": [
@@ -12653,15 +12855,15 @@
      },
      "source": "ghcr.io/geniusdynamics/termix",
      "stars": 1,
-     "pushed_at": "2026-11-12T03:51:13Z",
+     "pushed_at": "2026-11-13T07:30:24Z",
      "archived": false,
      "checks": {
-      "topic": false,
+      "topic": true,
       "categories": true,
       "logo": true,
       "screenshots": true,
       "description": true,
-      "translations": false,
+      "translations": true,
       "docs": true,
       "min_core": false,
       "license": true
@@ -12839,7 +13041,8 @@
      "developer": "geniusdynamics",
      "name": "Umami",
      "description": {
-      "en": "umami. Effortless analytics and real-time insights."
+      "en": "Umami is a simple, privacy-friendly web analytics tool that shows visits and events without tracking individual users.",
+      "it": "Umami è uno strumento di analisi web semplice e rispettoso della privacy, che mostra visite ed eventi senza tracciare i singoli utenti."
      },
      "about": null,
      "authors": [
@@ -12883,15 +13086,15 @@
      },
      "source": "ghcr.io/geniusdynamics/umami",
      "stars": 0,
-     "pushed_at": "2025-08-25T02:03:40Z",
+     "pushed_at": "2026-11-13T06:41:13Z",
      "archived": false,
      "checks": {
-      "topic": false,
+      "topic": true,
       "categories": true,
       "logo": true,
       "screenshots": true,
-      "description": false,
-      "translations": false,
+      "description": true,
+      "translations": true,
       "docs": true,
       "min_core": false,
       "license": true
@@ -13304,7 +13507,8 @@
      "developer": "geniusdynamics",
      "name": "Vaultwarden",
      "description": {
-      "en": "Alternative implementation of the Bitwarden server API written in Rust and compatible with upstream Bitwarden clients*, perfect for self-hosted deployment where running the official resource-heavy service might not be ideal.."
+      "en": "Alternative implementation of the Bitwarden server API written in Rust and compatible with upstream Bitwarden clients*, perfect for self-hosted deployment where running the official resource-heavy service might not be ideal..",
+      "it": "Vaultwarden è un server di password compatibile con Bitwarden, leggero e self-hosted."
      },
      "about": null,
      "authors": [
@@ -13346,15 +13550,15 @@
      },
      "source": "ghcr.io/geniusdynamics/vaultwarden",
      "stars": 0,
-     "pushed_at": "2026-08-02T06:14:33Z",
+     "pushed_at": "2026-11-13T07:26:38Z",
      "archived": false,
      "checks": {
-      "topic": false,
+      "topic": true,
       "categories": true,
       "logo": true,
       "screenshots": true,
       "description": true,
-      "translations": false,
+      "translations": true,
       "docs": true,
       "min_core": false,
       "license": true
@@ -13464,7 +13668,8 @@
      "developer": "geniusdynamics",
      "name": "Vikunja",
      "description": {
-      "en": "The open-source to-do app. Organize everything, on all platforms."
+      "en": "The open-source to-do app. Organize everything, on all platforms.",
+      "it": "Vikunja è un'applicazione self-hosted di attività e project management con liste, kanban, promemoria e condivisione."
      },
      "about": null,
      "authors": [
@@ -13509,15 +13714,15 @@
      },
      "source": "ghcr.io/geniusdynamics/vikunja",
      "stars": 0,
-     "pushed_at": "2026-02-23T08:58:31Z",
+     "pushed_at": "2026-11-13T07:03:39Z",
      "archived": false,
      "checks": {
-      "topic": false,
+      "topic": true,
       "categories": true,
       "logo": true,
       "screenshots": true,
       "description": true,
-      "translations": false,
+      "translations": true,
       "docs": true,
       "min_core": false,
       "license": true
@@ -13543,7 +13748,8 @@
      "developer": "geniusdynamics",
      "name": "Wallos",
      "description": {
-      "en": "Wallos is a powerful, open-source, and self-hostable web application designed to empower you in managing your finances with ease."
+      "en": "Wallos is a powerful, open-source, and self-hostable web application designed to empower you in managing your finances with ease.",
+      "it": "Wallos è un tracker self-hosted degli abbonamenti ricorrenti che mostra costi, scadenze e spese per categoria."
      },
      "about": null,
      "authors": [
@@ -13585,20 +13791,97 @@
      },
      "source": "ghcr.io/geniusdynamics/wallos",
      "stars": 1,
-     "pushed_at": "2026-10-24T19:57:28Z",
+     "pushed_at": "2026-11-13T07:06:28Z",
      "archived": false,
      "checks": {
-      "topic": false,
+      "topic": true,
       "categories": true,
       "logo": true,
       "screenshots": true,
       "description": true,
-      "translations": false,
+      "translations": true,
       "docs": true,
       "min_core": false,
       "license": true
      },
      "released_at": "2026-10-24T19:57:08Z"
+    }
+   ]
+  },
+  {
+   "id": "warpgate",
+   "categories": [
+    "security"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "warpgate",
+     "forges": [
+      "geniusdynamics"
+     ],
+     "kind": "community",
+     "developer": "geniusdynamics",
+     "name": "Warpgate",
+     "description": {
+      "en": "Smart SSH, HTTPS and MySQL bastion that requires no client-side software, with a web admin interface.",
+      "it": "Bastion SSH, HTTPS e MySQL intelligente che non richiede software sul client, con interfaccia web di amministrazione."
+     },
+     "about": null,
+     "authors": [
+      "Genius Dynamics"
+     ],
+     "categories": [
+      "security"
+     ],
+     "code_url": "https://github.com/geniusdynamics/ns8-warpgate",
+     "docs": {
+      "documentation_url": "https://warpgate.null.page/",
+      "bug_url": "https://github.com/geniusdynamics/ns8-warpgate/issues",
+      "relnotes_url": "https://github.com/geniusdynamics/ns8-warpgate/releases"
+     },
+     "logo": "https://forge.genius.ke/ns8/updates/warpgate/logo.png",
+     "screenshots": [
+      "https://forge.genius.ke/ns8/updates/warpgate/screenshots/screen1.png"
+     ],
+     "versions": [
+      {
+       "tag": "1.0.0",
+       "testing": false
+      }
+     ],
+     "stable": "1.0.0",
+     "testing": null,
+     "min_core": null,
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "warp-tech/warpgate:0.30.4"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm"
+      ],
+      "tcp_ports": 3,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/geniusdynamics/warpgate",
+     "stars": 0,
+     "pushed_at": "2026-11-13T07:24:17Z",
+     "archived": false,
+     "checks": {
+      "topic": true,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": false,
+      "license": true
+     },
+     "released_at": "2026-11-13T04:19:10Z"
     }
    ]
   },
@@ -13784,9 +14067,9 @@
      },
      "logo": "https://forge.nethserver.org/ns8/updates/webserver/logo.png",
      "screenshots": [
+      "https://forge.nethserver.org/ns8/updates/webserver/screenshots/screen3.png",
       "https://forge.nethserver.org/ns8/updates/webserver/screenshots/screen2.png",
-      "https://forge.nethserver.org/ns8/updates/webserver/screenshots/screen1.png",
-      "https://forge.nethserver.org/ns8/updates/webserver/screenshots/screen3.png"
+      "https://forge.nethserver.org/ns8/updates/webserver/screenshots/screen1.png"
      ],
      "versions": [
       {
@@ -14141,6 +14424,88 @@
       "license": true
      },
      "released_at": "2026-11-08T21:34:41Z"
+    }
+   ]
+  },
+  {
+   "id": "windmill",
+   "categories": [
+    "development"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "windmill",
+     "forges": [
+      "geniusdynamics"
+     ],
+     "kind": "community",
+     "developer": "geniusdynamics",
+     "name": "Windmill",
+     "description": {
+      "en": "Open source platform to build internal tools, workflows and scripts in Python, TypeScript, Go and other languages.",
+      "it": "Piattaforma open source per creare strumenti interni, workflow e script in Python, TypeScript, Go e altri linguaggi."
+     },
+     "about": null,
+     "authors": [
+      "Genius Dynamics"
+     ],
+     "categories": [
+      "development"
+     ],
+     "code_url": "https://github.com/geniusdynamics/ns8-windmill",
+     "docs": {
+      "documentation_url": "https://www.windmill.dev/docs",
+      "bug_url": "https://github.com/geniusdynamics/ns8-windmill/issues",
+      "relnotes_url": "https://github.com/geniusdynamics/ns8-windmill/releases"
+     },
+     "logo": "https://forge.genius.ke/ns8/updates/windmill/logo.png",
+     "screenshots": [
+      "https://forge.genius.ke/ns8/updates/windmill/screenshots/screen3.png",
+      "https://forge.genius.ke/ns8/updates/windmill/screenshots/screen2.png",
+      "https://forge.genius.ke/ns8/updates/windmill/screenshots/screen1.png"
+     ],
+     "versions": [
+      {
+       "tag": "1.0.0",
+       "testing": false
+      }
+     ],
+     "stable": "1.0.0",
+     "testing": null,
+     "min_core": "3.12.4-0",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "windmill-labs/windmill:1.871.1",
+       "windmill-labs/windmill-extra:1.871.1",
+       "windmill-labs/caddy-l4:2.11.4-1",
+       "postgres:18.7"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm"
+      ],
+      "tcp_ports": 1,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/geniusdynamics/windmill",
+     "stars": 0,
+     "pushed_at": "2026-11-13T04:58:32Z",
+     "archived": false,
+     "checks": {
+      "topic": true,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-11-13T04:20:41Z"
     }
    ]
   },
@@ -14519,7 +14884,8 @@
      "developer": "geniusdynamics",
      "name": "Zitadel",
      "description": {
-      "en": "multi-tenancy Identity Infrastructure with branding customization, secure login, self-service, OpenID Connect, OAuth2.x, SAML2, Passwordless with FIDO2 (including Passkeys), OTP, U2F, and an unlimited audit trail. "
+      "en": "multi-tenancy Identity Infrastructure with branding customization, secure login, self-service, OpenID Connect, OAuth2.x, SAML2, Passwordless with FIDO2 (including Passkeys), OTP, U2F, and an unlimited audit trail. ",
+      "it": "ZITADEL è una piattaforma di gestione delle identità con login sicuro, multi-tenancy e OpenID Connect."
      },
      "about": null,
      "authors": [
@@ -14561,15 +14927,15 @@
      },
      "source": "ghcr.io/geniusdynamics/zitadel",
      "stars": 1,
-     "pushed_at": "2026-11-08T04:42:59Z",
+     "pushed_at": "2026-11-13T07:06:34Z",
      "archived": false,
      "checks": {
-      "topic": false,
+      "topic": true,
       "categories": true,
       "logo": true,
       "screenshots": true,
       "description": true,
-      "translations": false,
+      "translations": true,
       "docs": true,
       "min_core": false,
       "license": true
