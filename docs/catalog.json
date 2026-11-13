@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T07:34:03+00:00",
+ "generated_at": "2026-11-13T20:15:34+00:00",
  "forges": [
   {
    "id": "nethserver",
@@ -77,7 +77,7 @@
    "alt_url": "https://raw.githubusercontent.com/geniusdynamics/ns8-genforge/repomd/ns8/updates/",
    "kind": "community",
    "repo": "geniusdynamics/ns8-genforge",
-   "app_count": 54,
+   "app_count": 79,
    "homepage": "https://forge.genius.ke/"
   },
   {
@@ -180,13 +180,13 @@
      ],
      "versions": [
       {
-       "tag": "1.1.0",
+       "tag": "1.2.0",
        "testing": false
       }
      ],
-     "stable": "1.1.0",
+     "stable": "1.2.0",
      "testing": null,
-     "min_core": null,
+     "min_core": "3.0.0",
      "tech": {
       "rootfull": false,
       "images": [
@@ -201,7 +201,7 @@
      },
      "source": "ghcr.io/geniusdynamics/2fauth",
      "stars": 0,
-     "pushed_at": "2026-11-13T07:28:51Z",
+     "pushed_at": "2026-11-13T13:57:35Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -211,10 +211,10 @@
       "description": true,
       "translations": true,
       "docs": true,
-      "min_core": false,
+      "min_core": true,
       "license": true
      },
-     "released_at": "2026-10-24T19:53:15Z"
+     "released_at": "2026-11-13T13:57:35Z"
     }
    ]
   },
@@ -335,21 +335,21 @@
      ],
      "versions": [
       {
-       "tag": "0.0.1-alpha.2",
-       "testing": true
+       "tag": "1.0.0",
+       "testing": false
       }
      ],
-     "stable": null,
-     "testing": "0.0.1-alpha.2",
-     "min_core": null,
+     "stable": "1.0.0",
+     "testing": null,
+     "min_core": "3.0.0",
      "tech": {
       "rootfull": false,
       "images": [
-       "postgres:15",
-       "redis:7",
-       "penpotapp/frontend:latest",
-       "penpotapp/backend:latest",
-       "penpotapp/exporter:latest"
+       "postgres:15.20",
+       "redis:7.4.12",
+       "penpotapp/frontend:2.12.1",
+       "penpotapp/backend:2.12.1",
+       "penpotapp/exporter:2.12.1"
       ],
       "authorizations": [
        "traefik@node:routeadm"
@@ -360,7 +360,7 @@
      },
      "source": "ghcr.io/geniusdynamics/penpot",
      "stars": 0,
-     "pushed_at": "2026-11-13T07:07:08Z",
+     "pushed_at": "2026-11-13T14:56:44Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -370,10 +370,10 @@
       "description": true,
       "translations": true,
       "docs": true,
-      "min_core": false,
+      "min_core": true,
       "license": true
      },
-     "released_at": "2024-07-10T07:31:52Z"
+     "released_at": "2026-11-13T14:55:54Z"
     }
    ]
   },
@@ -413,14 +413,30 @@
      "screenshots": [
       "https://forge.genius.ke/ns8/updates/SurrealDB/screenshots/screen1.png"
      ],
-     "versions": [],
-     "stable": null,
+     "versions": [
+      {
+       "tag": "1.2.0",
+       "testing": false
+      }
+     ],
+     "stable": "1.2.0",
      "testing": null,
-     "min_core": null,
-     "tech": null,
+     "min_core": "3.0.0",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "surrealdb/surrealdb:v3.0"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm"
+      ],
+      "tcp_ports": 1,
+      "udp_ports": 0,
+      "volumes": []
+     },
      "source": "ghcr.io/geniusdynamics/surrealdb",
      "stars": 1,
-     "pushed_at": "2026-11-13T07:24:58Z",
+     "pushed_at": "2026-11-13T14:34:29Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -430,9 +446,10 @@
       "description": true,
       "translations": true,
       "docs": true,
-      "min_core": false,
+      "min_core": true,
       "license": true
-     }
+     },
+     "released_at": "2026-11-13T14:34:29Z"
     }
    ]
   },
@@ -499,7 +516,7 @@
      },
      "source": "ghcr.io/platypuschan/adguard-home",
      "stars": 0,
-     "pushed_at": "2026-11-13T04:27:16Z",
+     "pushed_at": "2026-11-13T17:07:54Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -519,7 +536,7 @@
   {
    "id": "affine",
    "categories": [
-    "collaboration"
+    "documentation"
    ],
    "official": false,
    "stars": 0,
@@ -541,7 +558,7 @@
       "Genius Dynamics"
      ],
      "categories": [
-      "collaboration"
+      "documentation"
      ],
      "code_url": "https://github.com/geniusdynamics/ns8-affine",
      "docs": {
@@ -555,20 +572,19 @@
      ],
      "versions": [
       {
-       "tag": "1.0.0-beta.1",
-       "testing": true
+       "tag": "1.0.0",
+       "testing": false
       }
      ],
-     "stable": null,
-     "testing": "1.0.0-beta.1",
-     "min_core": null,
+     "stable": "1.0.0",
+     "testing": null,
+     "min_core": "3.0.0",
      "tech": {
       "rootfull": false,
       "images": [
-       "postgres:15.5-alpine3.19",
-       "toeverything/affine-graphql:stable-99e70c9",
-       "toeverything/affine-front:stable-99e70c9",
-       "redis:7"
+       "pgvector/pgvector:pg18",
+       "toeverything/affine:0.26.3",
+       "redis:8.10.3"
       ],
       "authorizations": [
        "traefik@node:routeadm"
@@ -579,7 +595,7 @@
      },
      "source": "ghcr.io/geniusdynamics/affine",
      "stars": 0,
-     "pushed_at": "2026-11-13T07:31:21Z",
+     "pushed_at": "2026-11-13T13:03:01Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -589,17 +605,17 @@
       "description": true,
       "translations": true,
       "docs": true,
-      "min_core": false,
+      "min_core": true,
       "license": true
      },
-     "released_at": "2024-08-15T04:42:33Z"
+     "released_at": "2026-11-13T13:02:37Z"
     }
    ]
   },
   {
    "id": "agentzeroai",
    "categories": [
-    "collaboration"
+    "development"
    ],
    "official": false,
    "stars": 0,
@@ -621,7 +637,7 @@
       "Genius Dynamics"
      ],
      "categories": [
-      "collaboration"
+      "development"
      ],
      "code_url": "https://github.com/geniusdynamics/ns8-agentzeroai",
      "docs": {
@@ -635,13 +651,13 @@
      ],
      "versions": [
       {
-       "tag": "2.2.0",
+       "tag": "2.2.1",
        "testing": false
       }
      ],
-     "stable": "2.2.0",
+     "stable": "2.2.1",
      "testing": null,
-     "min_core": null,
+     "min_core": "3.0.0",
      "tech": {
       "rootfull": false,
       "images": [
@@ -658,7 +674,7 @@
      },
      "source": "ghcr.io/geniusdynamics/agentzeroai",
      "stars": 0,
-     "pushed_at": "2026-11-13T07:28:58Z",
+     "pushed_at": "2026-11-13T11:04:05Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -668,10 +684,10 @@
       "description": true,
       "translations": true,
       "docs": true,
-      "min_core": false,
+      "min_core": true,
       "license": true
      },
-     "released_at": "2026-11-12T03:53:21Z"
+     "released_at": "2026-11-13T11:00:38Z"
     }
    ]
   },
@@ -875,24 +891,24 @@
      "logo": "https://forge.genius.ke/ns8/updates/authentik/logo.png",
      "screenshots": [
       "https://forge.genius.ke/ns8/updates/authentik/screenshots/screen2.png",
-      "https://forge.genius.ke/ns8/updates/authentik/screenshots/screen.png",
-      "https://forge.genius.ke/ns8/updates/authentik/screenshots/screen1.png"
+      "https://forge.genius.ke/ns8/updates/authentik/screenshots/screen1.png",
+      "https://forge.genius.ke/ns8/updates/authentik/screenshots/screen.png"
      ],
      "versions": [
       {
-       "tag": "2.0.3",
+       "tag": "2.1.0",
        "testing": false
       }
      ],
-     "stable": "2.0.3",
+     "stable": "2.1.0",
      "testing": null,
-     "min_core": null,
+     "min_core": "3.0.0",
      "tech": {
       "rootfull": false,
       "images": [
-       "postgres:16-alpine",
+       "postgres:16.16-alpine3.24",
        "redis:alpine",
-       "goauthentik/server:2025.10.4"
+       "goauthentik/server:2025.12.6"
       ],
       "authorizations": [
        "traefik@node:routeadm"
@@ -903,7 +919,7 @@
      },
      "source": "ghcr.io/geniusdynamics/goauthentik",
      "stars": 0,
-     "pushed_at": "2026-11-13T07:25:28Z",
+     "pushed_at": "2026-11-13T10:19:27Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -913,10 +929,10 @@
       "description": true,
       "translations": true,
       "docs": true,
-      "min_core": false,
+      "min_core": true,
       "license": true
      },
-     "released_at": "2026-02-14T16:29:25Z"
+     "released_at": "2026-11-13T10:19:28Z"
     }
    ]
   },
@@ -1161,6 +1177,87 @@
    ]
   },
   {
+   "id": "bigcapital",
+   "categories": [
+    "office"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "bigcapital",
+     "forges": [
+      "geniusdynamics"
+     ],
+     "kind": "community",
+     "developer": "geniusdynamics",
+     "name": "Bigcapital",
+     "description": {
+      "en": "Online accounting software, built to automate business financial processes.",
+      "it": "Software di contabilità online per automatizzare i processi finanziari dell'azienda."
+     },
+     "about": null,
+     "authors": [
+      "Genius Dynamics"
+     ],
+     "categories": [
+      "office"
+     ],
+     "code_url": "https://github.com/geniusdynamics/ns8-bigcapital",
+     "docs": {
+      "documentation_url": "https://docs.bigcapital.app/",
+      "bug_url": "https://github.com/geniusdynamics/ns8-bigcapital/issues",
+      "relnotes_url": "https://github.com/geniusdynamics/ns8-bigcapital/releases"
+     },
+     "logo": "https://forge.genius.ke/ns8/updates/bigcapital/logo.png",
+     "screenshots": [
+      "https://forge.genius.ke/ns8/updates/bigcapital/screenshots/screen1.png"
+     ],
+     "versions": [
+      {
+       "tag": "1.0.1",
+       "testing": false
+      }
+     ],
+     "stable": "1.0.1",
+     "testing": null,
+     "min_core": "3.0.0",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "redis:8.10.3",
+       "mariadb:13.0.2",
+       "gotenberg/gotenberg:8.40.0",
+       "bigcapitalhq/webapp:v0.25.45",
+       "bigcapitalhq/server:v0.25.45"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm"
+      ],
+      "tcp_ports": 2,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/geniusdynamics/bigcapital",
+     "stars": 0,
+     "pushed_at": "2026-11-13T12:41:00Z",
+     "archived": false,
+     "checks": {
+      "topic": true,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-11-13T12:36:30Z"
+    }
+   ]
+  },
+  {
    "id": "bookstack",
    "categories": [
     "collaboration"
@@ -1194,23 +1291,23 @@
      },
      "logo": "https://forge.genius.ke/ns8/updates/bookstack/logo.png",
      "screenshots": [
-      "https://forge.genius.ke/ns8/updates/bookstack/screenshots/screen3.png",
       "https://forge.genius.ke/ns8/updates/bookstack/screenshots/screen2.png",
+      "https://forge.genius.ke/ns8/updates/bookstack/screenshots/screen3.png",
       "https://forge.genius.ke/ns8/updates/bookstack/screenshots/screen.png"
      ],
      "versions": [
       {
-       "tag": "1.3.0",
+       "tag": "1.4.0",
        "testing": false
       }
      ],
-     "stable": "1.3.0",
+     "stable": "1.4.0",
      "testing": null,
-     "min_core": null,
+     "min_core": "3.0.0",
      "tech": {
       "rootfull": false,
       "images": [
-       "mariadb:10.11.5",
+       "mariadb:10.11.19",
        "linuxserver/bookstack:v26.09.2-ls292"
       ],
       "authorizations": [
@@ -1222,7 +1319,7 @@
      },
      "source": "ghcr.io/geniusdynamics/bookstack",
      "stars": 0,
-     "pushed_at": "2026-11-13T07:02:57Z",
+     "pushed_at": "2026-11-13T11:03:22Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -1232,10 +1329,10 @@
       "description": true,
       "translations": true,
       "docs": true,
-      "min_core": false,
+      "min_core": true,
       "license": true
      },
-     "released_at": "2026-10-24T19:58:03Z"
+     "released_at": "2026-11-13T11:03:23Z"
     }
    ]
   },
@@ -1272,8 +1369,8 @@
      },
      "logo": "https://francio87.github.io/ns8-repomd/borgbackupserver/logo.png",
      "screenshots": [
-      "https://francio87.github.io/ns8-repomd/borgbackupserver/screenshots/bbs-gui.png",
-      "https://francio87.github.io/ns8-repomd/borgbackupserver/screenshots/bbs-architecture.png"
+      "https://francio87.github.io/ns8-repomd/borgbackupserver/screenshots/bbs-architecture.png",
+      "https://francio87.github.io/ns8-repomd/borgbackupserver/screenshots/bbs-gui.png"
      ],
      "versions": [
       {
@@ -1321,7 +1418,7 @@
   {
    "id": "bugsink",
    "categories": [
-    "collaboration"
+    "monitoring"
    ],
    "official": false,
    "stars": 0,
@@ -1343,7 +1440,7 @@
       "Genius Dynamics"
      ],
      "categories": [
-      "collaboration"
+      "monitoring"
      ],
      "code_url": "https://github.com/geniusdynamics/ns8-bugsink",
      "docs": {
@@ -1354,18 +1451,18 @@
      "screenshots": [],
      "versions": [
       {
-       "tag": "1.1.0",
+       "tag": "1.2.0",
        "testing": false
       }
      ],
-     "stable": "1.1.0",
+     "stable": "1.2.0",
      "testing": null,
-     "min_core": null,
+     "min_core": "3.0.0",
      "tech": {
       "rootfull": false,
       "images": [
-       "mysql:9.4.0",
-       "bugsink/bugsink:2.6.2"
+       "mysql:9.7.4",
+       "bugsink/bugsink:2.6.3"
       ],
       "authorizations": [
        "traefik@node:routeadm"
@@ -1376,7 +1473,7 @@
      },
      "source": "ghcr.io/geniusdynamics/bugsink",
      "stars": 0,
-     "pushed_at": "2026-11-13T07:29:06Z",
+     "pushed_at": "2026-11-13T15:03:37Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -1386,17 +1483,17 @@
       "description": true,
       "translations": true,
       "docs": true,
-      "min_core": false,
+      "min_core": true,
       "license": true
      },
-     "released_at": "2026-10-25T11:54:27Z"
+     "released_at": "2026-11-13T15:03:20Z"
     }
    ]
   },
   {
    "id": "calibre",
    "categories": [
-    "collaboration"
+    "documentation"
    ],
    "official": false,
    "stars": 0,
@@ -1418,7 +1515,7 @@
       "Genius Dynamics"
      ],
      "categories": [
-      "collaboration"
+      "documentation"
      ],
      "code_url": "https://github.com/geniusdynamics/ns8-calibre",
      "docs": {
@@ -1432,17 +1529,17 @@
      ],
      "versions": [
       {
-       "tag": "1.0.0",
+       "tag": "1.1.0",
        "testing": false
       }
      ],
-     "stable": "1.0.0",
+     "stable": "1.1.0",
      "testing": null,
-     "min_core": null,
+     "min_core": "3.0.0",
      "tech": {
       "rootfull": false,
       "images": [
-       "lscr.io/linuxserver/calibre:latest"
+       "linuxserver/calibre:9.17.0"
       ],
       "authorizations": [
        "traefik@node:routeadm"
@@ -1453,7 +1550,7 @@
      },
      "source": "ghcr.io/geniusdynamics/calibre",
      "stars": 0,
-     "pushed_at": "2026-11-13T06:43:41Z",
+     "pushed_at": "2026-11-13T11:55:32Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -1463,17 +1560,17 @@
       "description": true,
       "translations": true,
       "docs": true,
-      "min_core": false,
+      "min_core": true,
       "license": true
      },
-     "released_at": "2025-08-25T06:03:21Z"
+     "released_at": "2026-11-13T11:53:56Z"
     }
    ]
   },
   {
    "id": "calibre-Web",
    "categories": [
-    "collaboration"
+    "documentation"
    ],
    "official": false,
    "stars": 0,
@@ -1495,7 +1592,7 @@
       "Genius Dynamics"
      ],
      "categories": [
-      "collaboration"
+      "documentation"
      ],
      "code_url": "https://github.com/geniusdynamics/ns8-calibre-web",
      "docs": {
@@ -1509,17 +1606,17 @@
      ],
      "versions": [
       {
-       "tag": "1.0.0-beta1",
-       "testing": true
+       "tag": "1.1.0",
+       "testing": false
       }
      ],
-     "stable": null,
-     "testing": "1.0.0-beta1",
-     "min_core": null,
+     "stable": "1.1.0",
+     "testing": null,
+     "min_core": "3.0.0",
      "tech": {
       "rootfull": false,
       "images": [
-       "lscr.io/linuxserver/calibre-web:latest"
+       "lscr.io/linuxserver/calibre-web:0.6.25"
       ],
       "authorizations": [
        "traefik@node:routeadm"
@@ -1530,7 +1627,7 @@
      },
      "source": "ghcr.io/geniusdynamics/calibre-web",
      "stars": 0,
-     "pushed_at": "2026-11-13T07:31:41Z",
+     "pushed_at": "2026-11-13T13:18:17Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -1540,10 +1637,10 @@
       "description": true,
       "translations": true,
       "docs": true,
-      "min_core": false,
+      "min_core": true,
       "license": true
      },
-     "released_at": "2024-02-28T17:16:39Z"
+     "released_at": "2026-11-13T13:17:15Z"
     }
    ]
   },
@@ -1585,6 +1682,10 @@
      ],
      "versions": [
       {
+       "tag": "1.0.7",
+       "testing": false
+      },
+      {
        "tag": "1.0.6",
        "testing": false
       },
@@ -1613,13 +1714,13 @@
        "testing": false
       }
      ],
-     "stable": "1.0.6",
+     "stable": "1.0.7",
      "testing": null,
      "min_core": "3.20.1",
      "tech": {
       "rootfull": false,
       "images": [
-       "olivierlambert/calrs:1.23.3"
+       "olivierlambert/calrs:1.23.4"
       ],
       "authorizations": [
        "traefik@node:routeadm"
@@ -1630,7 +1731,7 @@
      },
      "source": "ghcr.io/stephdl/calrs",
      "stars": 0,
-     "pushed_at": "2026-11-13T04:49:14Z",
+     "pushed_at": "2026-11-13T11:07:49Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -1643,14 +1744,14 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-11-10T15:12:48Z"
+     "released_at": "2026-11-13T11:07:42Z"
     }
    ]
   },
   {
    "id": "checkcle",
    "categories": [
-    "collaboration"
+    "monitoring"
    ],
    "official": false,
    "stars": 0,
@@ -1672,7 +1773,7 @@
       "Genius Dynamics"
      ],
      "categories": [
-      "collaboration"
+      "monitoring"
      ],
      "code_url": "https://github.com/geniusdynamics/ns8-checkcle",
      "docs": {
@@ -1681,23 +1782,23 @@
      },
      "logo": "https://forge.genius.ke/ns8/updates/checkcle/logo.png",
      "screenshots": [
-      "https://forge.genius.ke/ns8/updates/checkcle/screenshots/screen3.png",
       "https://forge.genius.ke/ns8/updates/checkcle/screenshots/screen2.png",
-      "https://forge.genius.ke/ns8/updates/checkcle/screenshots/screen1.png"
+      "https://forge.genius.ke/ns8/updates/checkcle/screenshots/screen1.png",
+      "https://forge.genius.ke/ns8/updates/checkcle/screenshots/screen3.png"
      ],
      "versions": [
       {
-       "tag": "1.0.0",
+       "tag": "1.0.1",
        "testing": false
       }
      ],
-     "stable": "1.0.0",
+     "stable": "1.0.1",
      "testing": null,
-     "min_core": null,
+     "min_core": "3.0.0",
      "tech": {
       "rootfull": false,
       "images": [
-       "operacle/checkcle:latest"
+       "operacle/checkcle:v1.6.0"
       ],
       "authorizations": [
        "traefik@node:routeadm"
@@ -1708,7 +1809,7 @@
      },
      "source": "ghcr.io/geniusdynamics/checkcle",
      "stars": 0,
-     "pushed_at": "2026-11-13T07:29:13Z",
+     "pushed_at": "2026-11-13T11:06:28Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -1718,10 +1819,10 @@
       "description": true,
       "translations": true,
       "docs": true,
-      "min_core": false,
+      "min_core": true,
       "license": true
      },
-     "released_at": "2025-10-05T23:26:30Z"
+     "released_at": "2026-11-13T11:05:04Z"
     }
    ]
   },
@@ -1844,18 +1945,18 @@
      ],
      "versions": [
       {
-       "tag": "1.0.2",
+       "tag": "1.1.0",
        "testing": false
       }
      ],
-     "stable": "1.0.2",
+     "stable": "1.1.0",
      "testing": null,
-     "min_core": null,
+     "min_core": "3.0.0",
      "tech": {
       "rootfull": false,
       "images": [
-       "postgres:15.5-alpine3.19",
-       "chiefonboarding/chiefonboarding:v2.2.7"
+       "postgres:15.20-alpine3.24",
+       "chiefonboarding/chiefonboarding:v2.5.2"
       ],
       "authorizations": [
        "traefik@node:routeadm"
@@ -1866,7 +1967,7 @@
      },
      "source": "ghcr.io/geniusdynamics/chiefonboarding",
      "stars": 0,
-     "pushed_at": "2026-11-13T07:04:59Z",
+     "pushed_at": "2026-11-13T11:13:55Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -1876,10 +1977,10 @@
       "description": true,
       "translations": true,
       "docs": true,
-      "min_core": false,
+      "min_core": true,
       "license": true
      },
-     "released_at": "2026-02-09T11:09:16Z"
+     "released_at": "2026-11-13T11:09:05Z"
     }
    ]
   },
@@ -1958,6 +2059,165 @@
       "license": true
      },
      "released_at": "2026-10-18T16:43:06Z"
+    }
+   ]
+  },
+  {
+   "id": "coder",
+   "categories": [
+    "development"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "coder",
+     "forges": [
+      "geniusdynamics"
+     ],
+     "kind": "community",
+     "developer": "geniusdynamics",
+     "name": "Coder",
+     "description": {
+      "en": "Coder is an open source cloud development environment (CDE) that you download and host in your cloud. Deploy a single solution in seconds that provisions the infrastructure, IDE, language, and tools your developers desire.",
+      "it": "Coder offre ambienti di sviluppo cloud self-hosted, creati da modelli e raggiungibili dal browser o dall'IDE."
+     },
+     "about": null,
+     "authors": [
+      "Genius Dynamics"
+     ],
+     "categories": [
+      "development"
+     ],
+     "code_url": "https://github.com/geniusdynamics/ns8-coder",
+     "docs": {
+      "documentation_url": "https://coder.com/docs",
+      "bug_url": "https://github.com/geniusdynamics/ns8-coder/issues",
+      "relnotes_url": "https://github.com/geniusdynamics/ns8-coder/releases"
+     },
+     "logo": "https://forge.genius.ke/ns8/updates/coder/logo.png",
+     "screenshots": [
+      "https://forge.genius.ke/ns8/updates/coder/screenshots/screen1.png"
+     ],
+     "versions": [
+      {
+       "tag": "1.0.0",
+       "testing": false
+      }
+     ],
+     "stable": "1.0.0",
+     "testing": null,
+     "min_core": "3.0.0",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "postgres:18.7",
+       "coder/coder:v2.8.3",
+       "codercom/code-server:ubuntu"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm"
+      ],
+      "tcp_ports": 2,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/geniusdynamics/coder",
+     "stars": 0,
+     "pushed_at": "2026-11-13T18:25:56Z",
+     "archived": false,
+     "checks": {
+      "topic": true,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-11-13T18:25:56Z"
+    }
+   ]
+  },
+  {
+   "id": "colanode",
+   "categories": [
+    "documentation"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "colanode",
+     "forges": [
+      "geniusdynamics"
+     ],
+     "kind": "community",
+     "developer": "geniusdynamics",
+     "name": "Colanode",
+     "description": {
+      "en": "Self-hosted team workspace for chat, documents and tasks, running on your own server with its web app.",
+      "it": "Colanode è uno spazio di lavoro collaborativo local-first con chat, documenti e database."
+     },
+     "about": null,
+     "authors": [
+      "Genius Dynamics"
+     ],
+     "categories": [
+      "documentation"
+     ],
+     "code_url": "https://github.com/geniusdynamics/ns8-colanode",
+     "docs": {
+      "documentation_url": "https://github.com/colanode/colanode",
+      "bug_url": "https://github.com/geniusdynamics/ns8-colanode/issues",
+      "relnotes_url": "https://github.com/geniusdynamics/ns8-colanode/releases"
+     },
+     "logo": "https://forge.genius.ke/ns8/updates/colanode/logo.png",
+     "screenshots": [
+      "https://forge.genius.ke/ns8/updates/colanode/screenshots/screen1.png"
+     ],
+     "versions": [
+      {
+       "tag": "1.0.0",
+       "testing": false
+      }
+     ],
+     "stable": "1.0.0",
+     "testing": null,
+     "min_core": "3.12.4-0",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "pgvector/pgvector:0.8.7-pg17",
+       "valkey/valkey:9.2",
+       "colanode/server:0.4.7",
+       "colanode/web:0.4.7"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm"
+      ],
+      "tcp_ports": 1,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/geniusdynamics/colanode",
+     "stars": 0,
+     "pushed_at": "2026-11-13T13:11:59Z",
+     "archived": false,
+     "checks": {
+      "topic": true,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-11-13T11:10:10Z"
     }
    ]
   },
@@ -2071,9 +2331,9 @@
      },
      "logo": "https://forge.genius.ke/ns8/updates/coolify/logo.png",
      "screenshots": [
-      "https://forge.genius.ke/ns8/updates/coolify/screenshots/screen3.png",
       "https://forge.genius.ke/ns8/updates/coolify/screenshots/screen2.png",
-      "https://forge.genius.ke/ns8/updates/coolify/screenshots/screen1.png"
+      "https://forge.genius.ke/ns8/updates/coolify/screenshots/screen1.png",
+      "https://forge.genius.ke/ns8/updates/coolify/screenshots/screen3.png"
      ],
      "versions": [
       {
@@ -2105,7 +2365,7 @@
      },
      "source": "ghcr.io/geniusdynamics/coolify",
      "stars": 0,
-     "pushed_at": "2026-11-13T07:03:53Z",
+     "pushed_at": "2026-11-13T10:11:24Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -2160,13 +2420,13 @@
      "screenshots": [],
      "versions": [
       {
-       "tag": "1.1.0",
+       "tag": "1.2.0",
        "testing": false
       }
      ],
-     "stable": "1.1.0",
+     "stable": "1.2.0",
      "testing": null,
-     "min_core": null,
+     "min_core": "3.0.0",
      "tech": {
       "rootfull": false,
       "images": [
@@ -2181,7 +2441,7 @@
      },
      "source": "ghcr.io/geniusdynamics/couchdb",
      "stars": 1,
-     "pushed_at": "2026-11-13T07:26:35Z",
+     "pushed_at": "2026-11-13T13:07:07Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -2191,10 +2451,10 @@
       "description": true,
       "translations": true,
       "docs": true,
-      "min_core": false,
+      "min_core": true,
       "license": true
      },
-     "released_at": "2026-10-25T10:26:33Z"
+     "released_at": "2026-11-13T13:04:58Z"
     }
    ]
   },
@@ -2256,7 +2516,7 @@
      },
      "source": "ghcr.io/nethserver/crowdsec",
      "stars": 1,
-     "pushed_at": "2026-11-12T16:59:28Z",
+     "pushed_at": "2026-11-13T13:42:22Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -2347,6 +2607,83 @@
       "license": true
      },
      "released_at": "2026-11-09T13:54:13Z"
+    }
+   ]
+  },
+  {
+   "id": "dashy",
+   "categories": [
+    "system_administration"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "dashy",
+     "forges": [
+      "geniusdynamics"
+     ],
+     "kind": "community",
+     "developer": "geniusdynamics",
+     "name": "Dashy",
+     "description": {
+      "en": "Dashy is a self-hosted start page that gathers links and status checks for your services in one customizable dashboard.",
+      "it": "Dashy è una pagina iniziale self-hosted che raccoglie link e stato dei servizi in un'unica dashboard personalizzabile."
+     },
+     "about": null,
+     "authors": [
+      "Genius Dynamics"
+     ],
+     "categories": [
+      "system_administration"
+     ],
+     "code_url": "https://github.com/geniusdynamics/ns8-dashy",
+     "docs": {
+      "documentation_url": "https://dashy.to/docs",
+      "bug_url": "https://github.com/geniusdynamics/ns8-dashy/issues",
+      "relnotes_url": "https://github.com/geniusdynamics/ns8-dashy/releases"
+     },
+     "logo": "https://forge.genius.ke/ns8/updates/dashy/logo.png",
+     "screenshots": [
+      "https://forge.genius.ke/ns8/updates/dashy/screenshots/screen1.png"
+     ],
+     "versions": [
+      {
+       "tag": "1.0.0",
+       "testing": false
+      }
+     ],
+     "stable": "1.0.0",
+     "testing": null,
+     "min_core": "3.0.0",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "lissy93/dashy:4.9.17"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm"
+      ],
+      "tcp_ports": 1,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/geniusdynamics/dashy",
+     "stars": 0,
+     "pushed_at": "2026-11-13T18:17:22Z",
+     "archived": false,
+     "checks": {
+      "topic": true,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-11-13T18:17:04Z"
     }
    ]
   },
@@ -2594,9 +2931,9 @@
      },
      "logo": "https://forge.de-labrusse.fr/ns8/updates/discourse/logo.png",
      "screenshots": [
-      "https://forge.de-labrusse.fr/ns8/updates/discourse/screenshots/screen3.png",
       "https://forge.de-labrusse.fr/ns8/updates/discourse/screenshots/screen2.png",
-      "https://forge.de-labrusse.fr/ns8/updates/discourse/screenshots/screen1.png"
+      "https://forge.de-labrusse.fr/ns8/updates/discourse/screenshots/screen1.png",
+      "https://forge.de-labrusse.fr/ns8/updates/discourse/screenshots/screen3.png"
      ],
      "versions": [
       {
@@ -2844,9 +3181,9 @@
      },
      "logo": "https://forge.genius.ke/ns8/updates/docmost/logo.png",
      "screenshots": [
-      "https://forge.genius.ke/ns8/updates/docmost/screenshots/screen3.png",
       "https://forge.genius.ke/ns8/updates/docmost/screenshots/screen2.png",
-      "https://forge.genius.ke/ns8/updates/docmost/screenshots/screen1.png"
+      "https://forge.genius.ke/ns8/updates/docmost/screenshots/screen1.png",
+      "https://forge.genius.ke/ns8/updates/docmost/screenshots/screen3.png"
      ],
      "versions": [
       {
@@ -2873,7 +3210,7 @@
      },
      "source": "ghcr.io/geniusdynamics/docmost",
      "stars": 0,
-     "pushed_at": "2026-11-13T07:29:30Z",
+     "pushed_at": "2026-11-13T10:12:48Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -2887,6 +3224,86 @@
       "license": true
      },
      "released_at": "2026-10-25T10:12:41Z"
+    }
+   ]
+  },
+  {
+   "id": "documenso",
+   "categories": [
+    "office",
+    "security"
+   ],
+   "official": false,
+   "stars": 1,
+   "variants": [
+    {
+     "module_id": "documenso",
+     "forges": [
+      "geniusdynamics"
+     ],
+     "kind": "community",
+     "developer": "geniusdynamics",
+     "name": "Documenso",
+     "description": {
+      "en": "Documenso is an open source document signing platform to send, sign and track contracts and other documents.",
+      "it": "Documenso è una piattaforma open source di firma dei documenti per inviare, firmare e seguire contratti e altri documenti."
+     },
+     "about": null,
+     "authors": [
+      "Genius Dynamics"
+     ],
+     "categories": [
+      "office",
+      "security"
+     ],
+     "code_url": "https://github.com/geniusdynamics/ns8-documenso",
+     "docs": {
+      "documentation_url": "https://docs.documenso.com/",
+      "bug_url": "https://github.com/geniusdynamics/ns8-documenso/issues",
+      "relnotes_url": "https://github.com/geniusdynamics/ns8-documenso/releases"
+     },
+     "logo": "https://forge.genius.ke/ns8/updates/documenso/logo.png",
+     "screenshots": [
+      "https://forge.genius.ke/ns8/updates/documenso/screenshots/screen1.png"
+     ],
+     "versions": [
+      {
+       "tag": "1.0.1",
+       "testing": false
+      }
+     ],
+     "stable": "1.0.1",
+     "testing": null,
+     "min_core": "3.0.0",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "postgres:18.7-alpine3.24",
+       "documenso/documenso:v2.22.0"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm"
+      ],
+      "tcp_ports": 1,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/geniusdynamics/documenso",
+     "stars": 1,
+     "pushed_at": "2026-11-13T12:52:37Z",
+     "archived": false,
+     "checks": {
+      "topic": true,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-11-13T12:46:41Z"
     }
    ]
   },
@@ -2924,22 +3341,22 @@
      },
      "logo": "https://forge.genius.ke/ns8/updates/docuseal/logo.png",
      "screenshots": [
-      "https://forge.genius.ke/ns8/updates/docuseal/screenshots/screen.png",
-      "https://forge.genius.ke/ns8/updates/docuseal/screenshots/screen1.png"
+      "https://forge.genius.ke/ns8/updates/docuseal/screenshots/screen1.png",
+      "https://forge.genius.ke/ns8/updates/docuseal/screenshots/screen.png"
      ],
      "versions": [
       {
-       "tag": "1.3.0",
+       "tag": "2.0.0",
        "testing": false
       }
      ],
-     "stable": "1.3.0",
+     "stable": "2.0.0",
      "testing": null,
-     "min_core": null,
+     "min_core": "3.0.0",
      "tech": {
       "rootfull": false,
       "images": [
-       "postgres:15.5-alpine3.19",
+       "postgres:15.20-alpine3.24",
        "docuseal/docuseal:2.5.2"
       ],
       "authorizations": [
@@ -2951,7 +3368,7 @@
      },
      "source": "ghcr.io/geniusdynamics/docuseal",
      "stars": 0,
-     "pushed_at": "2026-11-13T07:05:19Z",
+     "pushed_at": "2026-11-13T10:12:45Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -2961,10 +3378,10 @@
       "description": true,
       "translations": true,
       "docs": true,
-      "min_core": false,
+      "min_core": true,
       "license": true
      },
-     "released_at": "2026-06-01T07:07:30Z"
+     "released_at": "2026-11-13T10:12:45Z"
     }
    ]
   },
@@ -3002,26 +3419,26 @@
      },
      "logo": "https://forge.genius.ke/ns8/updates/dokploy/logo.png",
      "screenshots": [
-      "https://forge.genius.ke/ns8/updates/dokploy/screenshots/screen3.png",
       "https://forge.genius.ke/ns8/updates/dokploy/screenshots/screen4.png",
       "https://forge.genius.ke/ns8/updates/dokploy/screenshots/screen2.png",
-      "https://forge.genius.ke/ns8/updates/dokploy/screenshots/screen1.png"
+      "https://forge.genius.ke/ns8/updates/dokploy/screenshots/screen1.png",
+      "https://forge.genius.ke/ns8/updates/dokploy/screenshots/screen3.png"
      ],
      "versions": [
       {
-       "tag": "1.4.2",
+       "tag": "2.0.0",
        "testing": false
       }
      ],
-     "stable": "1.4.2",
+     "stable": "2.0.0",
      "testing": null,
-     "min_core": null,
+     "min_core": "3.0.0",
      "tech": {
       "rootfull": false,
       "images": [
-       "postgres:16",
-       "redis:7",
-       "dokploy/dokploy:v0.27.1"
+       "postgres:16.16",
+       "redis:7.4.12",
+       "dokploy/dokploy:v0.31.2"
       ],
       "authorizations": [
        "traefik@node:routeadm"
@@ -3032,7 +3449,7 @@
      },
      "source": "ghcr.io/geniusdynamics/dokploy",
      "stars": 0,
-     "pushed_at": "2026-11-13T07:03:03Z",
+     "pushed_at": "2026-11-13T10:17:33Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -3042,10 +3459,10 @@
       "description": true,
       "translations": true,
       "docs": true,
-      "min_core": false,
+      "min_core": true,
       "license": true
      },
-     "released_at": "2026-02-20T20:53:49Z"
+     "released_at": "2026-11-13T10:15:12Z"
     }
    ]
   },
@@ -3166,21 +3583,22 @@
      ],
      "versions": [
       {
-       "tag": "1.0.0-beta1",
-       "testing": true
+       "tag": "1.0.0",
+       "testing": false
       }
      ],
-     "stable": null,
-     "testing": "1.0.0-beta1",
-     "min_core": null,
+     "stable": "1.0.0",
+     "testing": null,
+     "min_core": "3.0.0",
      "tech": {
       "rootfull": false,
       "images": [
-       "mariadb:10.11.5",
-       "tuxgasy/dolibarr:18.0.5"
+       "mariadb:10.11.19",
+       "dolibarr/dolibarr:24.0.3"
       ],
       "authorizations": [
-       "traefik@node:routeadm"
+       "traefik@node:routeadm",
+       "cluster:accountconsumer"
       ],
       "tcp_ports": 1,
       "udp_ports": 0,
@@ -3188,7 +3606,7 @@
      },
      "source": "ghcr.io/geniusdynamics/dolibarr",
      "stars": 0,
-     "pushed_at": "2026-11-13T07:07:15Z",
+     "pushed_at": "2026-11-13T15:12:06Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -3198,10 +3616,10 @@
       "description": true,
       "translations": true,
       "docs": true,
-      "min_core": false,
+      "min_core": true,
       "license": true
      },
-     "released_at": "2024-03-01T00:18:22Z"
+     "released_at": "2026-11-13T15:12:06Z"
     },
     {
      "module_id": "dolibarr",
@@ -3235,9 +3653,9 @@
      },
      "logo": "https://forge.de-labrusse.fr/ns8/updates/dolibarr/logo.png",
      "screenshots": [
-      "https://forge.de-labrusse.fr/ns8/updates/dolibarr/screenshots/screen3.png",
       "https://forge.de-labrusse.fr/ns8/updates/dolibarr/screenshots/screen2.png",
-      "https://forge.de-labrusse.fr/ns8/updates/dolibarr/screenshots/screen1.png"
+      "https://forge.de-labrusse.fr/ns8/updates/dolibarr/screenshots/screen1.png",
+      "https://forge.de-labrusse.fr/ns8/updates/dolibarr/screenshots/screen3.png"
      ],
      "versions": [
       {
@@ -3570,12 +3988,12 @@
      },
      "logo": "https://forge.genius.ke/ns8/updates/erpnext/logo.png",
      "screenshots": [
-      "https://forge.genius.ke/ns8/updates/erpnext/screenshots/screen5.png",
-      "https://forge.genius.ke/ns8/updates/erpnext/screenshots/screen3.png",
       "https://forge.genius.ke/ns8/updates/erpnext/screenshots/screen4.png",
-      "https://forge.genius.ke/ns8/updates/erpnext/screenshots/screen6.png",
       "https://forge.genius.ke/ns8/updates/erpnext/screenshots/screen2.png",
-      "https://forge.genius.ke/ns8/updates/erpnext/screenshots/screen1.png"
+      "https://forge.genius.ke/ns8/updates/erpnext/screenshots/screen5.png",
+      "https://forge.genius.ke/ns8/updates/erpnext/screenshots/screen6.png",
+      "https://forge.genius.ke/ns8/updates/erpnext/screenshots/screen1.png",
+      "https://forge.genius.ke/ns8/updates/erpnext/screenshots/screen3.png"
      ],
      "versions": [
       {
@@ -3601,7 +4019,7 @@
      },
      "source": "ghcr.io/geniusdynamics/erpnext",
      "stars": 7,
-     "pushed_at": "2026-11-13T07:26:30Z",
+     "pushed_at": "2026-11-13T10:10:00Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -3679,7 +4097,7 @@
      },
      "source": "ghcr.io/geniusdynamics/espocrm",
      "stars": 0,
-     "pushed_at": "2026-11-13T07:04:19Z",
+     "pushed_at": "2026-11-13T10:11:52Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -3699,7 +4117,7 @@
   {
    "id": "eturnal",
    "categories": [
-    "collaboration"
+    "communication"
    ],
    "official": false,
    "stars": 0,
@@ -3721,7 +4139,7 @@
       "Genius Dynamics"
      ],
      "categories": [
-      "collaboration"
+      "communication"
      ],
      "code_url": "https://github.com/geniusdynamics/ns8-eturnal",
      "docs": {
@@ -3732,17 +4150,17 @@
      "screenshots": [],
      "versions": [
       {
-       "tag": "1.0.1",
+       "tag": "1.1.0",
        "testing": false
       }
      ],
-     "stable": "1.0.1",
+     "stable": "1.1.0",
      "testing": null,
-     "min_core": null,
+     "min_core": "3.0.0",
      "tech": {
       "rootfull": false,
       "images": [
-       "processone/eturnal:latest"
+       "processone/eturnal:1.12.3"
       ],
       "authorizations": [
        "traefik@node:routeadm",
@@ -3754,7 +4172,7 @@
      },
      "source": "ghcr.io/geniusdynamics/eturnal",
      "stars": 0,
-     "pushed_at": "2026-11-13T07:29:43Z",
+     "pushed_at": "2026-11-13T15:35:21Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -3764,10 +4182,10 @@
       "description": true,
       "translations": true,
       "docs": true,
-      "min_core": false,
+      "min_core": true,
       "license": true
      },
-     "released_at": "2026-02-07T10:37:20Z"
+     "released_at": "2026-11-13T15:34:58Z"
     }
    ]
   },
@@ -3983,7 +4401,7 @@
      },
      "source": "ghcr.io/mrmarkuz/fetchmail",
      "stars": 0,
-     "pushed_at": "2026-11-11T07:10:01Z",
+     "pushed_at": "2026-11-13T18:48:41Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -4120,17 +4538,17 @@
      ],
      "versions": [
       {
-       "tag": "1.1.0",
+       "tag": "1.2.0",
        "testing": false
       }
      ],
-     "stable": "1.1.0",
+     "stable": "1.2.0",
      "testing": null,
-     "min_core": null,
+     "min_core": "3.0.0",
      "tech": {
       "rootfull": false,
       "images": [
-       "postgres:15.5-alpine3.19",
+       "postgres:15.20-alpine3.24",
        "fireflyiii/core:version-6.7.9"
       ],
       "authorizations": [
@@ -4142,7 +4560,7 @@
      },
      "source": "ghcr.io/geniusdynamics/firefly",
      "stars": 0,
-     "pushed_at": "2026-11-13T07:03:33Z",
+     "pushed_at": "2026-11-13T14:34:09Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -4152,10 +4570,10 @@
       "description": true,
       "translations": true,
       "docs": true,
-      "min_core": false,
+      "min_core": true,
       "license": true
      },
-     "released_at": "2026-10-24T19:54:54Z"
+     "released_at": "2026-11-13T14:28:00Z"
     }
    ]
   },
@@ -4194,9 +4612,9 @@
      },
      "logo": "https://forge.genius.ke/ns8/updates/flatnotes/logo.png",
      "screenshots": [
-      "https://forge.genius.ke/ns8/updates/flatnotes/screenshots/screen3.png",
       "https://forge.genius.ke/ns8/updates/flatnotes/screenshots/screen2.png",
-      "https://forge.genius.ke/ns8/updates/flatnotes/screenshots/screen1.png"
+      "https://forge.genius.ke/ns8/updates/flatnotes/screenshots/screen1.png",
+      "https://forge.genius.ke/ns8/updates/flatnotes/screenshots/screen3.png"
      ],
      "versions": [
       {
@@ -4221,7 +4639,7 @@
      },
      "source": "ghcr.io/geniusdynamics/flatnotes",
      "stars": 0,
-     "pushed_at": "2026-11-13T04:58:34Z",
+     "pushed_at": "2026-11-13T14:46:00Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -4277,19 +4695,19 @@
      ],
      "versions": [
       {
-       "tag": "1.0.0-beta.1",
-       "testing": true
+       "tag": "1.0.0",
+       "testing": false
       }
      ],
-     "stable": null,
-     "testing": "1.0.0-beta.1",
-     "min_core": null,
+     "stable": "1.0.0",
+     "testing": null,
+     "min_core": "3.0.0",
      "tech": {
       "rootfull": false,
       "images": [
-       "postgres:15.5-alpine3.19",
-       "formbricks/formbricks:2.3.1",
-       "redis:7"
+       "pgvector/pgvector:pg17",
+       "formbricks/formbricks:v3.15.0",
+       "redis:7.4.12"
       ],
       "authorizations": [
        "traefik@node:routeadm"
@@ -4300,7 +4718,7 @@
      },
      "source": "ghcr.io/geniusdynamics/formbricks",
      "stars": 0,
-     "pushed_at": "2026-11-13T07:22:49Z",
+     "pushed_at": "2026-11-13T10:19:51Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -4310,10 +4728,10 @@
       "description": true,
       "translations": true,
       "docs": true,
-      "min_core": false,
+      "min_core": true,
       "license": true
      },
-     "released_at": "2024-07-09T19:40:59Z"
+     "released_at": "2026-11-13T10:17:09Z"
     }
    ]
   },
@@ -4395,6 +4813,85 @@
    ]
   },
   {
+   "id": "frappe-press",
+   "categories": [
+    "office"
+   ],
+   "official": false,
+   "stars": 1,
+   "variants": [
+    {
+     "module_id": "frappe-press",
+     "forges": [
+      "geniusdynamics"
+     ],
+     "kind": "community",
+     "developer": "geniusdynamics",
+     "name": "Frappe Press",
+     "description": {
+      "en": "A powerful open source platform for building business applications: Frappe Press supports ERP, blogging, CRM, and more",
+      "it": "Frappe Press è la piattaforma di Frappe Cloud per ospitare e gestire siti, bench e server Frappe ed ERPNext."
+     },
+     "about": null,
+     "authors": [
+      "Genius Dynamics"
+     ],
+     "categories": [
+      "office"
+     ],
+     "code_url": "https://github.com/geniusdynamics/ns8-frappe-press",
+     "docs": {
+      "documentation_url": "https://frappeframework.com/docs/",
+      "bug_url": "https://github.com/geniusdynamics/ns8-frappe-press/issues",
+      "relnotes_url": "https://github.com/geniusdynamics/ns8-frappe-press/releases"
+     },
+     "logo": "https://forge.genius.ke/ns8/updates/frappe-press/logo.png",
+     "screenshots": [
+      "https://forge.genius.ke/ns8/updates/frappe-press/screenshots/screen1.png"
+     ],
+     "versions": [
+      {
+       "tag": "1.0.0",
+       "testing": false
+      }
+     ],
+     "stable": "1.0.0",
+     "testing": null,
+     "min_core": "3.0.0",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "mariadb:13.0.2",
+       "geniusdynamics/press:0.11.0",
+       "redis:8.10.3-alpine3.23"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm"
+      ],
+      "tcp_ports": 1,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/geniusdynamics/frappe-press",
+     "stars": 1,
+     "pushed_at": "2026-11-13T14:52:05Z",
+     "archived": false,
+     "checks": {
+      "topic": true,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-11-13T14:51:14Z"
+    }
+   ]
+  },
+  {
    "id": "gitea",
    "categories": [
     "development"
@@ -4428,9 +4925,9 @@
      },
      "logo": "https://forge.genius.ke/ns8/updates/gitea/logo.png",
      "screenshots": [
-      "https://forge.genius.ke/ns8/updates/gitea/screenshots/screen3.png",
       "https://forge.genius.ke/ns8/updates/gitea/screenshots/screen2.png",
-      "https://forge.genius.ke/ns8/updates/gitea/screenshots/screen1.png"
+      "https://forge.genius.ke/ns8/updates/gitea/screenshots/screen1.png",
+      "https://forge.genius.ke/ns8/updates/gitea/screenshots/screen3.png"
      ],
      "versions": [
       {
@@ -4456,7 +4953,7 @@
      },
      "source": "ghcr.io/geniusdynamics/gitea",
      "stars": 0,
-     "pushed_at": "2026-11-13T07:30:53Z",
+     "pushed_at": "2026-11-13T20:00:03Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -4537,7 +5034,7 @@
      },
      "source": "ghcr.io/platypuschan/gitea-reworked",
      "stars": 0,
-     "pushed_at": "2026-11-12T19:36:57Z",
+     "pushed_at": "2026-11-13T19:28:37Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -4683,18 +5180,18 @@
      ],
      "versions": [
       {
-       "tag": "2.0.0",
+       "tag": "2.1.0",
        "testing": false
       }
      ],
-     "stable": "2.0.0",
+     "stable": "2.1.0",
      "testing": null,
-     "min_core": null,
+     "min_core": "3.0.0",
      "tech": {
       "rootfull": false,
       "images": [
-       "mariadb:10.11.5",
-       "geniusdynamics/glpi:10.0.18"
+       "mariadb:10.11.19",
+       "glpi/glpi:11.0.13"
       ],
       "authorizations": [
        "traefik@node:routeadm"
@@ -4705,7 +5202,7 @@
      },
      "source": "ghcr.io/geniusdynamics/glpi",
      "stars": 0,
-     "pushed_at": "2026-11-13T07:25:25Z",
+     "pushed_at": "2026-11-13T15:13:46Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -4715,10 +5212,10 @@
       "description": true,
       "translations": true,
       "docs": true,
-      "min_core": false,
+      "min_core": true,
       "license": true
      },
-     "released_at": "2025-07-05T14:36:48Z"
+     "released_at": "2026-11-13T15:13:48Z"
     },
     {
      "module_id": "glpi",
@@ -5004,13 +5501,13 @@
      ],
      "versions": [
       {
-       "tag": "1.0.0",
+       "tag": "1.0.1",
        "testing": false
       }
      ],
-     "stable": "1.0.0",
+     "stable": "1.0.1",
      "testing": null,
-     "min_core": null,
+     "min_core": "3.0.0",
      "tech": {
       "rootfull": false,
       "images": [
@@ -5025,7 +5522,7 @@
      },
      "source": "ghcr.io/geniusdynamics/grist",
      "stars": 0,
-     "pushed_at": "2026-11-13T07:24:14Z",
+     "pushed_at": "2026-11-13T08:08:15Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -5035,10 +5532,10 @@
       "description": true,
       "translations": true,
       "docs": true,
-      "min_core": false,
+      "min_core": true,
       "license": true
      },
-     "released_at": "2026-11-13T04:25:13Z"
+     "released_at": "2026-11-13T07:58:25Z"
     }
    ]
   },
@@ -5401,13 +5898,13 @@
      ],
      "versions": [
       {
-       "tag": "2.0.0",
+       "tag": "2.0.1",
        "testing": false
       }
      ],
-     "stable": "2.0.0",
+     "stable": "2.0.1",
      "testing": null,
-     "min_core": null,
+     "min_core": "3.0.0",
      "tech": {
       "rootfull": false,
       "images": [
@@ -5422,7 +5919,7 @@
      },
      "source": "ghcr.io/geniusdynamics/homarr",
      "stars": 0,
-     "pushed_at": "2026-11-13T07:27:57Z",
+     "pushed_at": "2026-11-13T10:21:00Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -5432,10 +5929,10 @@
       "description": true,
       "translations": true,
       "docs": true,
-      "min_core": false,
+      "min_core": true,
       "license": true
      },
-     "released_at": "2026-11-13T06:21:35Z"
+     "released_at": "2026-11-13T10:21:01Z"
     }
    ]
   },
@@ -5745,7 +6242,7 @@
      },
      "source": "ghcr.io/platypuschan/idp-reworked",
      "stars": 0,
-     "pushed_at": "2026-11-10T02:30:00Z",
+     "pushed_at": "2026-11-13T19:38:19Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -5922,6 +6419,166 @@
    ]
   },
   {
+   "id": "infisical",
+   "categories": [
+    "development",
+    "security"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "infisical",
+     "forges": [
+      "geniusdynamics"
+     ],
+     "kind": "community",
+     "developer": "geniusdynamics",
+     "name": "Infisical",
+     "description": {
+      "en": "All-in-one platform to securely manage application configuration and secrets across your team and infrastructure.",
+      "it": "Infisical gestisce in modo sicuro i segreti e la configurazione delle applicazioni per tutto il team."
+     },
+     "about": null,
+     "authors": [
+      "Genius Dynamics"
+     ],
+     "categories": [
+      "development",
+      "security"
+     ],
+     "code_url": "https://github.com/geniusdynamics/ns8-infisical",
+     "docs": {
+      "documentation_url": "https://infisical.com/",
+      "bug_url": "https://github.com/geniusdynamics/ns8-infisical/issues",
+      "relnotes_url": "https://github.com/geniusdynamics/ns8-infisical/releases"
+     },
+     "logo": "https://forge.genius.ke/ns8/updates/infisical/logo.png",
+     "screenshots": [
+      "https://forge.genius.ke/ns8/updates/infisical/screenshots/screen1.png"
+     ],
+     "versions": [
+      {
+       "tag": "1.0.0",
+       "testing": false
+      }
+     ],
+     "stable": "1.0.0",
+     "testing": null,
+     "min_core": "3.0.0",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "postgres:18.7-alpine3.24",
+       "redis:8.10.3",
+       "infisical/infisical:v0.77.2-postgres"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm"
+      ],
+      "tcp_ports": 1,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/geniusdynamics/infisical",
+     "stars": 0,
+     "pushed_at": "2026-11-13T13:21:46Z",
+     "archived": false,
+     "checks": {
+      "topic": true,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-11-13T13:18:45Z"
+    }
+   ]
+  },
+  {
+   "id": "invoiceninja",
+   "categories": [
+    "office"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "invoiceninja",
+     "forges": [
+      "geniusdynamics"
+     ],
+     "kind": "community",
+     "developer": "geniusdynamics",
+     "name": "Invoiceninja",
+     "description": {
+      "en": "Invoice Ninja is a self-hosted invoicing platform to create quotes and invoices, track expenses and accept payments.",
+      "it": "Invoice Ninja è una piattaforma di fatturazione self-hosted per preventivi, fatture, spese e pagamenti."
+     },
+     "about": null,
+     "authors": [
+      "Genius Dynamics"
+     ],
+     "categories": [
+      "office"
+     ],
+     "code_url": "https://github.com/geniusdynamics/ns8-invoiceninja",
+     "docs": {
+      "documentation_url": "https://docs.invoiceninja.com/",
+      "bug_url": "https://github.com/geniusdynamics/ns8-invoiceninja/issues",
+      "relnotes_url": "https://github.com/geniusdynamics/ns8-invoiceninja/releases"
+     },
+     "logo": "https://forge.genius.ke/ns8/updates/invoiceninja/logo.png",
+     "screenshots": [
+      "https://forge.genius.ke/ns8/updates/invoiceninja/screenshots/screen1.png"
+     ],
+     "versions": [
+      {
+       "tag": "1.0.0",
+       "testing": false
+      }
+     ],
+     "stable": "1.0.0",
+     "testing": null,
+     "min_core": "3.0.0",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "mariadb:13.0.2",
+       "invoiceninja/invoiceninja:5.13.53",
+       "nginx:1.31.8"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm"
+      ],
+      "tcp_ports": 1,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/geniusdynamics/invoiceninja",
+     "stars": 0,
+     "pushed_at": "2026-11-13T14:03:20Z",
+     "archived": false,
+     "checks": {
+      "topic": true,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-11-13T13:53:04Z"
+    }
+   ]
+  },
+  {
    "id": "it-tools",
    "categories": [
     "development"
@@ -5959,17 +6616,17 @@
      ],
      "versions": [
       {
-       "tag": "1.0.0",
+       "tag": "1.1.1",
        "testing": false
       }
      ],
-     "stable": "1.0.0",
+     "stable": "1.1.1",
      "testing": null,
-     "min_core": null,
+     "min_core": "3.0.0",
      "tech": {
       "rootfull": false,
       "images": [
-       "corentinth/it-tools:latest"
+       "corentinth/it-tools:2024.10.22-7ca5933"
       ],
       "authorizations": [
        "traefik@node:routeadm"
@@ -5980,7 +6637,7 @@
      },
      "source": "ghcr.io/geniusdynamics/it-tools",
      "stars": 0,
-     "pushed_at": "2026-11-13T07:22:01Z",
+     "pushed_at": "2026-11-13T10:31:51Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -5990,10 +6647,10 @@
       "description": true,
       "translations": true,
       "docs": true,
-      "min_core": false,
+      "min_core": true,
       "license": true
      },
-     "released_at": "2024-03-08T13:18:04Z"
+     "released_at": "2026-11-13T10:23:44Z"
     }
    ]
   },
@@ -6164,7 +6821,7 @@
   {
    "id": "joplin",
    "categories": [
-    "collaboration"
+    "documentation"
    ],
    "official": false,
    "stars": 1,
@@ -6186,7 +6843,7 @@
       "Genius Dynamics"
      ],
      "categories": [
-      "collaboration"
+      "documentation"
      ],
      "code_url": "https://github.com/geniusdynamics/ns8-joplinserver",
      "docs": {
@@ -6195,25 +6852,25 @@
      },
      "logo": "https://forge.genius.ke/ns8/updates/joplin/logo.png",
      "screenshots": [
-      "https://forge.genius.ke/ns8/updates/joplin/screenshots/screen3.png",
       "https://forge.genius.ke/ns8/updates/joplin/screenshots/screen4.png",
       "https://forge.genius.ke/ns8/updates/joplin/screenshots/screen2.png",
-      "https://forge.genius.ke/ns8/updates/joplin/screenshots/screen1.png"
+      "https://forge.genius.ke/ns8/updates/joplin/screenshots/screen1.png",
+      "https://forge.genius.ke/ns8/updates/joplin/screenshots/screen3.png"
      ],
      "versions": [
       {
-       "tag": "1.1.0",
+       "tag": "2.0.0",
        "testing": false
       }
      ],
-     "stable": "1.1.0",
+     "stable": "2.0.0",
      "testing": null,
-     "min_core": null,
+     "min_core": "3.0.0",
      "tech": {
       "rootfull": false,
       "images": [
-       "postgres:16",
-       "joplin/server:3.3.13"
+       "postgres:16.16",
+       "joplin/server:3.4.3"
       ],
       "authorizations": [
        "traefik@node:routeadm"
@@ -6224,7 +6881,7 @@
      },
      "source": "ghcr.io/geniusdynamics/joplin",
      "stars": 1,
-     "pushed_at": "2026-11-13T06:43:16Z",
+     "pushed_at": "2026-11-13T14:28:59Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -6234,10 +6891,166 @@
       "description": true,
       "translations": true,
       "docs": true,
-      "min_core": false,
+      "min_core": true,
       "license": true
      },
-     "released_at": "2025-08-13T03:39:13Z"
+     "released_at": "2026-11-13T14:29:00Z"
+    }
+   ]
+  },
+  {
+   "id": "keila",
+   "categories": [
+    "communication"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "keila",
+     "forges": [
+      "geniusdynamics"
+     ],
+     "kind": "community",
+     "developer": "geniusdynamics",
+     "name": "Keila",
+     "description": {
+      "en": "Keila is a self-hosted newsletter tool to design campaigns, manage contacts and send email to your subscribers.",
+      "it": "Keila è uno strumento di newsletter self-hosted per creare campagne, gestire i contatti e inviare email agli iscritti."
+     },
+     "about": null,
+     "authors": [
+      "Genius Dynamics"
+     ],
+     "categories": [
+      "communication"
+     ],
+     "code_url": "https://github.com/geniusdynamics/ns8-keila",
+     "docs": {
+      "documentation_url": "https://docs.keila.com/",
+      "bug_url": "https://github.com/geniusdynamics/ns8-keila/issues",
+      "relnotes_url": "https://github.com/geniusdynamics/ns8-keila/releases"
+     },
+     "logo": "https://forge.genius.ke/ns8/updates/keila/logo.png",
+     "screenshots": [
+      "https://forge.genius.ke/ns8/updates/keila/screenshots/screen1.png"
+     ],
+     "versions": [
+      {
+       "tag": "1.0.0",
+       "testing": false
+      }
+     ],
+     "stable": "1.0.0",
+     "testing": null,
+     "min_core": "3.0.0",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "postgres:18.7-alpine3.24",
+       "pentacent/keila:0.14"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm"
+      ],
+      "tcp_ports": 1,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/geniusdynamics/keila",
+     "stars": 0,
+     "pushed_at": "2026-11-13T13:07:52Z",
+     "archived": false,
+     "checks": {
+      "topic": true,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-11-13T10:24:48Z"
+    }
+   ]
+  },
+  {
+   "id": "keycloak",
+   "categories": [
+    "security"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "keycloak",
+     "forges": [
+      "geniusdynamics"
+     ],
+     "kind": "community",
+     "developer": "geniusdynamics",
+     "name": "Keycloak",
+     "description": {
+      "en": "Open source identity and access management with single sign-on, OpenID Connect and SAML, backed by PostgreSQL.",
+      "it": "Keycloak fornisce autenticazione unica, gestione delle identità e controllo degli accessi."
+     },
+     "about": null,
+     "authors": [
+      "Genius Dynamics"
+     ],
+     "categories": [
+      "security"
+     ],
+     "code_url": "https://github.com/geniusdynamics/ns8-keycloak",
+     "docs": {
+      "documentation_url": "https://www.keycloak.org/documentation",
+      "bug_url": "https://github.com/geniusdynamics/ns8-keycloak/issues",
+      "relnotes_url": "https://github.com/geniusdynamics/ns8-keycloak/releases"
+     },
+     "logo": "https://forge.genius.ke/ns8/updates/keycloak/logo.png",
+     "screenshots": [
+      "https://forge.genius.ke/ns8/updates/keycloak/screenshots/screen1.png"
+     ],
+     "versions": [
+      {
+       "tag": "1.0.0",
+       "testing": false
+      }
+     ],
+     "stable": "1.0.0",
+     "testing": null,
+     "min_core": "3.12.4-0",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "postgres:18.7-alpine3.24",
+       "keycloak/keycloak:26.8.2"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm"
+      ],
+      "tcp_ports": 1,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/geniusdynamics/keycloak",
+     "stars": 0,
+     "pushed_at": "2026-11-13T13:09:54Z",
+     "archived": false,
+     "checks": {
+      "topic": true,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-11-13T07:51:49Z"
     }
    ]
   },
@@ -6568,6 +7381,85 @@
    ]
   },
   {
+   "id": "kutt",
+   "categories": [
+    "collaboration"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "kutt",
+     "forges": [
+      "geniusdynamics"
+     ],
+     "kind": "community",
+     "developer": "geniusdynamics",
+     "name": "Kutt",
+     "description": {
+      "en": "Kutt URL shortener: short links with custom domains, statistics, password protection and an API",
+      "it": "Accorciatore di URL Kutt: link brevi con domini personalizzati, statistiche, protezione con password e API"
+     },
+     "about": null,
+     "authors": [
+      "Genius Dynamics"
+     ],
+     "categories": [
+      "collaboration"
+     ],
+     "code_url": "https://github.com/geniusdynamics/ns8-kutt",
+     "docs": {
+      "documentation_url": "https://github.com/geniusdynamics/ns8-kutt#readme",
+      "bug_url": "https://github.com/geniusdynamics/ns8-kutt/issues",
+      "relnotes_url": "https://github.com/geniusdynamics/ns8-kutt/releases"
+     },
+     "logo": "https://forge.genius.ke/ns8/updates/kutt/logo.png",
+     "screenshots": [
+      "https://forge.genius.ke/ns8/updates/kutt/screenshots/screen1.png"
+     ],
+     "versions": [
+      {
+       "tag": "1.0.0",
+       "testing": false
+      }
+     ],
+     "stable": "1.0.0",
+     "testing": null,
+     "min_core": "3.20.1",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "kutt/kutt:v3.2.6",
+       "postgres:18.7-alpine",
+       "redis:8.8.4-alpine"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm"
+      ],
+      "tcp_ports": 1,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/geniusdynamics/kutt",
+     "stars": 0,
+     "pushed_at": "2026-11-13T14:41:12Z",
+     "archived": false,
+     "checks": {
+      "topic": true,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-11-13T14:40:16Z"
+    }
+   ]
+  },
+  {
    "id": "lam",
    "categories": [
     "collaboration"
@@ -6756,9 +7648,9 @@
      },
      "logo": "https://forge.de-labrusse.fr/ns8/updates/launcher/logo.png",
      "screenshots": [
-      "https://forge.de-labrusse.fr/ns8/updates/launcher/screenshots/screen3.png",
       "https://forge.de-labrusse.fr/ns8/updates/launcher/screenshots/screen2.png",
-      "https://forge.de-labrusse.fr/ns8/updates/launcher/screenshots/screen1.png"
+      "https://forge.de-labrusse.fr/ns8/updates/launcher/screenshots/screen1.png",
+      "https://forge.de-labrusse.fr/ns8/updates/launcher/screenshots/screen3.png"
      ],
      "versions": [
       {
@@ -6822,6 +7714,86 @@
       "license": true
      },
      "released_at": "2026-11-10T15:12:12Z"
+    }
+   ]
+  },
+  {
+   "id": "leantime",
+   "categories": [
+    "collaboration",
+    "office"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "leantime",
+     "forges": [
+      "geniusdynamics"
+     ],
+     "kind": "community",
+     "developer": "geniusdynamics",
+     "name": "Leantime",
+     "description": {
+      "en": "Leantime is an open source project management suite with tasks, timelines, goals and time tracking for teams.",
+      "it": "Leantime è una suite open source di project management con attività, cronologie, obiettivi e rilevazione del tempo."
+     },
+     "about": null,
+     "authors": [
+      "Genius Dynamics"
+     ],
+     "categories": [
+      "collaboration",
+      "office"
+     ],
+     "code_url": "https://github.com/geniusdynamics/ns8-leantime",
+     "docs": {
+      "documentation_url": "https://docs.leantime.com/",
+      "bug_url": "https://github.com/geniusdynamics/ns8-leantime/issues",
+      "relnotes_url": "https://github.com/geniusdynamics/ns8-leantime/releases"
+     },
+     "logo": "https://forge.genius.ke/ns8/updates/leantime/logo.png",
+     "screenshots": [
+      "https://forge.genius.ke/ns8/updates/leantime/screenshots/screen1.png"
+     ],
+     "versions": [
+      {
+       "tag": "1.0.0",
+       "testing": false
+      }
+     ],
+     "stable": "1.0.0",
+     "testing": null,
+     "min_core": "3.0.0",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "mariadb:13.0.2",
+       "leantime/leantime:3.1.4"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm"
+      ],
+      "tcp_ports": 1,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/geniusdynamics/leantime",
+     "stars": 0,
+     "pushed_at": "2026-11-13T12:48:24Z",
+     "archived": false,
+     "checks": {
+      "topic": true,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-11-13T11:29:52Z"
     }
    ]
   },
@@ -6946,9 +7918,9 @@
      },
      "logo": "https://forge.de-labrusse.fr/ns8/updates/lemp/logo.png",
      "screenshots": [
-      "https://forge.de-labrusse.fr/ns8/updates/lemp/screenshots/screen3.png",
       "https://forge.de-labrusse.fr/ns8/updates/lemp/screenshots/screen2.png",
-      "https://forge.de-labrusse.fr/ns8/updates/lemp/screenshots/screen1.png"
+      "https://forge.de-labrusse.fr/ns8/updates/lemp/screenshots/screen1.png",
+      "https://forge.de-labrusse.fr/ns8/updates/lemp/screenshots/screen3.png"
      ],
      "versions": [
       {
@@ -7013,9 +7985,164 @@
    ]
   },
   {
+   "id": "limesurvey",
+   "categories": [
+    "office"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "limesurvey",
+     "forges": [
+      "geniusdynamics"
+     ],
+     "kind": "community",
+     "developer": "geniusdynamics",
+     "name": "Limesurvey",
+     "description": {
+      "en": "LimeSurvey is the simple, quick and anonymous online survey tool that's bursting with juicy insights. Calling students, professionals and enterprises: design a survey and get the best insights, it’s free and as easy as squeezing a lime. Make a free online survey now!",
+      "it": "LimeSurvey è uno strumento per sondaggi online semplice, rapido e anonimo."
+     },
+     "about": null,
+     "authors": [
+      "Genius Dynamics"
+     ],
+     "categories": [
+      "office"
+     ],
+     "code_url": "https://github.com/geniusdynamics/ns8-limesurvey",
+     "docs": {
+      "documentation_url": "https://www.limesurvey.org/",
+      "bug_url": "https://github.com/geniusdynamics/ns8-limesurvey/issues",
+      "relnotes_url": "https://github.com/geniusdynamics/ns8-limesurvey/releases"
+     },
+     "logo": "https://forge.genius.ke/ns8/updates/limesurvey/logo.png",
+     "screenshots": [
+      "https://forge.genius.ke/ns8/updates/limesurvey/screenshots/screen1.png"
+     ],
+     "versions": [
+      {
+       "tag": "1.0.1",
+       "testing": false
+      }
+     ],
+     "stable": "1.0.1",
+     "testing": null,
+     "min_core": "3.0.0",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "mariadb:13.0.2",
+       "martialblog/limesurvey:7.9.1-261102-apache"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm"
+      ],
+      "tcp_ports": 1,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/geniusdynamics/limesurvey",
+     "stars": 0,
+     "pushed_at": "2026-11-13T13:09:06Z",
+     "archived": false,
+     "checks": {
+      "topic": true,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-11-13T13:07:45Z"
+    }
+   ]
+  },
+  {
+   "id": "linkstack",
+   "categories": [
+    "web"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "linkstack",
+     "forges": [
+      "geniusdynamics"
+     ],
+     "kind": "community",
+     "developer": "geniusdynamics",
+     "name": "Linkstack",
+     "description": {
+      "en": "LinkStack is a self-hosted link page where you publish all your links, social profiles and contacts in one place.",
+      "it": "LinkStack è una pagina di link self-hosted per pubblicare in un unico posto link, profili social e contatti."
+     },
+     "about": null,
+     "authors": [
+      "Genius Dynamics"
+     ],
+     "categories": [
+      "web"
+     ],
+     "code_url": "https://github.com/geniusdynamics/ns8-linkstack",
+     "docs": {
+      "documentation_url": "https://docs.linkstack.com/",
+      "bug_url": "https://github.com/geniusdynamics/ns8-linkstack/issues",
+      "relnotes_url": "https://github.com/geniusdynamics/ns8-linkstack/releases"
+     },
+     "logo": "https://forge.genius.ke/ns8/updates/linkstack/logo.png",
+     "screenshots": [
+      "https://forge.genius.ke/ns8/updates/linkstack/screenshots/screen1.png"
+     ],
+     "versions": [
+      {
+       "tag": "1.0.0",
+       "testing": false
+      }
+     ],
+     "stable": "1.0.0",
+     "testing": null,
+     "min_core": "3.0.0",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "linkstackorg/linkstack:v4.8.8"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm"
+      ],
+      "tcp_ports": 1,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/geniusdynamics/linkstack",
+     "stars": 0,
+     "pushed_at": "2026-11-13T13:09:50Z",
+     "archived": false,
+     "checks": {
+      "topic": true,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-11-13T11:31:20Z"
+    }
+   ]
+  },
+  {
    "id": "linkwarden",
    "categories": [
-    "collaboration"
+    "web"
    ],
    "official": false,
    "stars": 0,
@@ -7037,7 +8164,7 @@
       "Genius Dynamics"
      ],
      "categories": [
-      "collaboration"
+      "web"
      ],
      "code_url": "https://github.com/geniusdynamics/ns8-linkwarden",
      "docs": {
@@ -7050,17 +8177,17 @@
      ],
      "versions": [
       {
-       "tag": "1.3.0",
+       "tag": "2.0.0",
        "testing": false
       }
      ],
-     "stable": "1.3.0",
+     "stable": "2.0.0",
      "testing": null,
-     "min_core": null,
+     "min_core": "3.0.0",
      "tech": {
       "rootfull": false,
       "images": [
-       "postgres:15.5-alpine3.19",
+       "postgres:15.20-alpine3.24",
        "linkwarden/linkwarden:v2.16.3"
       ],
       "authorizations": [
@@ -7072,7 +8199,7 @@
      },
      "source": "ghcr.io/geniusdynamics/linkwarden",
      "stars": 0,
-     "pushed_at": "2026-11-13T07:05:39Z",
+     "pushed_at": "2026-11-13T10:32:49Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -7082,10 +8209,10 @@
       "description": true,
       "translations": true,
       "docs": true,
-      "min_core": false,
+      "min_core": true,
       "license": true
      },
-     "released_at": "2026-10-25T10:42:51Z"
+     "released_at": "2026-11-13T10:26:25Z"
     }
    ]
   },
@@ -7123,23 +8250,23 @@
      },
      "logo": "https://forge.genius.ke/ns8/updates/listmonk/logo.png",
      "screenshots": [
-      "https://forge.genius.ke/ns8/updates/listmonk/screenshots/screen3.png",
       "https://forge.genius.ke/ns8/updates/listmonk/screenshots/screen2.png",
-      "https://forge.genius.ke/ns8/updates/listmonk/screenshots/screen1.png"
+      "https://forge.genius.ke/ns8/updates/listmonk/screenshots/screen1.png",
+      "https://forge.genius.ke/ns8/updates/listmonk/screenshots/screen3.png"
      ],
      "versions": [
       {
-       "tag": "1.4.0",
+       "tag": "1.5.0",
        "testing": false
       }
      ],
-     "stable": "1.4.0",
+     "stable": "1.5.0",
      "testing": null,
-     "min_core": null,
+     "min_core": "3.0.0",
      "tech": {
       "rootfull": false,
       "images": [
-       "postgres:15.5-alpine3.19",
+       "postgres:15.20-alpine3.24",
        "listmonk/listmonk:v6.2.0"
       ],
       "authorizations": [
@@ -7151,7 +8278,7 @@
      },
      "source": "ghcr.io/geniusdynamics/listmonk",
      "stars": 0,
-     "pushed_at": "2026-11-13T07:04:06Z",
+     "pushed_at": "2026-11-13T13:47:50Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -7161,10 +8288,10 @@
       "description": true,
       "translations": true,
       "docs": true,
-      "min_core": false,
+      "min_core": true,
       "license": true
      },
-     "released_at": "2026-10-26T08:17:47Z"
+     "released_at": "2026-11-13T13:35:55Z"
     }
    ]
   },
@@ -7243,7 +8370,7 @@
      },
      "source": "ghcr.io/nethserver/mail",
      "stars": 3,
-     "pushed_at": "2026-11-13T02:06:56Z",
+     "pushed_at": "2026-11-13T17:50:10Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -7396,7 +8523,7 @@
      },
      "source": "ghcr.io/geniusdynamics/matomo",
      "stars": 0,
-     "pushed_at": "2026-11-13T07:28:12Z",
+     "pushed_at": "2026-11-13T10:11:16Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -7641,7 +8768,7 @@
      },
      "source": "ghcr.io/platypuschan/maubot",
      "stars": 0,
-     "pushed_at": "2026-11-10T22:47:10Z",
+     "pushed_at": "2026-11-13T19:48:37Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -7718,7 +8845,7 @@
      },
      "source": "ghcr.io/geniusdynamics/mautic",
      "stars": 0,
-     "pushed_at": "2026-11-13T07:05:46Z",
+     "pushed_at": "2026-11-13T10:13:20Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -7797,7 +8924,7 @@
      },
      "source": "ghcr.io/geniusdynamics/maybe",
      "stars": 0,
-     "pushed_at": "2026-11-13T06:42:49Z",
+     "pushed_at": "2026-11-13T10:13:27Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -7895,6 +9022,84 @@
    ]
   },
   {
+   "id": "metabase",
+   "categories": [
+    "collaboration"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "metabase",
+     "forges": [
+      "geniusdynamics"
+     ],
+     "kind": "community",
+     "developer": "geniusdynamics",
+     "name": "Metabase",
+     "description": {
+      "en": "Fast analytics with the friendly UX and integrated tooling to let your company explore data on their own.",
+      "it": "Metabase permette di interrogare i dati e creare dashboard senza scrivere codice."
+     },
+     "about": null,
+     "authors": [
+      "Genius Dynamics"
+     ],
+     "categories": [
+      "collaboration"
+     ],
+     "code_url": "https://github.com/geniusdynamics/ns8-metabase",
+     "docs": {
+      "documentation_url": "https://www.metabase.com/docs/latest/",
+      "bug_url": "https://github.com/geniusdynamics/ns8-metabase/issues",
+      "relnotes_url": "https://github.com/geniusdynamics/ns8-metabase/releases"
+     },
+     "logo": "https://forge.genius.ke/ns8/updates/metabase/logo.png",
+     "screenshots": [
+      "https://forge.genius.ke/ns8/updates/metabase/screenshots/screen1.png"
+     ],
+     "versions": [
+      {
+       "tag": "1.0.0",
+       "testing": false
+      }
+     ],
+     "stable": "1.0.0",
+     "testing": null,
+     "min_core": "3.0.0",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "postgres:18.7-alpine3.24",
+       "metabase/metabase:v0.50.18.1"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm"
+      ],
+      "tcp_ports": 1,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/geniusdynamics/metabase",
+     "stars": 0,
+     "pushed_at": "2026-11-13T13:09:13Z",
+     "archived": false,
+     "checks": {
+      "topic": true,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-11-13T11:26:43Z"
+    }
+   ]
+  },
+  {
    "id": "minecraft",
    "categories": [
     "multimedia"
@@ -7972,6 +9177,164 @@
    ]
   },
   {
+   "id": "minthcm",
+   "categories": [
+    "office"
+   ],
+   "official": false,
+   "stars": 1,
+   "variants": [
+    {
+     "module_id": "minthcm",
+     "forges": [
+      "geniusdynamics"
+     ],
+     "kind": "community",
+     "developer": "geniusdynamics",
+     "name": "MintHCM",
+     "description": {
+      "en": "MintHCM is an open source human capital management system for employees, recruitment, leave and company records.",
+      "it": "MintHCM è un sistema open source di gestione del capitale umano per dipendenti, selezione, ferie e anagrafiche."
+     },
+     "about": null,
+     "authors": [
+      "Genius Dynamics"
+     ],
+     "categories": [
+      "office"
+     ],
+     "code_url": "https://github.com/geniusdynamics/ns8-minthcm",
+     "docs": {
+      "documentation_url": "https://github.com/minthcm/minthcm",
+      "bug_url": "https://github.com/geniusdynamics/ns8-minthcm/issues",
+      "relnotes_url": "https://github.com/geniusdynamics/ns8-minthcm/releases"
+     },
+     "logo": "https://forge.genius.ke/ns8/updates/minthcm/logo.png",
+     "screenshots": [
+      "https://forge.genius.ke/ns8/updates/minthcm/screenshots/screen1.png"
+     ],
+     "versions": [
+      {
+       "tag": "1.0.0",
+       "testing": false
+      }
+     ],
+     "stable": "1.0.0",
+     "testing": null,
+     "min_core": "3.0.0",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "percona:9.7",
+       "minthcm/minthcm:latest",
+       "docker.elastic.co/elasticsearch/elasticsearch:7.9.3"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm"
+      ],
+      "tcp_ports": 2,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/geniusdynamics/minthcm",
+     "stars": 1,
+     "pushed_at": "2026-11-13T12:45:47Z",
+     "archived": false,
+     "checks": {
+      "topic": true,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-11-13T12:38:59Z"
+    }
+   ]
+  },
+  {
+   "id": "mixpost",
+   "categories": [
+    "web"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "mixpost",
+     "forges": [
+      "geniusdynamics"
+     ],
+     "kind": "community",
+     "developer": "geniusdynamics",
+     "name": "Mixpost",
+     "description": {
+      "en": "Self-hosted social media management tool to schedule posts, manage accounts and review their statistics.",
+      "it": "Mixpost è uno strumento self-hosted per pianificare e pubblicare contenuti sui social."
+     },
+     "about": null,
+     "authors": [
+      "Genius Dynamics"
+     ],
+     "categories": [
+      "web"
+     ],
+     "code_url": "https://github.com/geniusdynamics/ns8-mixpost",
+     "docs": {
+      "documentation_url": "https://docs.mixpost.app",
+      "bug_url": "https://github.com/geniusdynamics/ns8-mixpost/issues",
+      "relnotes_url": "https://github.com/geniusdynamics/ns8-mixpost/releases"
+     },
+     "logo": "https://forge.genius.ke/ns8/updates/mixpost/logo.png",
+     "screenshots": [
+      "https://forge.genius.ke/ns8/updates/mixpost/screenshots/screen1.png"
+     ],
+     "versions": [
+      {
+       "tag": "1.0.0",
+       "testing": false
+      }
+     ],
+     "stable": "1.0.0",
+     "testing": null,
+     "min_core": "3.12.4-0",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "inovector/mixpost:v2.6.0",
+       "mariadb:13.0.2",
+       "redis:8.10.3"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm"
+      ],
+      "tcp_ports": 1,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/geniusdynamics/mixpost",
+     "stars": 0,
+     "pushed_at": "2026-11-13T14:46:24Z",
+     "archived": false,
+     "checks": {
+      "topic": true,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-11-13T12:19:22Z"
+    }
+   ]
+  },
+  {
    "id": "monica",
    "categories": [
     "office"
@@ -8007,20 +9370,20 @@
      "screenshots": [],
      "versions": [
       {
-       "tag": "1.0.1",
+       "tag": "1.1.0",
        "testing": false
       }
      ],
-     "stable": "1.0.1",
+     "stable": "1.1.0",
      "testing": null,
-     "min_core": null,
+     "min_core": "3.0.0",
      "tech": {
       "rootfull": false,
       "images": [
-       "redis:7.2.3-bookworm",
+       "redis:7.4.12-bookworm",
        "getmeili/meilisearch:latest",
        "monica:5.0.0-beta.5-apache",
-       "mariadb:10.11.5"
+       "mariadb:10.11.19"
       ],
       "authorizations": [
        "traefik@node:routeadm"
@@ -8031,7 +9394,7 @@
      },
      "source": "ghcr.io/geniusdynamics/monica",
      "stars": 0,
-     "pushed_at": "2026-11-13T07:04:00Z",
+     "pushed_at": "2026-11-13T15:37:37Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -8041,10 +9404,10 @@
       "description": true,
       "translations": true,
       "docs": true,
-      "min_core": false,
+      "min_core": true,
       "license": true
      },
-     "released_at": "2026-10-26T05:46:26Z"
+     "released_at": "2026-11-13T15:37:19Z"
     }
    ]
   },
@@ -8247,7 +9610,7 @@
      },
      "source": "ghcr.io/geniusdynamics/n8n",
      "stars": 0,
-     "pushed_at": "2026-11-13T07:25:32Z",
+     "pushed_at": "2026-11-13T10:13:34Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -8452,11 +9815,11 @@
      },
      "logo": "https://distfeed.nethserver.org/ns8/updates/nethsecurity-controller/logo.png",
      "screenshots": [
-      "https://distfeed.nethserver.org/ns8/updates/nethsecurity-controller/screenshots/screen5.png",
       "https://distfeed.nethserver.org/ns8/updates/nethsecurity-controller/screenshots/screen4.png",
       "https://distfeed.nethserver.org/ns8/updates/nethsecurity-controller/screenshots/screen2.png",
+      "https://distfeed.nethserver.org/ns8/updates/nethsecurity-controller/screenshots/screen3.png",
       "https://distfeed.nethserver.org/ns8/updates/nethsecurity-controller/screenshots/screen1.png",
-      "https://distfeed.nethserver.org/ns8/updates/nethsecurity-controller/screenshots/screen3.png"
+      "https://distfeed.nethserver.org/ns8/updates/nethsecurity-controller/screenshots/screen5.png"
      ],
      "versions": [
       {
@@ -8543,7 +9906,11 @@
      "screenshots": [],
      "versions": [
       {
-       "tag": "1.8.2",
+       "tag": "1.8.4-testing.1",
+       "testing": true
+      },
+      {
+       "tag": "1.8.3",
        "testing": false
       },
       {
@@ -8555,28 +9922,28 @@
        "testing": false
       }
      ],
-     "stable": "1.8.2",
-     "testing": null,
+     "stable": "1.8.3",
+     "testing": "1.8.4-testing.1",
      "min_core": "3.24.0",
      "tech": {
       "rootfull": false,
       "images": [
-       "nethesis/nethvoice-mariadb:1.8.2",
-       "nethesis/nethvoice-freepbx:1.8.2",
-       "nethesis/nethvoice-cti-server:1.8.2",
-       "nethesis/nethvoice-cti-middleware:1.8.2",
-       "nethesis/nethvoice-cti-ui:1.8.2",
-       "nethesis/nethvoice-tancredi:1.8.2",
-       "nethesis/nethvoice-janus:1.8.2",
-       "nethesis/nethvoice-phonebook:1.8.2",
+       "nethesis/nethvoice-mariadb:1.8.3",
+       "nethesis/nethvoice-freepbx:1.8.3",
+       "nethesis/nethvoice-cti-server:1.8.3",
+       "nethesis/nethvoice-cti-middleware:1.8.3",
+       "nethesis/nethvoice-cti-ui:1.8.3",
+       "nethesis/nethvoice-tancredi:1.8.3",
+       "nethesis/nethvoice-janus:1.8.3",
+       "nethesis/nethvoice-phonebook:1.8.3",
        "redis:7.0.10-alpine",
-       "nethesis/nethvoice-reports-ui:1.8.2",
-       "nethesis/nethvoice-reports-api:1.8.2",
-       "nethesis/nethvoice-sftp:1.8.2",
+       "nethesis/nethvoice-reports-ui:1.8.3",
+       "nethesis/nethvoice-reports-api:1.8.3",
+       "nethesis/nethvoice-sftp:1.8.3",
        "eclipse-mosquitto:2",
-       "nethesis/nethvoice-satellite:1.8.2",
+       "nethesis/nethvoice-satellite:1.8.3",
        "pgvector/pgvector:0.8.1-pg18-trixie",
-       "nethesis/nethvoice-ejabberd:1.8.2"
+       "nethesis/nethvoice-ejabberd:1.8.3"
       ],
       "authorizations": [
        "traefik@any:fulladm",
@@ -8592,7 +9959,7 @@
      },
      "source": "ghcr.io/nethesis/nethvoice",
      "stars": 9,
-     "pushed_at": "2026-11-12T18:45:34Z",
+     "pushed_at": "2026-11-13T16:48:52Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -8605,7 +9972,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-11-12T13:47:39Z"
+     "released_at": "2026-11-13T16:13:53Z"
     }
    ]
   },
@@ -8731,8 +10098,8 @@
      "logo": "https://distfeed.nethserver.org/ns8/updates/nextcloud/logo.png",
      "screenshots": [
       "https://distfeed.nethserver.org/ns8/updates/nextcloud/screenshots/screen2.png",
-      "https://distfeed.nethserver.org/ns8/updates/nextcloud/screenshots/screen1.png",
-      "https://distfeed.nethserver.org/ns8/updates/nextcloud/screenshots/screen3.png"
+      "https://distfeed.nethserver.org/ns8/updates/nextcloud/screenshots/screen3.png",
+      "https://distfeed.nethserver.org/ns8/updates/nextcloud/screenshots/screen1.png"
      ],
      "versions": [
       {
@@ -8835,26 +10202,26 @@
      },
      "logo": "https://forge.genius.ke/ns8/updates/nocodb/logo.png",
      "screenshots": [
-      "https://forge.genius.ke/ns8/updates/nocodb/screenshots/screen5.png",
-      "https://forge.genius.ke/ns8/updates/nocodb/screenshots/screen3.png",
       "https://forge.genius.ke/ns8/updates/nocodb/screenshots/screen4.png",
-      "https://forge.genius.ke/ns8/updates/nocodb/screenshots/screen6.png",
       "https://forge.genius.ke/ns8/updates/nocodb/screenshots/screen2.png",
-      "https://forge.genius.ke/ns8/updates/nocodb/screenshots/screen1.png"
+      "https://forge.genius.ke/ns8/updates/nocodb/screenshots/screen5.png",
+      "https://forge.genius.ke/ns8/updates/nocodb/screenshots/screen6.png",
+      "https://forge.genius.ke/ns8/updates/nocodb/screenshots/screen1.png",
+      "https://forge.genius.ke/ns8/updates/nocodb/screenshots/screen3.png"
      ],
      "versions": [
       {
-       "tag": "1.2.0",
+       "tag": "2.0.0",
        "testing": false
       }
      ],
-     "stable": "1.2.0",
+     "stable": "2.0.0",
      "testing": null,
-     "min_core": null,
+     "min_core": "3.0.0",
      "tech": {
       "rootfull": false,
       "images": [
-       "postgres:15.5-alpine3.19",
+       "postgres:15.20-alpine3.24",
        "nocodb/nocodb:0.265.1"
       ],
       "authorizations": [
@@ -8866,7 +10233,7 @@
      },
      "source": "ghcr.io/geniusdynamics/nocodb",
      "stars": 0,
-     "pushed_at": "2026-11-13T07:03:22Z",
+     "pushed_at": "2026-11-13T13:17:44Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -8876,10 +10243,10 @@
       "description": true,
       "translations": true,
       "docs": true,
-      "min_core": false,
+      "min_core": true,
       "license": true
      },
-     "released_at": "2025-10-05T23:38:56Z"
+     "released_at": "2026-11-13T13:11:44Z"
     }
    ]
   },
@@ -8996,21 +10363,17 @@
      ],
      "versions": [
       {
-       "tag": "1.0.1-beta1",
-       "testing": true
-      },
-      {
-       "tag": "1.0.0",
+       "tag": "2.0.0",
        "testing": false
       }
      ],
-     "stable": "1.0.0",
-     "testing": "1.0.1-beta1",
-     "min_core": null,
+     "stable": "2.0.0",
+     "testing": null,
+     "min_core": "3.0.0",
      "tech": {
       "rootfull": false,
       "images": [
-       "binwiederhier/ntfy:v2.14"
+       "binwiederhier/ntfy:v2.37.2"
       ],
       "authorizations": [
        "traefik@node:routeadm"
@@ -9021,7 +10384,7 @@
      },
      "source": "ghcr.io/geniusdynamics/ntfy",
      "stars": 0,
-     "pushed_at": "2026-11-13T07:03:10Z",
+     "pushed_at": "2026-11-13T15:15:29Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -9031,10 +10394,10 @@
       "description": true,
       "translations": true,
       "docs": true,
-      "min_core": false,
+      "min_core": true,
       "license": true
      },
-     "released_at": "2025-08-13T09:13:05Z"
+     "released_at": "2026-11-13T15:15:07Z"
     }
    ]
   },
@@ -9180,7 +10543,7 @@
      },
      "source": "ghcr.io/platypuschan/obsidian-livesync",
      "stars": 0,
-     "pushed_at": "2026-11-12T19:38:54Z",
+     "pushed_at": "2026-11-13T19:30:23Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -9400,11 +10763,11 @@
      ],
      "versions": [
       {
-       "tag": "1.1.0",
+       "tag": "1.1.1",
        "testing": false
       }
      ],
-     "stable": "1.1.0",
+     "stable": "1.1.1",
      "testing": null,
      "min_core": "3.13.0",
      "tech": {
@@ -9424,7 +10787,7 @@
      },
      "source": "ghcr.io/geniusdynamics/openbao",
      "stars": 0,
-     "pushed_at": "2026-11-13T07:28:44Z",
+     "pushed_at": "2026-11-13T08:09:01Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -9437,7 +10800,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-11-13T06:43:12Z"
+     "released_at": "2026-11-13T08:00:29Z"
     }
    ]
   },
@@ -9591,6 +10954,88 @@
       "license": true
      },
      "released_at": "2026-11-10T18:01:44Z"
+    }
+   ]
+  },
+  {
+   "id": "opensign",
+   "categories": [
+    "office",
+    "security"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "opensign",
+     "forges": [
+      "geniusdynamics"
+     ],
+     "kind": "community",
+     "developer": "geniusdynamics",
+     "name": "Opensign",
+     "description": {
+      "en": "OpenSign is an open source document signing platform to prepare, send and sign documents with legally valid signatures.",
+      "it": "OpenSign è una piattaforma open source di firma dei documenti per preparare, inviare e firmare documenti con firme valide."
+     },
+     "about": null,
+     "authors": [
+      "Genius Dynamics"
+     ],
+     "categories": [
+      "office",
+      "security"
+     ],
+     "code_url": "https://github.com/geniusdynamics/ns8-opensign",
+     "docs": {
+      "documentation_url": "https://docs.opensignlabs.com/",
+      "bug_url": "https://github.com/geniusdynamics/ns8-opensign/issues",
+      "relnotes_url": "https://github.com/geniusdynamics/ns8-opensign/releases"
+     },
+     "logo": "https://forge.genius.ke/ns8/updates/opensign/logo.png",
+     "screenshots": [
+      "https://forge.genius.ke/ns8/updates/opensign/screenshots/screen2.png",
+      "https://forge.genius.ke/ns8/updates/opensign/screenshots/screen1.png"
+     ],
+     "versions": [
+      {
+       "tag": "1.0.1",
+       "testing": false
+      }
+     ],
+     "stable": "1.0.1",
+     "testing": null,
+     "min_core": "3.0.0",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "mongo:9.0.8",
+       "opensign/opensign:main",
+       "opensign/opensignserver:main"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm"
+      ],
+      "tcp_ports": 2,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/geniusdynamics/opensign",
+     "stars": 0,
+     "pushed_at": "2026-11-13T18:02:26Z",
+     "archived": false,
+     "checks": {
+      "topic": true,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-11-13T12:42:35Z"
     }
    ]
   },
@@ -9792,11 +11237,11 @@
      "screenshots": [],
      "versions": [
       {
-       "tag": "1.3.1",
+       "tag": "1.4.0",
        "testing": false
       }
      ],
-     "stable": "1.3.1",
+     "stable": "1.4.0",
      "testing": null,
      "min_core": null,
      "tech": {
@@ -9816,7 +11261,7 @@
      },
      "source": "ghcr.io/tebbiworld/openwebui",
      "stars": 0,
-     "pushed_at": "2026-11-11T16:39:30Z",
+     "pushed_at": "2026-11-13T12:07:34Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -9829,7 +11274,88 @@
       "min_core": false,
       "license": true
      },
-     "released_at": "2026-11-11T16:40:45Z"
+     "released_at": "2026-11-13T12:10:01Z"
+    }
+   ]
+  },
+  {
+   "id": "opnform",
+   "categories": [
+    "collaboration"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "opnform",
+     "forges": [
+      "geniusdynamics"
+     ],
+     "kind": "community",
+     "developer": "geniusdynamics",
+     "name": "Opnform",
+     "description": {
+      "en": "Create beautiful forms and share them anywhere. It's super fast, you don't need to know how to code",
+      "it": "OpnForm crea moduli e sondaggi online senza codice, con risposte illimitate."
+     },
+     "about": null,
+     "authors": [
+      "Genius Dynamics"
+     ],
+     "categories": [
+      "collaboration"
+     ],
+     "code_url": "https://github.com/geniusdynamics/ns8-opnform",
+     "docs": {
+      "documentation_url": "https://docs.opnform.com/",
+      "bug_url": "https://github.com/geniusdynamics/ns8-opnform/issues",
+      "relnotes_url": "https://github.com/geniusdynamics/ns8-opnform/releases"
+     },
+     "logo": "https://forge.genius.ke/ns8/updates/opnform/logo.png",
+     "screenshots": [
+      "https://forge.genius.ke/ns8/updates/opnform/screenshots/screen1.png"
+     ],
+     "versions": [
+      {
+       "tag": "1.0.0",
+       "testing": false
+      }
+     ],
+     "stable": "1.0.0",
+     "testing": null,
+     "min_core": "3.0.0",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "postgres:18.7-alpine3.24",
+       "jhumanj/opnform-client:2.8.4",
+       "jhumanj/opnform-api:2.8.4",
+       "redis:8.10.3",
+       "nginx:1.31.8"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm"
+      ],
+      "tcp_ports": 2,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/geniusdynamics/opnform",
+     "stars": 0,
+     "pushed_at": "2026-11-13T13:26:57Z",
+     "archived": false,
+     "checks": {
+      "topic": true,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-11-13T13:20:26Z"
     }
    ]
   },
@@ -9918,7 +11444,7 @@
     "collaboration"
    ],
    "official": false,
-   "stars": 1,
+   "stars": 2,
    "variants": [
     {
      "module_id": "paperlessngx",
@@ -9976,7 +11502,7 @@
       "volumes": []
      },
      "source": "ghcr.io/compgeniuses/paperlessngx",
-     "stars": 1,
+     "stars": 2,
      "pushed_at": "2026-06-20T23:36:54Z",
      "archived": false,
      "checks": {
@@ -10155,6 +11681,87 @@
    ]
   },
   {
+   "id": "pastevault",
+   "categories": [
+    "security",
+    "storage"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "pastevault",
+     "forges": [
+      "geniusdynamics"
+     ],
+     "kind": "community",
+     "developer": "geniusdynamics",
+     "name": "Pastevault",
+     "description": {
+      "en": "PasteVault is a self-hosted paste service to share text and code snippets with optional expiry and encryption.",
+      "it": "PasteVault è un servizio self-hosted per condividere testo e frammenti di codice con scadenza e cifratura opzionali."
+     },
+     "about": null,
+     "authors": [
+      "Genius Dynamics"
+     ],
+     "categories": [
+      "security",
+      "storage"
+     ],
+     "code_url": "https://github.com/geniusdynamics/ns8-pastevault",
+     "docs": {
+      "documentation_url": "https://github.com/arc53/pastevault",
+      "bug_url": "https://github.com/geniusdynamics/ns8-pastevault/issues",
+      "relnotes_url": "https://github.com/geniusdynamics/ns8-pastevault/releases"
+     },
+     "logo": "https://forge.genius.ke/ns8/updates/pastevault/logo.png",
+     "screenshots": [
+      "https://forge.genius.ke/ns8/updates/pastevault/screenshots/screen1.png"
+     ],
+     "versions": [
+      {
+       "tag": "1.0.0",
+       "testing": false
+      }
+     ],
+     "stable": "1.0.0",
+     "testing": null,
+     "min_core": "3.0.0",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "postgres:18.7",
+       "arc53/pastevault-backend:v0.1.5",
+       "arc53/pastevault-frontend:v0.1.5"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm"
+      ],
+      "tcp_ports": 2,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/geniusdynamics/pastevault",
+     "stars": 0,
+     "pushed_at": "2026-11-13T14:52:41Z",
+     "archived": false,
+     "checks": {
+      "topic": true,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-11-13T14:50:02Z"
+    }
+   ]
+  },
+  {
    "id": "patchmon",
    "categories": [
     "monitoring"
@@ -10190,6 +11797,14 @@
       "https://forge.dzlab.net/ns8/updates/patchmon/screenshots/screen1.png"
      ],
      "versions": [
+      {
+       "tag": "0.6.3",
+       "testing": false
+      },
+      {
+       "tag": "0.6.2",
+       "testing": false
+      },
       {
        "tag": "0.6.1",
        "testing": false
@@ -10239,7 +11854,7 @@
        "testing": true
       }
      ],
-     "stable": "0.6.1",
+     "stable": "0.6.3",
      "testing": null,
      "min_core": null,
      "tech": {
@@ -10247,7 +11862,7 @@
       "images": [
        "postgres:17-alpine",
        "redis:7-alpine",
-       "patchmon/patchmon-server:2.1.3",
+       "patchmon/patchmon-server:2.1.8",
        "guacamole/guacd:1.6.0"
       ],
       "authorizations": [
@@ -10259,7 +11874,7 @@
      },
      "source": "ghcr.io/dz00te/patchmon",
      "stars": 0,
-     "pushed_at": "2026-08-16T07:04:05Z",
+     "pushed_at": "2026-11-13T17:49:54Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -10272,7 +11887,7 @@
       "min_core": false,
       "license": true
      },
-     "released_at": "2026-08-16T07:04:06Z"
+     "released_at": "2026-11-13T17:49:54Z"
     }
    ]
   },
@@ -10833,7 +12448,7 @@
      },
      "source": "ghcr.io/geniusdynamics/postal",
      "stars": 0,
-     "pushed_at": "2026-11-13T07:27:26Z",
+     "pushed_at": "2026-11-13T19:57:45Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -10929,7 +12544,7 @@
   {
    "id": "postiz",
    "categories": [
-    "collaboration"
+    "communication"
    ],
    "official": false,
    "stars": 0,
@@ -10951,7 +12566,7 @@
       "Genius Dynamics"
      ],
      "categories": [
-      "collaboration"
+      "communication"
      ],
      "code_url": "https://github.com/geniusdynamics/ns8-postiz",
      "docs": {
@@ -10962,23 +12577,23 @@
      "screenshots": [],
      "versions": [
       {
-       "tag": "1.0.2",
+       "tag": "2.0.0",
        "testing": false
       }
      ],
-     "stable": "1.0.2",
+     "stable": "2.0.0",
      "testing": null,
-     "min_core": null,
+     "min_core": "3.0.0",
      "tech": {
       "rootfull": false,
       "images": [
-       "gitroomhq/postiz-app:v2.19.0",
-       "getsentry/spotlight:latest",
-       "temporalio/ui:2.45.3",
-       "postgres:17-alpine",
-       "redis:7.2",
+       "gitroomhq/postiz-app:v2.25.3",
+       "getsentry/spotlight:4.12.1",
+       "temporalio/ui:2.34.0",
+       "postgres:17.12-alpine3.24",
+       "redis:7.2.14-alpine",
        "elasticsearch:7.17.27",
-       "temporalio/auto-setup:1.29.3",
+       "temporalio/auto-setup:1.28.1",
        "temporalio/admin-tools:1.28.1-tctl-1.18.4-cli-1.4.1"
       ],
       "authorizations": [
@@ -10990,7 +12605,7 @@
      },
      "source": "ghcr.io/geniusdynamics/postiz",
      "stars": 0,
-     "pushed_at": "2026-11-13T05:56:42Z",
+     "pushed_at": "2026-11-13T14:09:20Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -11000,10 +12615,10 @@
       "description": true,
       "translations": true,
       "docs": true,
-      "min_core": false,
+      "min_core": true,
       "license": true
      },
-     "released_at": "2026-02-23T13:36:52Z"
+     "released_at": "2026-11-13T14:02:40Z"
     }
    ]
   },
@@ -11144,9 +12759,9 @@
      },
      "logo": "https://forge.de-labrusse.fr/ns8/updates/privatebin/logo.png",
      "screenshots": [
-      "https://forge.de-labrusse.fr/ns8/updates/privatebin/screenshots/screen3.png",
       "https://forge.de-labrusse.fr/ns8/updates/privatebin/screenshots/screen2.png",
-      "https://forge.de-labrusse.fr/ns8/updates/privatebin/screenshots/screen1.png"
+      "https://forge.de-labrusse.fr/ns8/updates/privatebin/screenshots/screen1.png",
+      "https://forge.de-labrusse.fr/ns8/updates/privatebin/screenshots/screen3.png"
      ],
      "versions": [
       {
@@ -11480,12 +13095,12 @@
      },
      "logo": "https://forge.genius.ke/ns8/updates/pwpush/logo.png",
      "screenshots": [
-      "https://forge.genius.ke/ns8/updates/pwpush/screenshots/screen5.png",
-      "https://forge.genius.ke/ns8/updates/pwpush/screenshots/screen3.png",
       "https://forge.genius.ke/ns8/updates/pwpush/screenshots/screen4.png",
-      "https://forge.genius.ke/ns8/updates/pwpush/screenshots/screen6.png",
       "https://forge.genius.ke/ns8/updates/pwpush/screenshots/screen2.png",
-      "https://forge.genius.ke/ns8/updates/pwpush/screenshots/screen1.png"
+      "https://forge.genius.ke/ns8/updates/pwpush/screenshots/screen5.png",
+      "https://forge.genius.ke/ns8/updates/pwpush/screenshots/screen6.png",
+      "https://forge.genius.ke/ns8/updates/pwpush/screenshots/screen1.png",
+      "https://forge.genius.ke/ns8/updates/pwpush/screenshots/screen3.png"
      ],
      "versions": [
       {
@@ -11511,7 +13126,7 @@
      },
      "source": "ghcr.io/geniusdynamics/passwordpusher",
      "stars": 0,
-     "pushed_at": "2026-11-13T07:06:03Z",
+     "pushed_at": "2026-11-13T10:13:41Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -11566,18 +13181,18 @@
      ],
      "versions": [
       {
-       "tag": "1.2.0",
+       "tag": "1.3.0",
        "testing": false
       }
      ],
-     "stable": "1.2.0",
+     "stable": "1.3.0",
      "testing": null,
-     "min_core": null,
+     "min_core": "3.0.0",
      "tech": {
       "rootfull": false,
       "images": [
-       "postgres:15.5-alpine3.19",
-       "lukevella/rallly:4.5"
+       "postgres:15.20-alpine3.24",
+       "lukevella/rallly:4.17.0"
       ],
       "authorizations": [
        "traefik@node:routeadm"
@@ -11588,7 +13203,7 @@
      },
      "source": "ghcr.io/geniusdynamics/rally",
      "stars": 0,
-     "pushed_at": "2026-11-13T07:06:10Z",
+     "pushed_at": "2026-11-13T10:38:54Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -11598,10 +13213,88 @@
       "description": true,
       "translations": true,
       "docs": true,
-      "min_core": false,
+      "min_core": true,
       "license": true
      },
-     "released_at": "2025-12-14T18:18:05Z"
+     "released_at": "2026-11-13T10:30:06Z"
+    }
+   ]
+  },
+  {
+   "id": "rocketchat",
+   "categories": [
+    "communication"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "rocketchat",
+     "forges": [
+      "geniusdynamics"
+     ],
+     "kind": "community",
+     "developer": "geniusdynamics",
+     "name": "Rocketchat",
+     "description": {
+      "en": "Rocket.Chat, an open source team chat platform with channels, direct messages and video calls, running with its own MongoDB.",
+      "it": "Rocket.Chat è una piattaforma open source di chat per team con canali, messaggi diretti e videochiamate."
+     },
+     "about": null,
+     "authors": [
+      "Genius Dynamics"
+     ],
+     "categories": [
+      "communication"
+     ],
+     "code_url": "https://github.com/geniusdynamics/ns8-rocketchat",
+     "docs": {
+      "documentation_url": "https://docs.rocketchat.com/",
+      "bug_url": "https://github.com/geniusdynamics/ns8-rocketchat/issues",
+      "relnotes_url": "https://github.com/geniusdynamics/ns8-rocketchat/releases"
+     },
+     "logo": "https://forge.genius.ke/ns8/updates/rocketchat/logo.png",
+     "screenshots": [
+      "https://forge.genius.ke/ns8/updates/rocketchat/screenshots/screen1.png"
+     ],
+     "versions": [
+      {
+       "tag": "1.0.0",
+       "testing": false
+      }
+     ],
+     "stable": "1.0.0",
+     "testing": null,
+     "min_core": "3.0.0",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "mongo:8.0.38",
+       "rocketchat/rocket.chat:8.9.1"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm"
+      ],
+      "tcp_ports": 1,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/geniusdynamics/rocketchat",
+     "stars": 0,
+     "pushed_at": "2026-11-13T13:09:01Z",
+     "archived": false,
+     "checks": {
+      "topic": true,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-11-13T11:27:38Z"
     }
    ]
   },
@@ -12033,7 +13726,7 @@
      },
      "source": "ghcr.io/stephdl/sam",
      "stars": 0,
-     "pushed_at": "2026-11-12T23:14:07Z",
+     "pushed_at": "2026-11-13T08:28:51Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -12296,7 +13989,7 @@
   {
    "id": "semaphore",
    "categories": [
-    "collaboration"
+    "monitoring"
    ],
    "official": false,
    "stars": 1,
@@ -12318,7 +14011,7 @@
       "Genius Dynamics"
      ],
      "categories": [
-      "collaboration"
+      "monitoring"
      ],
      "code_url": "https://github.com/geniusdynamics/ns8-semaphoreui",
      "docs": {
@@ -12331,21 +14024,22 @@
      ],
      "versions": [
       {
-       "tag": "1.0.0",
+       "tag": "1.1.0",
        "testing": false
       }
      ],
-     "stable": "1.0.0",
+     "stable": "1.1.0",
      "testing": null,
-     "min_core": null,
+     "min_core": "3.0.0",
      "tech": {
       "rootfull": false,
       "images": [
-       "mariadb:10.11.5",
+       "mariadb:10.11.19",
        "semaphoreui/semaphore:v2.15.0"
       ],
       "authorizations": [
-       "traefik@node:routeadm"
+       "traefik@node:routeadm",
+       "cluster:accountconsumer"
       ],
       "tcp_ports": 1,
       "udp_ports": 0,
@@ -12353,7 +14047,7 @@
      },
      "source": "ghcr.io/geniusdynamics/semaphoreui",
      "stars": 1,
-     "pushed_at": "2026-11-13T05:55:32Z",
+     "pushed_at": "2026-11-13T11:48:46Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -12363,10 +14057,10 @@
       "description": true,
       "translations": true,
       "docs": true,
-      "min_core": false,
+      "min_core": true,
       "license": true
      },
-     "released_at": "2025-07-14T15:58:55Z"
+     "released_at": "2026-11-13T11:48:46Z"
     }
    ]
   },
@@ -12532,6 +14226,86 @@
    ]
   },
   {
+   "id": "solidinvoice",
+   "categories": [
+    "office"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "solidinvoice",
+     "forges": [
+      "geniusdynamics"
+     ],
+     "kind": "community",
+     "developer": "geniusdynamics",
+     "name": "Solidinvoice",
+     "description": {
+      "en": "SolidInvoice is a self-hosted invoicing application to manage clients, quotes, invoices and payments.",
+      "it": "SolidInvoice è un'applicazione di fatturazione self-hosted per gestire clienti, preventivi, fatture e pagamenti."
+     },
+     "about": null,
+     "authors": [
+      "Genius Dynamics"
+     ],
+     "categories": [
+      "office"
+     ],
+     "code_url": "https://github.com/geniusdynamics/ns8-solidinvoice",
+     "docs": {
+      "documentation_url": "https://docs.solidinvoice.com/",
+      "bug_url": "https://github.com/geniusdynamics/ns8-solidinvoice/issues",
+      "relnotes_url": "https://github.com/geniusdynamics/ns8-solidinvoice/releases"
+     },
+     "logo": "https://forge.genius.ke/ns8/updates/solidinvoice/logo.png",
+     "screenshots": [
+      "https://forge.genius.ke/ns8/updates/solidinvoice/screenshots/screen2.png",
+      "https://forge.genius.ke/ns8/updates/solidinvoice/screenshots/screen1.png",
+      "https://forge.genius.ke/ns8/updates/solidinvoice/screenshots/screen3.png"
+     ],
+     "versions": [
+      {
+       "tag": "1.0.1",
+       "testing": false
+      }
+     ],
+     "stable": "1.0.1",
+     "testing": null,
+     "min_core": "3.0.0",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "mariadb:13.0.2",
+       "solidinvoice/solidinvoice:2.2.6"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm"
+      ],
+      "tcp_ports": 1,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/geniusdynamics/solidinvoice",
+     "stars": 0,
+     "pushed_at": "2026-11-13T12:45:26Z",
+     "archived": false,
+     "checks": {
+      "topic": true,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-11-13T12:40:28Z"
+    }
+   ]
+  },
+  {
    "id": "stirlingpdf",
    "categories": [
     "collaboration"
@@ -12565,25 +14339,25 @@
      },
      "logo": "https://forge.genius.ke/ns8/updates/stirlingpdf/logo.png",
      "screenshots": [
-      "https://forge.genius.ke/ns8/updates/stirlingpdf/screenshots/screen5.png",
-      "https://forge.genius.ke/ns8/updates/stirlingpdf/screenshots/screen3.png",
       "https://forge.genius.ke/ns8/updates/stirlingpdf/screenshots/screen4.png",
       "https://forge.genius.ke/ns8/updates/stirlingpdf/screenshots/screen2.png",
-      "https://forge.genius.ke/ns8/updates/stirlingpdf/screenshots/screen1.png"
+      "https://forge.genius.ke/ns8/updates/stirlingpdf/screenshots/screen5.png",
+      "https://forge.genius.ke/ns8/updates/stirlingpdf/screenshots/screen1.png",
+      "https://forge.genius.ke/ns8/updates/stirlingpdf/screenshots/screen3.png"
      ],
      "versions": [
       {
-       "tag": "1.2.0",
+       "tag": "1.3.0",
        "testing": false
       }
      ],
-     "stable": "1.2.0",
+     "stable": "1.3.0",
      "testing": null,
-     "min_core": null,
+     "min_core": "3.0.0",
      "tech": {
       "rootfull": false,
       "images": [
-       "stirlingtools/stirling-pdf:2.1.1"
+       "stirlingtools/stirling-pdf:2.14.3"
       ],
       "authorizations": [
        "traefik@node:routeadm"
@@ -12594,7 +14368,7 @@
      },
      "source": "ghcr.io/geniusdynamics/stirlingpdf",
      "stars": 0,
-     "pushed_at": "2026-11-13T07:26:01Z",
+     "pushed_at": "2026-11-13T14:14:18Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -12604,10 +14378,10 @@
       "description": true,
       "translations": true,
       "docs": true,
-      "min_core": false,
+      "min_core": true,
       "license": true
      },
-     "released_at": "2025-12-09T09:26:32Z"
+     "released_at": "2026-11-13T14:14:18Z"
     }
    ]
   },
@@ -12651,9 +14425,9 @@
      },
      "logo": "https://forge.de-labrusse.fr/ns8/updates/sympa/logo.png",
      "screenshots": [
-      "https://forge.de-labrusse.fr/ns8/updates/sympa/screenshots/screen3.png",
       "https://forge.de-labrusse.fr/ns8/updates/sympa/screenshots/screen2.png",
-      "https://forge.de-labrusse.fr/ns8/updates/sympa/screenshots/screen1.png"
+      "https://forge.de-labrusse.fr/ns8/updates/sympa/screenshots/screen1.png",
+      "https://forge.de-labrusse.fr/ns8/updates/sympa/screenshots/screen3.png"
      ],
      "versions": [
       {
@@ -12796,7 +14570,8 @@
   {
    "id": "termix",
    "categories": [
-    "collaboration"
+    "development",
+    "monitoring"
    ],
    "official": false,
    "stars": 1,
@@ -12818,7 +14593,8 @@
       "Genius Dynamics"
      ],
      "categories": [
-      "collaboration"
+      "development",
+      "monitoring"
      ],
      "code_url": "https://github.com/geniusdynamics/ns8-termix",
      "docs": {
@@ -12827,10 +14603,10 @@
      },
      "logo": "https://forge.genius.ke/ns8/updates/termix/logo.png",
      "screenshots": [
-      "https://forge.genius.ke/ns8/updates/termix/screenshots/Image 2.png",
-      "https://forge.genius.ke/ns8/updates/termix/screenshots/Image 3.png",
+      "https://forge.genius.ke/ns8/updates/termix/screenshots/Image 4.png",
       "https://forge.genius.ke/ns8/updates/termix/screenshots/Image 1.png",
-      "https://forge.genius.ke/ns8/updates/termix/screenshots/Image 4.png"
+      "https://forge.genius.ke/ns8/updates/termix/screenshots/Image 2.png",
+      "https://forge.genius.ke/ns8/updates/termix/screenshots/Image 3.png"
      ],
      "versions": [
       {
@@ -12932,7 +14708,7 @@
      },
      "source": "ghcr.io/platypuschan/traefik-reworked",
      "stars": 0,
-     "pushed_at": "2026-11-12T19:29:37Z",
+     "pushed_at": "2026-11-13T19:28:31Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -13058,23 +14834,23 @@
      },
      "logo": "https://forge.genius.ke/ns8/updates/umami/logo.png",
      "screenshots": [
-      "https://forge.genius.ke/ns8/updates/umami/screenshots/screen3.png",
       "https://forge.genius.ke/ns8/updates/umami/screenshots/screen2.png",
-      "https://forge.genius.ke/ns8/updates/umami/screenshots/screen1.png"
+      "https://forge.genius.ke/ns8/updates/umami/screenshots/screen1.png",
+      "https://forge.genius.ke/ns8/updates/umami/screenshots/screen3.png"
      ],
      "versions": [
       {
-       "tag": "1.0.0",
+       "tag": "1.1.0",
        "testing": false
       }
      ],
-     "stable": "1.0.0",
+     "stable": "1.1.0",
      "testing": null,
-     "min_core": null,
+     "min_core": "3.0.0",
      "tech": {
       "rootfull": false,
       "images": [
-       "postgres:15.5-alpine3.19",
+       "postgres:15.20-alpine3.24",
        "umami-software/umami:postgresql-v2.19.0"
       ],
       "authorizations": [
@@ -13086,7 +14862,7 @@
      },
      "source": "ghcr.io/geniusdynamics/umami",
      "stars": 0,
-     "pushed_at": "2026-11-13T06:41:13Z",
+     "pushed_at": "2026-11-13T11:58:14Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -13096,10 +14872,10 @@
       "description": true,
       "translations": true,
       "docs": true,
-      "min_core": false,
+      "min_core": true,
       "license": true
      },
-     "released_at": "2025-08-25T02:03:19Z"
+     "released_at": "2026-11-13T11:57:55Z"
     }
    ]
   },
@@ -13529,13 +15305,13 @@
      ],
      "versions": [
       {
-       "tag": "2.3.0",
+       "tag": "2.4.0",
        "testing": false
       }
      ],
-     "stable": "2.3.0",
+     "stable": "2.4.0",
      "testing": null,
-     "min_core": null,
+     "min_core": "3.0.0",
      "tech": {
       "rootfull": false,
       "images": [
@@ -13550,7 +15326,7 @@
      },
      "source": "ghcr.io/geniusdynamics/vaultwarden",
      "stars": 0,
-     "pushed_at": "2026-11-13T07:26:38Z",
+     "pushed_at": "2026-11-13T14:37:39Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -13560,10 +15336,10 @@
       "description": true,
       "translations": true,
       "docs": true,
-      "min_core": false,
+      "min_core": true,
       "license": true
      },
-     "released_at": "2026-08-02T06:14:33Z"
+     "released_at": "2026-11-13T14:36:37Z"
     }
    ]
   },
@@ -13685,25 +15461,25 @@
      },
      "logo": "https://forge.genius.ke/ns8/updates/vikunja/logo.png",
      "screenshots": [
-      "https://forge.genius.ke/ns8/updates/vikunja/screenshots/screen3.png",
       "https://forge.genius.ke/ns8/updates/vikunja/screenshots/screen4.png",
       "https://forge.genius.ke/ns8/updates/vikunja/screenshots/screen2.png",
-      "https://forge.genius.ke/ns8/updates/vikunja/screenshots/screen1.png"
+      "https://forge.genius.ke/ns8/updates/vikunja/screenshots/screen1.png",
+      "https://forge.genius.ke/ns8/updates/vikunja/screenshots/screen3.png"
      ],
      "versions": [
       {
-       "tag": "1.0.0",
+       "tag": "1.1.0",
        "testing": false
       }
      ],
-     "stable": "1.0.0",
+     "stable": "1.1.0",
      "testing": null,
-     "min_core": null,
+     "min_core": "3.0.0",
      "tech": {
       "rootfull": false,
       "images": [
-       "postgres:15.5-alpine3.19",
-       "vikunja/vikunja:0.24.6"
+       "postgres:15.20-alpine3.24",
+       "vikunja/vikunja:1.1.0"
       ],
       "authorizations": [
        "traefik@node:routeadm"
@@ -13714,7 +15490,7 @@
      },
      "source": "ghcr.io/geniusdynamics/vikunja",
      "stars": 0,
-     "pushed_at": "2026-11-13T07:03:39Z",
+     "pushed_at": "2026-11-13T14:40:53Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -13724,10 +15500,10 @@
       "description": true,
       "translations": true,
       "docs": true,
-      "min_core": false,
+      "min_core": true,
       "license": true
      },
-     "released_at": "2025-08-25T01:57:50Z"
+     "released_at": "2026-11-13T14:39:17Z"
     }
    ]
   },
@@ -13791,7 +15567,7 @@
      },
      "source": "ghcr.io/geniusdynamics/wallos",
      "stars": 1,
-     "pushed_at": "2026-11-13T07:06:28Z",
+     "pushed_at": "2026-11-13T10:14:07Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -13847,13 +15623,13 @@
      ],
      "versions": [
       {
-       "tag": "1.0.0",
+       "tag": "1.0.1",
        "testing": false
       }
      ],
-     "stable": "1.0.0",
+     "stable": "1.0.1",
      "testing": null,
-     "min_core": null,
+     "min_core": "3.0.0",
      "tech": {
       "rootfull": false,
       "images": [
@@ -13868,7 +15644,7 @@
      },
      "source": "ghcr.io/geniusdynamics/warpgate",
      "stars": 0,
-     "pushed_at": "2026-11-13T07:24:17Z",
+     "pushed_at": "2026-11-13T08:25:17Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -13878,10 +15654,10 @@
       "description": true,
       "translations": true,
       "docs": true,
-      "min_core": false,
+      "min_core": true,
       "license": true
      },
-     "released_at": "2026-11-13T04:19:10Z"
+     "released_at": "2026-11-13T08:03:04Z"
     }
    ]
   },
@@ -13925,9 +15701,9 @@
      },
      "logo": "https://forge.de-labrusse.fr/ns8/updates/wazuh/logo.png",
      "screenshots": [
-      "https://forge.de-labrusse.fr/ns8/updates/wazuh/screenshots/screen3.png",
       "https://forge.de-labrusse.fr/ns8/updates/wazuh/screenshots/screen2.png",
-      "https://forge.de-labrusse.fr/ns8/updates/wazuh/screenshots/screen1.png"
+      "https://forge.de-labrusse.fr/ns8/updates/wazuh/screenshots/screen1.png",
+      "https://forge.de-labrusse.fr/ns8/updates/wazuh/screenshots/screen3.png"
      ],
      "versions": [
       {
@@ -14200,6 +15976,84 @@
    ]
   },
   {
+   "id": "wekan",
+   "categories": [
+    "collaboration"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "wekan",
+     "forges": [
+      "geniusdynamics"
+     ],
+     "kind": "community",
+     "developer": "geniusdynamics",
+     "name": "WeKan",
+     "description": {
+      "en": "Experience efficient task management with WeKan - the Open-Source, customizable, and privacy-focused kanban.",
+      "it": "WeKan è una lavagna kanban open source, personalizzabile e attenta alla privacy."
+     },
+     "about": null,
+     "authors": [
+      "Genius Dynamics"
+     ],
+     "categories": [
+      "collaboration"
+     ],
+     "code_url": "https://github.com/geniusdynamics/ns8-wekan",
+     "docs": {
+      "documentation_url": "https://wekan.github.io/",
+      "bug_url": "https://github.com/geniusdynamics/ns8-wekan/issues",
+      "relnotes_url": "https://github.com/geniusdynamics/ns8-wekan/releases"
+     },
+     "logo": "https://forge.genius.ke/ns8/updates/wekan/logo.png",
+     "screenshots": [
+      "https://forge.genius.ke/ns8/updates/wekan/screenshots/screen1.png"
+     ],
+     "versions": [
+      {
+       "tag": "1.0.0",
+       "testing": false
+      }
+     ],
+     "stable": "1.0.0",
+     "testing": null,
+     "min_core": "3.0.0",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "mongo:9.0.8",
+       "wekan/wekan:v13.09"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm"
+      ],
+      "tcp_ports": 1,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/geniusdynamics/wekan",
+     "stars": 0,
+     "pushed_at": "2026-11-13T18:19:55Z",
+     "archived": false,
+     "checks": {
+      "topic": true,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-11-13T18:19:35Z"
+    }
+   ]
+  },
+  {
    "id": "wesnoth",
    "categories": [
     "multimedia"
@@ -14462,9 +16316,9 @@
      },
      "logo": "https://forge.genius.ke/ns8/updates/windmill/logo.png",
      "screenshots": [
-      "https://forge.genius.ke/ns8/updates/windmill/screenshots/screen3.png",
       "https://forge.genius.ke/ns8/updates/windmill/screenshots/screen2.png",
-      "https://forge.genius.ke/ns8/updates/windmill/screenshots/screen1.png"
+      "https://forge.genius.ke/ns8/updates/windmill/screenshots/screen1.png",
+      "https://forge.genius.ke/ns8/updates/windmill/screenshots/screen3.png"
      ],
      "versions": [
       {
@@ -14492,7 +16346,7 @@
      },
      "source": "ghcr.io/geniusdynamics/windmill",
      "stars": 0,
-     "pushed_at": "2026-11-13T04:58:32Z",
+     "pushed_at": "2026-11-13T14:45:53Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -14582,6 +16436,87 @@
       "license": true
      },
      "released_at": "2026-10-22T10:37:17Z"
+    }
+   ]
+  },
+  {
+   "id": "xibosignage",
+   "categories": [
+    "multimedia"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "xibosignage",
+     "forges": [
+      "geniusdynamics"
+     ],
+     "kind": "community",
+     "developer": "geniusdynamics",
+     "name": "Xibo",
+     "description": {
+      "en": "Xibo is an open source digital signage platform to schedule and publish content to screens from a web CMS.",
+      "it": "Xibo è una piattaforma open source di digital signage per pianificare e pubblicare contenuti sugli schermi da un CMS web."
+     },
+     "about": null,
+     "authors": [
+      "Genius Dynamics"
+     ],
+     "categories": [
+      "multimedia"
+     ],
+     "code_url": "https://github.com/geniusdynamics/ns8-xibosignage",
+     "docs": {
+      "documentation_url": "https://docs.xibosignage.com/",
+      "bug_url": "https://github.com/geniusdynamics/ns8-xibosignage/issues",
+      "relnotes_url": "https://github.com/geniusdynamics/ns8-xibosignage/releases"
+     },
+     "logo": "https://forge.genius.ke/ns8/updates/xibosignage/logo.png",
+     "screenshots": [
+      "https://forge.genius.ke/ns8/updates/xibosignage/screenshots/screen1.png"
+     ],
+     "versions": [
+      {
+       "tag": "1.0.0",
+       "testing": false
+      }
+     ],
+     "stable": "1.0.0",
+     "testing": null,
+     "min_core": "3.0.0",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "mysql:8.4.9",
+       "xibosignage/xibo-xmr:1.5",
+       "xibosignage/xibo-cms:release-4.0.13",
+       "memcached:1.6.45-alpine",
+       "ianw/quickchart:v1.8.1"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm"
+      ],
+      "tcp_ports": 1,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/geniusdynamics/xibosignage",
+     "stars": 0,
+     "pushed_at": "2026-11-13T18:18:31Z",
+     "archived": false,
+     "checks": {
+      "topic": true,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-11-13T18:18:13Z"
     }
    ]
   },
@@ -14905,18 +16840,18 @@
      ],
      "versions": [
       {
-       "tag": "1.0.1",
+       "tag": "2.0.0",
        "testing": false
       }
      ],
-     "stable": "1.0.1",
+     "stable": "2.0.0",
      "testing": null,
-     "min_core": null,
+     "min_core": "3.0.0",
      "tech": {
       "rootfull": false,
       "images": [
-       "postgres:17",
-       "zitadel/zitadel:v4.10.1"
+       "postgres:17.12",
+       "zitadel/zitadel:v4.20.1"
       ],
       "authorizations": [
        "traefik@node:routeadm"
@@ -14927,7 +16862,7 @@
      },
      "source": "ghcr.io/geniusdynamics/zitadel",
      "stars": 1,
-     "pushed_at": "2026-11-13T07:06:34Z",
+     "pushed_at": "2026-11-13T10:48:09Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -14937,10 +16872,89 @@
       "description": true,
       "translations": true,
       "docs": true,
-      "min_core": false,
+      "min_core": true,
       "license": true
      },
-     "released_at": "2026-02-15T06:30:50Z"
+     "released_at": "2026-11-13T10:33:56Z"
+    }
+   ]
+  },
+  {
+   "id": "zusam",
+   "categories": [
+    "collaboration",
+    "communication"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "zusam",
+     "forges": [
+      "geniusdynamics"
+     ],
+     "kind": "community",
+     "developer": "geniusdynamics",
+     "name": "Zusam",
+     "description": {
+      "en": "Zusam (/tsuˈzam/) is a free and open-source way to self-host private forums for groups of friends. Composed of a server written in PHP exposing a REST API and a lightweight webapp, Zusam is extensible and easy to install.",
+      "it": "Zusam è un modo gratuito e open source per ospitare forum privati per gruppi di amici."
+     },
+     "about": null,
+     "authors": [
+      "Genius Dynamics"
+     ],
+     "categories": [
+      "collaboration",
+      "communication"
+     ],
+     "code_url": "https://github.com/geniusdynamics/ns8-zusam",
+     "docs": {
+      "documentation_url": "https://github.com/zusam/zusam/tree/master/documentation",
+      "bug_url": "https://github.com/geniusdynamics/ns8-zusam/issues",
+      "relnotes_url": "https://github.com/geniusdynamics/ns8-zusam/releases"
+     },
+     "logo": "https://forge.genius.ke/ns8/updates/zusam/logo.png",
+     "screenshots": [
+      "https://forge.genius.ke/ns8/updates/zusam/screenshots/screen1.png"
+     ],
+     "versions": [
+      {
+       "tag": "1.0.0",
+       "testing": false
+      }
+     ],
+     "stable": "1.0.0",
+     "testing": null,
+     "min_core": "3.0.0",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "zusam/zusam:0.6.1"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm"
+      ],
+      "tcp_ports": 1,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/geniusdynamics/zusam",
+     "stars": 0,
+     "pushed_at": "2026-11-13T14:50:11Z",
+     "archived": false,
+     "checks": {
+      "topic": true,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-11-13T14:48:24Z"
     }
    ]
   }
