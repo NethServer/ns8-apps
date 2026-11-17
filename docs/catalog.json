@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T08:45:37+00:00",
+ "generated_at": "2026-11-17T21:30:49+00:00",
  "forges": [
   {
    "id": "nethserver",
@@ -77,7 +77,7 @@
    "alt_url": "https://raw.githubusercontent.com/geniusdynamics/ns8-genforge/repomd/ns8/updates/",
    "kind": "community",
    "repo": "geniusdynamics/ns8-genforge",
-   "app_count": 89,
+   "app_count": 92,
    "homepage": "https://forge.genius.ke/"
   },
   {
@@ -527,7 +527,7 @@
      },
      "source": "ghcr.io/platypuschan/adguard-home",
      "stars": 0,
-     "pushed_at": "2026-11-17T08:02:36Z",
+     "pushed_at": "2026-11-17T16:19:52Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -816,11 +816,11 @@
      "screenshots": [],
      "versions": [
       {
-       "tag": "1.3.0",
+       "tag": "1.3.1",
        "testing": false
       }
      ],
-     "stable": "1.3.0",
+     "stable": "1.3.1",
      "testing": null,
      "min_core": null,
      "tech": {
@@ -850,7 +850,7 @@
      },
      "source": "ghcr.io/tebbiworld/arsnova",
      "stars": 0,
-     "pushed_at": "2026-11-17T08:36:12Z",
+     "pushed_at": "2026-11-17T10:35:56Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -863,7 +863,7 @@
       "min_core": false,
       "license": true
      },
-     "released_at": "2026-10-29T17:27:54Z"
+     "released_at": "2026-11-17T10:39:13Z"
     }
    ]
   },
@@ -1171,7 +1171,7 @@
      },
      "source": "ghcr.io/stephdl/bigbluebutton",
      "stars": 0,
-     "pushed_at": "2026-11-17T05:36:46Z",
+     "pushed_at": "2026-11-17T14:35:23Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -1381,8 +1381,8 @@
      },
      "logo": "https://francio87.github.io/ns8-repomd/borgbackupserver/logo.png",
      "screenshots": [
-      "https://francio87.github.io/ns8-repomd/borgbackupserver/screenshots/bbs-architecture.png",
-      "https://francio87.github.io/ns8-repomd/borgbackupserver/screenshots/bbs-gui.png"
+      "https://francio87.github.io/ns8-repomd/borgbackupserver/screenshots/bbs-gui.png",
+      "https://francio87.github.io/ns8-repomd/borgbackupserver/screenshots/bbs-architecture.png"
      ],
      "versions": [
       {
@@ -1761,6 +1761,171 @@
    ]
   },
   {
+   "id": "carbonio",
+   "categories": [
+    "collaboration",
+    "communication"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "carbonio",
+     "forges": [
+      "geniusdynamics"
+     ],
+     "kind": "community",
+     "developer": "geniusdynamics",
+     "name": "Carbonio CE",
+     "description": {
+      "en": "Mail and collaboration server: webmail, calendars, contacts, IMAP, POP3 and SMTP. Single server or multi-server. Unofficial, not endorsed by Zextras.",
+      "it": "Server di posta e collaborazione con webmail, calendari, contatti, IMAP, POP3 e SMTP. Installazione singola o multi-server. Modulo non ufficiale, non approvato da Zextras."
+     },
+     "about": null,
+     "authors": [
+      "Genius Dynamics"
+     ],
+     "categories": [
+      "collaboration",
+      "communication"
+     ],
+     "code_url": "https://github.com/geniusdynamics/ns8-carbonio",
+     "docs": {
+      "documentation_url": "https://github.com/geniusdynamics/ns8-carbonio#readme",
+      "bug_url": "https://github.com/geniusdynamics/ns8-carbonio/issues",
+      "relnotes_url": "https://github.com/geniusdynamics/ns8-carbonio/releases"
+     },
+     "logo": "https://forge.genius.ke/ns8/updates/carbonio/logo.png",
+     "screenshots": [
+      "https://forge.genius.ke/ns8/updates/carbonio/screenshots/02-conversations.png",
+      "https://forge.genius.ke/ns8/updates/carbonio/screenshots/01-webmail.png"
+     ],
+     "versions": [
+      {
+       "tag": "1.0.0",
+       "testing": false
+      }
+     ],
+     "stable": "1.0.0",
+     "testing": null,
+     "min_core": "3.20.1",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "geniusdynamics/carbonio-server:1.0.0"
+      ],
+      "authorizations": [
+       "traefik@node:fulladm",
+       "node:fwadm",
+       "carbonio@any:carbonio-peer"
+      ],
+      "tcp_ports": 2,
+      "udp_ports": 0,
+      "volumes": [
+       "carbonio-store",
+       "carbonio-index"
+      ]
+     },
+     "source": "ghcr.io/geniusdynamics/carbonio",
+     "stars": 0,
+     "pushed_at": "2026-11-17T17:07:53Z",
+     "archived": false,
+     "checks": {
+      "topic": true,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-11-17T17:07:36Z"
+    }
+   ]
+  },
+  {
+   "id": "carbonio-proxy",
+   "categories": [
+    "communication"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "carbonio-proxy",
+     "forges": [
+      "geniusdynamics"
+     ],
+     "kind": "community",
+     "developer": "geniusdynamics",
+     "name": "Carbonio CE edge proxy",
+     "description": {
+      "en": "Extra entry point of a multi-server Carbonio CE installation: webmail, IMAP and POP3 routed to every mailbox server. Needs a Carbonio CE main server. Unofficial, not endorsed by Zextras.",
+      "it": "Punto di accesso aggiuntivo per installazioni Carbonio CE multi-server: instrada webmail, IMAP e POP3 ai server delle caselle di posta. Richiede un server Carbonio CE principale. Modulo non ufficiale, non approvato da Zextras."
+     },
+     "about": null,
+     "authors": [
+      "Genius Dynamics"
+     ],
+     "categories": [
+      "communication"
+     ],
+     "code_url": "https://github.com/geniusdynamics/ns8-carbonio-proxy",
+     "docs": {
+      "documentation_url": "https://github.com/geniusdynamics/ns8-carbonio-proxy#readme",
+      "bug_url": "https://github.com/geniusdynamics/ns8-carbonio-proxy/issues",
+      "relnotes_url": "https://github.com/geniusdynamics/ns8-carbonio-proxy/releases"
+     },
+     "logo": "https://forge.genius.ke/ns8/updates/carbonio-proxy/logo.png",
+     "screenshots": [
+      "https://forge.genius.ke/ns8/updates/carbonio-proxy/screenshots/02-conversations.png",
+      "https://forge.genius.ke/ns8/updates/carbonio-proxy/screenshots/01-webmail.png"
+     ],
+     "versions": [
+      {
+       "tag": "1.0.0",
+       "testing": false
+      }
+     ],
+     "stable": "1.0.0",
+     "testing": null,
+     "min_core": "3.20.1",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "geniusdynamics/carbonio-proxy-server:1.0.0"
+      ],
+      "authorizations": [
+       "traefik@node:fulladm",
+       "node:fwadm",
+       "carbonio@any:carbonio-peer"
+      ],
+      "tcp_ports": 2,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/geniusdynamics/carbonio-proxy",
+     "stars": 0,
+     "pushed_at": "2026-11-17T16:51:35Z",
+     "archived": false,
+     "checks": {
+      "topic": true,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-11-17T16:51:16Z"
+    }
+   ]
+  },
+  {
    "id": "checkcle",
    "categories": [
     "monitoring"
@@ -1901,7 +2066,7 @@
      },
      "source": "ghcr.io/mrmarkuz/checkmk",
      "stars": 0,
-     "pushed_at": "2026-11-17T08:03:22Z",
+     "pushed_at": "2026-11-17T11:53:02Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -2372,7 +2537,7 @@
      },
      "source": "ghcr.io/nethserver/collabora",
      "stars": 0,
-     "pushed_at": "2026-11-17T03:35:55Z",
+     "pushed_at": "2026-11-17T11:10:22Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -2587,12 +2752,16 @@
      ],
      "versions": [
       {
+       "tag": "1.5.0-dev.1",
+       "testing": true
+      },
+      {
        "tag": "1.4.3",
        "testing": false
       }
      ],
      "stable": "1.4.3",
-     "testing": null,
+     "testing": "1.5.0-dev.1",
      "min_core": "3.20.1",
      "tech": {
       "rootfull": true,
@@ -2607,7 +2776,7 @@
      },
      "source": "ghcr.io/nethserver/crowdsec",
      "stars": 1,
-     "pushed_at": "2026-11-17T08:32:52Z",
+     "pushed_at": "2026-11-17T13:27:47Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -2966,7 +3135,7 @@
      },
      "source": "ghcr.io/nethserver/dependencytrack",
      "stars": 0,
-     "pushed_at": "2026-11-17T03:34:19Z",
+     "pushed_at": "2026-11-17T11:11:36Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -3149,7 +3318,7 @@
      },
      "source": "ghcr.io/danb35/dnshelper",
      "stars": 0,
-     "pushed_at": "2026-11-16T23:03:06Z",
+     "pushed_at": "2026-11-17T12:14:23Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -3620,7 +3789,7 @@
      },
      "source": "ghcr.io/nethserver/dokuwiki",
      "stars": 0,
-     "pushed_at": "2026-11-17T03:40:52Z",
+     "pushed_at": "2026-11-17T11:08:30Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -3951,7 +4120,7 @@
      },
      "source": "ghcr.io/nethserver/ejabberd",
      "stars": 1,
-     "pushed_at": "2026-11-17T03:43:46Z",
+     "pushed_at": "2026-11-17T11:08:45Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -5639,7 +5808,7 @@
      },
      "source": "ghcr.io/nethserver/grafana",
      "stars": 0,
-     "pushed_at": "2026-11-17T06:22:16Z",
+     "pushed_at": "2026-11-17T19:44:35Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -5936,12 +6105,16 @@
      ],
      "versions": [
       {
+       "tag": "1.1.3-dev.1",
+       "testing": true
+      },
+      {
        "tag": "1.1.2",
        "testing": false
       }
      ],
      "stable": "1.1.2",
-     "testing": null,
+     "testing": "1.1.3-dev.1",
      "min_core": "3.12.4-0",
      "tech": {
       "rootfull": false,
@@ -5958,7 +6131,7 @@
      },
      "source": "ghcr.io/mrmarkuz/headscale",
      "stars": 0,
-     "pushed_at": "2026-11-16T10:09:23Z",
+     "pushed_at": "2026-11-17T20:32:55Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -6169,6 +6342,10 @@
      ],
      "versions": [
       {
+       "tag": "1.0.2",
+       "testing": false
+      },
+      {
        "tag": "1.0.1",
        "testing": false
       },
@@ -6181,7 +6358,7 @@
        "testing": true
       }
      ],
-     "stable": "1.0.1",
+     "stable": "1.0.2",
      "testing": null,
      "min_core": null,
      "tech": {
@@ -6198,7 +6375,7 @@
      },
      "source": "ghcr.io/dz00te/homepage",
      "stars": 0,
-     "pushed_at": "2026-11-17T07:31:17Z",
+     "pushed_at": "2026-11-17T18:57:05Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -6211,7 +6388,7 @@
       "min_core": false,
       "license": true
      },
-     "released_at": "2026-11-16T21:32:46Z"
+     "released_at": "2026-11-17T18:57:05Z"
     }
    ]
   },
@@ -6517,7 +6694,7 @@
      },
      "source": "ghcr.io/nethserver/imapsync",
      "stars": 0,
-     "pushed_at": "2026-11-17T03:38:14Z",
+     "pushed_at": "2026-11-17T11:07:28Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -6575,19 +6752,19 @@
      ],
      "versions": [
       {
-       "tag": "1.2.6",
+       "tag": "1.2.7",
        "testing": false
       }
      ],
-     "stable": "1.2.6",
+     "stable": "1.2.7",
      "testing": null,
      "min_core": "3.12.4-0",
      "tech": {
       "rootfull": false,
       "images": [
        "immich-app/postgres:14-vectorchord0.4.3-pgvectors0.2.0",
-       "immich-app/immich-server:v3.3.5",
-       "immich-app/immich-machine-learning:v3.3.5",
+       "immich-app/immich-server:v3.4.1",
+       "immich-app/immich-machine-learning:v3.4.1",
        "valkey/valkey:9"
       ],
       "authorizations": [
@@ -6601,7 +6778,7 @@
      },
      "source": "ghcr.io/mrmarkuz/immich",
      "stars": 1,
-     "pushed_at": "2026-11-16T23:30:12Z",
+     "pushed_at": "2026-11-17T18:47:23Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -6614,7 +6791,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-10-28T21:14:12Z"
+     "released_at": "2026-11-17T18:47:23Z"
     }
    ]
   },
@@ -7553,7 +7730,7 @@
      },
      "source": "ghcr.io/mrmarkuz/uptime-kuma",
      "stars": 0,
-     "pushed_at": "2026-11-17T05:03:48Z",
+     "pushed_at": "2026-11-17T12:51:29Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -7644,7 +7821,7 @@
      },
      "source": "ghcr.io/stephdl/kuma",
      "stars": 0,
-     "pushed_at": "2026-11-17T08:44:42Z",
+     "pushed_at": "2026-11-17T21:07:44Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -7720,7 +7897,7 @@
      },
      "source": "ghcr.io/geniusdynamics/kumomta",
      "stars": 0,
-     "pushed_at": "2026-11-17T07:06:15Z",
+     "pushed_at": "2026-11-17T21:09:43Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -7876,7 +8053,7 @@
      },
      "source": "ghcr.io/stephdl/lam",
      "stars": 0,
-     "pushed_at": "2026-11-17T02:22:57Z",
+     "pushed_at": "2026-11-17T09:57:59Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -7953,7 +8130,7 @@
      },
      "source": "ghcr.io/nethserver/lamp",
      "stars": 0,
-     "pushed_at": "2026-11-17T03:43:54Z",
+     "pushed_at": "2026-11-17T11:12:30Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -8326,7 +8503,7 @@
      },
      "source": "ghcr.io/stephdl/lemp",
      "stars": 0,
-     "pushed_at": "2026-11-17T02:07:40Z",
+     "pushed_at": "2026-11-17T10:54:50Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -8721,7 +8898,7 @@
      },
      "source": "ghcr.io/nethserver/mail",
      "stars": 3,
-     "pushed_at": "2026-11-17T03:49:06Z",
+     "pushed_at": "2026-11-17T11:34:37Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -8892,7 +9069,7 @@
      },
      "source": "ghcr.io/nethserver/mariadb",
      "stars": 0,
-     "pushed_at": "2026-11-17T03:39:40Z",
+     "pushed_at": "2026-11-17T11:10:20Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -9051,7 +9228,7 @@
      },
      "source": "ghcr.io/nethserver/matrix",
      "stars": 3,
-     "pushed_at": "2026-11-17T08:25:32Z",
+     "pushed_at": "2026-11-17T15:28:04Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -9137,7 +9314,7 @@
      },
      "source": "ghcr.io/nethserver/mattermost",
      "stars": 0,
-     "pushed_at": "2026-11-17T06:20:49Z",
+     "pushed_at": "2026-11-17T19:40:08Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -9920,7 +10097,7 @@
      },
      "source": "ghcr.io/nethserver/n8n",
      "stars": 0,
-     "pushed_at": "2026-11-16T21:43:58Z",
+     "pushed_at": "2026-11-17T19:53:26Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -10289,7 +10466,7 @@
      },
      "source": "ghcr.io/nethserver/netdata",
      "stars": 0,
-     "pushed_at": "2026-11-17T03:34:37Z",
+     "pushed_at": "2026-11-17T11:11:25Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -10340,11 +10517,11 @@
      },
      "logo": "https://distfeed.nethserver.org/ns8/updates/nethsecurity-controller/logo.png",
      "screenshots": [
-      "https://distfeed.nethserver.org/ns8/updates/nethsecurity-controller/screenshots/screen5.png",
       "https://distfeed.nethserver.org/ns8/updates/nethsecurity-controller/screenshots/screen4.png",
       "https://distfeed.nethserver.org/ns8/updates/nethsecurity-controller/screenshots/screen2.png",
+      "https://distfeed.nethserver.org/ns8/updates/nethsecurity-controller/screenshots/screen3.png",
       "https://distfeed.nethserver.org/ns8/updates/nethsecurity-controller/screenshots/screen1.png",
-      "https://distfeed.nethserver.org/ns8/updates/nethsecurity-controller/screenshots/screen3.png"
+      "https://distfeed.nethserver.org/ns8/updates/nethsecurity-controller/screenshots/screen5.png"
      ],
      "versions": [
       {
@@ -10378,7 +10555,7 @@
      },
      "source": "ghcr.io/nethserver/nethsecurity-controller",
      "stars": 1,
-     "pushed_at": "2026-11-16T21:30:24Z",
+     "pushed_at": "2026-11-17T19:55:36Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -10431,36 +10608,32 @@
      "screenshots": [],
      "versions": [
       {
-       "tag": "1.8.4-testing.4",
-       "testing": true
-      },
-      {
-       "tag": "1.8.3",
+       "tag": "1.8.4",
        "testing": false
       }
      ],
-     "stable": "1.8.3",
-     "testing": "1.8.4-testing.4",
+     "stable": "1.8.4",
+     "testing": null,
      "min_core": "3.24.0",
      "tech": {
       "rootfull": false,
       "images": [
-       "nethesis/nethvoice-mariadb:1.8.3",
-       "nethesis/nethvoice-freepbx:1.8.3",
-       "nethesis/nethvoice-cti-server:1.8.3",
-       "nethesis/nethvoice-cti-middleware:1.8.3",
-       "nethesis/nethvoice-cti-ui:1.8.3",
-       "nethesis/nethvoice-tancredi:1.8.3",
-       "nethesis/nethvoice-janus:1.8.3",
-       "nethesis/nethvoice-phonebook:1.8.3",
+       "nethesis/nethvoice-mariadb:1.8.4",
+       "nethesis/nethvoice-freepbx:1.8.4",
+       "nethesis/nethvoice-cti-server:1.8.4",
+       "nethesis/nethvoice-cti-middleware:1.8.4",
+       "nethesis/nethvoice-cti-ui:1.8.4",
+       "nethesis/nethvoice-tancredi:1.8.4",
+       "nethesis/nethvoice-janus:1.8.4",
+       "nethesis/nethvoice-phonebook:1.8.4",
        "redis:7.0.10-alpine",
-       "nethesis/nethvoice-reports-ui:1.8.3",
-       "nethesis/nethvoice-reports-api:1.8.3",
-       "nethesis/nethvoice-sftp:1.8.3",
+       "nethesis/nethvoice-reports-ui:1.8.4",
+       "nethesis/nethvoice-reports-api:1.8.4",
+       "nethesis/nethvoice-sftp:1.8.4",
        "eclipse-mosquitto:2",
-       "nethesis/nethvoice-satellite:1.8.3",
+       "nethesis/nethvoice-satellite:1.8.4",
        "pgvector/pgvector:0.8.1-pg18-trixie",
-       "nethesis/nethvoice-ejabberd:1.8.3"
+       "nethesis/nethvoice-ejabberd:1.8.4"
       ],
       "authorizations": [
        "traefik@any:fulladm",
@@ -10476,7 +10649,7 @@
      },
      "source": "ghcr.io/nethesis/nethvoice",
      "stars": 9,
-     "pushed_at": "2026-11-17T08:34:55Z",
+     "pushed_at": "2026-11-17T15:54:24Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -10489,7 +10662,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-11-13T16:13:53Z"
+     "released_at": "2026-11-17T14:29:00Z"
     }
    ]
   },
@@ -10530,7 +10703,7 @@
      "screenshots": [],
      "versions": [
       {
-       "tag": "1.8.1-testing.1",
+       "tag": "1.8.1-testing.3",
        "testing": true
       },
       {
@@ -10539,7 +10712,7 @@
       }
      ],
      "stable": "1.8.0",
-     "testing": "1.8.1-testing.1",
+     "testing": "1.8.1-testing.3",
      "min_core": "3.24.0",
      "tech": {
       "rootfull": false,
@@ -10559,7 +10732,7 @@
      },
      "source": "ghcr.io/nethesis/nethvoice-proxy",
      "stars": 4,
-     "pushed_at": "2026-11-12T10:07:36Z",
+     "pushed_at": "2026-11-17T21:24:58Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -10611,8 +10784,8 @@
      "logo": "https://distfeed.nethserver.org/ns8/updates/nextcloud/logo.png",
      "screenshots": [
       "https://distfeed.nethserver.org/ns8/updates/nextcloud/screenshots/screen2.png",
-      "https://distfeed.nethserver.org/ns8/updates/nextcloud/screenshots/screen1.png",
-      "https://distfeed.nethserver.org/ns8/updates/nextcloud/screenshots/screen3.png"
+      "https://distfeed.nethserver.org/ns8/updates/nextcloud/screenshots/screen3.png",
+      "https://distfeed.nethserver.org/ns8/updates/nextcloud/screenshots/screen1.png"
      ],
      "versions": [
       {
@@ -10664,7 +10837,7 @@
      },
      "source": "ghcr.io/nethserver/nextcloud",
      "stars": 1,
-     "pushed_at": "2026-11-17T03:41:12Z",
+     "pushed_at": "2026-11-17T11:10:19Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -11057,7 +11230,7 @@
      },
      "source": "ghcr.io/platypuschan/obsidian-livesync",
      "stars": 0,
-     "pushed_at": "2026-11-17T06:58:10Z",
+     "pushed_at": "2026-11-17T15:06:41Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -11380,7 +11553,7 @@
      },
      "source": "ghcr.io/mrmarkuz/opencloud",
      "stars": 0,
-     "pushed_at": "2026-11-17T02:05:00Z",
+     "pushed_at": "2026-11-17T08:52:18Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -11697,7 +11870,7 @@
      },
      "source": "ghcr.io/mrmarkuz/openvpn",
      "stars": 0,
-     "pushed_at": "2026-11-17T03:59:52Z",
+     "pushed_at": "2026-11-17T08:53:40Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -12075,11 +12248,11 @@
      ],
      "versions": [
       {
-       "tag": "1.4.0",
+       "tag": "2.0.0",
        "testing": false
       }
      ],
-     "stable": "1.4.0",
+     "stable": "2.0.0",
      "testing": null,
      "min_core": "3.0.0",
      "tech": {
@@ -12087,7 +12260,7 @@
       "images": [
        "redis:7.2.16-bookworm",
        "postgres:15.20-bookworm",
-       "paperlessngx/paperless-ngx:2.20.15",
+       "paperlessngx/paperless-ngx:3.5.0",
        "apache/tika:3.3.3.0-full",
        "gotenberg/gotenberg:8.40.0"
       ],
@@ -12113,7 +12286,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-11-17T07:32:01Z"
+     "released_at": "2026-11-17T08:23:14Z"
     }
    ]
   },
@@ -12267,7 +12440,7 @@
      },
      "source": "ghcr.io/nethserver/passbolt",
      "stars": 0,
-     "pushed_at": "2026-11-17T03:40:33Z",
+     "pushed_at": "2026-11-17T11:11:40Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -13214,7 +13387,7 @@
      },
      "source": "ghcr.io/nethserver/postgresql",
      "stars": 0,
-     "pushed_at": "2026-11-17T03:38:53Z",
+     "pushed_at": "2026-11-17T11:08:52Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -13574,7 +13747,7 @@
      },
      "source": "ghcr.io/nethserver/prometheus",
      "stars": 0,
-     "pushed_at": "2026-11-17T06:20:29Z",
+     "pushed_at": "2026-11-17T19:44:30Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -14051,7 +14224,7 @@
      },
      "source": "ghcr.io/nethserver/roundcubemail",
      "stars": 1,
-     "pushed_at": "2026-11-17T03:40:55Z",
+     "pushed_at": "2026-11-17T11:08:47Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -14211,7 +14384,7 @@
      },
      "source": "ghcr.io/nethserver/rustfs",
      "stars": 0,
-     "pushed_at": "2026-11-17T03:34:52Z",
+     "pushed_at": "2026-11-17T11:07:59Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -14417,7 +14590,7 @@
      },
      "source": "ghcr.io/stephdl/sam",
      "stars": 0,
-     "pushed_at": "2026-11-17T08:02:19Z",
+     "pushed_at": "2026-11-17T18:48:55Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -14501,7 +14674,7 @@
      },
      "source": "ghcr.io/nethserver/samba",
      "stars": 0,
-     "pushed_at": "2026-11-17T06:12:03Z",
+     "pushed_at": "2026-11-17T19:53:47Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -14977,7 +15150,7 @@
      },
      "source": "ghcr.io/nethserver/sogo",
      "stars": 0,
-     "pushed_at": "2026-11-17T04:53:32Z",
+     "pushed_at": "2026-11-17T19:44:13Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -15319,7 +15492,7 @@
      },
      "source": "ghcr.io/stephdl/sympa",
      "stars": 0,
-     "pushed_at": "2026-11-17T02:28:44Z",
+     "pushed_at": "2026-11-17T10:56:07Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -16121,6 +16294,83 @@
    ]
   },
   {
+   "id": "valkey",
+   "categories": [
+    "database",
+    "development"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "valkey",
+     "forges": [
+      "geniusdynamics"
+     ],
+     "kind": "community",
+     "developer": "geniusdynamics",
+     "name": "Valkey",
+     "description": {
+      "en": "Valkey key-value store for other modules, standalone or as a highly available Valkey Cluster across nodes",
+      "it": "Archivio chiave-valore Valkey per gli altri moduli NethServer 8, disponibile come server autonomo o come cluster ad alta disponibilità distribuito su più nodi."
+     },
+     "about": null,
+     "authors": [
+      "Genius Dynamics"
+     ],
+     "categories": [
+      "database",
+      "development"
+     ],
+     "code_url": "https://github.com/geniusdynamics/ns8-valkey",
+     "docs": {
+      "documentation_url": "https://github.com/geniusdynamics/ns8-valkey#readme",
+      "bug_url": "https://github.com/geniusdynamics/ns8-valkey/issues",
+      "relnotes_url": "https://github.com/geniusdynamics/ns8-valkey/releases"
+     },
+     "logo": "https://forge.genius.ke/ns8/updates/valkey/logo.png",
+     "screenshots": [],
+     "versions": [
+      {
+       "tag": "1.1.0",
+       "testing": false
+      }
+     ],
+     "stable": "1.1.0",
+     "testing": null,
+     "min_core": "3.13.0",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "valkey/valkey:9.1.3-alpine"
+      ],
+      "authorizations": [
+       "valkey@any:valkeypeer"
+      ],
+      "tcp_ports": 4,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/geniusdynamics/valkey",
+     "stars": 0,
+     "pushed_at": "2026-11-17T17:25:33Z",
+     "archived": false,
+     "checks": {
+      "topic": true,
+      "categories": true,
+      "logo": true,
+      "screenshots": false,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-11-17T17:25:09Z"
+    }
+   ]
+  },
+  {
    "id": "vaultwarden",
    "categories": [
     "collaboration",
@@ -16804,7 +17054,7 @@
      },
      "source": "ghcr.io/nethserver/webserver",
      "stars": 0,
-     "pushed_at": "2026-11-16T15:01:20Z",
+     "pushed_at": "2026-11-17T11:32:27Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -16890,7 +17140,7 @@
      },
      "source": "ghcr.io/nethserver/webtop",
      "stars": 0,
-     "pushed_at": "2026-11-16T21:34:30Z",
+     "pushed_at": "2026-11-17T10:12:08Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -17355,7 +17605,7 @@
      },
      "source": "ghcr.io/nethserver/wordpress",
      "stars": 0,
-     "pushed_at": "2026-11-17T03:35:23Z",
+     "pushed_at": "2026-11-17T11:27:12Z",
      "archived": false,
      "checks": {
       "topic": false,
