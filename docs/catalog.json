@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T07:59:44+00:00",
+ "generated_at": "2026-11-20T20:54:39+00:00",
  "forges": [
   {
    "id": "nethserver",
@@ -27,7 +27,7 @@
    "alt_url": null,
    "kind": "community",
    "repo": "BLS-ISP/ns8-nethforge",
-   "app_count": 2,
+   "app_count": 4,
    "homepage": "https://github.com/BLS-ISP/ns8-nethforge"
   },
   {
@@ -57,7 +57,7 @@
    "alt_url": "https://raw.githubusercontent.com/stephdl/ns8-stephdl/repomd/ns8/updates/",
    "kind": "community",
    "repo": "stephdl/ns8-stephdl",
-   "app_count": 17,
+   "app_count": 18,
    "homepage": "https://forge.de-labrusse.fr/"
   },
   {
@@ -527,7 +527,7 @@
      },
      "source": "ghcr.io/platypuschan/adguard-home",
      "stars": 0,
-     "pushed_at": "2026-11-20T06:44:35Z",
+     "pushed_at": "2026-11-20T16:52:37Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -816,18 +816,18 @@
      "screenshots": [],
      "versions": [
       {
-       "tag": "1.3.1",
+       "tag": "1.3.2",
        "testing": false
       }
      ],
-     "stable": "1.3.1",
+     "stable": "1.3.2",
      "testing": null,
      "min_core": null,
      "tech": {
       "rootfull": false,
       "images": [
        "particify/couchdb",
-       "postgres:18.6-alpine",
+       "postgres:18.7-alpine",
        "particify/rabbitmq-stomp",
        "particify/arsnova-server-authz:3.13.20260613",
        "particify/arsnova-server-core:3.13.20260613",
@@ -850,7 +850,7 @@
      },
      "source": "ghcr.io/tebbiworld/arsnova",
      "stars": 0,
-     "pushed_at": "2026-11-17T10:35:56Z",
+     "pushed_at": "2026-11-20T17:30:22Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -863,7 +863,7 @@
       "min_core": false,
       "license": true
      },
-     "released_at": "2026-11-17T10:39:13Z"
+     "released_at": "2026-11-20T17:30:22Z"
     }
    ]
   },
@@ -1019,11 +1019,11 @@
      },
      "logo": "https://forge.nethserver.org/ns8/updates/automx/logo.png",
      "screenshots": [
-      "https://forge.nethserver.org/ns8/updates/automx/screenshots/3-settings.png",
-      "https://forge.nethserver.org/ns8/updates/automx/screenshots/5-profile-link.png",
-      "https://forge.nethserver.org/ns8/updates/automx/screenshots/2-dns-status.png",
       "https://forge.nethserver.org/ns8/updates/automx/screenshots/1-domains.png",
-      "https://forge.nethserver.org/ns8/updates/automx/screenshots/4-settings-groupware.png"
+      "https://forge.nethserver.org/ns8/updates/automx/screenshots/5-profile-link.png",
+      "https://forge.nethserver.org/ns8/updates/automx/screenshots/4-settings-groupware.png",
+      "https://forge.nethserver.org/ns8/updates/automx/screenshots/2-dns-status.png",
+      "https://forge.nethserver.org/ns8/updates/automx/screenshots/3-settings.png"
      ],
      "versions": [
       {
@@ -1052,7 +1052,7 @@
      },
      "source": "ghcr.io/danb35/automx",
      "stars": 0,
-     "pushed_at": "2026-11-17T01:06:06Z",
+     "pushed_at": "2026-11-20T13:16:07Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -1409,8 +1409,8 @@
      },
      "logo": "https://francio87.github.io/ns8-repomd/borgbackupserver/logo.png",
      "screenshots": [
-      "https://francio87.github.io/ns8-repomd/borgbackupserver/screenshots/bbs-architecture.png",
-      "https://francio87.github.io/ns8-repomd/borgbackupserver/screenshots/bbs-gui.png"
+      "https://francio87.github.io/ns8-repomd/borgbackupserver/screenshots/bbs-gui.png",
+      "https://francio87.github.io/ns8-repomd/borgbackupserver/screenshots/bbs-architecture.png"
      ],
      "versions": [
       {
@@ -3129,8 +3129,8 @@
      "logo": "https://forge.nethserver.org/ns8/updates/dependencytrack/logo.png",
      "screenshots": [
       "https://forge.nethserver.org/ns8/updates/dependencytrack/screenshots/screen3.png",
-      "https://forge.nethserver.org/ns8/updates/dependencytrack/screenshots/screen2.png",
-      "https://forge.nethserver.org/ns8/updates/dependencytrack/screenshots/screen1.png"
+      "https://forge.nethserver.org/ns8/updates/dependencytrack/screenshots/screen1.png",
+      "https://forge.nethserver.org/ns8/updates/dependencytrack/screenshots/screen2.png"
      ],
      "versions": [
       {
@@ -3318,8 +3318,8 @@
      "logo": "https://forge.nethserver.org/ns8/updates/dnshelper/logo.png",
      "screenshots": [
       "https://forge.nethserver.org/ns8/updates/dnshelper/screenshots/1-zones.png",
-      "https://forge.nethserver.org/ns8/updates/dnshelper/screenshots/3-access-rules.png",
-      "https://forge.nethserver.org/ns8/updates/dnshelper/screenshots/2-records.png"
+      "https://forge.nethserver.org/ns8/updates/dnshelper/screenshots/2-records.png",
+      "https://forge.nethserver.org/ns8/updates/dnshelper/screenshots/3-access-rules.png"
      ],
      "versions": [
       {
@@ -3813,7 +3813,7 @@
      },
      "source": "ghcr.io/nethserver/dokuwiki",
      "stars": 0,
-     "pushed_at": "2026-11-17T11:08:30Z",
+     "pushed_at": "2026-11-20T16:24:23Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -4121,12 +4121,16 @@
      ],
      "versions": [
       {
+       "tag": "1.2.2-dev.1",
+       "testing": true
+      },
+      {
        "tag": "1.2.1",
        "testing": false
       }
      ],
      "stable": "1.2.1",
-     "testing": null,
+     "testing": "1.2.2-dev.1",
      "min_core": "3.20.1",
      "tech": {
       "rootfull": false,
@@ -4144,7 +4148,7 @@
      },
      "source": "ghcr.io/nethserver/ejabberd",
      "stars": 1,
-     "pushed_at": "2026-11-19T15:24:14Z",
+     "pushed_at": "2026-11-20T17:18:42Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -4198,18 +4202,18 @@
      "screenshots": [],
      "versions": [
       {
-       "tag": "1.3.0",
+       "tag": "1.3.1",
        "testing": false
       }
      ],
-     "stable": "1.3.0",
+     "stable": "1.3.1",
      "testing": null,
      "min_core": null,
      "tech": {
       "rootfull": false,
       "images": [
        "tebbiworld/elabimg:6.0.9-php8.4.27",
-       "mysql:8.4.10"
+       "mysql:8.4.13"
       ],
       "authorizations": [
        "traefik@node:routeadm",
@@ -4224,7 +4228,7 @@
      },
      "source": "ghcr.io/tebbiworld/elabftw",
      "stars": 0,
-     "pushed_at": "2026-11-12T22:28:10Z",
+     "pushed_at": "2026-11-20T17:33:13Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -4237,7 +4241,7 @@
       "min_core": false,
       "license": true
      },
-     "released_at": "2026-11-12T22:30:33Z"
+     "released_at": "2026-11-20T17:33:14Z"
     }
    ]
   },
@@ -5023,7 +5027,7 @@
      },
      "source": "ghcr.io/dz00te/forgejo",
      "stars": 0,
-     "pushed_at": "2026-11-16T19:36:07Z",
+     "pushed_at": "2026-11-20T10:26:55Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -5396,11 +5400,11 @@
      ],
      "versions": [
       {
-       "tag": "0.4.22",
+       "tag": "0.4.24",
        "testing": false
       }
      ],
-     "stable": "0.4.22",
+     "stable": "0.4.24",
      "testing": null,
      "min_core": "3.2.2",
      "tech": {
@@ -5421,7 +5425,7 @@
      },
      "source": "ghcr.io/platypuschan/gitea-reworked",
      "stars": 0,
-     "pushed_at": "2026-11-18T21:01:29Z",
+     "pushed_at": "2026-11-20T19:39:58Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -5434,7 +5438,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-11-18T21:01:30Z"
+     "released_at": "2026-11-20T19:39:59Z"
     }
    ]
   },
@@ -5483,11 +5487,11 @@
      ],
      "versions": [
       {
-       "tag": "1.0.9",
+       "tag": "1.1.0",
        "testing": false
       }
      ],
-     "stable": "1.0.9",
+     "stable": "1.1.0",
      "testing": null,
      "min_core": "3.0.0",
      "tech": {
@@ -5499,7 +5503,12 @@
       "authorizations": [
        "traefik@node:routeadm",
        "cluster:accountconsumer",
-       "node:fwadm"
+       "node:fwadm",
+       "idp@any:clientadm",
+       "lemonldapng@any:clientadm",
+       "authentik@any:clientadm",
+       "keycloak@any:clientadm",
+       "zitadel@any:clientadm"
       ],
       "tcp_ports": 3,
       "udp_ports": 0,
@@ -5512,7 +5521,7 @@
      },
      "source": "ghcr.io/bls-isp/gitlab",
      "stars": 1,
-     "pushed_at": "2026-11-20T00:18:41Z",
+     "pushed_at": "2026-11-20T09:59:38Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -5525,7 +5534,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-11-20T00:18:48Z"
+     "released_at": "2026-11-20T09:59:45Z"
     }
    ]
   },
@@ -5679,7 +5688,7 @@
      },
      "source": "ghcr.io/stephdl/glpi",
      "stars": 0,
-     "pushed_at": "2026-11-20T03:53:11Z",
+     "pushed_at": "2026-11-20T08:49:57Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -5807,8 +5816,8 @@
      "logo": "https://forge.nethserver.org/ns8/updates/grafana/logo.png",
      "screenshots": [
       "https://forge.nethserver.org/ns8/updates/grafana/screenshots/screen3.png",
-      "https://forge.nethserver.org/ns8/updates/grafana/screenshots/screen2.png",
-      "https://forge.nethserver.org/ns8/updates/grafana/screenshots/screen1.png"
+      "https://forge.nethserver.org/ns8/updates/grafana/screenshots/screen1.png",
+      "https://forge.nethserver.org/ns8/updates/grafana/screenshots/screen2.png"
      ],
      "versions": [
       {
@@ -5833,7 +5842,7 @@
      },
      "source": "ghcr.io/nethserver/grafana",
      "stars": 0,
-     "pushed_at": "2026-11-18T12:09:37Z",
+     "pushed_at": "2026-11-20T17:12:43Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -6199,8 +6208,8 @@
      },
      "logo": "https://forge.nethserver.org/ns8/updates/hermes-agent/logo.png",
      "screenshots": [
-      "https://forge.nethserver.org/ns8/updates/hermes-agent/screenshots/screen2.png",
-      "https://forge.nethserver.org/ns8/updates/hermes-agent/screenshots/screen1.png"
+      "https://forge.nethserver.org/ns8/updates/hermes-agent/screenshots/screen1.png",
+      "https://forge.nethserver.org/ns8/updates/hermes-agent/screenshots/screen2.png"
      ],
      "versions": [
       {
@@ -6400,7 +6409,7 @@
      },
      "source": "ghcr.io/dz00te/homepage",
      "stars": 0,
-     "pushed_at": "2026-11-19T20:39:52Z",
+     "pushed_at": "2026-11-20T09:59:00Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -6456,18 +6465,18 @@
      "screenshots": [],
      "versions": [
       {
-       "tag": "1.4.0",
+       "tag": "1.4.1",
        "testing": false
       }
      ],
-     "stable": "1.4.0",
+     "stable": "1.4.1",
      "testing": null,
      "min_core": null,
      "tech": {
       "rootfull": false,
       "images": [
        "huginn/huginn:v2026.09.09",
-       "mariadb:11.4.12"
+       "mariadb:11.4.13"
       ],
       "authorizations": [
        "traefik@node:routeadm"
@@ -6478,7 +6487,7 @@
      },
      "source": "ghcr.io/tebbiworld/huginn",
      "stars": 0,
-     "pushed_at": "2026-10-18T16:41:48Z",
+     "pushed_at": "2026-11-20T17:34:11Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -6491,7 +6500,7 @@
       "min_core": false,
       "license": true
      },
-     "released_at": "2026-10-18T16:42:57Z"
+     "released_at": "2026-11-20T17:34:11Z"
     }
    ]
   },
@@ -6615,7 +6624,7 @@
      ],
      "versions": [
       {
-       "tag": "0.1.0",
+       "tag": "0.1.3",
        "testing": false
       },
       {
@@ -6623,7 +6632,7 @@
        "testing": true
       }
      ],
-     "stable": "0.1.0",
+     "stable": "0.1.3",
      "testing": null,
      "min_core": "3.23.2",
      "tech": {
@@ -6644,7 +6653,7 @@
      },
      "source": "ghcr.io/platypuschan/idp-reworked",
      "stars": 0,
-     "pushed_at": "2026-11-18T20:53:13Z",
+     "pushed_at": "2026-11-20T19:35:57Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -6657,7 +6666,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-11-08T13:09:23Z"
+     "released_at": "2026-11-20T19:35:57Z"
     }
    ]
   },
@@ -7118,7 +7127,7 @@
      },
      "source": "ghcr.io/mrmarkuz/jellyfin",
      "stars": 0,
-     "pushed_at": "2026-11-17T07:59:54Z",
+     "pushed_at": "2026-11-20T18:12:10Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -7203,7 +7212,7 @@
      },
      "source": "ghcr.io/mrmarkuz/jitsi",
      "stars": 0,
-     "pushed_at": "2026-11-19T15:48:13Z",
+     "pushed_at": "2026-11-20T18:40:10Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -7703,6 +7712,105 @@
    ]
   },
   {
+   "id": "kopia",
+   "categories": [
+    "backup"
+   ],
+   "official": false,
+   "stars": 1,
+   "variants": [
+    {
+     "module_id": "kopia",
+     "forges": [
+      "stephdl"
+     ],
+     "kind": "community",
+     "developer": "stephdl",
+     "name": "Kopia",
+     "description": {
+      "en": "Kopia backup server for your Windows, Linux and macOS machines, with central policies and alerts when a machine stops backing up.",
+      "fr": "Serveur de sauvegarde Kopia pour vos machines Windows, Linux et macOS, avec des règles centrales et des alertes quand une machine ne sauvegarde plus.",
+      "it": "Server di backup Kopia per le tue macchine Windows, Linux e macOS, con regole centrali e avvisi quando una macchina smette di fare backup.",
+      "de": "Kopia-Backupserver für Ihre Windows-, Linux- und macOS-Rechner, mit zentralen Regeln und Warnungen, wenn ein Rechner nicht mehr sichert.",
+      "es": "Servidor de copias Kopia para sus equipos Windows, Linux y macOS, con reglas centrales y alertas cuando un equipo deja de hacer copias.",
+      "pt": "Servidor de cópias Kopia para as suas máquinas Windows, Linux e macOS, com regras centrais e alertas quando uma máquina deixa de fazer cópias.",
+      "pt_BR": "Servidor de backup Kopia para suas máquinas Windows, Linux e macOS, com regras centrais e alertas quando uma máquina para de fazer backup.",
+      "eu": "Kopia babeskopia-zerbitzaria zure Windows, Linux eta macOS makinentzat, arau zentralekin eta makina batek babeskopiak egiteari uzten dionean alertekin."
+     },
+     "about": null,
+     "authors": [
+      "Stephane de Labrusse"
+     ],
+     "categories": [
+      "backup"
+     ],
+     "code_url": "https://github.com/stephdl/ns8-kopia",
+     "docs": {
+      "documentation_url": "https://github.com/stephdl/ns8-kopia#readme",
+      "bug_url": "https://github.com/stephdl/dev/issues"
+     },
+     "logo": "https://forge.de-labrusse.fr/ns8/updates/kopia/logo.png",
+     "screenshots": [],
+     "versions": [
+      {
+       "tag": "1.1.4",
+       "testing": false
+      },
+      {
+       "tag": "1.1.3",
+       "testing": false
+      },
+      {
+       "tag": "1.1.2",
+       "testing": false
+      },
+      {
+       "tag": "1.1.1",
+       "testing": false
+      },
+      {
+       "tag": "1.1.0",
+       "testing": false
+      }
+     ],
+     "stable": "1.1.4",
+     "testing": null,
+     "min_core": null,
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "kopia/kopia:0.23.1"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm",
+       "node:fwadm"
+      ],
+      "tcp_ports": 0,
+      "udp_ports": 0,
+      "volumes": [
+       "kopia-repository"
+      ]
+     },
+     "source": "ghcr.io/stephdl/kopia",
+     "stars": 1,
+     "pushed_at": "2026-11-20T10:53:01Z",
+     "archived": false,
+     "checks": {
+      "topic": true,
+      "categories": false,
+      "logo": true,
+      "screenshots": false,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": false,
+      "license": true
+     },
+     "released_at": "2026-11-20T10:53:01Z"
+    }
+   ]
+  },
+  {
    "id": "kuma",
    "categories": [
     "monitoring"
@@ -7929,7 +8037,7 @@
      },
      "source": "ghcr.io/geniusdynamics/kumomta",
      "stars": 0,
-     "pushed_at": "2026-11-18T10:07:58Z",
+     "pushed_at": "2026-11-20T11:12:52Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -8268,7 +8376,7 @@
      },
      "source": "ghcr.io/stephdl/launcher",
      "stars": 0,
-     "pushed_at": "2026-11-17T07:00:23Z",
+     "pushed_at": "2026-11-20T18:54:58Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -9007,7 +9115,7 @@
      },
      "source": "ghcr.io/nethserver/mail",
      "stars": 3,
-     "pushed_at": "2026-11-19T17:31:12Z",
+     "pushed_at": "2026-11-20T12:30:02Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -9021,6 +9129,87 @@
       "license": true
      },
      "released_at": "2026-11-04T15:38:01Z"
+    }
+   ]
+  },
+  {
+   "id": "mail-toolbox",
+   "categories": [
+    "collaboration"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "mail-toolbox",
+     "forges": [
+      "BLS-ISP"
+     ],
+     "kind": "community",
+     "developer": "BLS-ISP",
+     "name": "Mail Toolbox",
+     "description": {
+      "en": "Delegated secretariat vacation/forwarding portal, central Before-DKIM company signatures, spam quarantine digest, Rspamd mail tracking, and external POP3/IMAP connectors for NethServer 8 Mail",
+      "de": "Delegierbare Sekretariats-Abwesenheitsverwaltung, zentrale Before-DKIM-Firmensignaturen, Spam-Quarantäne-Digest, Rspamd-Mail-Verlaufssuche und externe POP3/IMAP-Connectoren für NethServer 8 Mail"
+     },
+     "about": null,
+     "authors": [
+      "BLS-ISP"
+     ],
+     "categories": [
+      "collaboration"
+     ],
+     "code_url": "https://github.com/BLS-ISP/ns8-mailtoolbox",
+     "docs": {
+      "documentation_url": "https://github.com/BLS-ISP/ns8-mailtoolbox#readme",
+      "bug_url": "https://github.com/BLS-ISP/ns8-mailtoolbox/issues",
+      "terms_url": "https://github.com/BLS-ISP/ns8-mailtoolbox/blob/main/LICENSE",
+      "relnotes_url": "https://github.com/BLS-ISP/ns8-mailtoolbox/releases"
+     },
+     "logo": "https://raw.githubusercontent.com/BLS-ISP/ns8-nethforge/repomd/ns8/updates/mail-toolbox/logo.png",
+     "screenshots": [
+      "https://raw.githubusercontent.com/BLS-ISP/ns8-nethforge/repomd/ns8/updates/mail-toolbox/screenshots/screen1.png"
+     ],
+     "versions": [
+      {
+       "tag": "1.0.4",
+       "testing": false
+      }
+     ],
+     "stable": "1.0.4",
+     "testing": null,
+     "min_core": "3.20.1",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "bls-isp/mail-toolbox-app:1.0.4"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm",
+       "mail@any:mailadm",
+       "cluster:accountconsumer",
+       "imapsync@any:reader"
+      ],
+      "tcp_ports": 2,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/bls-isp/mail-toolbox",
+     "stars": 0,
+     "pushed_at": "2026-11-20T19:33:45Z",
+     "archived": false,
+     "checks": {
+      "topic": false,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": null
     }
    ]
   },
@@ -9306,8 +9495,8 @@
      },
      "logo": "https://forge.nethserver.org/ns8/updates/matrix/logo.png",
      "screenshots": [
-      "https://forge.nethserver.org/ns8/updates/matrix/screenshots/screen2.png",
-      "https://forge.nethserver.org/ns8/updates/matrix/screenshots/screen1.png"
+      "https://forge.nethserver.org/ns8/updates/matrix/screenshots/screen1.png",
+      "https://forge.nethserver.org/ns8/updates/matrix/screenshots/screen2.png"
      ],
      "versions": [
       {
@@ -9337,7 +9526,7 @@
      },
      "source": "ghcr.io/nethserver/matrix",
      "stars": 4,
-     "pushed_at": "2026-11-19T22:57:34Z",
+     "pushed_at": "2026-11-20T18:00:56Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -9392,7 +9581,7 @@
      ],
      "versions": [
       {
-       "tag": "2.4.9",
+       "tag": "2.4.10",
        "testing": false
       },
       {
@@ -9404,14 +9593,14 @@
        "testing": false
       }
      ],
-     "stable": "2.4.9",
+     "stable": "2.4.10",
      "testing": null,
      "min_core": "3.20.1",
      "tech": {
       "rootfull": false,
       "images": [
        "postgres:17.11-alpine",
-       "mattermost/mattermost-team-edition:10.11.24"
+       "mattermost/mattermost-team-edition:10.11.26"
       ],
       "authorizations": [
        "node:fwadm",
@@ -9423,7 +9612,7 @@
      },
      "source": "ghcr.io/nethserver/mattermost",
      "stars": 0,
-     "pushed_at": "2026-11-18T12:09:59Z",
+     "pushed_at": "2026-11-20T16:19:44Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -9436,7 +9625,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-10-08T07:44:53Z"
+     "released_at": "2026-11-20T15:28:26Z"
     }
    ]
   },
@@ -10178,28 +10367,24 @@
      },
      "logo": "https://forge.nethserver.org/ns8/updates/n8n/logo.png",
      "screenshots": [
-      "https://forge.nethserver.org/ns8/updates/n8n/screenshots/screen2.png",
-      "https://forge.nethserver.org/ns8/updates/n8n/screenshots/screen1.png"
+      "https://forge.nethserver.org/ns8/updates/n8n/screenshots/screen1.png",
+      "https://forge.nethserver.org/ns8/updates/n8n/screenshots/screen2.png"
      ],
      "versions": [
       {
-       "tag": "0.0.5-testing.1",
-       "testing": true
-      },
-      {
-       "tag": "0.0.4",
+       "tag": "0.0.5",
        "testing": false
       }
      ],
-     "stable": "0.0.4",
-     "testing": "0.0.5-testing.1",
+     "stable": "0.0.5",
+     "testing": null,
      "min_core": "3.20.1",
      "tech": {
       "rootfull": false,
       "images": [
-       "postgres:16.14",
-       "n8nio/n8n:2.45.3",
-       "n8nio/runners:2.45.3"
+       "postgres:16.16",
+       "n8nio/n8n:2.48.6",
+       "n8nio/runners:2.48.6"
       ],
       "authorizations": [
        "traefik@node:routeadm"
@@ -10210,7 +10395,7 @@
      },
      "source": "ghcr.io/nethserver/n8n",
      "stars": 0,
-     "pushed_at": "2026-11-19T15:20:00Z",
+     "pushed_at": "2026-11-20T15:48:31Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -10223,7 +10408,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-10-28T10:18:25Z"
+     "released_at": "2026-11-20T15:48:08Z"
     },
     {
      "module_id": "n8n",
@@ -10630,11 +10815,11 @@
      },
      "logo": "https://distfeed.nethserver.org/ns8/updates/nethsecurity-controller/logo.png",
      "screenshots": [
-      "https://distfeed.nethserver.org/ns8/updates/nethsecurity-controller/screenshots/screen5.png",
       "https://distfeed.nethserver.org/ns8/updates/nethsecurity-controller/screenshots/screen4.png",
       "https://distfeed.nethserver.org/ns8/updates/nethsecurity-controller/screenshots/screen2.png",
+      "https://distfeed.nethserver.org/ns8/updates/nethsecurity-controller/screenshots/screen3.png",
       "https://distfeed.nethserver.org/ns8/updates/nethsecurity-controller/screenshots/screen1.png",
-      "https://distfeed.nethserver.org/ns8/updates/nethsecurity-controller/screenshots/screen3.png"
+      "https://distfeed.nethserver.org/ns8/updates/nethsecurity-controller/screenshots/screen5.png"
      ],
      "versions": [
       {
@@ -10668,7 +10853,7 @@
      },
      "source": "ghcr.io/nethserver/nethsecurity-controller",
      "stars": 1,
-     "pushed_at": "2026-11-18T12:11:19Z",
+     "pushed_at": "2026-11-20T16:24:44Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -10721,7 +10906,7 @@
      "screenshots": [],
      "versions": [
       {
-       "tag": "1.8.5-testing.50",
+       "tag": "1.8.5-testing.57",
        "testing": true
       },
       {
@@ -10730,7 +10915,7 @@
       }
      ],
      "stable": "1.8.4",
-     "testing": "1.8.5-testing.50",
+     "testing": "1.8.5-testing.57",
      "min_core": "3.24.0",
      "tech": {
       "rootfull": false,
@@ -10766,7 +10951,7 @@
      },
      "source": "ghcr.io/nethesis/nethvoice",
      "stars": 9,
-     "pushed_at": "2026-11-20T07:58:35Z",
+     "pushed_at": "2026-11-20T17:58:20Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -10820,7 +11005,7 @@
      "screenshots": [],
      "versions": [
       {
-       "tag": "1.8.1-testing.8",
+       "tag": "1.8.1-testing.9",
        "testing": true
       },
       {
@@ -10829,7 +11014,7 @@
       }
      ],
      "stable": "1.8.0",
-     "testing": "1.8.1-testing.8",
+     "testing": "1.8.1-testing.9",
      "min_core": "3.24.0",
      "tech": {
       "rootfull": false,
@@ -10849,7 +11034,7 @@
      },
      "source": "ghcr.io/nethesis/nethvoice-proxy",
      "stars": 4,
-     "pushed_at": "2026-11-19T14:33:10Z",
+     "pushed_at": "2026-11-20T17:39:06Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -10901,8 +11086,8 @@
      "logo": "https://distfeed.nethserver.org/ns8/updates/nextcloud/logo.png",
      "screenshots": [
       "https://distfeed.nethserver.org/ns8/updates/nextcloud/screenshots/screen2.png",
-      "https://distfeed.nethserver.org/ns8/updates/nextcloud/screenshots/screen1.png",
-      "https://distfeed.nethserver.org/ns8/updates/nextcloud/screenshots/screen3.png"
+      "https://distfeed.nethserver.org/ns8/updates/nextcloud/screenshots/screen3.png",
+      "https://distfeed.nethserver.org/ns8/updates/nextcloud/screenshots/screen1.png"
      ],
      "versions": [
       {
@@ -10954,7 +11139,7 @@
      },
      "source": "ghcr.io/nethserver/nextcloud",
      "stars": 1,
-     "pushed_at": "2026-11-19T10:03:17Z",
+     "pushed_at": "2026-11-20T16:24:51Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -11347,7 +11532,7 @@
      },
      "source": "ghcr.io/platypuschan/obsidian-livesync",
      "stars": 0,
-     "pushed_at": "2026-11-20T03:06:10Z",
+     "pushed_at": "2026-11-20T19:13:47Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -11401,18 +11586,18 @@
      "screenshots": [],
      "versions": [
       {
-       "tag": "1.1.2",
+       "tag": "1.1.3",
        "testing": false
       }
      ],
-     "stable": "1.1.2",
+     "stable": "1.1.3",
      "testing": null,
      "min_core": null,
      "tech": {
       "rootfull": false,
       "images": [
        "odoo:19.0-20261102",
-       "postgres:16.14"
+       "postgres:16.16"
       ],
       "authorizations": [
        "traefik@node:routeadm"
@@ -11425,7 +11610,7 @@
      },
      "source": "ghcr.io/tebbiworld/odoo",
      "stars": 0,
-     "pushed_at": "2026-11-09T13:52:17Z",
+     "pushed_at": "2026-11-20T17:31:09Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -11438,7 +11623,7 @@
       "min_core": false,
       "license": true
      },
-     "released_at": "2026-11-09T13:55:36Z"
+     "released_at": "2026-11-20T17:31:10Z"
     }
    ]
   },
@@ -11504,7 +11689,7 @@
      },
      "source": "ghcr.io/mrmarkuz/onlyoffice",
      "stars": 0,
-     "pushed_at": "2026-11-17T06:53:26Z",
+     "pushed_at": "2026-11-20T17:37:44Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -12361,8 +12546,8 @@
      },
      "logo": "https://forge.nethserver.org/ns8/updates/paperlessngx/logo.png",
      "screenshots": [
-      "https://forge.nethserver.org/ns8/updates/paperlessngx/screenshots/screen5.png",
       "https://forge.nethserver.org/ns8/updates/paperlessngx/screenshots/screen3.png",
+      "https://forge.nethserver.org/ns8/updates/paperlessngx/screenshots/screen5.png",
       "https://forge.nethserver.org/ns8/updates/paperlessngx/screenshots/screen4.png",
       "https://forge.nethserver.org/ns8/updates/paperlessngx/screenshots/screen2.png"
      ],
@@ -12533,8 +12718,8 @@
      "logo": "https://forge.nethserver.org/ns8/updates/passbolt/logo.png",
      "screenshots": [
       "https://forge.nethserver.org/ns8/updates/passbolt/screenshots/screen3.png",
-      "https://forge.nethserver.org/ns8/updates/passbolt/screenshots/screen2.png",
-      "https://forge.nethserver.org/ns8/updates/passbolt/screenshots/screen1.png"
+      "https://forge.nethserver.org/ns8/updates/passbolt/screenshots/screen1.png",
+      "https://forge.nethserver.org/ns8/updates/passbolt/screenshots/screen2.png"
      ],
      "versions": [
       {
@@ -12854,7 +13039,7 @@
      },
      "source": "ghcr.io/dz00te/patchmon",
      "stars": 0,
-     "pushed_at": "2026-11-17T08:03:36Z",
+     "pushed_at": "2026-11-20T10:24:08Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -12909,6 +13094,14 @@
      ],
      "versions": [
       {
+       "tag": "0.2.1",
+       "testing": false
+      },
+      {
+       "tag": "0.2.0",
+       "testing": false
+      },
+      {
        "tag": "0.1.1",
        "testing": false
       },
@@ -12959,19 +13152,15 @@
       {
        "tag": "0.0.3",
        "testing": false
-      },
-      {
-       "tag": "0.0.2",
-       "testing": false
       }
      ],
-     "stable": "0.1.1",
+     "stable": "0.2.1",
      "testing": null,
      "min_core": null,
      "tech": {
       "rootfull": false,
       "images": [
-       "pegaprox/pegaprox:1.1.0"
+       "pegaprox/pegaprox:1.5.0"
       ],
       "authorizations": [
        "traefik@node:routeadm",
@@ -12983,7 +13172,7 @@
      },
      "source": "ghcr.io/dz00te/pegaprox",
      "stars": 0,
-     "pushed_at": "2026-11-19T21:34:15Z",
+     "pushed_at": "2026-11-20T19:32:39Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -12996,7 +13185,7 @@
       "min_core": false,
       "license": true
      },
-     "released_at": "2026-09-01T15:50:02Z"
+     "released_at": "2026-11-20T12:36:39Z"
     }
    ]
   },
@@ -13841,8 +14030,8 @@
      },
      "logo": "https://forge.nethserver.org/ns8/updates/prometheus/logo.png",
      "screenshots": [
-      "https://forge.nethserver.org/ns8/updates/prometheus/screenshots/screen2.png",
-      "https://forge.nethserver.org/ns8/updates/prometheus/screenshots/screen1.png"
+      "https://forge.nethserver.org/ns8/updates/prometheus/screenshots/screen1.png",
+      "https://forge.nethserver.org/ns8/updates/prometheus/screenshots/screen2.png"
      ],
      "versions": [
       {
@@ -13871,7 +14060,7 @@
      },
      "source": "ghcr.io/nethserver/prometheus",
      "stars": 0,
-     "pushed_at": "2026-11-18T12:10:11Z",
+     "pushed_at": "2026-11-20T16:24:58Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -14428,7 +14617,7 @@
      },
      "source": "ghcr.io/mrmarkuz/rustdesk",
      "stars": 0,
-     "pushed_at": "2026-11-17T07:07:47Z",
+     "pushed_at": "2026-11-20T18:57:05Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -14508,7 +14697,7 @@
      },
      "source": "ghcr.io/nethserver/rustfs",
      "stars": 0,
-     "pushed_at": "2026-11-17T11:07:59Z",
+     "pushed_at": "2026-11-20T16:25:05Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -14714,7 +14903,7 @@
      },
      "source": "ghcr.io/stephdl/sam",
      "stars": 0,
-     "pushed_at": "2026-11-20T02:57:51Z",
+     "pushed_at": "2026-11-20T18:02:04Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -15056,7 +15245,7 @@
     "system_administration"
    ],
    "official": false,
-   "stars": 0,
+   "stars": 1,
    "variants": [
     {
      "module_id": "snipeit",
@@ -15110,7 +15299,7 @@
       "volumes": []
      },
      "source": "ghcr.io/tebbiworld/snipeit",
-     "stars": 0,
+     "stars": 1,
      "pushed_at": "2026-10-29T12:23:21Z",
      "archived": false,
      "checks": {
@@ -16174,7 +16363,7 @@
      },
      "source": "ghcr.io/mrmarkuz/unifi-network",
      "stars": 0,
-     "pushed_at": "2026-11-18T15:41:14Z",
+     "pushed_at": "2026-11-20T17:43:42Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -16817,6 +17006,88 @@
    ]
   },
   {
+   "id": "vpnportal",
+   "categories": [
+    "network",
+    "security"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "vpnportal",
+     "forges": [
+      "BLS-ISP"
+     ],
+     "kind": "community",
+     "developer": "BLS-ISP",
+     "name": "VPN Portal",
+     "description": {
+      "en": "Business Roadwarrior & Site-to-Site VPN (WireGuard & IPv4/IPv6 DS-Lite OpenVPN TCP Fallback) with NS8 Active Directory / OpenLDAP user lifecycle sync, TOTP 2FA Self-Service Portal, and compliance Audit Logging",
+      "de": "Business-Einwahl- & Standort-VPN (WireGuard & IPv4/IPv6 DS-Lite OpenVPN-TCP-Fallback) mit NS8 Active Directory- / OpenLDAP-Synchronisation, TOTP-2FA Self-Service-Portal und Compliance-Audit-Protokoll"
+     },
+     "about": null,
+     "authors": [
+      "BLS-ISP"
+     ],
+     "categories": [
+      "network",
+      "security"
+     ],
+     "code_url": "https://github.com/BLS-ISP/ns8-vpnportal",
+     "docs": {
+      "terms_url": "https://github.com/BLS-ISP/ns8-vpnportal#data-privacy--terms",
+      "documentation_url": "https://github.com/BLS-ISP/ns8-vpnportal",
+      "bug_url": "https://github.com/BLS-ISP/ns8-vpnportal/issues",
+      "relnotes_url": "https://github.com/BLS-ISP/ns8-vpnportal/releases"
+     },
+     "logo": "https://raw.githubusercontent.com/BLS-ISP/ns8-nethforge/repomd/ns8/updates/vpnportal/logo.png",
+     "screenshots": [
+      "https://raw.githubusercontent.com/BLS-ISP/ns8-nethforge/repomd/ns8/updates/vpnportal/screenshots/screen1.png"
+     ],
+     "versions": [
+      {
+       "tag": "1.0.4",
+       "testing": false
+      }
+     ],
+     "stable": "1.0.4",
+     "testing": null,
+     "min_core": "3.2.0",
+     "tech": {
+      "rootfull": true,
+      "images": [
+       "bls-isp/vpn-controller:1.0.4"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm",
+       "cluster:accountconsumer",
+       "node:fwadm"
+      ],
+      "tcp_ports": 1,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/bls-isp/vpnportal",
+     "stars": 0,
+     "pushed_at": "2026-11-20T19:04:00Z",
+     "archived": false,
+     "checks": {
+      "topic": false,
+      "categories": false,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": null
+    }
+   ]
+  },
+  {
    "id": "wallos",
    "categories": [
     "office"
@@ -17143,7 +17414,7 @@
       "en": "NGINX web server with php-fpm stack",
       "it": "Server web NGINX con stack php-fpm"
      },
-     "about": "This module use nginx and php-fpm to make a a linux apache mysql (see ns8-mariadb) and php",
+     "about": "A NethServer 8 module to host static and PHP websites. It runs nginx, one php-fpm container per PHP version in use, and SFTPGo to upload the files. Databases are not part of this module, see ns8-mariadb.",
      "authors": [
       "Stephane de Labrusse"
      ],
@@ -17158,16 +17429,16 @@
      "logo": "https://forge.nethserver.org/ns8/updates/webserver/logo.png",
      "screenshots": [
       "https://forge.nethserver.org/ns8/updates/webserver/screenshots/screen3.png",
-      "https://forge.nethserver.org/ns8/updates/webserver/screenshots/screen2.png",
-      "https://forge.nethserver.org/ns8/updates/webserver/screenshots/screen1.png"
+      "https://forge.nethserver.org/ns8/updates/webserver/screenshots/screen1.png",
+      "https://forge.nethserver.org/ns8/updates/webserver/screenshots/screen2.png"
      ],
      "versions": [
       {
-       "tag": "1.4.5",
+       "tag": "1.4.6",
        "testing": false
       }
      ],
-     "stable": "1.4.5",
+     "stable": "1.4.6",
      "testing": null,
      "min_core": "3.20.1",
      "tech": {
@@ -17186,7 +17457,7 @@
      },
      "source": "ghcr.io/nethserver/webserver",
      "stars": 0,
-     "pushed_at": "2026-11-19T09:55:01Z",
+     "pushed_at": "2026-11-20T19:22:19Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -17199,7 +17470,7 @@
       "min_core": true,
       "license": false
      },
-     "released_at": "2026-11-19T09:54:43Z"
+     "released_at": "2026-11-20T19:22:02Z"
     }
    ]
   },
@@ -18159,21 +18430,22 @@
      ],
      "versions": [
       {
-       "tag": "2.0.0",
+       "tag": "2.1.0",
        "testing": false
       }
      ],
-     "stable": "2.0.0",
+     "stable": "2.1.0",
      "testing": null,
      "min_core": "3.0.0",
      "tech": {
       "rootfull": false,
       "images": [
        "postgres:17.12",
-       "zitadel/zitadel:v4.20.1"
+       "zitadel/zitadel:v4.20.5"
       ],
       "authorizations": [
-       "traefik@node:routeadm"
+       "traefik@node:routeadm",
+       "cluster:accountconsumer"
       ],
       "tcp_ports": 1,
       "udp_ports": 0,
@@ -18181,7 +18453,7 @@
      },
      "source": "ghcr.io/geniusdynamics/zitadel",
      "stars": 1,
-     "pushed_at": "2026-11-15T23:46:25Z",
+     "pushed_at": "2026-11-20T14:44:42Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -18194,7 +18466,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-11-13T10:33:56Z"
+     "released_at": "2026-11-20T09:31:45Z"
     }
    ]
   },
