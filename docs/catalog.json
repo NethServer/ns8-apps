@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T07:56:53+00:00",
+ "generated_at": "2026-11-21T19:55:20+00:00",
  "forges": [
   {
    "id": "nethserver",
@@ -77,7 +77,7 @@
    "alt_url": "https://raw.githubusercontent.com/geniusdynamics/ns8-genforge/repomd/ns8/updates/",
    "kind": "community",
    "repo": "geniusdynamics/ns8-genforge",
-   "app_count": 93,
+   "app_count": 95,
    "homepage": "https://forge.genius.ke/"
   },
   {
@@ -527,7 +527,7 @@
      },
      "source": "ghcr.io/platypuschan/adguard-home",
      "stars": 0,
-     "pushed_at": "2026-11-21T06:08:00Z",
+     "pushed_at": "2026-11-21T12:37:49Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -1409,8 +1409,8 @@
      },
      "logo": "https://francio87.github.io/ns8-repomd/borgbackupserver/logo.png",
      "screenshots": [
-      "https://francio87.github.io/ns8-repomd/borgbackupserver/screenshots/bbs-architecture.png",
-      "https://francio87.github.io/ns8-repomd/borgbackupserver/screenshots/bbs-gui.png"
+      "https://francio87.github.io/ns8-repomd/borgbackupserver/screenshots/bbs-gui.png",
+      "https://francio87.github.io/ns8-repomd/borgbackupserver/screenshots/bbs-architecture.png"
      ],
      "versions": [
       {
@@ -1667,7 +1667,7 @@
      },
      "source": "ghcr.io/geniusdynamics/calibre-web",
      "stars": 0,
-     "pushed_at": "2026-11-16T05:34:38Z",
+     "pushed_at": "2026-11-21T16:09:55Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -2094,7 +2094,7 @@
      },
      "source": "ghcr.io/mrmarkuz/checkmk",
      "stars": 0,
-     "pushed_at": "2026-11-20T23:02:48Z",
+     "pushed_at": "2026-11-21T13:12:24Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -3323,11 +3323,11 @@
      ],
      "versions": [
       {
-       "tag": "0.6.1",
+       "tag": "0.7.0",
        "testing": false
       }
      ],
-     "stable": "0.6.1",
+     "stable": "0.7.0",
      "testing": null,
      "min_core": "3.23.0",
      "tech": {
@@ -3342,7 +3342,7 @@
      },
      "source": "ghcr.io/danb35/dnshelper",
      "stars": 0,
-     "pushed_at": "2026-11-20T22:04:52Z",
+     "pushed_at": "2026-11-21T17:04:40Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -3355,7 +3355,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-11-09T11:18:26Z"
+     "released_at": "2026-11-21T17:04:26Z"
     }
    ]
   },
@@ -5206,7 +5206,7 @@
     "office"
    ],
    "official": false,
-   "stars": 1,
+   "stars": 2,
    "variants": [
     {
      "module_id": "frappe-press",
@@ -5261,7 +5261,7 @@
       "volumes": []
      },
      "source": "ghcr.io/geniusdynamics/frappe-press",
-     "stars": 1,
+     "stars": 2,
      "pushed_at": "2026-11-13T14:52:05Z",
      "archived": false,
      "checks": {
@@ -5688,7 +5688,7 @@
      },
      "source": "ghcr.io/stephdl/glpi",
      "stars": 0,
-     "pushed_at": "2026-11-20T08:49:57Z",
+     "pushed_at": "2026-11-21T10:14:03Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -6372,6 +6372,10 @@
      ],
      "versions": [
       {
+       "tag": "1.0.4",
+       "testing": false
+      },
+      {
        "tag": "1.0.3",
        "testing": false
       },
@@ -6392,7 +6396,7 @@
        "testing": true
       }
      ],
-     "stable": "1.0.3",
+     "stable": "1.0.4",
      "testing": null,
      "min_core": null,
      "tech": {
@@ -6409,7 +6413,7 @@
      },
      "source": "ghcr.io/dz00te/homepage",
      "stars": 0,
-     "pushed_at": "2026-11-20T23:33:03Z",
+     "pushed_at": "2026-11-21T19:23:27Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -6422,7 +6426,7 @@
       "min_core": false,
       "license": true
      },
-     "released_at": "2026-11-19T20:39:52Z"
+     "released_at": "2026-11-21T19:23:27Z"
     }
    ]
   },
@@ -7793,7 +7797,7 @@
      },
      "source": "ghcr.io/stephdl/kopia",
      "stars": 1,
-     "pushed_at": "2026-11-21T07:30:58Z",
+     "pushed_at": "2026-11-21T09:18:20Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -9480,7 +9484,7 @@
      "description": {
       "en": "A complete Matrix chat solution - BETA"
      },
-     "about": "A NethServer 8 module for Matrix chat, with LDAP authentication. It runs the Synapse homeserver, the Element and Cinny web clients, and optionally matrix2acrobits for NethVoice.",
+     "about": "A NethServer 8 module for Matrix chat, with LDAP authentication. It runs the Synapse homeserver, the Element and Cinny web clients, and optionally matrix2acrobits for NethVoice and LiveKit for Element Call.",
      "authors": [
       "Giacomo Sanchietti",
       "Markus Neuberger"
@@ -9500,12 +9504,16 @@
      ],
      "versions": [
       {
+       "tag": "0.1.0-dev.1",
+       "testing": true
+      },
+      {
        "tag": "0.0.5",
        "testing": false
       }
      ],
      "stable": "0.0.5",
-     "testing": null,
+     "testing": "0.1.0-dev.1",
      "min_core": null,
      "tech": {
       "rootfull": false,
@@ -9526,7 +9534,7 @@
      },
      "source": "ghcr.io/nethserver/matrix",
      "stars": 4,
-     "pushed_at": "2026-11-21T07:32:22Z",
+     "pushed_at": "2026-11-21T19:31:45Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -10906,7 +10914,7 @@
      "screenshots": [],
      "versions": [
       {
-       "tag": "1.8.5-testing.57",
+       "tag": "1.8.5-testing.58",
        "testing": true
       },
       {
@@ -10915,7 +10923,7 @@
       }
      ],
      "stable": "1.8.4",
-     "testing": "1.8.5-testing.57",
+     "testing": "1.8.5-testing.58",
      "min_core": "3.24.0",
      "tech": {
       "rootfull": false,
@@ -10951,7 +10959,7 @@
      },
      "source": "ghcr.io/nethesis/nethvoice",
      "stars": 9,
-     "pushed_at": "2026-11-20T17:58:20Z",
+     "pushed_at": "2026-11-21T13:50:39Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -11532,7 +11540,7 @@
      },
      "source": "ghcr.io/platypuschan/obsidian-livesync",
      "stars": 0,
-     "pushed_at": "2026-11-21T05:13:55Z",
+     "pushed_at": "2026-11-21T13:06:29Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -11546,6 +11554,89 @@
       "license": true
      },
      "released_at": "2026-11-15T02:57:28Z"
+    }
+   ]
+  },
+  {
+   "id": "odk",
+   "categories": [
+    "collaboration"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "odk",
+     "forges": [
+      "geniusdynamics"
+     ],
+     "kind": "community",
+     "developer": "geniusdynamics",
+     "name": "ODK Central",
+     "description": {
+      "en": "Build forms, collect online and offline field data, and manage surveys, submissions and Entity Lists."
+     },
+     "about": null,
+     "authors": [
+      "Genius Dynamics"
+     ],
+     "categories": [
+      "collaboration"
+     ],
+     "code_url": "https://github.com/geniusdynamics/ns8-odk",
+     "docs": {
+      "documentation_url": "https://github.com/geniusdynamics/ns8-odk#readme",
+      "bug_url": "https://github.com/geniusdynamics/ns8-odk/issues",
+      "relnotes_url": "https://github.com/geniusdynamics/ns8-odk/releases/tag/1.0.0"
+     },
+     "logo": "https://forge.genius.ke/ns8/updates/odk/logo.png",
+     "screenshots": [],
+     "versions": [
+      {
+       "tag": "1.0.0",
+       "testing": false
+      }
+     ],
+     "stable": "1.0.0",
+     "testing": null,
+     "min_core": "3.20.1",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "geniusdynamics/odk-service:1.0.0",
+       "geniusdynamics/odk-nginx:1.0.0",
+       "geniusdynamics/odk-enketo:1.0.0",
+       "postgres:14.25",
+       "redis:8.10.1",
+       "getodk/pyxform-http:v4.5.0"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm",
+       "cluster:accountconsumer",
+       "idp@any:clientadm",
+       "keycloak@any:clientadm",
+       "lemonldapng@any:clientadm"
+      ],
+      "tcp_ports": 1,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/geniusdynamics/odk",
+     "stars": 0,
+     "pushed_at": "2026-11-20T07:27:03Z",
+     "archived": false,
+     "checks": {
+      "topic": true,
+      "categories": true,
+      "logo": true,
+      "screenshots": false,
+      "description": true,
+      "translations": false,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-11-20T07:26:47Z"
     }
    ]
   },
@@ -13094,6 +13185,10 @@
      ],
      "versions": [
       {
+       "tag": "0.2.2",
+       "testing": false
+      },
+      {
        "tag": "0.2.1",
        "testing": false
       },
@@ -13148,13 +13243,9 @@
       {
        "tag": "0.0.4",
        "testing": false
-      },
-      {
-       "tag": "0.0.3",
-       "testing": false
       }
      ],
-     "stable": "0.2.1",
+     "stable": "0.2.2",
      "testing": null,
      "min_core": null,
      "tech": {
@@ -13172,7 +13263,7 @@
      },
      "source": "ghcr.io/dz00te/pegaprox",
      "stars": 0,
-     "pushed_at": "2026-11-21T06:05:24Z",
+     "pushed_at": "2026-11-21T18:14:06Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -13185,7 +13276,7 @@
       "min_core": false,
       "license": true
      },
-     "released_at": "2026-11-20T12:36:39Z"
+     "released_at": "2026-11-21T18:14:07Z"
     }
    ]
   },
@@ -13463,7 +13554,7 @@
      },
      "source": "ghcr.io/mrmarkuz/planka",
      "stars": 0,
-     "pushed_at": "2026-10-31T00:38:29Z",
+     "pushed_at": "2026-11-21T19:46:34Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -14697,7 +14788,7 @@
      },
      "source": "ghcr.io/nethserver/rustfs",
      "stars": 0,
-     "pushed_at": "2026-11-21T07:24:06Z",
+     "pushed_at": "2026-11-21T11:01:39Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -17794,6 +17885,85 @@
       "license": true
      },
      "released_at": "2026-10-31T00:33:59Z"
+    }
+   ]
+  },
+  {
+   "id": "wikijs",
+   "categories": [
+    "documentation"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "wikijs",
+     "forges": [
+      "geniusdynamics"
+     ],
+     "kind": "community",
+     "developer": "geniusdynamics",
+     "name": "Wiki.js",
+     "description": {
+      "en": "Create and publish documentation and collaborative knowledge bases with Wiki.js."
+     },
+     "about": null,
+     "authors": [
+      "Genius Dynamics"
+     ],
+     "categories": [
+      "documentation"
+     ],
+     "code_url": "https://github.com/geniusdynamics/ns8-wikijs",
+     "docs": {
+      "documentation_url": "https://github.com/geniusdynamics/ns8-wikijs#readme",
+      "bug_url": "https://github.com/geniusdynamics/ns8-wikijs/issues",
+      "relnotes_url": "https://github.com/geniusdynamics/ns8-wikijs/releases/tag/0.01-testing.1"
+     },
+     "logo": "https://forge.genius.ke/ns8/updates/wikijs/logo.png",
+     "screenshots": [],
+     "versions": [
+      {
+       "tag": "0.0.1-testing.1",
+       "testing": true
+      }
+     ],
+     "stable": null,
+     "testing": "0.0.1-testing.1",
+     "min_core": "3.20.1",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "postgres:17.11-alpine",
+       "requarks/wiki:3.5.0"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm",
+       "cluster:accountconsumer",
+       "idp@any:clientadm",
+       "keycloak@any:clientadm",
+       "lemonldapng@any:clientadm"
+      ],
+      "tcp_ports": 1,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/geniusdynamics/wikijs",
+     "stars": 0,
+     "pushed_at": "2026-11-21T12:58:59Z",
+     "archived": false,
+     "checks": {
+      "topic": true,
+      "categories": true,
+      "logo": true,
+      "screenshots": false,
+      "description": true,
+      "translations": false,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-11-21T12:54:39Z"
     }
    ]
   },
