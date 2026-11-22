@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T07:42:26+00:00",
+ "generated_at": "2026-11-22T20:07:16+00:00",
  "forges": [
   {
    "id": "nethserver",
@@ -57,7 +57,7 @@
    "alt_url": "https://raw.githubusercontent.com/stephdl/ns8-stephdl/repomd/ns8/updates/",
    "kind": "community",
    "repo": "stephdl/ns8-stephdl",
-   "app_count": 18,
+   "app_count": 19,
    "homepage": "https://forge.de-labrusse.fr/"
   },
   {
@@ -77,7 +77,7 @@
    "alt_url": "https://raw.githubusercontent.com/geniusdynamics/ns8-genforge/repomd/ns8/updates/",
    "kind": "community",
    "repo": "geniusdynamics/ns8-genforge",
-   "app_count": 95,
+   "app_count": 97,
    "homepage": "https://forge.genius.ke/"
   },
   {
@@ -121,6 +121,16 @@
    "homepage": "https://platypuschan.github.io/ns8-modules/"
   },
   {
+   "id": "danb35",
+   "name": "danb35/ns8-repomd",
+   "url": "https://danb35.github.io/ns8-repomd/",
+   "alt_url": null,
+   "kind": "community",
+   "repo": "danb35/ns8-repomd",
+   "app_count": 2,
+   "homepage": "https://danb35.github.io/ns8-repomd/"
+  },
+  {
    "id": "antonwantstosleep",
    "name": "antonwantstosleep/ns8-repo",
    "url": "https://antonwantstosleep.github.io/ns8-repo/",
@@ -129,16 +139,6 @@
    "repo": "antonwantstosleep/ns8-repo",
    "app_count": 1,
    "homepage": "https://github.com/antonwantstosleep/ns8-repo"
-  },
-  {
-   "id": "danb35",
-   "name": "danb35/ns8-repomd",
-   "url": "https://danb35.github.io/ns8-repomd/",
-   "alt_url": null,
-   "kind": "community",
-   "repo": "danb35/ns8-repomd",
-   "app_count": 1,
-   "homepage": "https://danb35.github.io/ns8-repomd/"
   },
   {
    "id": "francio87",
@@ -1020,9 +1020,9 @@
      "logo": "https://forge.nethserver.org/ns8/updates/automx/logo.png",
      "screenshots": [
       "https://forge.nethserver.org/ns8/updates/automx/screenshots/1-domains.png",
+      "https://forge.nethserver.org/ns8/updates/automx/screenshots/5-profile-link.png",
       "https://forge.nethserver.org/ns8/updates/automx/screenshots/4-settings-groupware.png",
       "https://forge.nethserver.org/ns8/updates/automx/screenshots/2-dns-status.png",
-      "https://forge.nethserver.org/ns8/updates/automx/screenshots/5-profile-link.png",
       "https://forge.nethserver.org/ns8/updates/automx/screenshots/3-settings.png"
      ],
      "versions": [
@@ -1052,7 +1052,7 @@
      },
      "source": "ghcr.io/danb35/automx",
      "stars": 0,
-     "pushed_at": "2026-11-20T13:16:07Z",
+     "pushed_at": "2026-11-22T12:45:23Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -1717,8 +1717,8 @@
      },
      "logo": "https://forge.de-labrusse.fr/ns8/updates/calrs/logo.png",
      "screenshots": [
-      "https://forge.de-labrusse.fr/ns8/updates/calrs/screenshots/screen2.png",
-      "https://forge.de-labrusse.fr/ns8/updates/calrs/screenshots/screen1.png"
+      "https://forge.de-labrusse.fr/ns8/updates/calrs/screenshots/screen1.png",
+      "https://forge.de-labrusse.fr/ns8/updates/calrs/screenshots/screen2.png"
      ],
      "versions": [
       {
@@ -1950,6 +1950,86 @@
       "license": true
      },
      "released_at": "2026-11-17T16:51:16Z"
+    }
+   ]
+  },
+  {
+   "id": "casdoor",
+   "categories": [
+    "security"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "casdoor",
+     "forges": [
+      "geniusdynamics"
+     ],
+     "kind": "community",
+     "developer": "geniusdynamics",
+     "name": "Casdoor",
+     "description": {
+      "en": "Manage application identities and single sign-on with Casdoor, including integration with NS8 OpenLDAP or Samba AD.",
+      "it": "Gestisci le identità e il Single Sign-On delle applicazioni con Casdoor e integra un dominio NS8 OpenLDAP o Samba AD."
+     },
+     "about": null,
+     "authors": [
+      "Genius Dynamics"
+     ],
+     "categories": [
+      "security"
+     ],
+     "code_url": "https://github.com/geniusdynamics/ns8-casdoor",
+     "docs": {
+      "documentation_url": "https://github.com/geniusdynamics/ns8-casdoor#readme",
+      "bug_url": "https://github.com/geniusdynamics/ns8-casdoor/issues",
+      "relnotes_url": "https://github.com/geniusdynamics/ns8-casdoor/releases/tag/1.0.0"
+     },
+     "logo": "https://forge.genius.ke/ns8/updates/casdoor/logo.png",
+     "screenshots": [
+      "https://forge.genius.ke/ns8/updates/casdoor/screenshots/applications.png",
+      "https://forge.genius.ke/ns8/updates/casdoor/screenshots/admin-console.png"
+     ],
+     "versions": [
+      {
+       "tag": "1.0.1",
+       "testing": false
+      }
+     ],
+     "stable": "1.0.1",
+     "testing": null,
+     "min_core": "3.20.1",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "postgres:17.11-alpine",
+       "casbin/casdoor:v4.30.0"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm",
+       "cluster:accountconsumer"
+      ],
+      "tcp_ports": 1,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/geniusdynamics/casdoor",
+     "stars": 0,
+     "pushed_at": "2026-11-22T17:48:58Z",
+     "archived": false,
+     "checks": {
+      "topic": false,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-11-22T17:48:37Z"
     }
    ]
   },
@@ -3306,9 +3386,9 @@
      },
      "logo": "https://forge.nethserver.org/ns8/updates/dependencytrack/logo.png",
      "screenshots": [
-      "https://forge.nethserver.org/ns8/updates/dependencytrack/screenshots/screen2.png",
+      "https://forge.nethserver.org/ns8/updates/dependencytrack/screenshots/screen3.png",
       "https://forge.nethserver.org/ns8/updates/dependencytrack/screenshots/screen1.png",
-      "https://forge.nethserver.org/ns8/updates/dependencytrack/screenshots/screen3.png"
+      "https://forge.nethserver.org/ns8/updates/dependencytrack/screenshots/screen2.png"
      ],
      "versions": [
       {
@@ -3394,9 +3474,9 @@
      },
      "logo": "https://forge.de-labrusse.fr/ns8/updates/discourse/logo.png",
      "screenshots": [
-      "https://forge.de-labrusse.fr/ns8/updates/discourse/screenshots/screen2.png",
+      "https://forge.de-labrusse.fr/ns8/updates/discourse/screenshots/screen3.png",
       "https://forge.de-labrusse.fr/ns8/updates/discourse/screenshots/screen1.png",
-      "https://forge.de-labrusse.fr/ns8/updates/discourse/screenshots/screen3.png"
+      "https://forge.de-labrusse.fr/ns8/updates/discourse/screenshots/screen2.png"
      ],
      "versions": [
       {
@@ -3447,6 +3527,89 @@
       "license": true
      },
      "released_at": "2026-11-10T16:13:17Z"
+    }
+   ]
+  },
+  {
+   "id": "dnsapi",
+   "categories": [
+    "system_administration"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "dnsapi",
+     "forges": [
+      "danb35"
+     ],
+     "kind": "community",
+     "developer": "danb35",
+     "name": "Dnsapi",
+     "description": {
+      "en": "HTTPS API for managing customers' DNS records through dnshelper"
+     },
+     "about": null,
+     "authors": [
+      "Dan Brown"
+     ],
+     "categories": [
+      "system_administration"
+     ],
+     "code_url": "https://github.com/danb35/ns8-dnsapi",
+     "docs": {
+      "terms_url": "https://github.com/danb35/ns8-dnsapi/blob/master/TERMS.md",
+      "documentation_url": "https://github.com/danb35/ns8-dnsapi/blob/master/docs/USER-GUIDE.md",
+      "bug_url": "https://github.com/danb35/ns8-dnsapi/issues",
+      "relnotes_url": "https://github.com/danb35/ns8-dnsapi/releases"
+     },
+     "logo": "https://danb35.github.io/ns8-repomd/dnsapi/logo.png",
+     "screenshots": [
+      "https://danb35.github.io/ns8-repomd/dnsapi/screenshots/1-status.png",
+      "https://danb35.github.io/ns8-repomd/dnsapi/screenshots/2-tenants.png",
+      "https://danb35.github.io/ns8-repomd/dnsapi/screenshots/3-keys.png",
+      "https://danb35.github.io/ns8-repomd/dnsapi/screenshots/4-key-create.png",
+      "https://danb35.github.io/ns8-repomd/dnsapi/screenshots/5-activity.png"
+     ],
+     "versions": [
+      {
+       "tag": "0.1.0-testing.1",
+       "testing": true
+      }
+     ],
+     "stable": null,
+     "testing": "0.1.0-testing.1",
+     "min_core": "3.23.0",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "danb35/dnsapi-server:0.1.0-testing.1"
+      ],
+      "authorizations": [
+       "dnshelper@any:dnswriter",
+       "traefik@node:routeadm",
+       "node:reader"
+      ],
+      "tcp_ports": 1,
+      "udp_ports": 0,
+      "volumes": []
+     },
+     "source": "ghcr.io/danb35/dnsapi",
+     "stars": 0,
+     "pushed_at": "2026-11-22T12:15:56Z",
+     "archived": false,
+     "checks": {
+      "topic": true,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": false,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-11-22T11:52:36Z"
     }
    ]
   },
@@ -4118,9 +4281,9 @@
      },
      "logo": "https://forge.de-labrusse.fr/ns8/updates/dolibarr/logo.png",
      "screenshots": [
-      "https://forge.de-labrusse.fr/ns8/updates/dolibarr/screenshots/screen2.png",
+      "https://forge.de-labrusse.fr/ns8/updates/dolibarr/screenshots/screen3.png",
       "https://forge.de-labrusse.fr/ns8/updates/dolibarr/screenshots/screen1.png",
-      "https://forge.de-labrusse.fr/ns8/updates/dolibarr/screenshots/screen3.png"
+      "https://forge.de-labrusse.fr/ns8/updates/dolibarr/screenshots/screen2.png"
      ],
      "versions": [
       {
@@ -5828,8 +5991,8 @@
      },
      "logo": "https://forge.de-labrusse.fr/ns8/updates/glpi/logo.png",
      "screenshots": [
-      "https://forge.de-labrusse.fr/ns8/updates/glpi/screenshots/screen2.png",
-      "https://forge.de-labrusse.fr/ns8/updates/glpi/screenshots/screen1.png"
+      "https://forge.de-labrusse.fr/ns8/updates/glpi/screenshots/screen1.png",
+      "https://forge.de-labrusse.fr/ns8/updates/glpi/screenshots/screen2.png"
      ],
      "versions": [
       {
@@ -5997,9 +6160,9 @@
      },
      "logo": "https://forge.nethserver.org/ns8/updates/grafana/logo.png",
      "screenshots": [
-      "https://forge.nethserver.org/ns8/updates/grafana/screenshots/screen2.png",
+      "https://forge.nethserver.org/ns8/updates/grafana/screenshots/screen3.png",
       "https://forge.nethserver.org/ns8/updates/grafana/screenshots/screen1.png",
-      "https://forge.nethserver.org/ns8/updates/grafana/screenshots/screen3.png"
+      "https://forge.nethserver.org/ns8/updates/grafana/screenshots/screen2.png"
      ],
      "versions": [
       {
@@ -6390,8 +6553,8 @@
      },
      "logo": "https://forge.nethserver.org/ns8/updates/hermes-agent/logo.png",
      "screenshots": [
-      "https://forge.nethserver.org/ns8/updates/hermes-agent/screenshots/screen2.png",
-      "https://forge.nethserver.org/ns8/updates/hermes-agent/screenshots/screen1.png"
+      "https://forge.nethserver.org/ns8/updates/hermes-agent/screenshots/screen1.png",
+      "https://forge.nethserver.org/ns8/updates/hermes-agent/screenshots/screen2.png"
      ],
      "versions": [
       {
@@ -8102,8 +8265,8 @@
      },
      "logo": "https://forge.de-labrusse.fr/ns8/updates/kuma/logo.png",
      "screenshots": [
-      "https://forge.de-labrusse.fr/ns8/updates/kuma/screenshots/screen2.png",
-      "https://forge.de-labrusse.fr/ns8/updates/kuma/screenshots/screen1.png"
+      "https://forge.de-labrusse.fr/ns8/updates/kuma/screenshots/screen1.png",
+      "https://forge.de-labrusse.fr/ns8/updates/kuma/screenshots/screen2.png"
      ],
      "versions": [
       {
@@ -8197,11 +8360,11 @@
      "screenshots": [],
      "versions": [
       {
-       "tag": "1.2.0",
+       "tag": "1.3.0",
        "testing": false
       }
      ],
-     "stable": "1.2.0",
+     "stable": "1.3.0",
      "testing": null,
      "min_core": "3.20.1",
      "tech": {
@@ -8213,7 +8376,8 @@
        "traefik@node:fulladm",
        "node:fwadm,portsadm",
        "kumomta@any:clusterpeer",
-       "valkey@any:valkeyclient"
+       "valkey@any:valkeyclient",
+       "openbao@any:secretsclient"
       ],
       "tcp_ports": 3,
       "udp_ports": 0,
@@ -8223,7 +8387,7 @@
      },
      "source": "ghcr.io/geniusdynamics/kumomta",
      "stars": 0,
-     "pushed_at": "2026-11-22T04:34:18Z",
+     "pushed_at": "2026-11-22T12:19:13Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -8236,7 +8400,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-11-22T04:34:00Z"
+     "released_at": "2026-11-22T12:18:54Z"
     }
    ]
   },
@@ -8510,9 +8674,9 @@
      },
      "logo": "https://forge.de-labrusse.fr/ns8/updates/launcher/logo.png",
      "screenshots": [
-      "https://forge.de-labrusse.fr/ns8/updates/launcher/screenshots/screen2.png",
+      "https://forge.de-labrusse.fr/ns8/updates/launcher/screenshots/screen3.png",
       "https://forge.de-labrusse.fr/ns8/updates/launcher/screenshots/screen1.png",
-      "https://forge.de-labrusse.fr/ns8/updates/launcher/screenshots/screen3.png"
+      "https://forge.de-labrusse.fr/ns8/updates/launcher/screenshots/screen2.png"
      ],
      "versions": [
       {
@@ -8853,9 +9017,9 @@
      },
      "logo": "https://forge.de-labrusse.fr/ns8/updates/lemp/logo.png",
      "screenshots": [
-      "https://forge.de-labrusse.fr/ns8/updates/lemp/screenshots/screen2.png",
+      "https://forge.de-labrusse.fr/ns8/updates/lemp/screenshots/screen3.png",
       "https://forge.de-labrusse.fr/ns8/updates/lemp/screenshots/screen1.png",
-      "https://forge.de-labrusse.fr/ns8/updates/lemp/screenshots/screen3.png"
+      "https://forge.de-labrusse.fr/ns8/updates/lemp/screenshots/screen2.png"
      ],
      "versions": [
       {
@@ -9681,8 +9845,8 @@
      },
      "logo": "https://forge.nethserver.org/ns8/updates/matrix/logo.png",
      "screenshots": [
-      "https://forge.nethserver.org/ns8/updates/matrix/screenshots/screen2.png",
-      "https://forge.nethserver.org/ns8/updates/matrix/screenshots/screen1.png"
+      "https://forge.nethserver.org/ns8/updates/matrix/screenshots/screen1.png",
+      "https://forge.nethserver.org/ns8/updates/matrix/screenshots/screen2.png"
      ],
      "versions": [
       {
@@ -10171,12 +10335,16 @@
      ],
      "versions": [
       {
+       "tag": "1.1.0-testing.1",
+       "testing": true
+      },
+      {
        "tag": "1.0.0",
        "testing": false
       }
      ],
      "stable": "1.0.0",
-     "testing": null,
+     "testing": "1.1.0-testing.1",
      "min_core": "3.0.0",
      "tech": {
       "rootfull": false,
@@ -10193,7 +10361,7 @@
      },
      "source": "ghcr.io/geniusdynamics/metabase",
      "stars": 0,
-     "pushed_at": "2026-11-13T13:09:13Z",
+     "pushed_at": "2026-11-22T18:40:59Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -10557,8 +10725,8 @@
      },
      "logo": "https://forge.nethserver.org/ns8/updates/n8n/logo.png",
      "screenshots": [
-      "https://forge.nethserver.org/ns8/updates/n8n/screenshots/screen2.png",
-      "https://forge.nethserver.org/ns8/updates/n8n/screenshots/screen1.png"
+      "https://forge.nethserver.org/ns8/updates/n8n/screenshots/screen1.png",
+      "https://forge.nethserver.org/ns8/updates/n8n/screenshots/screen2.png"
      ],
      "versions": [
       {
@@ -10585,7 +10753,7 @@
      },
      "source": "ghcr.io/nethserver/n8n",
      "stars": 0,
-     "pushed_at": "2026-11-20T15:48:31Z",
+     "pushed_at": "2026-11-22T11:22:36Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -11141,7 +11309,7 @@
      },
      "source": "ghcr.io/nethesis/nethvoice",
      "stars": 9,
-     "pushed_at": "2026-11-21T13:50:39Z",
+     "pushed_at": "2026-11-22T13:40:36Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -11343,6 +11511,74 @@
       "license": true
      },
      "released_at": "2026-11-19T10:02:58Z"
+    }
+   ]
+  },
+  {
+   "id": "nextcloud-next",
+   "categories": [
+    "collaboration"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "nextcloud-next",
+     "forges": [
+      "stephdl"
+     ],
+     "kind": "community",
+     "developer": "stephdl",
+     "name": "Nextcloud Next",
+     "description": {
+      "en": "Nextcloud on its latest release, with MariaDB 12.3 and Redis 8. A test fork of the NethServer Nextcloud module, with no migration from it.",
+      "fr": "Nextcloud dans sa dernière version, avec MariaDB 12.3 et Redis 8. Un fork de test du module Nextcloud de NethServer, sans migration depuis celui-ci.",
+      "it": "Nextcloud nella sua ultima versione, con MariaDB 12.3 e Redis 8. Un fork di test del modulo Nextcloud di NethServer, senza migrazione da esso.",
+      "de": "Nextcloud in der neuesten Version, mit MariaDB 12.3 und Redis 8. Ein Test-Fork des NethServer-Nextcloud-Moduls, ohne Migration davon.",
+      "es": "Nextcloud en su última versión, con MariaDB 12.3 y Redis 8. Un fork de prueba del módulo Nextcloud de NethServer, sin migración desde él.",
+      "pt": "Nextcloud na sua versão mais recente, com MariaDB 12.3 e Redis 8. Um fork de teste do módulo Nextcloud do NethServer, sem migração a partir dele.",
+      "pt_BR": "Nextcloud em sua versão mais recente, com MariaDB 12.3 e Redis 8. Um fork de teste do módulo Nextcloud do NethServer, sem migração a partir dele.",
+      "eu": "Nextcloud bere azken bertsioan, MariaDB 12.3 eta Redis 8rekin. NethServer-en Nextcloud moduluaren proba-fork bat, hartatik migraziorik gabe."
+     },
+     "about": null,
+     "authors": [
+      "Giacomo Sanchietti",
+      "Stephane de Labrusse"
+     ],
+     "categories": [
+      "collaboration"
+     ],
+     "code_url": "https://github.com/stephdl/ns8-nextcloud-next",
+     "docs": {
+      "documentation_url": "https://github.com/stephdl/ns8-nextcloud-next#readme",
+      "bug_url": "https://github.com/stephdl/dev/issues"
+     },
+     "logo": "https://forge.de-labrusse.fr/ns8/updates/nextcloud-next/logo.png",
+     "screenshots": [
+      "https://forge.de-labrusse.fr/ns8/updates/nextcloud-next/screenshots/screen3.png",
+      "https://forge.de-labrusse.fr/ns8/updates/nextcloud-next/screenshots/screen1.png",
+      "https://forge.de-labrusse.fr/ns8/updates/nextcloud-next/screenshots/screen2.png"
+     ],
+     "versions": [],
+     "stable": null,
+     "testing": null,
+     "min_core": null,
+     "tech": null,
+     "source": "ghcr.io/stephdl/nextcloud-next",
+     "stars": 0,
+     "pushed_at": "2026-11-22T20:02:18Z",
+     "archived": false,
+     "checks": {
+      "topic": false,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": false,
+      "license": true
+     }
     }
    ]
   },
@@ -12025,11 +12261,11 @@
      ],
      "versions": [
       {
-       "tag": "1.2.0",
+       "tag": "1.3.0",
        "testing": false
       }
      ],
-     "stable": "1.2.0",
+     "stable": "1.3.0",
      "testing": null,
      "min_core": "3.13.0",
      "tech": {
@@ -12052,7 +12288,7 @@
      },
      "source": "ghcr.io/geniusdynamics/openbao",
      "stars": 0,
-     "pushed_at": "2026-11-22T07:26:26Z",
+     "pushed_at": "2026-11-22T07:57:49Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -12065,7 +12301,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-11-19T03:32:07Z"
+     "released_at": "2026-11-22T07:57:25Z"
     }
    ]
   },
@@ -12664,11 +12900,11 @@
      ],
      "versions": [
       {
-       "tag": "0.4.10",
+       "tag": "0.4.11",
        "testing": false
       }
      ],
-     "stable": "0.4.10",
+     "stable": "0.4.11",
      "testing": null,
      "min_core": "3.2.2",
      "tech": {
@@ -12686,7 +12922,7 @@
      },
      "source": "ghcr.io/platypuschan/organizr-reworked",
      "stars": 0,
-     "pushed_at": "2026-11-22T01:08:46Z",
+     "pushed_at": "2026-11-22T13:12:51Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -12699,7 +12935,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-11-22T01:08:46Z"
+     "released_at": "2026-11-22T13:12:51Z"
     }
    ]
   },
@@ -12819,10 +13055,10 @@
      },
      "logo": "https://forge.nethserver.org/ns8/updates/paperlessngx/logo.png",
      "screenshots": [
-      "https://forge.nethserver.org/ns8/updates/paperlessngx/screenshots/screen4.png",
-      "https://forge.nethserver.org/ns8/updates/paperlessngx/screenshots/screen2.png",
+      "https://forge.nethserver.org/ns8/updates/paperlessngx/screenshots/screen3.png",
       "https://forge.nethserver.org/ns8/updates/paperlessngx/screenshots/screen5.png",
-      "https://forge.nethserver.org/ns8/updates/paperlessngx/screenshots/screen3.png"
+      "https://forge.nethserver.org/ns8/updates/paperlessngx/screenshots/screen4.png",
+      "https://forge.nethserver.org/ns8/updates/paperlessngx/screenshots/screen2.png"
      ],
      "versions": [
       {
@@ -12990,9 +13226,9 @@
      },
      "logo": "https://forge.nethserver.org/ns8/updates/passbolt/logo.png",
      "screenshots": [
-      "https://forge.nethserver.org/ns8/updates/passbolt/screenshots/screen2.png",
+      "https://forge.nethserver.org/ns8/updates/passbolt/screenshots/screen3.png",
       "https://forge.nethserver.org/ns8/updates/passbolt/screenshots/screen1.png",
-      "https://forge.nethserver.org/ns8/updates/passbolt/screenshots/screen3.png"
+      "https://forge.nethserver.org/ns8/updates/passbolt/screenshots/screen2.png"
      ],
      "versions": [
       {
@@ -13232,6 +13468,10 @@
      ],
      "versions": [
       {
+       "tag": "0.6.5",
+       "testing": false
+      },
+      {
        "tag": "0.6.4",
        "testing": false
       },
@@ -13286,13 +13526,9 @@
       {
        "tag": "0.3.3",
        "testing": false
-      },
-      {
-       "tag": "0.3.3-test",
-       "testing": true
       }
      ],
-     "stable": "0.6.4",
+     "stable": "0.6.5",
      "testing": null,
      "min_core": null,
      "tech": {
@@ -13312,7 +13548,7 @@
      },
      "source": "ghcr.io/dz00te/patchmon",
      "stars": 0,
-     "pushed_at": "2026-11-21T22:50:17Z",
+     "pushed_at": "2026-11-22T08:33:18Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -13325,7 +13561,7 @@
       "min_core": false,
       "license": true
      },
-     "released_at": "2026-11-15T18:19:50Z"
+     "released_at": "2026-11-22T08:33:19Z"
     }
    ]
   },
@@ -13991,6 +14227,90 @@
    ]
   },
   {
+   "id": "postgresql19c",
+   "categories": [
+    "development"
+   ],
+   "official": false,
+   "stars": 0,
+   "variants": [
+    {
+     "module_id": "postgresql19c",
+     "forges": [
+      "geniusdynamics"
+     ],
+     "kind": "community",
+     "developer": "geniusdynamics",
+     "name": "PostgreSQL 19 HA",
+     "description": {
+      "en": "Run PostgreSQL 19 for other NS8 modules as a standalone database or a high-availability cluster with Patroni and etcd.",
+      "it": "Esegui PostgreSQL 19 per altri moduli NS8 come database autonomo o in un cluster ad alta disponibilità con Patroni ed etcd."
+     },
+     "about": null,
+     "authors": [
+      "Genius Dynamics"
+     ],
+     "categories": [
+      "development"
+     ],
+     "code_url": "https://github.com/geniusdynamics/ns8-postgresql19c",
+     "docs": {
+      "documentation_url": "https://github.com/geniusdynamics/ns8-postgresql19c#readme",
+      "bug_url": "https://github.com/geniusdynamics/ns8-postgresql19c/issues",
+      "relnotes_url": "https://github.com/geniusdynamics/ns8-postgresql19c/releases/tag/0.9.0"
+     },
+     "logo": "https://forge.genius.ke/ns8/updates/postgresql19c/logo.png",
+     "screenshots": [
+      "https://forge.genius.ke/ns8/updates/postgresql19c/screenshots/pgadmin-dashboard.png"
+     ],
+     "versions": [
+      {
+       "tag": "0.9.1",
+       "testing": false
+      }
+     ],
+     "stable": "0.9.1",
+     "testing": null,
+     "min_core": "3.20.1",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "geniusdynamics/postgresql19c-server:0.9.1",
+       "haproxy:3.2.27-alpine",
+       "dpage/pgadmin4:9.19.0"
+      ],
+      "authorizations": [
+       "traefik@node:routeadm",
+       "node:fwadm",
+       "postgresql19c@any:pgpeer",
+       "openbao@any:secretsclient"
+      ],
+      "tcp_ports": 8,
+      "udp_ports": 0,
+      "volumes": [
+       "pgdata"
+      ]
+     },
+     "source": "ghcr.io/geniusdynamics/postgresql19c",
+     "stars": 0,
+     "pushed_at": "2026-11-22T12:32:14Z",
+     "archived": false,
+     "checks": {
+      "topic": false,
+      "categories": true,
+      "logo": true,
+      "screenshots": true,
+      "description": true,
+      "translations": true,
+      "docs": true,
+      "min_core": true,
+      "license": true
+     },
+     "released_at": "2026-11-22T12:31:57Z"
+    }
+   ]
+  },
+  {
    "id": "postiz",
    "categories": [
     "communication"
@@ -14122,16 +14442,12 @@
      ],
      "versions": [
       {
-       "tag": "0.2.0-testing.1",
-       "testing": true
-      },
-      {
-       "tag": "0.1.2",
+       "tag": "0.2.0",
        "testing": false
       }
      ],
-     "stable": "0.1.2",
-     "testing": "0.2.0-testing.1",
+     "stable": "0.2.0",
+     "testing": null,
      "min_core": "3.18.0",
      "tech": {
       "rootfull": false,
@@ -14149,7 +14465,7 @@
      },
      "source": "ghcr.io/danb35/powerdns",
      "stars": 0,
-     "pushed_at": "2026-11-12T17:30:51Z",
+     "pushed_at": "2026-11-22T12:18:42Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -14162,7 +14478,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-11-12T13:00:57Z"
+     "released_at": "2026-11-22T12:18:19Z"
     }
    ]
   },
@@ -14208,9 +14524,9 @@
      },
      "logo": "https://forge.de-labrusse.fr/ns8/updates/privatebin/logo.png",
      "screenshots": [
-      "https://forge.de-labrusse.fr/ns8/updates/privatebin/screenshots/screen2.png",
+      "https://forge.de-labrusse.fr/ns8/updates/privatebin/screenshots/screen3.png",
       "https://forge.de-labrusse.fr/ns8/updates/privatebin/screenshots/screen1.png",
-      "https://forge.de-labrusse.fr/ns8/updates/privatebin/screenshots/screen3.png"
+      "https://forge.de-labrusse.fr/ns8/updates/privatebin/screenshots/screen2.png"
      ],
      "versions": [
       {
@@ -14303,8 +14619,8 @@
      },
      "logo": "https://forge.nethserver.org/ns8/updates/prometheus/logo.png",
      "screenshots": [
-      "https://forge.nethserver.org/ns8/updates/prometheus/screenshots/screen2.png",
-      "https://forge.nethserver.org/ns8/updates/prometheus/screenshots/screen1.png"
+      "https://forge.nethserver.org/ns8/updates/prometheus/screenshots/screen1.png",
+      "https://forge.nethserver.org/ns8/updates/prometheus/screenshots/screen2.png"
      ],
      "versions": [
       {
@@ -16118,9 +16434,9 @@
      },
      "logo": "https://forge.de-labrusse.fr/ns8/updates/sympa/logo.png",
      "screenshots": [
-      "https://forge.de-labrusse.fr/ns8/updates/sympa/screenshots/screen2.png",
+      "https://forge.de-labrusse.fr/ns8/updates/sympa/screenshots/screen3.png",
       "https://forge.de-labrusse.fr/ns8/updates/sympa/screenshots/screen1.png",
-      "https://forge.de-labrusse.fr/ns8/updates/sympa/screenshots/screen3.png"
+      "https://forge.de-labrusse.fr/ns8/updates/sympa/screenshots/screen2.png"
      ],
      "versions": [
       {
@@ -16774,8 +17090,8 @@
      },
      "logo": "https://forge.de-labrusse.fr/ns8/updates/v16postgresql/logo.png",
      "screenshots": [
-      "https://forge.de-labrusse.fr/ns8/updates/v16postgresql/screenshots/screen2.png",
-      "https://forge.de-labrusse.fr/ns8/updates/v16postgresql/screenshots/screen1.png"
+      "https://forge.de-labrusse.fr/ns8/updates/v16postgresql/screenshots/screen1.png",
+      "https://forge.de-labrusse.fr/ns8/updates/v16postgresql/screenshots/screen2.png"
      ],
      "versions": [
       {
@@ -16907,8 +17223,8 @@
      },
      "logo": "https://forge.de-labrusse.fr/ns8/updates/v18postgresql/logo.png",
      "screenshots": [
-      "https://forge.de-labrusse.fr/ns8/updates/v18postgresql/screenshots/screen2.png",
-      "https://forge.de-labrusse.fr/ns8/updates/v18postgresql/screenshots/screen1.png"
+      "https://forge.de-labrusse.fr/ns8/updates/v18postgresql/screenshots/screen1.png",
+      "https://forge.de-labrusse.fr/ns8/updates/v18postgresql/screenshots/screen2.png"
      ],
      "versions": [
       {
@@ -17564,11 +17880,11 @@
      ],
      "versions": [
       {
-       "tag": "1.2.0",
+       "tag": "1.4.0",
        "testing": false
       }
      ],
-     "stable": "1.2.0",
+     "stable": "1.4.0",
      "testing": null,
      "min_core": "3.0.0",
      "tech": {
@@ -17581,7 +17897,10 @@
        "cluster:accountconsumer",
        "idp@any:clientadm",
        "keycloak@any:clientadm",
-       "lemonldapng@any:clientadm"
+       "lemonldapng@any:clientadm",
+       "postgresql19c@any:pgclient",
+       "openbao@any:secretsclient",
+       "warpgate@any:wgpeer"
       ],
       "tcp_ports": 3,
       "udp_ports": 0,
@@ -17589,7 +17908,7 @@
      },
      "source": "ghcr.io/geniusdynamics/warpgate",
      "stars": 0,
-     "pushed_at": "2026-11-19T04:42:04Z",
+     "pushed_at": "2026-11-22T13:26:19Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -17602,7 +17921,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-11-19T04:41:48Z"
+     "released_at": "2026-11-22T13:26:03Z"
     }
    ]
   },
@@ -17646,9 +17965,9 @@
      },
      "logo": "https://forge.de-labrusse.fr/ns8/updates/wazuh/logo.png",
      "screenshots": [
-      "https://forge.de-labrusse.fr/ns8/updates/wazuh/screenshots/screen2.png",
+      "https://forge.de-labrusse.fr/ns8/updates/wazuh/screenshots/screen3.png",
       "https://forge.de-labrusse.fr/ns8/updates/wazuh/screenshots/screen1.png",
-      "https://forge.de-labrusse.fr/ns8/updates/wazuh/screenshots/screen3.png"
+      "https://forge.de-labrusse.fr/ns8/updates/wazuh/screenshots/screen2.png"
      ],
      "versions": [
       {
@@ -17789,9 +18108,9 @@
      },
      "logo": "https://forge.nethserver.org/ns8/updates/webserver/logo.png",
      "screenshots": [
-      "https://forge.nethserver.org/ns8/updates/webserver/screenshots/screen2.png",
+      "https://forge.nethserver.org/ns8/updates/webserver/screenshots/screen3.png",
       "https://forge.nethserver.org/ns8/updates/webserver/screenshots/screen1.png",
-      "https://forge.nethserver.org/ns8/updates/webserver/screenshots/screen3.png"
+      "https://forge.nethserver.org/ns8/updates/webserver/screenshots/screen2.png"
      ],
      "versions": [
       {
@@ -18194,17 +18513,17 @@
      "screenshots": [],
      "versions": [
       {
-       "tag": "0.0.1-testing.1",
-       "testing": true
+       "tag": "1.0.1",
+       "testing": false
       }
      ],
-     "stable": null,
-     "testing": "0.0.1-testing.1",
+     "stable": "1.0.1",
+     "testing": null,
      "min_core": "3.20.1",
      "tech": {
       "rootfull": false,
       "images": [
-       "postgres:17.11-alpine",
+       "postgres:17.12-alpine",
        "requarks/wiki:3.5.0"
       ],
       "authorizations": [
@@ -18220,7 +18539,7 @@
      },
      "source": "ghcr.io/geniusdynamics/wikijs",
      "stars": 0,
-     "pushed_at": "2026-11-21T12:58:59Z",
+     "pushed_at": "2026-11-22T16:53:42Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -18233,7 +18552,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-11-21T12:54:39Z"
+     "released_at": "2026-11-22T16:53:25Z"
     }
    ]
   },
