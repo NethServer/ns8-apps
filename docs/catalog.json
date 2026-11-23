@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T20:07:16+00:00",
+ "generated_at": "2026-11-23T08:32:04+00:00",
  "forges": [
   {
    "id": "nethserver",
@@ -527,7 +527,7 @@
      },
      "source": "ghcr.io/platypuschan/adguard-home",
      "stars": 0,
-     "pushed_at": "2026-11-22T01:11:27Z",
+     "pushed_at": "2026-11-23T02:43:56Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -1052,7 +1052,7 @@
      },
      "source": "ghcr.io/danb35/automx",
      "stars": 0,
-     "pushed_at": "2026-11-22T12:45:23Z",
+     "pushed_at": "2026-11-23T02:08:35Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -1409,8 +1409,8 @@
      },
      "logo": "https://francio87.github.io/ns8-repomd/borgbackupserver/logo.png",
      "screenshots": [
-      "https://francio87.github.io/ns8-repomd/borgbackupserver/screenshots/bbs-gui.png",
-      "https://francio87.github.io/ns8-repomd/borgbackupserver/screenshots/bbs-architecture.png"
+      "https://francio87.github.io/ns8-repomd/borgbackupserver/screenshots/bbs-architecture.png",
+      "https://francio87.github.io/ns8-repomd/borgbackupserver/screenshots/bbs-gui.png"
      ],
      "versions": [
       {
@@ -3596,7 +3596,7 @@
      },
      "source": "ghcr.io/danb35/dnsapi",
      "stars": 0,
-     "pushed_at": "2026-11-22T12:15:56Z",
+     "pushed_at": "2026-11-23T02:08:24Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -3683,7 +3683,7 @@
      },
      "source": "ghcr.io/danb35/dnshelper",
      "stars": 0,
-     "pushed_at": "2026-11-21T22:27:41Z",
+     "pushed_at": "2026-11-23T02:08:29Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -4968,7 +4968,7 @@
      },
      "source": "ghcr.io/platypuschan/fail2ban-reworked",
      "stars": 0,
-     "pushed_at": "2026-11-15T10:35:47Z",
+     "pushed_at": "2026-11-22T23:01:30Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -8217,7 +8217,7 @@
      },
      "source": "ghcr.io/mrmarkuz/uptime-kuma",
      "stars": 0,
-     "pushed_at": "2026-11-20T21:32:27Z",
+     "pushed_at": "2026-11-23T03:26:52Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -8308,7 +8308,7 @@
      },
      "source": "ghcr.io/stephdl/kuma",
      "stars": 0,
-     "pushed_at": "2026-11-18T04:54:08Z",
+     "pushed_at": "2026-11-23T03:03:20Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -10043,7 +10043,7 @@
      },
      "source": "ghcr.io/platypuschan/maubot",
      "stars": 0,
-     "pushed_at": "2026-11-15T16:01:04Z",
+     "pushed_at": "2026-11-23T01:37:49Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -11264,7 +11264,7 @@
      "screenshots": [],
      "versions": [
       {
-       "tag": "1.8.5-testing.58",
+       "tag": "1.8.5-testing.59",
        "testing": true
       },
       {
@@ -11273,7 +11273,7 @@
       }
      ],
      "stable": "1.8.4",
-     "testing": "1.8.5-testing.58",
+     "testing": "1.8.5-testing.59",
      "min_core": "3.24.0",
      "tech": {
       "rootfull": false,
@@ -11309,7 +11309,7 @@
      },
      "source": "ghcr.io/nethesis/nethvoice",
      "stars": 9,
-     "pushed_at": "2026-11-22T13:40:36Z",
+     "pushed_at": "2026-11-23T08:29:11Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -11559,14 +11559,46 @@
       "https://forge.de-labrusse.fr/ns8/updates/nextcloud-next/screenshots/screen1.png",
       "https://forge.de-labrusse.fr/ns8/updates/nextcloud-next/screenshots/screen2.png"
      ],
-     "versions": [],
-     "stable": null,
+     "versions": [
+      {
+       "tag": "1.0.2",
+       "testing": false
+      },
+      {
+       "tag": "1.0.1",
+       "testing": false
+      },
+      {
+       "tag": "1.0.0",
+       "testing": false
+      }
+     ],
+     "stable": "1.0.2",
      "testing": null,
-     "min_core": null,
-     "tech": null,
+     "min_core": "3.20.1",
+     "tech": {
+      "rootfull": false,
+      "images": [
+       "redis:8.10.3-alpine",
+       "mariadb:12.3.3",
+       "nginx:1.30.7-alpine",
+       "nextcloud/nextcloud-appapi-harp:v0.4.8",
+       "stephdl/nextcloud-next-app:1.0.2",
+       "stephdl/nextcloud-next-notify_push:1.0.2"
+      ],
+      "authorizations": [
+       "traefik@any:routeadm",
+       "cluster:accountconsumer"
+      ],
+      "tcp_ports": 2,
+      "udp_ports": 0,
+      "volumes": [
+       "nextcloud-app-data"
+      ]
+     },
      "source": "ghcr.io/stephdl/nextcloud-next",
      "stars": 0,
-     "pushed_at": "2026-11-22T20:02:18Z",
+     "pushed_at": "2026-11-23T05:15:07Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -11576,9 +11608,10 @@
       "description": true,
       "translations": true,
       "docs": true,
-      "min_core": false,
+      "min_core": true,
       "license": true
-     }
+     },
+     "released_at": "2026-11-22T22:27:02Z"
     }
    ]
   },
@@ -11855,7 +11888,7 @@
      ],
      "versions": [
       {
-       "tag": "0.6.3",
+       "tag": "0.6.4",
        "testing": false
       },
       {
@@ -11863,13 +11896,13 @@
        "testing": true
       }
      ],
-     "stable": "0.6.3",
+     "stable": "0.6.4",
      "testing": null,
      "min_core": "3.22.0",
      "tech": {
       "rootfull": false,
       "images": [
-       "binwiederhier/ntfy:v2.38.0"
+       "binwiederhier/ntfy:v2.38.1"
       ],
       "authorizations": [
        "traefik@node:routeadm"
@@ -11880,7 +11913,7 @@
      },
      "source": "ghcr.io/platypuschan/ntfy-reworked",
      "stars": 0,
-     "pushed_at": "2026-11-15T10:45:38Z",
+     "pushed_at": "2026-11-23T03:25:54Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -11893,7 +11926,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-11-15T10:45:38Z"
+     "released_at": "2026-11-23T03:25:54Z"
     }
    ]
   },
@@ -11958,7 +11991,7 @@
      },
      "source": "ghcr.io/platypuschan/obsidian-livesync",
      "stars": 0,
-     "pushed_at": "2026-11-22T01:13:31Z",
+     "pushed_at": "2026-11-23T02:05:34Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -12367,7 +12400,7 @@
      },
      "source": "ghcr.io/mrmarkuz/opencloud",
      "stars": 0,
-     "pushed_at": "2026-11-21T01:03:03Z",
+     "pushed_at": "2026-11-22T21:54:00Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -12684,7 +12717,7 @@
      },
      "source": "ghcr.io/mrmarkuz/openvpn",
      "stars": 0,
-     "pushed_at": "2026-11-21T00:00:03Z",
+     "pushed_at": "2026-11-23T03:27:59Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -12922,7 +12955,7 @@
      },
      "source": "ghcr.io/platypuschan/organizr-reworked",
      "stars": 0,
-     "pushed_at": "2026-11-22T13:12:51Z",
+     "pushed_at": "2026-11-23T01:01:06Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -14731,7 +14764,7 @@
      },
      "source": "ghcr.io/platypuschan/proxmox-datacenter-manager",
      "stars": 0,
-     "pushed_at": "2026-11-15T09:57:38Z",
+     "pushed_at": "2026-11-23T05:24:56Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -15492,7 +15525,7 @@
      },
      "source": "ghcr.io/stephdl/sam",
      "stars": 0,
-     "pushed_at": "2026-11-20T18:02:04Z",
+     "pushed_at": "2026-11-23T03:14:20Z",
      "archived": false,
      "checks": {
       "topic": false,
