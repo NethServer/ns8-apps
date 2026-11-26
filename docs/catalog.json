@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T22:08:01+00:00",
+ "generated_at": "2026-11-26T09:07:54+00:00",
  "forges": [
   {
    "id": "nethserver",
@@ -527,7 +527,7 @@
      },
      "source": "ghcr.io/platypuschan/adguard-home",
      "stars": 0,
-     "pushed_at": "2026-11-25T18:02:27Z",
+     "pushed_at": "2026-11-26T05:58:26Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -1182,9 +1182,9 @@
      "logo": "https://forge.nethserver.org/ns8/updates/automx/logo.png",
      "screenshots": [
       "https://forge.nethserver.org/ns8/updates/automx/screenshots/1-domains.png",
-      "https://forge.nethserver.org/ns8/updates/automx/screenshots/5-profile-link.png",
       "https://forge.nethserver.org/ns8/updates/automx/screenshots/4-settings-groupware.png",
       "https://forge.nethserver.org/ns8/updates/automx/screenshots/2-dns-status.png",
+      "https://forge.nethserver.org/ns8/updates/automx/screenshots/5-profile-link.png",
       "https://forge.nethserver.org/ns8/updates/automx/screenshots/3-settings.png"
      ],
      "versions": [
@@ -1833,7 +1833,7 @@
      },
      "source": "ghcr.io/geniusdynamics/calibre-web",
      "stars": 0,
-     "pushed_at": "2026-11-21T16:09:55Z",
+     "pushed_at": "2026-11-26T02:50:49Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -1883,8 +1883,8 @@
      },
      "logo": "https://forge.de-labrusse.fr/ns8/updates/calrs/logo.png",
      "screenshots": [
-      "https://forge.de-labrusse.fr/ns8/updates/calrs/screenshots/screen1.png",
-      "https://forge.de-labrusse.fr/ns8/updates/calrs/screenshots/screen2.png"
+      "https://forge.de-labrusse.fr/ns8/updates/calrs/screenshots/screen2.png",
+      "https://forge.de-labrusse.fr/ns8/updates/calrs/screenshots/screen1.png"
      ],
      "versions": [
       {
@@ -2992,7 +2992,7 @@
      },
      "source": "ghcr.io/nethserver/collabora",
      "stars": 0,
-     "pushed_at": "2026-11-17T11:10:22Z",
+     "pushed_at": "2026-11-26T08:10:59Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -3053,17 +3053,17 @@
        "testing": true
       },
       {
-       "tag": "1.8.1",
+       "tag": "1.8.2",
        "testing": false
       }
      ],
-     "stable": "1.8.1",
+     "stable": "1.8.2",
      "testing": "4.0.0-beta.394",
      "min_core": "3.0.0",
      "tech": {
       "rootfull": false,
       "images": [
-       "coollabsio/coolify:4.7.5",
+       "coollabsio/coolify:4.7.8",
        "postgres:15.20-alpine3.24",
        "redis:7.4.12-alpine3.22"
       ],
@@ -3076,7 +3076,7 @@
      },
      "source": "ghcr.io/geniusdynamics/coolify",
      "stars": 0,
-     "pushed_at": "2026-11-14T08:03:02Z",
+     "pushed_at": "2026-11-26T07:31:51Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -3089,7 +3089,7 @@
       "min_core": true,
       "license": true
      },
-     "released_at": "2026-11-14T08:02:44Z"
+     "released_at": "2026-11-26T07:31:28Z"
     }
    ]
   },
@@ -3555,9 +3555,9 @@
      },
      "logo": "https://forge.nethserver.org/ns8/updates/dependencytrack/logo.png",
      "screenshots": [
-      "https://forge.nethserver.org/ns8/updates/dependencytrack/screenshots/screen3.png",
+      "https://forge.nethserver.org/ns8/updates/dependencytrack/screenshots/screen2.png",
       "https://forge.nethserver.org/ns8/updates/dependencytrack/screenshots/screen1.png",
-      "https://forge.nethserver.org/ns8/updates/dependencytrack/screenshots/screen2.png"
+      "https://forge.nethserver.org/ns8/updates/dependencytrack/screenshots/screen3.png"
      ],
      "versions": [
       {
@@ -3643,9 +3643,9 @@
      },
      "logo": "https://forge.de-labrusse.fr/ns8/updates/discourse/logo.png",
      "screenshots": [
-      "https://forge.de-labrusse.fr/ns8/updates/discourse/screenshots/screen3.png",
+      "https://forge.de-labrusse.fr/ns8/updates/discourse/screenshots/screen2.png",
       "https://forge.de-labrusse.fr/ns8/updates/discourse/screenshots/screen1.png",
-      "https://forge.de-labrusse.fr/ns8/updates/discourse/screenshots/screen2.png"
+      "https://forge.de-labrusse.fr/ns8/updates/discourse/screenshots/screen3.png"
      ],
      "versions": [
       {
@@ -3866,7 +3866,7 @@
      },
      "source": "ghcr.io/danb35/dnshelper",
      "stars": 0,
-     "pushed_at": "2026-11-25T13:05:24Z",
+     "pushed_at": "2026-11-25T23:39:54Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -4337,7 +4337,7 @@
      },
      "source": "ghcr.io/nethserver/dokuwiki",
      "stars": 0,
-     "pushed_at": "2026-11-20T16:24:23Z",
+     "pushed_at": "2026-11-26T08:25:14Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -4464,9 +4464,9 @@
      },
      "logo": "https://forge.de-labrusse.fr/ns8/updates/dolibarr/logo.png",
      "screenshots": [
-      "https://forge.de-labrusse.fr/ns8/updates/dolibarr/screenshots/screen3.png",
+      "https://forge.de-labrusse.fr/ns8/updates/dolibarr/screenshots/screen2.png",
       "https://forge.de-labrusse.fr/ns8/updates/dolibarr/screenshots/screen1.png",
-      "https://forge.de-labrusse.fr/ns8/updates/dolibarr/screenshots/screen2.png"
+      "https://forge.de-labrusse.fr/ns8/updates/dolibarr/screenshots/screen3.png"
      ],
      "versions": [
       {
@@ -4515,7 +4515,7 @@
      },
      "source": "ghcr.io/stephdl/dolibarr",
      "stars": 0,
-     "pushed_at": "2026-11-24T10:42:53Z",
+     "pushed_at": "2026-11-26T08:32:22Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -6178,8 +6178,8 @@
      },
      "logo": "https://forge.de-labrusse.fr/ns8/updates/glpi/logo.png",
      "screenshots": [
-      "https://forge.de-labrusse.fr/ns8/updates/glpi/screenshots/screen1.png",
-      "https://forge.de-labrusse.fr/ns8/updates/glpi/screenshots/screen2.png"
+      "https://forge.de-labrusse.fr/ns8/updates/glpi/screenshots/screen2.png",
+      "https://forge.de-labrusse.fr/ns8/updates/glpi/screenshots/screen1.png"
      ],
      "versions": [
       {
@@ -6351,9 +6351,9 @@
      },
      "logo": "https://forge.nethserver.org/ns8/updates/grafana/logo.png",
      "screenshots": [
-      "https://forge.nethserver.org/ns8/updates/grafana/screenshots/screen3.png",
+      "https://forge.nethserver.org/ns8/updates/grafana/screenshots/screen2.png",
       "https://forge.nethserver.org/ns8/updates/grafana/screenshots/screen1.png",
-      "https://forge.nethserver.org/ns8/updates/grafana/screenshots/screen2.png"
+      "https://forge.nethserver.org/ns8/updates/grafana/screenshots/screen3.png"
      ],
      "versions": [
       {
@@ -6744,8 +6744,8 @@
      },
      "logo": "https://forge.nethserver.org/ns8/updates/hermes-agent/logo.png",
      "screenshots": [
-      "https://forge.nethserver.org/ns8/updates/hermes-agent/screenshots/screen1.png",
-      "https://forge.nethserver.org/ns8/updates/hermes-agent/screenshots/screen2.png"
+      "https://forge.nethserver.org/ns8/updates/hermes-agent/screenshots/screen2.png",
+      "https://forge.nethserver.org/ns8/updates/hermes-agent/screenshots/screen1.png"
      ],
      "versions": [
       {
@@ -8070,7 +8070,7 @@
      },
      "source": "ghcr.io/mrmarkuz/kimai",
      "stars": 0,
-     "pushed_at": "2026-11-20T21:34:36Z",
+     "pushed_at": "2026-11-26T06:14:09Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -8461,8 +8461,8 @@
      },
      "logo": "https://forge.de-labrusse.fr/ns8/updates/kuma/logo.png",
      "screenshots": [
-      "https://forge.de-labrusse.fr/ns8/updates/kuma/screenshots/screen1.png",
-      "https://forge.de-labrusse.fr/ns8/updates/kuma/screenshots/screen2.png"
+      "https://forge.de-labrusse.fr/ns8/updates/kuma/screenshots/screen2.png",
+      "https://forge.de-labrusse.fr/ns8/updates/kuma/screenshots/screen1.png"
      ],
      "versions": [
       {
@@ -8874,9 +8874,9 @@
      },
      "logo": "https://forge.de-labrusse.fr/ns8/updates/launcher/logo.png",
      "screenshots": [
-      "https://forge.de-labrusse.fr/ns8/updates/launcher/screenshots/screen3.png",
+      "https://forge.de-labrusse.fr/ns8/updates/launcher/screenshots/screen2.png",
       "https://forge.de-labrusse.fr/ns8/updates/launcher/screenshots/screen1.png",
-      "https://forge.de-labrusse.fr/ns8/updates/launcher/screenshots/screen2.png"
+      "https://forge.de-labrusse.fr/ns8/updates/launcher/screenshots/screen3.png"
      ],
      "versions": [
       {
@@ -9221,9 +9221,9 @@
      },
      "logo": "https://forge.de-labrusse.fr/ns8/updates/lemp/logo.png",
      "screenshots": [
-      "https://forge.de-labrusse.fr/ns8/updates/lemp/screenshots/screen3.png",
+      "https://forge.de-labrusse.fr/ns8/updates/lemp/screenshots/screen2.png",
       "https://forge.de-labrusse.fr/ns8/updates/lemp/screenshots/screen1.png",
-      "https://forge.de-labrusse.fr/ns8/updates/lemp/screenshots/screen2.png"
+      "https://forge.de-labrusse.fr/ns8/updates/lemp/screenshots/screen3.png"
      ],
      "versions": [
       {
@@ -9673,7 +9673,7 @@
      },
      "source": "ghcr.io/nethserver/mail",
      "stars": 3,
-     "pushed_at": "2026-11-25T17:20:24Z",
+     "pushed_at": "2026-11-26T08:52:37Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -10053,8 +10053,8 @@
      },
      "logo": "https://forge.nethserver.org/ns8/updates/matrix/logo.png",
      "screenshots": [
-      "https://forge.nethserver.org/ns8/updates/matrix/screenshots/screen1.png",
-      "https://forge.nethserver.org/ns8/updates/matrix/screenshots/screen2.png"
+      "https://forge.nethserver.org/ns8/updates/matrix/screenshots/screen2.png",
+      "https://forge.nethserver.org/ns8/updates/matrix/screenshots/screen1.png"
      ],
      "versions": [
       {
@@ -10487,7 +10487,7 @@
      },
      "source": "ghcr.io/mrmarkuz/meshcentral",
      "stars": 0,
-     "pushed_at": "2026-11-25T22:05:45Z",
+     "pushed_at": "2026-11-25T22:05:51Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -10933,8 +10933,8 @@
      },
      "logo": "https://forge.nethserver.org/ns8/updates/n8n/logo.png",
      "screenshots": [
-      "https://forge.nethserver.org/ns8/updates/n8n/screenshots/screen1.png",
-      "https://forge.nethserver.org/ns8/updates/n8n/screenshots/screen2.png"
+      "https://forge.nethserver.org/ns8/updates/n8n/screenshots/screen2.png",
+      "https://forge.nethserver.org/ns8/updates/n8n/screenshots/screen1.png"
      ],
      "versions": [
       {
@@ -11419,7 +11419,7 @@
      },
      "source": "ghcr.io/nethserver/nethsecurity-controller",
      "stars": 1,
-     "pushed_at": "2026-11-25T16:03:42Z",
+     "pushed_at": "2026-11-25T23:57:50Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -11517,7 +11517,7 @@
      },
      "source": "ghcr.io/nethesis/nethvoice",
      "stars": 9,
-     "pushed_at": "2026-11-25T17:33:44Z",
+     "pushed_at": "2026-11-26T09:05:25Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -11759,9 +11759,9 @@
      },
      "logo": "https://forge.de-labrusse.fr/ns8/updates/nextcloud-next/logo.png",
      "screenshots": [
-      "https://forge.de-labrusse.fr/ns8/updates/nextcloud-next/screenshots/screen3.png",
+      "https://forge.de-labrusse.fr/ns8/updates/nextcloud-next/screenshots/screen2.png",
       "https://forge.de-labrusse.fr/ns8/updates/nextcloud-next/screenshots/screen1.png",
-      "https://forge.de-labrusse.fr/ns8/updates/nextcloud-next/screenshots/screen2.png"
+      "https://forge.de-labrusse.fr/ns8/updates/nextcloud-next/screenshots/screen3.png"
      ],
      "versions": [
       {
@@ -12199,7 +12199,7 @@
      },
      "source": "ghcr.io/platypuschan/obsidian-livesync",
      "stars": 0,
-     "pushed_at": "2026-11-25T16:33:56Z",
+     "pushed_at": "2026-11-26T04:35:41Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -13372,10 +13372,10 @@
      },
      "logo": "https://forge.nethserver.org/ns8/updates/paperlessngx/logo.png",
      "screenshots": [
-      "https://forge.nethserver.org/ns8/updates/paperlessngx/screenshots/screen3.png",
-      "https://forge.nethserver.org/ns8/updates/paperlessngx/screenshots/screen5.png",
       "https://forge.nethserver.org/ns8/updates/paperlessngx/screenshots/screen4.png",
-      "https://forge.nethserver.org/ns8/updates/paperlessngx/screenshots/screen2.png"
+      "https://forge.nethserver.org/ns8/updates/paperlessngx/screenshots/screen2.png",
+      "https://forge.nethserver.org/ns8/updates/paperlessngx/screenshots/screen5.png",
+      "https://forge.nethserver.org/ns8/updates/paperlessngx/screenshots/screen3.png"
      ],
      "versions": [
       {
@@ -13543,9 +13543,9 @@
      },
      "logo": "https://forge.nethserver.org/ns8/updates/passbolt/logo.png",
      "screenshots": [
-      "https://forge.nethserver.org/ns8/updates/passbolt/screenshots/screen3.png",
+      "https://forge.nethserver.org/ns8/updates/passbolt/screenshots/screen2.png",
       "https://forge.nethserver.org/ns8/updates/passbolt/screenshots/screen1.png",
-      "https://forge.nethserver.org/ns8/updates/passbolt/screenshots/screen2.png"
+      "https://forge.nethserver.org/ns8/updates/passbolt/screenshots/screen3.png"
      ],
      "versions": [
       {
@@ -14210,7 +14210,7 @@
      },
      "source": "ghcr.io/nethserver/piler",
      "stars": 0,
-     "pushed_at": "2026-11-24T11:06:40Z",
+     "pushed_at": "2026-11-25T23:10:30Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -14783,7 +14783,7 @@
      },
      "source": "ghcr.io/danb35/powerdns",
      "stars": 0,
-     "pushed_at": "2026-11-25T18:06:56Z",
+     "pushed_at": "2026-11-26T01:08:03Z",
      "archived": false,
      "checks": {
       "topic": true,
@@ -14842,9 +14842,9 @@
      },
      "logo": "https://forge.de-labrusse.fr/ns8/updates/privatebin/logo.png",
      "screenshots": [
-      "https://forge.de-labrusse.fr/ns8/updates/privatebin/screenshots/screen3.png",
+      "https://forge.de-labrusse.fr/ns8/updates/privatebin/screenshots/screen2.png",
       "https://forge.de-labrusse.fr/ns8/updates/privatebin/screenshots/screen1.png",
-      "https://forge.de-labrusse.fr/ns8/updates/privatebin/screenshots/screen2.png"
+      "https://forge.de-labrusse.fr/ns8/updates/privatebin/screenshots/screen3.png"
      ],
      "versions": [
       {
@@ -14941,8 +14941,8 @@
      },
      "logo": "https://forge.nethserver.org/ns8/updates/prometheus/logo.png",
      "screenshots": [
-      "https://forge.nethserver.org/ns8/updates/prometheus/screenshots/screen1.png",
-      "https://forge.nethserver.org/ns8/updates/prometheus/screenshots/screen2.png"
+      "https://forge.nethserver.org/ns8/updates/prometheus/screenshots/screen2.png",
+      "https://forge.nethserver.org/ns8/updates/prometheus/screenshots/screen1.png"
      ],
      "versions": [
       {
@@ -15348,9 +15348,9 @@
      },
      "logo": "https://forge.de-labrusse.fr/ns8/updates/roadwarrior/logo.png",
      "screenshots": [
-      "https://forge.de-labrusse.fr/ns8/updates/roadwarrior/screenshots/screen3.png",
+      "https://forge.de-labrusse.fr/ns8/updates/roadwarrior/screenshots/screen2.png",
       "https://forge.de-labrusse.fr/ns8/updates/roadwarrior/screenshots/screen1.png",
-      "https://forge.de-labrusse.fr/ns8/updates/roadwarrior/screenshots/screen2.png"
+      "https://forge.de-labrusse.fr/ns8/updates/roadwarrior/screenshots/screen3.png"
      ],
      "versions": [
       {
@@ -15904,7 +15904,7 @@
      },
      "source": "ghcr.io/stephdl/sam",
      "stars": 0,
-     "pushed_at": "2026-11-25T19:45:40Z",
+     "pushed_at": "2026-11-26T04:44:50Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -17004,9 +17004,9 @@
      },
      "logo": "https://forge.de-labrusse.fr/ns8/updates/sympa/logo.png",
      "screenshots": [
-      "https://forge.de-labrusse.fr/ns8/updates/sympa/screenshots/screen3.png",
+      "https://forge.de-labrusse.fr/ns8/updates/sympa/screenshots/screen2.png",
       "https://forge.de-labrusse.fr/ns8/updates/sympa/screenshots/screen1.png",
-      "https://forge.de-labrusse.fr/ns8/updates/sympa/screenshots/screen2.png"
+      "https://forge.de-labrusse.fr/ns8/updates/sympa/screenshots/screen3.png"
      ],
      "versions": [
       {
@@ -17664,8 +17664,8 @@
      },
      "logo": "https://forge.de-labrusse.fr/ns8/updates/v16postgresql/logo.png",
      "screenshots": [
-      "https://forge.de-labrusse.fr/ns8/updates/v16postgresql/screenshots/screen1.png",
-      "https://forge.de-labrusse.fr/ns8/updates/v16postgresql/screenshots/screen2.png"
+      "https://forge.de-labrusse.fr/ns8/updates/v16postgresql/screenshots/screen2.png",
+      "https://forge.de-labrusse.fr/ns8/updates/v16postgresql/screenshots/screen1.png"
      ],
      "versions": [
       {
@@ -17797,8 +17797,8 @@
      },
      "logo": "https://forge.de-labrusse.fr/ns8/updates/v18postgresql/logo.png",
      "screenshots": [
-      "https://forge.de-labrusse.fr/ns8/updates/v18postgresql/screenshots/screen1.png",
-      "https://forge.de-labrusse.fr/ns8/updates/v18postgresql/screenshots/screen2.png"
+      "https://forge.de-labrusse.fr/ns8/updates/v18postgresql/screenshots/screen2.png",
+      "https://forge.de-labrusse.fr/ns8/updates/v18postgresql/screenshots/screen1.png"
      ],
      "versions": [
       {
@@ -18543,9 +18543,9 @@
      },
      "logo": "https://forge.de-labrusse.fr/ns8/updates/wazuh/logo.png",
      "screenshots": [
-      "https://forge.de-labrusse.fr/ns8/updates/wazuh/screenshots/screen3.png",
+      "https://forge.de-labrusse.fr/ns8/updates/wazuh/screenshots/screen2.png",
       "https://forge.de-labrusse.fr/ns8/updates/wazuh/screenshots/screen1.png",
-      "https://forge.de-labrusse.fr/ns8/updates/wazuh/screenshots/screen2.png"
+      "https://forge.de-labrusse.fr/ns8/updates/wazuh/screenshots/screen3.png"
      ],
      "versions": [
       {
@@ -18634,7 +18634,7 @@
      },
      "source": "ghcr.io/stephdl/wazuh",
      "stars": 0,
-     "pushed_at": "2026-11-24T10:43:28Z",
+     "pushed_at": "2026-11-26T08:56:21Z",
      "archived": false,
      "checks": {
       "topic": false,
@@ -18686,9 +18686,9 @@
      },
      "logo": "https://forge.nethserver.org/ns8/updates/webserver/logo.png",
      "screenshots": [
-      "https://forge.nethserver.org/ns8/updates/webserver/screenshots/screen3.png",
+      "https://forge.nethserver.org/ns8/updates/webserver/screenshots/screen2.png",
       "https://forge.nethserver.org/ns8/updates/webserver/screenshots/screen1.png",
-      "https://forge.nethserver.org/ns8/updates/webserver/screenshots/screen2.png"
+      "https://forge.nethserver.org/ns8/updates/webserver/screenshots/screen3.png"
      ],
      "versions": [
       {
@@ -18805,7 +18805,7 @@
      },
      "source": "ghcr.io/nethserver/webtop",
      "stars": 0,
-     "pushed_at": "2026-11-25T12:11:07Z",
+     "pushed_at": "2026-11-26T08:42:49Z",
      "archived": false,
      "checks": {
       "topic": false,
